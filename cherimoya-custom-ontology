@@ -1,0 +1,1814 @@
+SO13:0format-version: 1.2
+date: 05:12:2016 23:07
+saved-by: aliciata
+auto-generated-by: OBO-Edit 2.3
+default-namespace: CherimoyaTraitCustom
+
+[Term]
+id: SO13:0000000
+name: CherimoyaOntology_Custom
+def: "Controlled vocabulary to describe each trait as distinguishable, characteristic, quality of phenotypic feature of developing or mature cherimoya trait." []
+creation_date: 2016-12-02T08:55:55Z
+
+[Term]
+id: SO13:0000001
+name: Quality trait
+def: "A characteristic of distinguishing feature of cherimoya related to its utilization after harvest." []
+is_a: SO13:0000000 ! CherimoyaOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-02T09:10:31Z
+
+[Term]
+id: SO13:0000002
+name: Morphological trait
+def: "Physical attributes that describe the shape or form of cherimoya plant." []
+is_a: SO13:0000000 ! CherimoyaOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-02T09:10:34Z
+
+[Term]
+id: SO13:0000003
+name: Agronomic trait
+def: "A characteristic in a cherimoya plant that will add or remove economic value to agricultural production." []
+is_a: SO13:0000000 ! CherimoyaOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-02T09:10:38Z
+
+[Term]
+id: SO13:0000004
+name: Phenological trait
+def: "Characteristic related to the functioning of periodic cherimoya plant life cycle events and how these are influenced by seasonal and interannual variations." []
+is_a: SO13:0000000 ! CherimoyaOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-02T09:10:40Z
+
+[Term]
+id: SO13:0000005
+name: Stress trait
+def: "A characteristic related to plant functioning in the presence of a biotic or abiotic challenge to normal or optimal growing conditions." []
+is_a: SO13:0000000 ! CherimoyaOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-02T09:10:43Z
+
+[Term]
+id: SO13:0000006
+name: Biotic stress trait
+def: "Response in terms of resistence susceptibility or tolerance to biotic stress." []
+is_a: SO13:0000005 ! Stress trait
+created_by: aliciata
+creation_date: 2016-12-02T09:18:45Z
+
+[Term]
+id: SO13:0000007
+name: Abiotic Stress trait
+def: "Response in terms of resistence or sensitivity to abiotic stress." []
+is_a: SO13:0000005 ! Stress trait
+created_by: aliciata
+creation_date: 2016-12-02T09:18:48Z
+
+[Term]
+id: SO13:0000008
+name: ripe fruit weight
+def: "A  ripe fruit anatomy and morphology that is associated with weight of ripe fruit." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000009
+name: penetrometer resistance (PP)
+def: "Measure in fully ripened fruits, at four points of the equator and on the apex." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000010
+name: seeds number (NSE)
+def: "A fruit anatomy and morphology trait which is associated with number of seeds per fruit." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000011
+name: seeds total weight (PSE)
+def: "Total the weight of seeds per fresh fruit. ." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000012
+name: exocarp type(TP)
+def: "A fruit anatomy and morphology trait which is associated with exocarp type." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:22:59Z
+
+[Term]
+id: SO13:0000013
+name: pulp taste (PS)
+def: "An assay to determine the sensory impression of a fruit by the chemical senses of taste and smell." []
+is_a: SO13:0000001 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-02T12:11:45Z
+
+[Term]
+id: SO13:0000014
+name: exocarp (PL)
+def: "A fruit anatomy and morphology trait which is associated with the appearance of the fruit skin." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000015
+name: pulp (PU)
+def: "A fruit anatomy and morphology trait which is associated with the pulp." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000016
+name: seeds (SE)
+def: "A seed anatomy and morphology trait which is associated with characteristic of seed." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000017
+name: Cut endocarp (CoC)
+def: "A fruit anatomy and morphology trait which is associated with cut of endocarp." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000018
+name: fruit diameter
+def: "A peduncle anatomy and morphology trait  which is associated with the diameter of the peduncle." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000019
+name: soil
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000020
+name: Cl2Ca
+def: "Fruit treated with Cl2Ca" []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:13:48Z
+
+[Term]
+id: SO13:0000021
+name: <new term>
+relationship: variable_of SO13:0000020 ! Cl2Ca
+created_by: aliciata
+creation_date: 2016-12-02T11:18:44Z
+
+[Term]
+id: SO13:0000022
+name: <new term>
+relationship: method_of SO13:0000020 ! Cl2Ca
+created_by: aliciata
+creation_date: 2016-12-02T11:19:06Z
+
+[Term]
+id: SO13:0000023
+name: <new term>
+relationship: variable_of SO13:0000022 ! <new term>
+created_by: aliciata
+creation_date: 2016-12-02T11:20:30Z
+
+[Term]
+id: SO13:0000024
+name: <new term>
+relationship: scale_of SO13:0000022 ! <new term>
+created_by: aliciata
+creation_date: 2016-12-02T11:20:36Z
+
+[Term]
+id: SO13:0000025
+name: Visual observation: cut endocarp: method.
+namespace: Cherimoyamethod
+def: "Visual observation of cut of endocarp." []
+relationship: method_of SO13:0000017 ! Cut endocarp (CoC)
+created_by: aliciata
+creation_date: 2016-12-02T11:20:53Z
+
+[Term]
+id: SO13:0000026
+name: cut endocarp
+namespace: Cherimoyavariable
+alt_id: SO13:0000027
+alt_id: SO13:0000162
+def: "Visual observation of cut of endocarp scored as: 0: No and 1: Yes." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000017 ! Cut endocarp (CoC)
+relationship: variable_of SO13:0000025 ! Visual observation: cut endocarp: method.
+relationship: variable_of SO13:0000028 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T11:20:55Z
+
+[Term]
+id: SO13:0000028
+name: 2pt
+namespace: Cherimoyascale
+alt_id: SO13:0000099
+alt_id: SO13:0000141
+synonym: "2pt" EXACT []
+synonym: "<new term>" EXACT []
+relationship: scale_of SO13:0000025 ! Visual observation: cut endocarp: method.
+relationship: scale_of SO13:0000097 ! Visual observation: rotten peduncle_method.
+relationship: scale_of SO13:0000139 ! Visual observation: small amount of flies_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:21:09Z
+
+[Term]
+id: SO13:0000029
+name: exocarp
+namespace: Cherimoyavariable
+alt_id: SO13:0000031
+alt_id: SO13:0000163
+def: "Visual observation of exocarp scored as: 1: Normal, 2: Dried fungi in the exocarp/Dried black spot/petrified spot, 301: Small amount black spots.  ,302: many black spots, 4: Brown spots,5: black exocarp, 7: brown exocarp, 8: grey exocarp, 9: Yellow exocarp,1001: corky area/ mummified area,1002: corky exocap,11: Aweak exocarp,12: Cracked exocarp,13: Burned area due to the sun,14: Blue- purple spots area,15:Abraded exocarp  and 16: corky exocarp due to ......." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000014 ! exocarp (PL)
+relationship: variable_of SO13:0000030 ! Visual observation: exocarp_method.
+relationship: variable_of SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T11:21:36Z
+
+[Term]
+id: SO13:0000030
+name: Visual observation: exocarp_method.
+namespace: Cherimoyamethod
+def: "Visual observation of exocarp." []
+relationship: method_of SO13:0000014 ! exocarp (PL)
+created_by: aliciata
+creation_date: 2016-12-02T11:21:42Z
+
+[Term]
+id: SO13:0000032
+name: 17sp
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000030 ! Visual observation: exocarp_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:21:56Z
+
+[Term]
+id: SO13:0000033
+name: exocarp type
+namespace: Cherimoyavariable
+alt_id: SO13:0000035
+alt_id: SO13:0000164
+def: "Visual observation of exocarp type scored as: 1: Laevis (Smooth) , 2: Impressa (Slight depressions),3: Umbonata (Small protrusions), 4:Tuberlata (Medium protrusions) and 5: Mamillata (Large protrusions)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000012 ! exocarp type(TP)
+relationship: variable_of SO13:0000034 ! Visual observation: exocarp type_method.
+relationship: variable_of SO13:0000036 ! 5sp
+created_by: aliciata
+creation_date: 2016-12-02T11:23:09Z
+
+[Term]
+id: SO13:0000034
+name: Visual observation: exocarp type_method.
+namespace: Cherimoyamethod
+def: "Visual observation of exocarp type." []
+relationship: method_of SO13:0000012 ! exocarp type(TP)
+created_by: aliciata
+creation_date: 2016-12-02T11:23:17Z
+
+[Term]
+id: SO13:0000036
+name: 5sp
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000034 ! Visual observation: exocarp type_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:23:32Z
+
+[Term]
+id: SO13:0000037
+name: Visual rating: fruit diamater_method.
+namespace: Cherimoyamethod
+def: "Visual rating of diameter of fruit." []
+relationship: method_of SO13:0000018 ! fruit diameter
+created_by: aliciata
+creation_date: 2016-12-02T11:23:43Z
+
+[Term]
+id: SO13:0000038
+name: fruit diamater
+namespace: Cherimoyavariable
+alt_id: SO13:0000040
+alt_id: SO13:0000165
+def: "Visual rating of diameter of fruit." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000018 ! fruit diameter
+relationship: variable_of SO13:0000037 ! Visual rating: fruit diamater_method.
+relationship: variable_of SO13:0000039 ! mm
+created_by: aliciata
+creation_date: 2016-12-02T11:23:46Z
+
+[Term]
+id: SO13:0000039
+name: mm
+namespace: Cherimoyascale
+alt_id: SO13:0000091
+synonym: "mm" EXACT []
+relationship: scale_of SO13:0000037 ! Visual rating: fruit diamater_method.
+relationship: scale_of SO13:0000089 ! Visual rating: peduncle diameter_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:24:02Z
+
+[Term]
+id: SO13:0000042
+name: Measurement: penetrometer resistance_method.
+namespace: Cherimoyamethod
+def: "Measure of resistence of penetrometer." []
+relationship: method_of SO13:0000009 ! penetrometer resistance (PP)
+created_by: aliciata
+creation_date: 2016-12-02T11:24:34Z
+
+[Term]
+id: SO13:0000043
+name: penetrometer resistance
+namespace: Cherimoyavariable
+alt_id: SO13:0000041
+alt_id: SO13:0000167
+def: "Measure of resistence of penetrometer in N/cm2. Scored as: 1: Corky(500), 2: Rotten exocarp (700), 3: Corky + rotten(800) , 4: Green or Hard (900), 5: Mummified(600) , 6: Very weak skin(0,001) , 7: Very cracked skin(400), 8:  Small(1000) 9. X and 10. undefined(2000)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000009 ! penetrometer resistance (PP)
+relationship: variable_of SO13:0000042 ! Measurement: penetrometer resistance_method.
+relationship: variable_of SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T11:24:43Z
+
+[Term]
+id: SO13:0000044
+name: 10pt
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000042 ! Measurement: penetrometer resistance_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:24:49Z
+
+[Term]
+id: SO13:0000046
+name: Visual observation: pulp_method.
+namespace: Cherimoyamethod
+def: "Visual observation of pulp." []
+relationship: method_of SO13:0000015 ! pulp (PU)
+created_by: aliciata
+creation_date: 2016-12-02T11:25:04Z
+
+[Term]
+id: SO13:0000047
+name: 18pt
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000046 ! Visual observation: pulp_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:25:11Z
+
+[Term]
+id: SO13:0000048
+name: pulp
+namespace: Cherimoyavariable
+alt_id: SO13:0000045
+alt_id: SO13:0000168
+def: "Visual observation of pulp scored as: 1: Normal, 2: Black and blue spots (bitter), 3: Black, 4: Yellow, 5: Brown and pink spots,6:  With grain, 7: dried pulp, 8: Hard black areas in the pulp,9: Black fibers, 10: Hard brown or pink areas in the pulp, 11: Hard white area in the pulp, 12: Hard blue area n the pulp, 13: Brown fibers in the pulp, 14: Hard pulp,15: Yellow area in the pulp,  16: Black, Brown and pink spots under the skin (thick), 17: Translucent areas in pulp and 18: Granulated pulp under the skin." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000015 ! pulp (PU)
+relationship: variable_of SO13:0000046 ! Visual observation: pulp_method.
+relationship: variable_of SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T11:25:18Z
+
+[Term]
+id: SO13:0000050
+name: Sensory assessment: pulp taste_method.
+namespace: Cherimoyamethod
+def: "Sensory assessment of pulp taste." []
+relationship: method_of SO13:0000013 ! pulp taste (PS)
+created_by: aliciata
+creation_date: 2016-12-02T12:18:46Z
+
+[Term]
+id: SO13:0000051
+name: pulp taste
+namespace: Cherimoyavariable
+alt_id: SO13:0000049
+def: "Sensory assessment of pulp taste scored as: 1: normal , 2: subacid/acid , 3: buttery , 4:  dried pulp, 5:poor, 6: excellent and 7:all bitter." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000013 ! pulp taste (PS)
+relationship: variable_of SO13:0000050 ! Sensory assessment: pulp taste_method.
+created_by: aliciata
+creation_date: 2016-12-02T12:18:52Z
+
+[Term]
+id: SO13:0000052
+name: 7pt
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000050 ! Sensory assessment: pulp taste_method.
+created_by: aliciata
+creation_date: 2016-12-02T12:18:58Z
+
+[Term]
+id: SO13:0000053
+name: ripe fruit weight
+namespace: Cherimoyavariable
+alt_id: SO13:0000056
+alt_id: SO13:0000169
+def: "Measure of riper fruit weight in grams (g)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000008 ! ripe fruit weight
+relationship: variable_of SO13:0000054 ! Measurement: ripe fruit weight_method.
+relationship: variable_of SO13:0000055 ! g
+created_by: aliciata
+creation_date: 2016-12-02T11:26:02Z
+
+[Term]
+id: SO13:0000054
+name: Measurement: ripe fruit weight_method.
+namespace: Cherimoyamethod
+def: "Measure of riper fruit weight." []
+relationship: method_of SO13:0000008 ! ripe fruit weight
+created_by: aliciata
+creation_date: 2016-12-02T11:26:07Z
+
+[Term]
+id: SO13:0000055
+name: g
+namespace: Cherimoyascale
+alt_id: SO13:0000068
+alt_id: SO13:0000103
+alt_id: SO13:0000149
+alt_id: SO13:0000155
+synonym: "<new term>" EXACT []
+synonym: "g" EXACT []
+relationship: scale_of SO13:0000054 ! Measurement: ripe fruit weight_method.
+relationship: scale_of SO13:0000066 ! Measurement:seeds total weight_method.
+relationship: scale_of SO13:0000101 ! Measurement: petal weight_method.
+relationship: scale_of SO13:0000148 ! Measurement: peduncle weight_method.
+relationship: scale_of SO13:0000154 ! Measurement: endosperm weight_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:26:14Z
+
+[Term]
+id: SO13:0000057
+name: seeds
+namespace: Cherimoyavariable
+alt_id: SO13:0000059
+def: "Visual observation of seeds with a scored: 1. Normal, 2: Germinated, 3: All brown , 4: Some brown, 5: Not brown, 6: Some vain , 7: All vain, 8: Almost all vain and 9: Double seed." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000016 ! seeds (SE)
+relationship: variable_of SO13:0000058 ! Visual observation: seeds_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:26:29Z
+
+[Term]
+id: SO13:0000058
+name: Visual observation: seeds_method.
+namespace: Cherimoyamethod
+def: "Visual observation of seeds." []
+relationship: method_of SO13:0000016 ! seeds (SE)
+created_by: aliciata
+creation_date: 2016-12-02T11:26:35Z
+
+[Term]
+id: SO13:0000060
+name: 9pt
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000058 ! Visual observation: seeds_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:26:46Z
+
+[Term]
+id: SO13:0000061
+name: seeds number
+namespace: Cherimoyavariable
+alt_id: SO13:0000063
+alt_id: SO13:0000170
+def: "Count of number of seeds per fruit." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000010 ! seeds number (NSE)
+relationship: variable_of SO13:0000062 ! Counting: seeds number_method.
+relationship: variable_of SO13:0000064 ! number
+created_by: aliciata
+creation_date: 2016-12-02T11:31:20Z
+
+[Term]
+id: SO13:0000062
+name: Counting: seeds number_method.
+namespace: Cherimoyamethod
+def: "Count of number of seeds per fruit." []
+relationship: method_of SO13:0000010 ! seeds number (NSE)
+created_by: aliciata
+creation_date: 2016-12-02T11:31:26Z
+
+[Term]
+id: SO13:0000064
+name: number
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000062 ! Counting: seeds number_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:34:17Z
+
+[Term]
+id: SO13:0000066
+name: Measurement:seeds total weight_method.
+namespace: Cherimoyamethod
+def: "Measure of total weight of seeds at extraction from the fruit." []
+relationship: method_of SO13:0000011 ! seeds total weight (PSE)
+created_by: aliciata
+creation_date: 2016-12-02T11:34:57Z
+
+[Term]
+id: SO13:0000067
+name: seeds total weight
+namespace: Cherimoyavariable
+alt_id: SO13:0000065
+alt_id: SO13:0000171
+def: "Measure of total weight of seeds at extraction from the fruit in grams (g)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000011 ! seeds total weight (PSE)
+relationship: variable_of SO13:0000055 ! g
+relationship: variable_of SO13:0000066 ! Measurement:seeds total weight_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:35:03Z
+
+[Term]
+id: SO13:0000069
+name: soil
+namespace: Cherimoyavariable
+alt_id: SO13:0000072
+alt_id: SO13:0000172
+def: "Scored as: 1: No and 2: Yes." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000019 ! soil
+relationship: variable_of SO13:0000070 ! <new term>
+relationship: variable_of SO13:0000114 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T11:35:34Z
+
+[Term]
+id: SO13:0000070
+name: <new term>
+relationship: method_of SO13:0000019 ! soil
+created_by: aliciata
+creation_date: 2016-12-02T11:35:40Z
+
+[Term]
+id: SO13:0000073
+name: coat (CS)
+def: "A seed coat anatomy and morphology trait which is associated with tenacy of the seed in its epithelium." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T11:39:22Z
+
+[Term]
+id: SO13:0000074
+name: petal weight
+def: "A petal anatomy morphological trait which is associated with the weight of a petal." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T11:39:22Z
+
+[Term]
+id: SO13:0000075
+name: stigmatic cone weight
+def: "A flower anatomy and morphology trait which is associated with cone stigmatic weight." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T11:39:22Z
+
+[Term]
+id: SO13:0000076
+name: flower length
+def: "A flower anatomy and morphology trait which is associated with the length of a flower." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T11:39:22Z
+
+[Term]
+id: SO13:0000077
+name: peduncle length
+def: "A peduncle anatomy and morphology trait (TO:0000776) which is associated with the length of a peduncle (PO:0009053)." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T11:39:22Z
+
+[Term]
+id: SO13:0000078
+name: peduncle diameter
+def: "A peduncle anatomy and morphology trait  which is associated with the diameter of the peduncle." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T11:39:22Z
+
+[Term]
+id: SO13:0000079
+name: rotten peduncle (PPD)
+def: "A peduncle anatomy and morphology trait which is associated with rotten peduncle." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T11:39:22Z
+
+[Term]
+id: SO13:0000080
+name: coat
+namespace: Cherimoyavariable
+alt_id: SO13:0000082
+alt_id: SO13:0000152
+def: "Visual observation of coat scored as: 0:Cloaked, 1:Semi-cloaked and 2: Loose." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000073 ! coat (CS)
+relationship: variable_of SO13:0000081 ! Visual observation: coat_method.
+relationship: variable_of SO13:0000083 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-02T11:39:26Z
+
+[Term]
+id: SO13:0000081
+name: Visual observation: coat_method.
+namespace: Cherimoyamethod
+def: "Visual observation of coat." []
+relationship: method_of SO13:0000073 ! coat (CS)
+created_by: aliciata
+creation_date: 2016-12-02T11:39:32Z
+
+[Term]
+id: SO13:0000083
+name: 3pt
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000081 ! Visual observation: coat_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:39:45Z
+
+[Term]
+id: SO13:0000084
+name: flower length
+namespace: Cherimoyavariable
+alt_id: SO13:0000087
+alt_id: SO13:0000158
+def: "Visual rating of flower length in centimeters (cm)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000076 ! flower length
+relationship: variable_of SO13:0000085 ! Visual rating: flower length_method.
+relationship: variable_of SO13:0000086 ! cm
+created_by: aliciata
+creation_date: 2016-12-02T11:39:54Z
+
+[Term]
+id: SO13:0000085
+name: Visual rating: flower length_method.
+namespace: Cherimoyamethod
+def: "Visual rating of flower length." []
+relationship: method_of SO13:0000076 ! flower length
+created_by: aliciata
+creation_date: 2016-12-02T11:40:00Z
+
+[Term]
+id: SO13:0000086
+name: cm
+namespace: Cherimoyascale
+alt_id: SO13:0000095
+synonym: "cm" EXACT []
+relationship: scale_of SO13:0000085 ! Visual rating: flower length_method.
+relationship: scale_of SO13:0000093 ! Visual rating: peduncle length_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:40:05Z
+
+[Term]
+id: SO13:0000088
+name: peduncle diameter
+namespace: Cherimoyavariable
+alt_id: SO13:0000090
+alt_id: SO13:0000159
+def: "Visual rating of diamater of peduncle in milimeters (mm)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000039 ! mm
+relationship: variable_of SO13:0000078 ! peduncle diameter
+relationship: variable_of SO13:0000089 ! Visual rating: peduncle diameter_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:40:22Z
+
+[Term]
+id: SO13:0000089
+name: Visual rating: peduncle diameter_method.
+namespace: Cherimoyamethod
+def: "Visual rating of diamater of peduncle." []
+relationship: method_of SO13:0000078 ! peduncle diameter
+created_by: aliciata
+creation_date: 2016-12-02T11:40:30Z
+
+[Term]
+id: SO13:0000092
+name: peduncle length
+namespace: Cherimoyavariable
+alt_id: SO13:0000094
+alt_id: SO13:0000160
+def: "Visual rating of length of peduncle in centimeters (cm)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000077 ! peduncle length
+relationship: variable_of SO13:0000086 ! cm
+relationship: variable_of SO13:0000093 ! Visual rating: peduncle length_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:40:51Z
+
+[Term]
+id: SO13:0000093
+name: Visual rating: peduncle length_method.
+namespace: Cherimoyamethod
+def: "Visual rating of length of peduncle." []
+relationship: method_of SO13:0000077 ! peduncle length
+created_by: aliciata
+creation_date: 2016-12-02T11:40:57Z
+
+[Term]
+id: SO13:0000097
+name: Visual observation: rotten peduncle_method.
+namespace: Cherimoyamethod
+def: "Visual observation of rotten peduncle." []
+relationship: method_of SO13:0000079 ! rotten peduncle (PPD)
+created_by: aliciata
+creation_date: 2016-12-02T11:41:22Z
+
+[Term]
+id: SO13:0000098
+name: rotten peduncle
+namespace: Cherimoyavariable
+alt_id: SO13:0000096
+alt_id: SO13:0000151
+def: "Visual observation of rotten peduncle scored as: 0: No and 1: Yes." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000028 ! 2pt
+relationship: variable_of SO13:0000079 ! rotten peduncle (PPD)
+relationship: variable_of SO13:0000097 ! Visual observation: rotten peduncle_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:41:28Z
+
+[Term]
+id: SO13:0000100
+name: petal weight
+namespace: Cherimoyavariable
+alt_id: SO13:0000102
+alt_id: SO13:0000145
+def: "Average weight of petals of 30 flowers in grams (g)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000055 ! g
+relationship: variable_of SO13:0000074 ! petal weight
+relationship: variable_of SO13:0000101 ! Measurement: petal weight_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:41:52Z
+
+[Term]
+id: SO13:0000101
+name: Measurement: petal weight_method.
+def: "Measure weight of petal." []
+relationship: method_of SO13:0000074 ! petal weight
+created_by: aliciata
+creation_date: 2016-12-02T11:42:01Z
+
+[Term]
+id: SO13:0000104
+name: stigmatic cone weight
+namespace: Cherimoyavariable
+alt_id: SO13:0000106
+alt_id: SO13:0000144
+def: "Measure of weight of stigmatic cone." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000075 ! stigmatic cone weight
+relationship: variable_of SO13:0000105 ! Measurement: stigmatic cone weight_method.
+relationship: variable_of SO13:0000107 ! g
+created_by: aliciata
+creation_date: 2016-12-02T11:42:32Z
+
+[Term]
+id: SO13:0000105
+name: Measurement: stigmatic cone weight_method.
+namespace: Cherimoyamethod
+def: "Measure of weight of stigmatic cone." []
+relationship: method_of SO13:0000075 ! stigmatic cone weight
+created_by: aliciata
+creation_date: 2016-12-02T11:42:38Z
+
+[Term]
+id: SO13:0000107
+name: g
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000105 ! Measurement: stigmatic cone weight_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:42:52Z
+
+[Term]
+id: SO13:0000108
+name: soluble solids contents in the pulp
+def: "The sugar content measure in pulp at full production and at the moment of consumption ripeness." []
+is_a: SO13:0000001 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-02T11:44:59Z
+
+[Term]
+id: SO13:0000110
+name: rotten fruit (PO)
+def: "A fruit anatomy and morphology trait which is associated with rotten fruit." []
+is_a: SO13:0000003 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-02T11:45:04Z
+
+[Term]
+id: SO13:0000111
+name: rotten fruit
+namespace: Cherimoyavariable
+alt_id: SO13:0000113
+alt_id: SO13:0000166
+def: "Visual observation of rotten fruit scored as: 0: No and 1: Yes." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000110 ! rotten fruit (PO)
+relationship: variable_of SO13:0000112 ! Visual observation: rotten fruit_method.
+relationship: variable_of SO13:0000114 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T11:45:14Z
+
+[Term]
+id: SO13:0000112
+name: Visual observation: rotten fruit_method.
+namespace: Cherimoyamethod
+def: "Visual observation of fruit rotten." []
+relationship: method_of SO13:0000110 ! rotten fruit (PO)
+created_by: aliciata
+creation_date: 2016-12-02T11:45:20Z
+
+[Term]
+id: SO13:0000114
+name: 2pt
+namespace: Cherimoyascale
+alt_id: SO13:0000071
+synonym: "2pt" EXACT []
+relationship: scale_of SO13:0000070 ! <new term>
+relationship: scale_of SO13:0000112 ! Visual observation: rotten fruit_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:45:33Z
+
+[Term]
+id: SO13:0000115
+name: soluble solids contents in the pulp
+namespace: Cherimoyavariable
+alt_id: SO13:0000109
+alt_id: SO13:0000117
+def: "Measure of soluble solids contents in the pulp in Brixº." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000108 ! soluble solids contents in the pulp
+relationship: variable_of SO13:0000116 ! Measurement: soluble solids contents in the pulp_method.
+relationship: variable_of SO13:0000118 ! Brixº
+created_by: aliciata
+creation_date: 2016-12-02T11:45:44Z
+
+[Term]
+id: SO13:0000116
+name: Measurement: soluble solids contents in the pulp_method.
+namespace: Cherimoyamethod
+def: "Measure of soluble solids contents in the pulp." []
+relationship: method_of SO13:0000108 ! soluble solids contents in the pulp
+created_by: aliciata
+creation_date: 2016-12-02T11:45:51Z
+
+[Term]
+id: SO13:0000118
+name: Brixº
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000116 ! Measurement: soluble solids contents in the pulp_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:46:03Z
+
+[Term]
+id: SO13:0000121
+name: cloaked
+namespace: Cherimoyascale
+synonym: "0" EXACT []
+is_a: SO13:0000083 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-02T14:59:50Z
+
+[Term]
+id: SO13:0000122
+name: semi-cloaked
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000083 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-02T14:59:50Z
+
+[Term]
+id: SO13:0000123
+name: fungi exocarp (HO)
+def: "A fruit morphological trait which is associated with presence of fungi." []
+is_a: SO13:0000006 ! Biotic stress trait
+created_by: aliciata
+creation_date: 2016-12-02T11:48:02Z
+
+[Term]
+id: SO13:0000124
+name: loose
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000083 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-02T14:59:50Z
+
+[Term]
+id: SO13:0000125
+name: small amount of flies (PM)
+def: "Presence of mediterranean fruit fly but the fruit is not rotten." []
+is_a: SO13:0000006 ! Biotic stress trait
+created_by: aliciata
+creation_date: 2016-12-02T11:48:02Z
+
+[Term]
+id: SO13:0000126
+name: Cerattis (M)
+def: "Mediterranean fruit fly." []
+is_a: SO13:0000006 ! Biotic stress trait
+created_by: aliciata
+creation_date: 2016-12-02T11:48:02Z
+
+[Term]
+id: SO13:0000127
+name: ceratitis
+namespace: Cherimoyavariable
+alt_id: SO13:0000119
+alt_id: SO13:0000129
+def: "Visual observation of presence of larvae ceratitis. Scored as: 0: without larvae and 1: with larvae." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000126 ! Cerattis (M)
+relationship: variable_of SO13:0000128 ! Visual observation:ceratitis_method.
+relationship: variable_of SO13:0000130 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T11:48:06Z
+
+[Term]
+id: SO13:0000128
+name: Visual observation:ceratitis_method.
+namespace: Cherimoyamethod
+def: "Visual observation of presence of larvae ceratitis." []
+relationship: method_of SO13:0000126 ! Cerattis (M)
+created_by: aliciata
+creation_date: 2016-12-02T11:48:27Z
+
+[Term]
+id: SO13:0000130
+name: 2pt
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000128 ! Visual observation:ceratitis_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:49:08Z
+
+[Term]
+id: SO13:0000131
+name: fungi exocarp
+namespace: Cherimoyavariable
+alt_id: SO13:0000120
+alt_id: SO13:0000133
+def: "Visual observation of presence of fungi in exocarp. Scored as: 1: Rizopus, 2: Botritis, 3: Colletotrichum, 4:Rotten indefiinite, 5:Pelicilium and 6: Alternaria." []
+synonym: "<new term>" EXACT []
+synonym: "fungi exocarp" EXACT []
+relationship: variable_of SO13:0000123 ! fungi exocarp (HO)
+relationship: variable_of SO13:0000132 ! Visual observation: fungi exocarp_method.
+relationship: variable_of SO13:0000134 ! 6pt
+created_by: aliciata
+creation_date: 2016-12-02T11:49:17Z
+
+[Term]
+id: SO13:0000132
+name: Visual observation: fungi exocarp_method.
+namespace: Cherimoyamethod
+def: "Visual observation of presence of fungi in exocarp." []
+relationship: method_of SO13:0000123 ! fungi exocarp (HO)
+created_by: aliciata
+creation_date: 2016-12-02T11:49:23Z
+
+[Term]
+id: SO13:0000134
+name: 6pt
+namespace: Cherimoyascale
+relationship: scale_of SO13:0000132 ! Visual observation: fungi exocarp_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:49:33Z
+
+[Term]
+id: SO13:0000135
+name: normal
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000052 ! 7pt
+created_by: aliciata
+creation_date: 2016-12-02T15:12:17Z
+
+[Term]
+id: SO13:0000136
+name: subacid/acid
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000052 ! 7pt
+created_by: aliciata
+creation_date: 2016-12-02T15:12:17Z
+
+[Term]
+id: SO13:0000137
+name: buttery
+namespace: Cherimoyascale
+synonym: "3" EXACT []
+is_a: SO13:0000052 ! 7pt
+created_by: aliciata
+creation_date: 2016-12-02T15:12:17Z
+
+[Term]
+id: SO13:0000138
+name: dried pulp
+namespace: Cherimoyascale
+synonym: "4" EXACT []
+is_a: SO13:0000052 ! 7pt
+created_by: aliciata
+creation_date: 2016-12-02T15:12:17Z
+
+[Term]
+id: SO13:0000139
+name: Visual observation: small amount of flies_method.
+namespace: Cherimoyamethod
+def: "Visual observation of presence in fruit of small amount of mediterranean fruit flies." []
+relationship: method_of SO13:0000125 ! small amount of flies (PM)
+created_by: aliciata
+creation_date: 2016-12-02T11:50:23Z
+
+[Term]
+id: SO13:0000140
+name: small amount of flies (PM)
+namespace: Cherimoyavariable
+alt_id: SO13:0000142
+alt_id: SO13:0000245
+def: "Visual observation of presence in fruit of small amount of mediterranean fruit flies. Scored as: 0: No and 1: Yes." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000028 ! 2pt
+relationship: variable_of SO13:0000125 ! small amount of flies (PM)
+relationship: variable_of SO13:0000139 ! Visual observation: small amount of flies_method.
+created_by: aliciata
+creation_date: 2016-12-02T11:50:26Z
+
+[Term]
+id: SO13:0000143
+name: endosperm weight (CO)
+def: "A fruit anatomy and morphology that is associated with weight of endosperm." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T12:03:51Z
+
+[Term]
+id: SO13:0000146
+name: peduncle weight
+def: "A peduncle anatomy and morphology trait which is associated with the weight of a peduncle." []
+is_a: SO13:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-02T12:33:21Z
+
+[Term]
+id: SO13:0000148
+name: Measurement: peduncle weight_method.
+namespace: Cherimoyamethod
+def: "Measure of peduncle weight." []
+relationship: method_of SO13:0000146 ! peduncle weight
+created_by: aliciata
+creation_date: 2016-12-02T12:33:56Z
+
+[Term]
+id: SO13:0000150
+name: peduncle weight
+namespace: Cherimoyavariable
+alt_id: SO13:0000147
+alt_id: SO13:0000161
+def: "Measure of peduncle weight." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000055 ! g
+relationship: variable_of SO13:0000146 ! peduncle weight
+relationship: variable_of SO13:0000148 ! Measurement: peduncle weight_method.
+created_by: aliciata
+creation_date: 2016-12-02T12:34:53Z
+
+[Term]
+id: SO13:0000153
+name: endosperm weight
+namespace: Cherimoyavariable
+alt_id: SO13:0000156
+alt_id: SO13:0000157
+def: "Measure of weight of endosperm in grams (g)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO13:0000055 ! g
+relationship: variable_of SO13:0000143 ! endosperm weight (CO)
+relationship: variable_of SO13:0000154 ! Measurement: endosperm weight_method.
+created_by: aliciata
+creation_date: 2016-12-02T13:02:24Z
+
+[Term]
+id: SO13:0000154
+name: Measurement: endosperm weight_method.
+namespace: Cherimoyamethod
+def: "Measure of weight of endosperm." []
+relationship: method_of SO13:0000143 ! endosperm weight (CO)
+created_by: aliciata
+creation_date: 2016-12-02T13:02:31Z
+
+[Term]
+id: SO13:0000173
+name: poor
+namespace: Cherimoyascale
+synonym: "5" EXACT []
+is_a: SO13:0000052 ! 7pt
+created_by: aliciata
+creation_date: 2016-12-02T15:12:17Z
+
+[Term]
+id: SO13:0000174
+name: excellent
+namespace: Cherimoyascale
+synonym: "6" EXACT []
+is_a: SO13:0000052 ! 7pt
+created_by: aliciata
+creation_date: 2016-12-02T15:12:17Z
+
+[Term]
+id: SO13:0000175
+name: all bitter
+namespace: Cherimoyascale
+synonym: "7" EXACT []
+is_a: SO13:0000052 ! 7pt
+created_by: aliciata
+creation_date: 2016-12-02T15:12:17Z
+
+[Term]
+id: SO13:0000176
+name: without larvae
+namespace: Cherimoyascale
+synonym: "0" EXACT []
+is_a: SO13:0000130 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T15:16:45Z
+
+[Term]
+id: SO13:0000177
+name: with larvae
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000130 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T15:16:45Z
+
+[Term]
+id: SO13:0000178
+name: Rizopus
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000134 ! 6pt
+created_by: aliciata
+creation_date: 2016-12-02T15:20:34Z
+
+[Term]
+id: SO13:0000179
+name: Botritis
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000134 ! 6pt
+created_by: aliciata
+creation_date: 2016-12-02T15:20:34Z
+
+[Term]
+id: SO13:0000180
+name: Colletotrichum
+namespace: Cherimoyascale
+synonym: "3" EXACT []
+is_a: SO13:0000134 ! 6pt
+created_by: aliciata
+creation_date: 2016-12-02T15:20:34Z
+
+[Term]
+id: SO13:0000181
+name: Rotten indefinite
+namespace: Cherimoyascale
+synonym: "4" EXACT []
+is_a: SO13:0000134 ! 6pt
+created_by: aliciata
+creation_date: 2016-12-02T15:20:34Z
+
+[Term]
+id: SO13:0000182
+name: Pelicilium
+namespace: Cherimoyascale
+synonym: "5" EXACT []
+is_a: SO13:0000134 ! 6pt
+created_by: aliciata
+creation_date: 2016-12-02T15:20:34Z
+
+[Term]
+id: SO13:0000183
+name: Alternaria
+namespace: Cherimoyascale
+synonym: "6" EXACT []
+is_a: SO13:0000134 ! 6pt
+created_by: aliciata
+creation_date: 2016-12-02T15:20:34Z
+
+[Term]
+id: SO13:0000184
+name: normal
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000185
+name: dried fungi in the exocarp/Dried black spot/petrified spot
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000186
+name: small amount black spots
+namespace: Cherimoyascale
+synonym: "301" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000187
+name: many black spots
+namespace: Cherimoyascale
+synonym: "302" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000188
+name: brown spots
+namespace: Cherimoyascale
+synonym: "4" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000189
+name: black exocarp
+namespace: Cherimoyascale
+synonym: "5" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000190
+name: brown exocarp
+namespace: Cherimoyascale
+synonym: "7" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000191
+name: grey exocarp
+namespace: Cherimoyascale
+synonym: "8" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000192
+name: yellow exocarp
+namespace: Cherimoyascale
+synonym: "9" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000193
+name: corky area/ mummified area
+namespace: Cherimoyascale
+synonym: "1001" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000194
+name: corky exocap
+namespace: Cherimoyascale
+synonym: "1002" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000195
+name: aweak exocarp
+namespace: Cherimoyascale
+synonym: "11" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000196
+name: cracked exocarp
+namespace: Cherimoyascale
+synonym: "12" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000197
+name: burned area due to the sun
+namespace: Cherimoyascale
+synonym: "13" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000198
+name: blue- purple spots area
+namespace: Cherimoyascale
+synonym: "14" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000199
+name: abraded exocarp
+namespace: Cherimoyascale
+synonym: "15" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000200
+name: corky exocarp due to
+namespace: Cherimoyascale
+synonym: "16" EXACT []
+is_a: SO13:0000032 ! 17sp
+created_by: aliciata
+creation_date: 2016-12-02T15:30:27Z
+
+[Term]
+id: SO13:0000201
+name: Laevis (Smooth)
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000036 ! 5sp
+created_by: aliciata
+creation_date: 2016-12-02T15:41:35Z
+
+[Term]
+id: SO13:0000202
+name: Impressa (Slight depressions)
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000036 ! 5sp
+created_by: aliciata
+creation_date: 2016-12-02T15:41:35Z
+
+[Term]
+id: SO13:0000203
+name: Umbonata (Small protrusions)
+namespace: Cherimoyascale
+synonym: "3" EXACT []
+is_a: SO13:0000036 ! 5sp
+created_by: aliciata
+creation_date: 2016-12-02T15:41:35Z
+
+[Term]
+id: SO13:0000204
+name: Tuberlata (Medium protrusions)
+namespace: Cherimoyascale
+synonym: "4" EXACT []
+is_a: SO13:0000036 ! 5sp
+created_by: aliciata
+creation_date: 2016-12-02T15:41:35Z
+
+[Term]
+id: SO13:0000205
+name: Mamillata (Large protrusions)
+namespace: Cherimoyascale
+synonym: "5" EXACT []
+is_a: SO13:0000036 ! 5sp
+created_by: aliciata
+creation_date: 2016-12-02T15:41:35Z
+
+[Term]
+id: SO13:0000206
+name: corky(500)
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000207
+name: rotten exocarp (700)
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000208
+name: corky + rotten(800)
+namespace: Cherimoyascale
+synonym: "3" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000209
+name: green or Hard (900)
+namespace: Cherimoyascale
+synonym: "4" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000210
+name: mummified(600)
+namespace: Cherimoyascale
+synonym: "5" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000211
+name: very weak skin(0,001)
+namespace: Cherimoyascale
+synonym: "6" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000212
+name: very cracked skin(400)
+namespace: Cherimoyascale
+synonym: "7" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000213
+name: small(1000)
+namespace: Cherimoyascale
+synonym: "8" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000214
+name: X
+namespace: Cherimoyascale
+synonym: "9" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000215
+name: undefined(2000).
+namespace: Cherimoyascale
+synonym: "10" EXACT []
+is_a: SO13:0000044 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-02T15:47:19Z
+
+[Term]
+id: SO13:0000216
+name: normal
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000217
+name: black and blue spots (bitter)
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000218
+name: black
+namespace: Cherimoyascale
+synonym: "3" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000219
+name: yellow
+namespace: Cherimoyascale
+synonym: "4" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000220
+name: brown and pink spots
+namespace: Cherimoyascale
+synonym: "5" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000221
+name: with grain
+namespace: Cherimoyascale
+synonym: "6" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000222
+name: dried pulp
+namespace: Cherimoyascale
+synonym: "7" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000223
+name: hard black areas in the pulp
+namespace: Cherimoyascale
+synonym: "8" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000224
+name: black fibers
+namespace: Cherimoyascale
+synonym: "9" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000225
+name: hard brown or pink areas in the pulp
+namespace: Cherimoyascale
+synonym: "10" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000226
+name: hard white area in the pulp
+namespace: Cherimoyascale
+synonym: "11" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000227
+name: hard blue area in the pulp
+namespace: Cherimoyascale
+synonym: "12" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000228
+name: brown fibers in the pulp
+namespace: Cherimoyascale
+synonym: "13" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000229
+name: hard pulp
+namespace: Cherimoyascale
+synonym: "14" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000230
+name: yellow area in the pulp
+namespace: Cherimoyascale
+synonym: "15" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000231
+name: black, Brown and pink spots under the skin (thick)
+namespace: Cherimoyascale
+synonym: "16" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000232
+name: translucent areas in pulp
+namespace: Cherimoyascale
+synonym: "17" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000233
+name: granulated pulp under the skin
+namespace: Cherimoyascale
+synonym: "18" EXACT []
+is_a: SO13:0000047 ! 18pt
+created_by: aliciata
+creation_date: 2016-12-02T15:53:33Z
+
+[Term]
+id: SO13:0000234
+name: normal
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000235
+name: germinated
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000236
+name: all brown
+namespace: Cherimoyascale
+synonym: "3" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000237
+name: some brown
+namespace: Cherimoyascale
+synonym: "4" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000238
+name: not brown
+namespace: Cherimoyascale
+synonym: "5" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000239
+name: some vain
+namespace: Cherimoyascale
+synonym: "6" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000240
+name: all vain
+namespace: Cherimoyascale
+synonym: "7" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000241
+name: almost all vain
+namespace: Cherimoyascale
+synonym: "8" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000242
+name: double seed
+namespace: Cherimoyascale
+synonym: "9" EXACT []
+is_a: SO13:0000060 ! 9pt
+created_by: aliciata
+creation_date: 2016-12-02T16:24:37Z
+
+[Term]
+id: SO13:0000243
+name: Yes
+namespace: Cherimoyascale
+synonym: "2" EXACT []
+is_a: SO13:0000114 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T16:35:30Z
+
+[Term]
+id: SO13:0000244
+name: No
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000114 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T16:35:34Z
+
+[Term]
+id: SO13:0000246
+name: Yes
+namespace: Cherimoyascale
+synonym: "1" EXACT []
+is_a: SO13:0000028 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T16:45:29Z
+
+[Term]
+id: SO13:0000247
+name: No
+namespace: Cherimoyascale
+synonym: "0" EXACT []
+is_a: SO13:0000028 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-02T16:45:33Z
+
+[Typedef]
+id: method_of
+name: method_of
+namespace: method_of
+created_by: aliciata
+creation_date: 2016-12-02T09:06:31Z
+
+[Typedef]
+id: scale_of
+name: scale_of
+namespace: scale_of
+created_by: aliciata
+creation_date: 2016-12-02T09:09:40Z
+
+[Typedef]
+id: variable_of
+name: variable_of
+namespace: variable_of
+created_by: aliciata
+creation_date: 2016-12-02T09:10:09Z
+

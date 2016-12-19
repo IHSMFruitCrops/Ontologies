@@ -1,0 +1,3630 @@
+format-version: 1.2
+date: 06:12:2016 15:44
+saved-by: aliciata
+auto-generated-by: OBO-Edit 2.3
+default-namespace: CherimoyaTraitUPOV
+
+[Term]
+id: SO11:0000000
+name: CherimoyaOntology_UPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:46:32Z
+
+[Term]
+id: SO11:0000001
+name: Stress trait
+is_a: SO11:0000000 ! CherimoyaOntology_UPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:46:53Z
+
+[Term]
+id: SO11:0000002
+name: Morphological trait
+def: "Physical attributes that describe the shape of form of cherimoya plant." []
+is_a: SO11:0000000 ! CherimoyaOntology_UPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:46:57Z
+
+[Term]
+id: SO11:0000003
+name: Agronomic trait
+def: "A characteristic in a cherimoya plant that will add or remove economic value to  agricultural production." []
+is_a: SO11:0000000 ! CherimoyaOntology_UPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:46:59Z
+
+[Term]
+id: SO11:0000004
+name: Phenological trait
+def: "Characteristic related to the functioning of periodic cherimoya plant life cycle events and how these are influenced by seasonal and interannual variations." []
+is_a: SO11:0000000 ! CherimoyaOntology_UPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:47:02Z
+
+[Term]
+id: SO11:0000005
+name: Quality trait
+def: "A characteristic or distinguishing feature of cherimoya related to its utilization after harvest." []
+is_a: SO11:0000000 ! CherimoyaOntology_UPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:47:04Z
+
+[Term]
+id: SO11:0000006
+name: Abiotic stress trait
+def: "Response in terms of resistence or sensitivity to abiotic stress." []
+is_a: SO11:0000001 ! Stress trait
+created_by: fruticultura
+creation_date: 2016-11-07T17:53:20Z
+
+[Term]
+id: SO11:0000007
+name: Biotic stress trait
+def: "Response in terms of resistence, susceptibility or tolerance to biotic stress." []
+is_a: SO11:0000001 ! Stress trait
+created_by: fruticultura
+creation_date: 2016-11-07T17:53:59Z
+
+[Term]
+id: SO11:0000008
+name: Shoot length of internode
+def: "Measurement of length of the internode." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000009
+name: Shoot color
+def: "A branch anatomy and morphological trait which is associated with the color of branch." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000010
+name: Shoot pubescence
+def: "A branch anatomy and morphological trait which is associated with pubescence." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000011
+name: Leaf blade length
+def: "A leaf lamina anatomy and morphology trait (TO:0000829) which is associated with the actual length measurements, in centimeters of the leaf lamina (PO:0020039). Measure from the petiole base up to the leaf tip in fully developed leaves." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000012
+name: Leaf blade width
+def: "A leaf size (TO:0002637) trait which is associated with the width of a leaf (PO:0025034). Measure in the widest part of fully developed leaves." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000013
+name: Leaf blade ratio length/width
+def: "Ratio of leaf length and width." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000014
+name: Leaf blade shape
+def: "A leaf anatomy and morphology trait (TO:0000748) which is associated with the variation in shapes and forms of a leaf (PO:0025034)." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000015
+name: Leaf blade green color (upper side)
+def: "A leaf anatomy and morphological trait which is associated with the green color (upper side) of  leaf." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000016
+name: Leaf blade green color (lower side)
+def: "A leaf anatomy and morphological trait which is associated with the green color (lower side) of leaf." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000017
+name: Leaf blade pubescence (upper side)
+def: "A leaf anatomy and morphology trait which is associated with the pubescence of leaf upper superface." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000018
+name: Leaf blade pubescence (lower side)
+def: "A leaf anatomy and morphology trait which is associated with the pubescence of leaf lower superface." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:00:19Z
+
+[Term]
+id: SO11:0000019
+name: Leaf blade undulation of margin
+def: "Leaf blade anatomy and morphology trait which is associated with undulation of margin." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000020
+name: Petiole length
+def: "A petiole anatomy and morphology trait (TO:0000765) that is associated with the length of a petiole (PO:0020038)." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000021
+name: Petiole thickness
+def: "A petiole anatomy and morphology trait that is associated with the thickness of petiole." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000022
+name: Flowering shoot density of flowers
+def: "An inflorescence anatomy and morphology trait (TO:0000373) which is associated with the density of an inflorescence (PO:0009049)." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000023
+name: Petal color
+def: "A petal morphology trait (TO:0000863) which is the color of a petal (PO:0009032)." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000024
+name: Petal length
+def: "A petal anatomy and morphology trait (TO:0000863) which is associated with the length of a petal (PO:0009032)." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000025
+name: Petal width
+def: "A petal anatomy and morphology trait (TO:0000863) which is associated with the width of a petal (PO:0009032) in a flower (PO:0009049). Average petal width of 10 flower." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000026
+name: Petal ratio length/width
+def: "Ratio of length to width petal." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000027
+name: Petal thickness
+def: "A petal anatomy and morphology trait which is associated with thickness petal." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000028
+name: Peduncle length
+def: "A peduncle anatomy and morphology trait (TO:0000776) which is associated with the length of a peduncle (PO:0009053)." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000029
+name: Petal twisting just before anthesis
+def: "A petal morphological trait to measure petal spiralling before anthesis." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000030
+name: Petal curving
+def: "A trait to measure petal spiralling." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000031
+name: Ovary shape
+def: "An ovary anatomy and morphology trait which is associated with the shape of ovary." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000032
+name: Ovary length
+def: "A ovary anatomy and morphology trait which is associated with length." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000033
+name: Ovary width
+def: "An ovary anatomy and morphology trait which is associated with the width of ovary." []
+is_a: SO11:0000002 ! Morphological trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:44:39Z
+
+[Term]
+id: SO11:0000034
+name: Fruit length
+def: "A fruit anatomy and morphology trait (TO:0002629) which is associated with the variation in the length of a fruit (PO:0009001)." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000035
+name: Fruit diameter in cross section
+def: "A fruit size trait (TO:0002625) which is associated with the diameter of a fruit (PO:0009001)." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000036
+name: Fruit shape in lateral view
+def: "A fruit anatomy and morphology trait (TO:0002629) which is associated with the variation in the shape of a fruit (PO:0009001)." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000037
+name: Fruit glossiness of skin
+def: "A fruit anatomy and morphology trait which is associated with the appearance of glossiness of the fruit skin." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000038
+name: Fruit color of skin
+def: "A fruit anatomy and morphology trait which is associated with exocarp color." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000039
+name: Fruit thickness of rind
+def: "A fruit anatomy and morphological trait which is associated with thickness of rind." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000040
+name: Fruit segmentation of surface
+def: "A fruit anatomy and morphology trait which is associated with segmentation of surface." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000041
+name: Fruit protuberances on surface
+def: "A fruit anatomy and morphology trait which is associated with exocarp type." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000042
+name: Fruit color of flesh
+def: "A fruit anatomy and morphology trait  which is associated with the color flesh." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000043
+name: Fruit firmness of flesh
+def: "A fruit anatomy and morphology trait  which is associated with firmness of flesh." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000044
+name: Fruit amount of fiber
+def: "A ripe fruit trait which is associated with the flesh fibre." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000045
+name: Fruit amount of stone cell
+def: "A ripe fruit trait which is associated with the amount of stone cell." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000046
+name: Fruit juiciness of flesh
+def: "A fruit anatomy and morphology trait which is associated with juiciness of flesh." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000047
+name: Fruit number of seeds
+def: "Number of seeds per fruit." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000048
+name: Seed length
+def: "A seed anatomy and morphology trait (TO:0000184) which is associated with the length of a seed (PO:0009010)." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000049
+name: Seed width
+def: "A seed anatomy and morphology trait (TO:0000184) which is associated with the width of a seed (PO:0009010)." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000050
+name: Seed ratio length/width
+def: "Ratio of seed length and width." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000051
+name: Seed glossiness
+def: "A seed anatomy and morphology trait  which is associated with the glossiness of seed." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000052
+name: Seed adherence to flesh
+def: "A seed trait which is associated with adherence to flesh." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000053
+name: Time of harvest maturity
+def: "Date of the harvest season." []
+is_a: SO11:0000003 ! Agronomic trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:54:31Z
+
+[Term]
+id: SO11:0000054
+name: Fruit total soluble solids
+def: "Measure the sugar concentration in degrees Brix." []
+is_a: SO11:0000005 ! Quality trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:57:30Z
+
+[Term]
+id: SO11:0000055
+name: Fruit acidity
+def: "Quantity of acidity at the time of consumption ripeness." []
+is_a: SO11:0000005 ! Quality trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:57:30Z
+
+[Term]
+id: SO11:0000056
+name: Fruit aroma
+def: "A fruit trait which is associated with aroma." []
+is_a: SO11:0000005 ! Quality trait
+created_by: fruticultura
+creation_date: 2016-11-07T18:57:30Z
+
+[Term]
+id: SO11:0000057
+name: Sensory assessment: fruit amount fiber_method.
+namespace: CherimoyaMethodUPOV
+def: "Sensory assessment of amount fiber of fruit." []
+relationship: MethodU_of SO11:0000044 ! Fruit amount of fiber
+created_by: fruticultura
+creation_date: 2016-11-07T19:00:34Z
+
+[Term]
+id: SO11:0000058
+name: Fruit amount of fiber
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000060
+alt_id: SO11:0000445
+alt_id: SO11:0000449
+alt_id: SO11:0000579
+def: "Sensory assessment of amount fiber of fruit with: 3: few(e.g. African Pride, El Bumpo), 5:medium (e.g. Big Sister, Chaffey,Libby,Miguel), 7:many(e.g. Bay Ott, Honey Hart, Mariella, White)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit amount of fibre" EXACT []
+relationship: VariableU_of SO11:0000044 ! Fruit amount of fiber
+relationship: VariableU_of SO11:0000057 ! Sensory assessment: fruit amount fiber_method.
+relationship: VariableU_of SO11:0000059 ! 3pt
+relationship: VariableU_of SO11:0000063 ! 3pt
+relationship: VariableU_of SO11:0000096 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:00:37Z
+
+[Term]
+id: SO11:0000059
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000057 ! Sensory assessment: fruit amount fiber_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:00:51Z
+
+[Term]
+id: SO11:0000061
+name: Visual observation: fruit amount of stone cell_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of fruit amount of stone cell." []
+relationship: MethodU_of SO11:0000045 ! Fruit amount of stone cell
+created_by: fruticultura
+creation_date: 2016-11-07T19:01:41Z
+
+[Term]
+id: SO11:0000063
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000061 ! Visual observation: fruit amount of stone cell_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:03:02Z
+
+[Term]
+id: SO11:0000065
+name: Visual rating: fruit color of flesh_method.
+namespace: CherimoyaMethodUPOV
+def: "visual rating of fruit color of flesh." []
+relationship: MethodU_of SO11:0000042 ! Fruit color of flesh
+created_by: fruticultura
+creation_date: 2016-11-07T19:03:20Z
+
+[Term]
+id: SO11:0000066
+name: Fruit color of flesh
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000068
+alt_id: SO11:0000453
+def: "visual rating of fruit color of flesh with: 1: White(e.g. Pierce), 2: Cream(e.g. Villapark)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit color of flesh" EXACT []
+relationship: VariableU_of SO11:0000042 ! Fruit color of flesh
+relationship: VariableU_of SO11:0000065 ! Visual rating: fruit color of flesh_method.
+relationship: VariableU_of SO11:0000067 ! 2pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:03:22Z
+
+[Term]
+id: SO11:0000067
+name: 2pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000065 ! Visual rating: fruit color of flesh_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:03:32Z
+
+[Term]
+id: SO11:0000069
+name: Visual observation: fruit color of skin_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of fruit color of skin." []
+relationship: MethodU_of SO11:0000038 ! Fruit color of skin
+created_by: fruticultura
+creation_date: 2016-11-07T19:03:57Z
+
+[Term]
+id: SO11:0000070
+name: fruit color of skin
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000072
+alt_id: SO11:0000458
+def: "Visual observation of fruit color of skin with: 1: pale yellow green(e.g. Pierce), 2: pale green(e.g. Bays, Big sister, Libby), 3: greyish green(e.g. Sabor, Campas, Miguel)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit color of skin " EXACT []
+relationship: VariableU_of SO11:0000038 ! Fruit color of skin
+relationship: VariableU_of SO11:0000069 ! Visual observation: fruit color of skin_method.
+relationship: VariableU_of SO11:0000071 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:04:00Z
+
+[Term]
+id: SO11:0000071
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000069 ! Visual observation: fruit color of skin_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:04:09Z
+
+[Term]
+id: SO11:0000073
+name: Measurement: fruit diameter in cross section_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of fruit diameter in cross section." []
+relationship: MethodU_of SO11:0000035 ! Fruit diameter in cross section
+created_by: fruticultura
+creation_date: 2016-11-07T19:04:43Z
+
+[Term]
+id: SO11:0000074
+name: fruit diameter in cross section
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000076
+alt_id: SO11:0000362
+alt_id: SO11:0000461
+alt_id: SO11:0000519
+alt_id: SO11:0000542
+def: "Measurement of fruit diameter in cross section with: 3: small (e.g. Bay Ott, Bays), 5: medium (Mariella, Pierce), 7: large (Big Sister, Salmon)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit diameter in cross section" EXACT []
+relationship: VariableU_of SO11:0000035 ! Fruit diameter in cross section
+relationship: VariableU_of SO11:0000073 ! Measurement: fruit diameter in cross section_method.
+relationship: VariableU_of SO11:0000075 ! 3pt
+relationship: VariableU_of SO11:0000127 ! 3pt
+relationship: VariableU_of SO11:0000163 ! 3pt
+relationship: VariableU_of SO11:0000205 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:04:45Z
+
+[Term]
+id: SO11:0000075
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000073 ! Measurement: fruit diameter in cross section_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:04:54Z
+
+[Term]
+id: SO11:0000077
+name: Measurement: fruit firmness of flesh_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of fruit firmness of flesh." []
+relationship: MethodU_of SO11:0000043 ! Fruit firmness of flesh
+created_by: fruticultura
+creation_date: 2016-11-07T19:05:09Z
+
+[Term]
+id: SO11:0000078
+name: fruit firmness of flesh
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000080
+alt_id: SO11:0000468
+def: "Measurement of fruit firmness of flesh with: 3:soft (e.g. El Bumpo, Miguel), 5: medium (e.g. White), 7: firm (e.g. African Pride, Pink´s Mommoth)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit firmness of flesh " EXACT []
+relationship: VariableU_of SO11:0000043 ! Fruit firmness of flesh
+relationship: VariableU_of SO11:0000077 ! Measurement: fruit firmness of flesh_method.
+relationship: VariableU_of SO11:0000079 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:05:11Z
+
+[Term]
+id: SO11:0000079
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000077 ! Measurement: fruit firmness of flesh_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:05:34Z
+
+[Term]
+id: SO11:0000081
+name: Visual rating: fruit glossiness of skin_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of fruit glossiness of skin." []
+relationship: MethodU_of SO11:0000037 ! Fruit glossiness of skin
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:05Z
+
+[Term]
+id: SO11:0000083
+name: 2pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000081 ! Visual rating: fruit glossiness of skin_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:18Z
+
+[Term]
+id: SO11:0000084
+name: fruit glossiness of skin
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000082
+alt_id: SO11:0000258
+alt_id: SO11:0000421
+alt_id: SO11:0000511
+alt_id: SO11:0000529
+alt_id: SO11:0000537
+def: "Visual rating of fruit glossiness of skin with: 1: Absent (Bays , Big sister) , 9: Present (African Pride, Gefner)." []
+synonym: "fruit glossiness of skin" EXACT []
+synonym: "fruit glossiness of skin " EXACT []
+relationship: VariableU_of SO11:0000037 ! Fruit glossiness of skin
+relationship: VariableU_of SO11:0000081 ! Visual rating: fruit glossiness of skin_method.
+relationship: VariableU_of SO11:0000083 ! 2pt
+relationship: VariableU_of SO11:0000119 ! 2pt
+relationship: VariableU_of SO11:0000155 ! 2pt
+relationship: VariableU_of SO11:0000159 ! 2pt
+relationship: VariableU_of SO11:0000237 ! 2pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:20Z
+
+[Term]
+id: SO11:0000085
+name: Sensory assessment: fruit juiciness of flesh_method.
+namespace: CherimoyaMethodUPOV
+def: "Sensory assessment of fruit juiciness of flesh." []
+relationship: MethodU_of SO11:0000046 ! Fruit juiciness of flesh
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:34Z
+
+[Term]
+id: SO11:0000086
+name: fruit juiciness of flesh
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000088
+alt_id: SO11:0000429
+alt_id: SO11:0000437
+alt_id: SO11:0000473
+def: "Sensory assesment of fruit juiciness of flesh with 3: Low (Chaffey, Pierce), 5: Medium (Bay Ott, Big Sister, Honey Hart), 7: High (Booth, El Bumpo, Mariella, Oakwood)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit juiciness of flesh" EXACT []
+synonym: "fruit juiciness of flesh " EXACT []
+relationship: VariableU_of SO11:0000046 ! Fruit juiciness of flesh
+relationship: VariableU_of SO11:0000085 ! Sensory assessment: fruit juiciness of flesh_method.
+relationship: VariableU_of SO11:0000087 ! 3pt
+relationship: VariableU_of SO11:0000241 ! 3pt
+relationship: VariableU_of SO11:0000249 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:36Z
+
+[Term]
+id: SO11:0000087
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000085 ! Sensory assessment: fruit juiciness of flesh_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:44Z
+
+[Term]
+id: SO11:0000089
+name: Measurement: fruit length
+namespace: CherimoyaMethodUPOV
+def: "Measurement of fruit length." []
+relationship: MethodU_of SO11:0000034 ! Fruit length
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:57Z
+
+[Term]
+id: SO11:0000090
+name: fruit length
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000092
+alt_id: SO11:0000263
+alt_id: SO11:0000309
+alt_id: SO11:0000327
+alt_id: SO11:0000356
+alt_id: SO11:0000389
+alt_id: SO11:0000410
+alt_id: SO11:0000512
+alt_id: SO11:0000574
+def: "Measurement of fruit length with 3: short (e.g. Chafey), 5: medium (e.g.Bay Ott), 7: long(e.g.Big Sister)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit length" EXACT []
+relationship: VariableU_of SO11:0000034 ! Fruit length
+relationship: VariableU_of SO11:0000089 ! Measurement: fruit length
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:06:58Z
+
+[Term]
+id: SO11:0000091
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000089 ! Measurement: fruit length
+created_by: fruticultura
+creation_date: 2016-11-07T19:07:09Z
+
+[Term]
+id: SO11:0000093
+name: Counting: fruit number of seeds_method
+namespace: CherimoyaMethodUPOV
+def: "Count of the number of seeds per fruit." []
+relationship: MethodU_of SO11:0000047 ! Fruit number of seeds
+created_by: fruticultura
+creation_date: 2016-11-07T19:07:32Z
+
+[Term]
+id: SO11:0000094
+name: fruit number of seeds
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000095
+alt_id: SO11:0000443
+alt_id: SO11:0000450
+alt_id: SO11:0000482
+def: "Count of the number of seeds per fruit with: 3: Few (Salmon), 5: Medium (Fino de Jete), 7: Many (Big Sister)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit number of seed" EXACT []
+synonym: "fruit number of seeds" EXACT []
+relationship: VariableU_of SO11:0000047 ! Fruit number of seeds
+relationship: VariableU_of SO11:0000059 ! 3pt
+relationship: VariableU_of SO11:0000063 ! 3pt
+relationship: VariableU_of SO11:0000093 ! Counting: fruit number of seeds_method
+relationship: VariableU_of SO11:0000096 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:07:34Z
+
+[Term]
+id: SO11:0000096
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000093 ! Counting: fruit number of seeds_method
+created_by: fruticultura
+creation_date: 2016-11-07T19:07:53Z
+
+[Term]
+id: SO11:0000097
+name: Visual observation: fruit protuberances on surface_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of fruit protuberances on surface." []
+relationship: MethodU_of SO11:0000041 ! Fruit protuberances on surface
+created_by: fruticultura
+creation_date: 2016-11-07T19:08:01Z
+
+[Term]
+id: SO11:0000098
+name: fruit protuberances on surface
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000100
+alt_id: SO11:0000488
+def: "Visual observation of fruit protuberances on surface with: 1: Absent or very small (e.g. Honey Hart, White), 3: Small (e.g. Big Sister, Libby, Mariella, Villapark), 5: Medium (e.g. El Bumpo, Oakwood), 7: Large (e.g. Miguel, Sabor)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit protuberances on surface " EXACT []
+relationship: VariableU_of SO11:0000041 ! Fruit protuberances on surface
+relationship: VariableU_of SO11:0000097 ! Visual observation: fruit protuberances on surface_method.
+relationship: VariableU_of SO11:0000099 ! 4pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:08:03Z
+
+[Term]
+id: SO11:0000099
+name: 4pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000097 ! Visual observation: fruit protuberances on surface_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:08:14Z
+
+[Term]
+id: SO11:0000101
+name: Visual observation: fruit segmentation of surface_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of fruit segmentation of surface." []
+relationship: MethodU_of SO11:0000040 ! Fruit segmentation of surface
+created_by: fruticultura
+creation_date: 2016-11-07T19:09:11Z
+
+[Term]
+id: SO11:0000102
+name: fruit segmentation of surface
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000104
+alt_id: SO11:0000489
+def: "Visual observation of fruit segmentation of surface with: 1: Reticulate (e.g. Booth, El Bumpo, Ott), 2: Overlapping (e.g. Bay Ott, Big Sister, Spain)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit segmentation surface" EXACT []
+relationship: VariableU_of SO11:0000040 ! Fruit segmentation of surface
+relationship: VariableU_of SO11:0000101 ! Visual observation: fruit segmentation of surface_method.
+relationship: VariableU_of SO11:0000103 ! 2pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:09:14Z
+
+[Term]
+id: SO11:0000103
+name: 2pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000101 ! Visual observation: fruit segmentation of surface_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:09:24Z
+
+[Term]
+id: SO11:0000105
+name: Visual observation: fruit shape in lateral view_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of fruit shape in lateral view." []
+relationship: MethodU_of SO11:0000036 ! Fruit shape in lateral view
+created_by: fruticultura
+creation_date: 2016-11-07T19:10:23Z
+
+[Term]
+id: SO11:0000106
+name: fruit shape in lateral view
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000108
+alt_id: SO11:0000492
+def: "Visual observation of fruit shape in lateral view with: 1: circular (e.g. Bay Ott, Chaffey), 2: cordate (e.g. Bays, Honey Hart, Pierce, White), 3: conical (e.g. El Bumbo, Libby, Mariella, Villapark), 4: broad conical (e.g. Booth, Campas, Fino de Jete, Miguel, Ott), 5: trapezoidal (e.g. Big Sister)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit shape in lateral view" EXACT []
+relationship: VariableU_of SO11:0000036 ! Fruit shape in lateral view
+relationship: VariableU_of SO11:0000105 ! Visual observation: fruit shape in lateral view_method.
+relationship: VariableU_of SO11:0000107 ! 5 pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:10:25Z
+
+[Term]
+id: SO11:0000107
+name: 5 pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000105 ! Visual observation: fruit shape in lateral view_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:10:34Z
+
+[Term]
+id: SO11:0000109
+name: Measurement : fruit thickness of rind_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of fruit thickness of rind." []
+relationship: MethodU_of SO11:0000039 ! Fruit thickness of rind
+created_by: fruticultura
+creation_date: 2016-11-07T19:10:49Z
+
+[Term]
+id: SO11:0000110
+name: fruit thickness of rind
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000112
+alt_id: SO11:0000369
+alt_id: SO11:0000399
+alt_id: SO11:0000499
+def: "Measurement of fruit thickness of rind with: 3: thin (e.g. El Bumpo), 5: medium (e.g. Big Sister), 7: thick (e.g. Bay Ott)." []
+synonym: "<new term>" EXACT []
+synonym: "Fruit thickness of rind" EXACT []
+synonym: "fruit thickness of rind" EXACT []
+synonym: "fruit thickness of rind " EXACT []
+relationship: VariableU_of SO11:0000039 ! Fruit thickness of rind
+relationship: VariableU_of SO11:0000109 ! Measurement : fruit thickness of rind_method.
+relationship: VariableU_of SO11:0000111 ! 3pt
+relationship: VariableU_of SO11:0000209 ! 3pt
+relationship: VariableU_of SO11:0000225 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:10:51Z
+
+[Term]
+id: SO11:0000111
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000109 ! Measurement : fruit thickness of rind_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:11:01Z
+
+[Term]
+id: SO11:0000113
+name: Visual rating: seed adherence to flesh_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of seed adherence to flesh." []
+relationship: MethodU_of SO11:0000052 ! Seed adherence to flesh
+created_by: fruticultura
+creation_date: 2016-11-07T19:11:19Z
+
+[Term]
+id: SO11:0000114
+name: seed adherence to flesh
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000116
+alt_id: SO11:0000345
+alt_id: SO11:0000375
+alt_id: SO11:0000432
+alt_id: SO11:0000505
+def: "Visual rating of seed adherence to flesh with: 3: weak (e.g. Booth, Campus), 5: medium (e.g. Big Sister, Chaffey), 7: strong (e.g. Bay Ott, Bays)." []
+synonym: "<new term>" EXACT []
+synonym: "seed adherence to flesh" EXACT []
+synonym: "seed adherence to flesh " EXACT []
+relationship: VariableU_of SO11:0000052 ! Seed adherence to flesh
+relationship: VariableU_of SO11:0000113 ! Visual rating: seed adherence to flesh_method.
+relationship: VariableU_of SO11:0000115 ! 3pt
+relationship: VariableU_of SO11:0000213 ! 3pt
+relationship: VariableU_of SO11:0000245 ! 3pt
+relationship: VariableU_of SO11:0000339 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:11:21Z
+
+[Term]
+id: SO11:0000115
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000113 ! Visual rating: seed adherence to flesh_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:11:29Z
+
+[Term]
+id: SO11:0000117
+name: Visual observation: of seed glossiness_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of seed glossiness." []
+relationship: MethodU_of SO11:0000051 ! Seed glossiness
+created_by: fruticultura
+creation_date: 2016-11-07T19:11:43Z
+
+[Term]
+id: SO11:0000118
+name: seed glossiness
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000120
+alt_id: SO11:0000274
+alt_id: SO11:0000420
+alt_id: SO11:0000469
+alt_id: SO11:0000528
+alt_id: SO11:0000530
+alt_id: SO11:0000536
+def: "Visual observation of seed glossiness with: 1: Absent (e.g. Big sister, White), 9: Present (e.g. African Pride, Pink´s Mommoth , Spain)." []
+synonym: "seed glossiness" EXACT []
+synonym: "shoot pubescence" EXACT []
+relationship: VariableU_of SO11:0000051 ! Seed glossiness
+relationship: VariableU_of SO11:0000083 ! 2pt
+relationship: VariableU_of SO11:0000117 ! Visual observation: of seed glossiness_method.
+relationship: VariableU_of SO11:0000119 ! 2pt
+relationship: VariableU_of SO11:0000155 ! 2pt
+relationship: VariableU_of SO11:0000159 ! 2pt
+relationship: VariableU_of SO11:0000237 ! 2pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:11:45Z
+
+[Term]
+id: SO11:0000119
+name: 2pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000117 ! Visual observation: of seed glossiness_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:11:53Z
+
+[Term]
+id: SO11:0000121
+name: Measurement: seed length_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of seed length." []
+relationship: MethodU_of SO11:0000048 ! Seed length
+created_by: fruticultura
+creation_date: 2016-11-07T19:12:06Z
+
+[Term]
+id: SO11:0000122
+name: seed length
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000124
+alt_id: SO11:0000277
+alt_id: SO11:0000310
+alt_id: SO11:0000326
+alt_id: SO11:0000355
+alt_id: SO11:0000388
+alt_id: SO11:0000409
+alt_id: SO11:0000477
+alt_id: SO11:0000573
+def: "Measurement of seed length with: 3:short (e.g. Oakwood, Pierce), 5: medium (e.g. Mariella), 7: long (e.g. Big Sister)." []
+synonym: "<new term>" EXACT []
+synonym: "seed length" EXACT []
+relationship: VariableU_of SO11:0000048 ! Seed length
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000121 ! Measurement: seed length_method.
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-16T17:51:00Z
+
+[Term]
+id: SO11:0000123
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000121 ! Measurement: seed length_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:12:16Z
+
+[Term]
+id: SO11:0000125
+name: Counting: seed ratio length/width_method.
+def: "Count of seed ratio length/width." []
+relationship: MethodU_of SO11:0000050 ! Seed ratio length/width
+created_by: fruticultura
+creation_date: 2016-11-07T19:12:30Z
+
+[Term]
+id: SO11:0000127
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000125 ! Counting: seed ratio length/width_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:12:42Z
+
+[Term]
+id: SO11:0000128
+name: seed ratio length/width
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000126
+alt_id: SO11:0000361
+alt_id: SO11:0000464
+alt_id: SO11:0000516
+alt_id: SO11:0000543
+def: "Count of seed ratio length/width with: 3: Small ( Oakwood) , 5: Medium (El Bumpo) , 7: Large (Bay Ott)." []
+synonym: "seed ratio length/width" EXACT []
+relationship: VariableU_of SO11:0000050 ! Seed ratio length/width
+relationship: VariableU_of SO11:0000075 ! 3pt
+relationship: VariableU_of SO11:0000125 ! Counting: seed ratio length/width_method.
+relationship: VariableU_of SO11:0000127 ! 3pt
+relationship: VariableU_of SO11:0000163 ! 3pt
+relationship: VariableU_of SO11:0000205 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:12:44Z
+
+[Term]
+id: SO11:0000129
+name: Measurement: seed width_method.
+namespace: CherimoyaMethodUPOV
+def: "Measure of seed width at widest point." []
+relationship: MethodU_of SO11:0000049 ! Seed width
+created_by: fruticultura
+creation_date: 2016-11-07T19:12:56Z
+
+[Term]
+id: SO11:0000130
+name: seed width
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000132
+alt_id: SO11:0000315
+alt_id: SO11:0000381
+alt_id: SO11:0000520
+alt_id: SO11:0000563
+def: "Measure of seed width at widest point with: 3:narrow (e.g. African Pride, Gefner), 5: medium (e.g. Bay Ott, Honey Hart), 7: broad (e.g. Chaffey, Mariella)." []
+synonym: "<new term>" EXACT []
+synonym: "seed width" EXACT []
+relationship: VariableU_of SO11:0000049 ! Seed width
+relationship: VariableU_of SO11:0000129 ! Measurement: seed width_method.
+relationship: VariableU_of SO11:0000131 ! 3pt
+relationship: VariableU_of SO11:0000175 ! 3pt
+relationship: VariableU_of SO11:0000187 ! 3pt
+relationship: VariableU_of SO11:0000217 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:12:58Z
+
+[Term]
+id: SO11:0000131
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000129 ! Measurement: seed width_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:13:06Z
+
+[Term]
+id: SO11:0000133
+name: Visual observation: time of harvest maturity_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of time of harvest maturity." []
+relationship: MethodU_of SO11:0000053 ! Time of harvest maturity
+created_by: fruticultura
+creation_date: 2016-11-07T19:13:21Z
+
+[Term]
+id: SO11:0000135
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000133 ! Visual observation: time of harvest maturity_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:13:33Z
+
+[Term]
+id: SO11:0000136
+name: time of harvest maturity
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000134
+alt_id: SO11:0000280
+def: "Visual observation of time of harvest maturity with: 3: early (e.g. El Bumpo, White), 5: medium (e.g. Pierce, Chaffey, Mariella), 7: late (e.g. African Pride, Big Sister)." []
+synonym: "time of harvest maturity" EXACT []
+relationship: VariableU_of SO11:0000053 ! Time of harvest maturity
+relationship: VariableU_of SO11:0000133 ! Visual observation: time of harvest maturity_method.
+relationship: VariableU_of SO11:0000135 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:13:35Z
+
+[Term]
+id: SO11:0000137
+name: Counting: flowing shoot density of flowers_method.
+def: "Count of density of flour per shoot." []
+relationship: MethodU_of SO11:0000022 ! Flowering shoot density of flowers
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:06Z
+
+[Term]
+id: SO11:0000138
+name: Flowering shoot density of flowers
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000140
+alt_id: SO11:0000290
+def: "Count of density of flour per shoot with:  3: Sparse (Ott), 5: Medium (White), 7: Dense (Big sister)." []
+synonym: "flowering shoot density of flowers" EXACT []
+relationship: VariableU_of SO11:0000022 ! Flowering shoot density of flowers
+relationship: VariableU_of SO11:0000137 ! Counting: flowing shoot density of flowers_method.
+relationship: VariableU_of SO11:0000139 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:08Z
+
+[Term]
+id: SO11:0000139
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000137 ! Counting: flowing shoot density of flowers_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:16Z
+
+[Term]
+id: SO11:0000141
+name: Visual observation: leaf blade green color (lower side)_method
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of leaf blade green color (lower side)." []
+relationship: MethodU_of SO11:0000016 ! Leaf blade green color (lower side)
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:32Z
+
+[Term]
+id: SO11:0000142
+name: leaf blade green color (lower side)
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000144
+alt_id: SO11:0000294
+alt_id: SO11:0000300
+def: "Visual observation of leaf blade green color (lower side) with 3:light, 5: medium, 7: dark (e.g. Bay Ott, Big Sister)." []
+synonym: "leaf blade color (lower side)" EXACT []
+synonym: "leaf blade green color (lower side)" EXACT []
+relationship: VariableU_of SO11:0000016 ! Leaf blade green color (lower side)
+relationship: VariableU_of SO11:0000141 ! Visual observation: leaf blade green color (lower side)_method
+relationship: VariableU_of SO11:0000143 ! 3pt
+relationship: VariableU_of SO11:0000147 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:34Z
+
+[Term]
+id: SO11:0000143
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000141 ! Visual observation: leaf blade green color (lower side)_method
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:43Z
+
+[Term]
+id: SO11:0000145
+name: Visual observation: leaf blade green color (upper side)_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of leaf blade green color (upper side)." []
+relationship: MethodU_of SO11:0000015 ! Leaf blade green color (upper side)
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:57Z
+
+[Term]
+id: SO11:0000146
+name: leaf blade green color (upper side)
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000148
+alt_id: SO11:0000295
+alt_id: SO11:0000299
+def: "Visual observation of leaf blade green color (upper side) with: 3: Light (Mariella, Oakwood), 5: Medium (Bay Ott, Booth) , 7: Dark (Big sister)." []
+synonym: "<new term>" EXACT []
+synonym: "leaf blade color (upper side)" EXACT []
+synonym: "leaf blade green color (upper side)" EXACT []
+relationship: VariableU_of SO11:0000015 ! Leaf blade green color (upper side)
+relationship: VariableU_of SO11:0000143 ! 3pt
+relationship: VariableU_of SO11:0000145 ! Visual observation: leaf blade green color (upper side)_method.
+relationship: VariableU_of SO11:0000147 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:14:59Z
+
+[Term]
+id: SO11:0000147
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000145 ! Visual observation: leaf blade green color (upper side)_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:15:08Z
+
+[Term]
+id: SO11:0000149
+name: Measurement: leaf blade length_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of leaf lamina length." []
+relationship: MethodU_of SO11:0000011 ! Leaf blade length
+created_by: fruticultura
+creation_date: 2016-11-07T19:15:21Z
+
+[Term]
+id: SO11:0000150
+name: leaf blade length
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000152
+alt_id: SO11:0000265
+alt_id: SO11:0000278
+alt_id: SO11:0000305
+alt_id: SO11:0000324
+alt_id: SO11:0000351
+alt_id: SO11:0000395
+alt_id: SO11:0000407
+alt_id: SO11:0000569
+def: "Measurement of leaf lamina length with: 3: short (e.g. African Pride, Gefner), 5: medium (e.g. El Bumpo, Villapark), 7: long (Booth, Mariella)." []
+synonym: "<new term>" EXACT []
+synonym: "leaf blade length" EXACT []
+relationship: VariableU_of SO11:0000011 ! Leaf blade length
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000149 ! Measurement: leaf blade length_method.
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:15:23Z
+
+[Term]
+id: SO11:0000151
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000149 ! Measurement: leaf blade length_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:15:32Z
+
+[Term]
+id: SO11:0000153
+name: Visual observation: leaf blade pubescence (lower side)_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of leaf blade pubescence (lower side)." []
+relationship: MethodU_of SO11:0000018 ! Leaf blade pubescence (lower side)
+created_by: fruticultura
+creation_date: 2016-11-07T19:19:09Z
+
+[Term]
+id: SO11:0000154
+name: leaf blade pubescence (lower side)
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000156
+alt_id: SO11:0000314
+alt_id: SO11:0000422
+alt_id: SO11:0000470
+alt_id: SO11:0000510
+alt_id: SO11:0000535
+def: "Visual observation of leaf blade pubescence (lower side) with 1: Absent (e.g. African Pride, Gefner), 9: Present (e.g. Bay Ott , Big Sister)." []
+synonym: "<new term>" EXACT []
+synonym: "leaf blade pubescence (lower side)" EXACT []
+synonym: "leaf blade pubescence (lower side) " EXACT []
+synonym: "leaf pubescence (lower side)" EXACT []
+relationship: VariableU_of SO11:0000018 ! Leaf blade pubescence (lower side)
+relationship: VariableU_of SO11:0000083 ! 2pt
+relationship: VariableU_of SO11:0000119 ! 2pt
+relationship: VariableU_of SO11:0000153 ! Visual observation: leaf blade pubescence (lower side)_method.
+relationship: VariableU_of SO11:0000155 ! 2pt
+relationship: VariableU_of SO11:0000159 ! 2pt
+relationship: VariableU_of SO11:0000237 ! 2pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:19:12Z
+
+[Term]
+id: SO11:0000155
+name: 2pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000153 ! Visual observation: leaf blade pubescence (lower side)_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:19:21Z
+
+[Term]
+id: SO11:0000157
+name: Visual observation: leaf blade pubescence (upper side)_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of leaf blade pubescence (upper side)." []
+relationship: MethodU_of SO11:0000017 ! Leaf blade pubescence (upper side)
+created_by: fruticultura
+creation_date: 2016-11-07T19:19:34Z
+
+[Term]
+id: SO11:0000158
+name: leaf blade pubescence (upper side)
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000160
+alt_id: SO11:0000423
+alt_id: SO11:0000471
+alt_id: SO11:0000509
+alt_id: SO11:0000527
+alt_id: SO11:0000533
+def: "Visual observation of leaf blade pubescence (upper side) with: 1: Absent (e.g. African Pride, Gefner), 9: Present (e.g. Bay Ott , Big Sister)." []
+synonym: "Leaf blade pubescence (upper side)" EXACT []
+synonym: "leaf blade pubescence (upper side)" EXACT []
+synonym: "leaf pubescence (upper side)" EXACT []
+relationship: VariableU_of SO11:0000017 ! Leaf blade pubescence (upper side)
+relationship: VariableU_of SO11:0000083 ! 2pt
+relationship: VariableU_of SO11:0000119 ! 2pt
+relationship: VariableU_of SO11:0000155 ! 2pt
+relationship: VariableU_of SO11:0000157 ! Visual observation: leaf blade pubescence (upper side)_method.
+relationship: VariableU_of SO11:0000159 ! 2pt
+relationship: VariableU_of SO11:0000237 ! 2pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:19:36Z
+
+[Term]
+id: SO11:0000159
+name: 2pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000157 ! Visual observation: leaf blade pubescence (upper side)_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:19:48Z
+
+[Term]
+id: SO11:0000161
+name: Counting: leaf blade ratio length/width_method
+namespace: CherimoyaMethodUPOV
+def: "Count of ratio of length to width leaf blade." []
+relationship: MethodU_of SO11:0000013 ! Leaf blade ratio length/width
+created_by: fruticultura
+creation_date: 2016-11-07T19:20:01Z
+
+[Term]
+id: SO11:0000162
+name: Leaf blade ratio length/width
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000164
+alt_id: SO11:0000359
+alt_id: SO11:0000462
+alt_id: SO11:0000517
+alt_id: SO11:0000540
+def: "Count of ratio of length to width leaf blade with 3: Small (African Pride, Gefner), 5: Medium (El Bumpo, Villapark), 7: Large (Booth, Mariella)." []
+synonym: "<new term>" EXACT []
+synonym: "leaf blade ratio length/width" EXACT []
+relationship: VariableU_of SO11:0000013 ! Leaf blade ratio length/width
+relationship: VariableU_of SO11:0000075 ! 3pt
+relationship: VariableU_of SO11:0000127 ! 3pt
+relationship: VariableU_of SO11:0000161 ! Counting: leaf blade ratio length/width_method
+relationship: VariableU_of SO11:0000163 ! 3pt
+relationship: VariableU_of SO11:0000205 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:20:03Z
+
+[Term]
+id: SO11:0000163
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000161 ! Counting: leaf blade ratio length/width_method
+created_by: fruticultura
+creation_date: 2016-11-07T19:20:13Z
+
+[Term]
+id: SO11:0000165
+name: Measurement: leaf blade shape_method
+namespace: CherimoyaMethodUPOV
+def: "Measure of leaf blade shape." []
+relationship: MethodU_of SO11:0000014 ! Leaf blade shape
+created_by: fruticultura
+creation_date: 2016-11-07T19:20:25Z
+
+[Term]
+id: SO11:0000167
+name: 4pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000165 ! Measurement: leaf blade shape_method
+created_by: fruticultura
+creation_date: 2016-11-07T19:20:36Z
+
+[Term]
+id: SO11:0000168
+name: leaf blade shape
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000166
+alt_id: SO11:0000551
+def: "Measure of leaf blade shape with: 1: broad ovate (e.g. Booth, Oakwood), 2: ovate (e.g. Miguel, Ott, Pierce), 3: narrow ovate (e.g. Big Sister, El Bumpo, Villapark), 4:lanceolate (e.g. African Price)." []
+synonym: "<new term>" EXACT []
+synonym: "leaf blade shape" EXACT []
+relationship: VariableU_of SO11:0000014 ! Leaf blade shape
+relationship: VariableU_of SO11:0000165 ! Measurement: leaf blade shape_method
+relationship: VariableU_of SO11:0000167 ! 4pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:20:38Z
+
+[Term]
+id: SO11:0000169
+name: Visual observation: leaf blade undulation of margin
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of leaf blade undulation of margin. ." []
+relationship: MethodU_of SO11:0000019 ! Leaf blade undulation of margin
+created_by: fruticultura
+creation_date: 2016-11-07T19:21:11Z
+
+[Term]
+id: SO11:0000170
+name: Leaf blade undulation of margin
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000172
+alt_id: SO11:0000556
+def: "Visual observation of leaf blade undulation of margin with: 1: Absent or very weak (e.g. African Pride), 3: Weak (e.g. Pierce), 5: Medium (e.g. White), 7: Strong (e.g. Big Sister)." []
+synonym: "<new term>" EXACT []
+synonym: "leaf blade undulation of margin " EXACT []
+relationship: VariableU_of SO11:0000019 ! Leaf blade undulation of margin
+relationship: VariableU_of SO11:0000169 ! Visual observation: leaf blade undulation of margin
+relationship: VariableU_of SO11:0000171 ! 4pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:21:13Z
+
+[Term]
+id: SO11:0000171
+name: 4pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000169 ! Visual observation: leaf blade undulation of margin
+created_by: fruticultura
+creation_date: 2016-11-07T19:21:21Z
+
+[Term]
+id: SO11:0000173
+name: Measurement: leaf blade width_method.
+namespace: CherimoyaMethodUPOV
+def: "Measure of leaf blade width." []
+relationship: MethodU_of SO11:0000012 ! Leaf blade width
+created_by: fruticultura
+creation_date: 2016-11-07T19:21:33Z
+
+[Term]
+id: SO11:0000174
+name: leaf blade width
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000176
+alt_id: SO11:0000317
+alt_id: SO11:0000383
+alt_id: SO11:0000521
+alt_id: SO11:0000560
+def: "Measure of leaf blade width with: 3: narrow (e.g. African Pride, Gefner), 5: medium (e.g. El Bumpo, Villapark), 7: Broad (e.g. Booth, Mariella)." []
+synonym: "<new term>" EXACT []
+synonym: "leaf blade width" EXACT []
+relationship: VariableU_of SO11:0000012 ! Leaf blade width
+relationship: VariableU_of SO11:0000131 ! 3pt
+relationship: VariableU_of SO11:0000173 ! Measurement: leaf blade width_method.
+relationship: VariableU_of SO11:0000175 ! 3pt
+relationship: VariableU_of SO11:0000187 ! 3pt
+relationship: VariableU_of SO11:0000217 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:21:35Z
+
+[Term]
+id: SO11:0000175
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000173 ! Measurement: leaf blade width_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:21:44Z
+
+[Term]
+id: SO11:0000177
+name: Ovary length
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of ovary length." []
+relationship: MethodU_of SO11:0000032 ! Ovary length
+created_by: fruticultura
+creation_date: 2016-11-07T19:22:25Z
+
+[Term]
+id: SO11:0000179
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000177 ! Ovary length
+created_by: fruticultura
+creation_date: 2016-11-07T19:22:34Z
+
+[Term]
+id: SO11:0000180
+name: ovary length
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000178
+alt_id: SO11:0000283
+alt_id: SO11:0000308
+alt_id: SO11:0000328
+alt_id: SO11:0000357
+alt_id: SO11:0000390
+alt_id: SO11:0000411
+alt_id: SO11:0000476
+alt_id: SO11:0000567
+def: "Visual rating of ovary length with: 3:Short (e.g. African Pride, Gefner), 5:Medium (e.g. Chaffey), 7:Long (e.g. Big Sister)." []
+synonym: "ovary length" EXACT []
+synonym: "ovary length " EXACT []
+relationship: VariableU_of SO11:0000032 ! Ovary length
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000177 ! Ovary length
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:22:36Z
+
+[Term]
+id: SO11:0000181
+name: Visual observation: ovary shape_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of ovary shape." []
+relationship: MethodU_of SO11:0000031 ! Ovary shape
+created_by: fruticultura
+creation_date: 2016-11-07T19:22:46Z
+
+[Term]
+id: SO11:0000183
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000181 ! Visual observation: ovary shape_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:22:54Z
+
+[Term]
+id: SO11:0000184
+name: ovary shape
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000182
+alt_id: SO11:0000578
+def: "Visual observation of ovary shape scored as: 1: narrow cordate (e.g. Booth, Pierce, VillaPark), 2: cordate (e.g. Bays, Campas, Sapin), 3: broad cordate (e.g. Chaffey)." []
+synonym: "<new term>" EXACT []
+synonym: "ovary shape" EXACT []
+relationship: VariableU_of SO11:0000031 ! Ovary shape
+relationship: VariableU_of SO11:0000181 ! Visual observation: ovary shape_method.
+relationship: VariableU_of SO11:0000183 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:22:56Z
+
+[Term]
+id: SO11:0000185
+name: Visual rating: ovary width_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of ovary width." []
+relationship: MethodU_of SO11:0000033 ! Ovary width
+created_by: fruticultura
+creation_date: 2016-11-07T19:23:07Z
+
+[Term]
+id: SO11:0000187
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000185 ! Visual rating: ovary width_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:23:16Z
+
+[Term]
+id: SO11:0000188
+name: Ovary width
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000186
+alt_id: SO11:0000318
+alt_id: SO11:0000382
+alt_id: SO11:0000523
+alt_id: SO11:0000562
+def: "Visual rating of ovary width scored as:  3:narrow (e.g. African Pride, Gefner), 5: medium (e.g.Chaffey), 7: broad(e.g. Booth)." []
+synonym: "<new term>" EXACT []
+synonym: "ovary width" EXACT []
+relationship: VariableU_of SO11:0000033 ! Ovary width
+relationship: VariableU_of SO11:0000131 ! 3pt
+relationship: VariableU_of SO11:0000175 ! 3pt
+relationship: VariableU_of SO11:0000185 ! Visual rating: ovary width_method.
+relationship: VariableU_of SO11:0000187 ! 3pt
+relationship: VariableU_of SO11:0000217 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:23:18Z
+
+[Term]
+id: SO11:0000189
+name: Visual rating: peduncle length_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of peduncle length." []
+relationship: MethodU_of SO11:0000028 ! Peduncle length
+created_by: fruticultura
+creation_date: 2016-11-07T19:23:29Z
+
+[Term]
+id: SO11:0000190
+name: peduncle length
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000192
+alt_id: SO11:0000268
+alt_id: SO11:0000282
+alt_id: SO11:0000330
+alt_id: SO11:0000353
+alt_id: SO11:0000391
+alt_id: SO11:0000412
+alt_id: SO11:0000572
+alt_id: SO11:0000581
+alt_id: SO11:0000582
+def: "Visual rating of peduncle length using a scale of 3:short (e.g. Campas, Chaffey), 5:medium(e.g. African Pride, Pink´s Mommoth), 7:long(e.g. Booth, El Bumpo)." []
+synonym: "<new term 9>" EXACT []
+synonym: "<new term>" EXACT []
+synonym: "peduncle length" EXACT []
+relationship: VariableU_of SO11:0000028 ! Peduncle length
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000189 ! Visual rating: peduncle length_method.
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:23:31Z
+
+[Term]
+id: SO11:0000191
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000189 ! Visual rating: peduncle length_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:23:38Z
+
+[Term]
+id: SO11:0000193
+name: Visual rating: petal color_method.
+namespace: CherimoyaVariableUPOV
+def: "Visual rating of petal color." []
+relationship: MethodU_of SO11:0000023 ! Petal color
+created_by: fruticultura
+creation_date: 2016-11-07T19:24:03Z
+
+[Term]
+id: SO11:0000194
+name: Petal color
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000196
+alt_id: SO11:0000334
+def: "Visual rating of petal color scored as 1: green (e.g. African Pride, Gefner), 2: yellow (e.g. Bay Ott, Big Sister), 3:Light brown (e.g. El Bumpo, Pierce)." []
+synonym: "<new term>" EXACT []
+synonym: "petal color" EXACT []
+relationship: VariableU_of SO11:0000023 ! Petal color
+relationship: VariableU_of SO11:0000193 ! Visual rating: petal color_method.
+relationship: VariableU_of SO11:0000195 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:24:05Z
+
+[Term]
+id: SO11:0000195
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000193 ! Visual rating: petal color_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:24:13Z
+
+[Term]
+id: SO11:0000197
+name: Visual observation: petal curving_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of petal curving." []
+relationship: MethodU_of SO11:0000030 ! Petal curving
+created_by: fruticultura
+creation_date: 2016-11-07T19:25:59Z
+
+[Term]
+id: SO11:0000198
+name: petal curving
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000338
+alt_id: SO11:0000343
+alt_id: SO11:0000373
+alt_id: SO11:0000507
+alt_id: SO11:0000584
+def: "Visual observation of petal curving using a scale of 3: Weak (e.g. Booth, Pierce), 5: Medium (e.g. White), 7: Strong (e.g. Chaffey)." []
+synonym: "<new term 1>" EXACT []
+synonym: "<new term 4>" EXACT []
+synonym: "petal curving" EXACT []
+relationship: VariableU_of SO11:0000030 ! Petal curving
+relationship: VariableU_of SO11:0000115 ! 3pt
+relationship: VariableU_of SO11:0000197 ! Visual observation: petal curving_method.
+relationship: VariableU_of SO11:0000213 ! 3pt
+relationship: VariableU_of SO11:0000245 ! 3pt
+relationship: VariableU_of SO11:0000339 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:26:01Z
+
+[Term]
+id: SO11:0000199
+name: Visual rating: petal length_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of petal length." []
+relationship: MethodU_of SO11:0000024 ! Petal length
+created_by: fruticultura
+creation_date: 2016-11-07T19:26:11Z
+
+[Term]
+id: SO11:0000201
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000199 ! Visual rating: petal length_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:26:22Z
+
+[Term]
+id: SO11:0000203
+name: Counting: petal ratio length/width_method.
+namespace: CherimoyaMethodUPOV
+def: "Count of ratio of length to width petal." []
+relationship: MethodU_of SO11:0000026 ! Petal ratio length/width
+created_by: fruticultura
+creation_date: 2016-11-07T19:26:37Z
+
+[Term]
+id: SO11:0000205
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000203 ! Counting: petal ratio length/width_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:26:47Z
+
+[Term]
+id: SO11:0000206
+name: petal ratio length/width
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000204
+alt_id: SO11:0000360
+alt_id: SO11:0000463
+alt_id: SO11:0000518
+alt_id: SO11:0000541
+def: "Count of ratio of length to width petal using a scale of 3: Small (e.g. Honey Hart, White), 5: Medium (e.g. Campus, Miguel), 7: Large (e.g. Libby, Villapark)." []
+synonym: "<new term 3>" EXACT []
+synonym: "petal ratio length/width" EXACT []
+relationship: VariableU_of SO11:0000026 ! Petal ratio length/width
+relationship: VariableU_of SO11:0000075 ! 3pt
+relationship: VariableU_of SO11:0000127 ! 3pt
+relationship: VariableU_of SO11:0000163 ! 3pt
+relationship: VariableU_of SO11:0000203 ! Counting: petal ratio length/width_method.
+relationship: VariableU_of SO11:0000205 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:26:49Z
+
+[Term]
+id: SO11:0000207
+name: Visual rating: petal thickness_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of petal thickness." []
+relationship: MethodU_of SO11:0000027 ! Petal thickness
+created_by: fruticultura
+creation_date: 2016-11-07T19:27:03Z
+
+[Term]
+id: SO11:0000209
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000207 ! Visual rating: petal thickness_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:27:13Z
+
+[Term]
+id: SO11:0000211
+name: Visual rating: petal twisting just before anthesis_method.
+namespace: CherimoyaMethodUPOV
+def: "Visual rating of petal twisting just before anthesis." []
+relationship: MethodU_of SO11:0000029 ! Petal twisting just before anthesis
+created_by: fruticultura
+creation_date: 2016-11-07T19:27:26Z
+
+[Term]
+id: SO11:0000212
+name: petal twisting just before anthesis
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000214
+alt_id: SO11:0000344
+alt_id: SO11:0000374
+alt_id: SO11:0000506
+alt_id: SO11:0000583
+def: "Visual rating of petal twisting just before anthesis using a scale of 3: weak (e.g. White), 5: medium (e.g. Big Sister), 7: strong (e.g. Villapark)." []
+synonym: "petal twisting just before anthesis" EXACT []
+synonym: "petal twisting just before anthesis " EXACT []
+relationship: VariableU_of SO11:0000029 ! Petal twisting just before anthesis
+relationship: VariableU_of SO11:0000115 ! 3pt
+relationship: VariableU_of SO11:0000211 ! Visual rating: petal twisting just before anthesis_method.
+relationship: VariableU_of SO11:0000213 ! 3pt
+relationship: VariableU_of SO11:0000245 ! 3pt
+relationship: VariableU_of SO11:0000339 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:27:28Z
+
+[Term]
+id: SO11:0000213
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000211 ! Visual rating: petal twisting just before anthesis_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:27:37Z
+
+[Term]
+id: SO11:0000215
+name: Measurement: petal width_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of petal width." []
+relationship: MethodU_of SO11:0000025 ! Petal width
+created_by: fruticultura
+creation_date: 2016-11-07T19:27:52Z
+
+[Term]
+id: SO11:0000216
+name: petal width
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000218
+alt_id: SO11:0000316
+alt_id: SO11:0000380
+alt_id: SO11:0000522
+alt_id: SO11:0000561
+def: "Measurement of petal width with 3: narrow (e.g. Honey Hart, White), 5: medium (e.g. Campus, Mariella, Miguel, Pink´s Mommoth),7:broad (e.g. Libby, Villapark)." []
+synonym: "petal width" EXACT []
+relationship: VariableU_of SO11:0000025 ! Petal width
+relationship: VariableU_of SO11:0000131 ! 3pt
+relationship: VariableU_of SO11:0000175 ! 3pt
+relationship: VariableU_of SO11:0000187 ! 3pt
+relationship: VariableU_of SO11:0000215 ! Measurement: petal width_method.
+relationship: VariableU_of SO11:0000217 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:27:54Z
+
+[Term]
+id: SO11:0000217
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000215 ! Measurement: petal width_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:28:02Z
+
+[Term]
+id: SO11:0000219
+name: Measurement: petiole length_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of petiole length from the base of petiole to the base of leaf blade." []
+relationship: MethodU_of SO11:0000020 ! Petiole length
+created_by: fruticultura
+creation_date: 2016-11-07T19:28:20Z
+
+[Term]
+id: SO11:0000220
+name: petiole length
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000222
+alt_id: SO11:0000266
+alt_id: SO11:0000279
+alt_id: SO11:0000311
+alt_id: SO11:0000325
+alt_id: SO11:0000352
+alt_id: SO11:0000385
+alt_id: SO11:0000413
+alt_id: SO11:0000570
+def: "Measurement of petiole length from the base of petiole to the base of leaf blade. scored as: 3: short (e.g. Honey Hart), 5: medium(e.g. Fino de Jete), 7: long (e.g. Big Sister)." []
+synonym: "petiole length" EXACT []
+relationship: VariableU_of SO11:0000020 ! Petiole length
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000219 ! Measurement: petiole length_method.
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:28:22Z
+
+[Term]
+id: SO11:0000221
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000219 ! Measurement: petiole length_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:28:33Z
+
+[Term]
+id: SO11:0000223
+name: Measurement: petiole thickness_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of petiole thickness at the thickest point." []
+relationship: MethodU_of SO11:0000021 ! Petiole thickness
+created_by: fruticultura
+creation_date: 2016-11-07T19:28:50Z
+
+[Term]
+id: SO11:0000225
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000223 ! Measurement: petiole thickness_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:29:00Z
+
+[Term]
+id: SO11:0000227
+name: Visual observation: shoot color_method
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of shoot color." []
+relationship: MethodU_of SO11:0000009 ! Shoot color
+created_by: fruticultura
+creation_date: 2016-11-07T19:29:14Z
+
+[Term]
+id: SO11:0000228
+name: shoot color
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000230
+alt_id: SO11:0000402
+def: "Visual observation of shoot color scored as: 1: greyish green (e.g. Big Sister, Chaffey ), 2: grey (e.g. Bay Ott, Honey Hart), 3: brown (e.g. African Pride, Fino de Jete)." []
+synonym: "shoot color" EXACT []
+relationship: VariableU_of SO11:0000009 ! Shoot color
+relationship: VariableU_of SO11:0000227 ! Visual observation: shoot color_method
+relationship: VariableU_of SO11:0000229 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:29:16Z
+
+[Term]
+id: SO11:0000229
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000227 ! Visual observation: shoot color_method
+created_by: fruticultura
+creation_date: 2016-11-07T19:29:25Z
+
+[Term]
+id: SO11:0000231
+name: Measurement: shoot length of internode_method.
+namespace: CherimoyaMethodUPOV
+def: "Measurement of length of the internode." []
+relationship: MethodU_of SO11:0000008 ! Shoot length of internode
+created_by: fruticultura
+creation_date: 2016-11-07T19:29:40Z
+
+[Term]
+id: SO11:0000232
+name: shoot length of internode
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000234
+alt_id: SO11:0000264
+alt_id: SO11:0000276
+alt_id: SO11:0000306
+alt_id: SO11:0000323
+alt_id: SO11:0000350
+alt_id: SO11:0000386
+alt_id: SO11:0000406
+alt_id: SO11:0000568
+def: "Measurement of length of the internode scored as: 3: short (e.g. Big Sister, Villapark), 5: medium (e.g. Bay Ott, Honey Hart), 7: long(e.g. Mariella, Pierce, White)." []
+synonym: "shoot length of internode" EXACT []
+synonym: "shoot length of internode " EXACT []
+synonym: "shoot length to internode" EXACT []
+relationship: VariableU_of SO11:0000008 ! Shoot length of internode
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000231 ! Measurement: shoot length of internode_method.
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:29:42Z
+
+[Term]
+id: SO11:0000233
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000231 ! Measurement: shoot length of internode_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:29:51Z
+
+[Term]
+id: SO11:0000235
+name: Visual observation: shoot pubescence_method
+namespace: CherimoyaMethodUPOV
+def: "Visual observation of shoot pubescence." []
+relationship: MethodU_of SO11:0000010 ! Shoot pubescence
+created_by: fruticultura
+creation_date: 2016-11-07T19:30:08Z
+
+[Term]
+id: SO11:0000236
+name: shoot pubescence
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000238
+alt_id: SO11:0000259
+alt_id: SO11:0000275
+alt_id: SO11:0000419
+alt_id: SO11:0000534
+alt_id: SO11:0000580
+def: "Visual observation of shoot pubescence scored as: 1: absent (e.g. African Pride, Gefner), 9: present (e.g. Bay Ott,  Big Sister)." []
+synonym: "shoot pubescence" EXACT []
+relationship: VariableU_of SO11:0000010 ! Shoot pubescence
+relationship: VariableU_of SO11:0000083 ! 2pt
+relationship: VariableU_of SO11:0000119 ! 2pt
+relationship: VariableU_of SO11:0000155 ! 2pt
+relationship: VariableU_of SO11:0000159 ! 2pt
+relationship: VariableU_of SO11:0000235 ! Visual observation: shoot pubescence_method
+relationship: VariableU_of SO11:0000237 ! 2pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:30:10Z
+
+[Term]
+id: SO11:0000237
+name: 2pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000235 ! Visual observation: shoot pubescence_method
+created_by: fruticultura
+creation_date: 2016-11-07T19:30:19Z
+
+[Term]
+id: SO11:0000239
+name: Estmation: fruit acidity_method
+namespace: CherimoyaMethodUPOV
+def: "Estimation of fruit acidity." []
+relationship: MethodU_of SO11:0000055 ! Fruit acidity
+created_by: fruticultura
+creation_date: 2016-11-07T19:30:40Z
+
+[Term]
+id: SO11:0000240
+name: fruit acidity
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000242
+alt_id: SO11:0000427
+alt_id: SO11:0000438
+alt_id: SO11:0000475
+def: "Estimation of fruit acidity using a scale of  3: low(e.g. Big Sister, Campas, Fino de Jete), 5: medium(e.g. Booth, Miguel), 7: high (e.g. Bays, El Bumpo)." []
+synonym: "fruit acidity" EXACT []
+relationship: VariableU_of SO11:0000055 ! Fruit acidity
+relationship: VariableU_of SO11:0000087 ! 3pt
+relationship: VariableU_of SO11:0000239 ! Estmation: fruit acidity_method
+relationship: VariableU_of SO11:0000241 ! 3pt
+relationship: VariableU_of SO11:0000249 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:30:42Z
+
+[Term]
+id: SO11:0000241
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000239 ! Estmation: fruit acidity_method
+created_by: fruticultura
+creation_date: 2016-11-07T19:30:59Z
+
+[Term]
+id: SO11:0000243
+name: Sensory assessment: fruit aroma_method.
+namespace: CherimoyaMethodUPOV
+def: "Sensory assessment of fruit aroma." []
+relationship: MethodU_of SO11:0000056 ! Fruit aroma
+created_by: fruticultura
+creation_date: 2016-11-07T19:31:14Z
+
+[Term]
+id: SO11:0000245
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000243 ! Sensory assessment: fruit aroma_method.
+created_by: fruticultura
+creation_date: 2016-11-07T19:31:31Z
+
+[Term]
+id: SO11:0000247
+name: estimation: fruit total soluble solids.
+namespace: CherimoyaMethodUPOV
+def: "Estimation of fruit total soluble solids." []
+relationship: MethodU_of SO11:0000054 ! Fruit total soluble solids
+created_by: fruticultura
+creation_date: 2016-11-07T19:31:46Z
+
+[Term]
+id: SO11:0000248
+name: fruit total soluble solids
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000250
+alt_id: SO11:0000428
+alt_id: SO11:0000436
+alt_id: SO11:0000474
+def: "Estimation of fruit total soluble solids scored as 3: low (e.g. Pierce, Salmon), 5: medium (e.g. Big Sister, Libby, Mariella, Pink´s mommoth, Ott), 7: high (e.g. Cumpas, Miguel, Sabor, White)." []
+synonym: "fruit total soluble acids" EXACT []
+synonym: "fruit total soluble solids" EXACT []
+relationship: VariableU_of SO11:0000054 ! Fruit total soluble solids
+relationship: VariableU_of SO11:0000087 ! 3pt
+relationship: VariableU_of SO11:0000241 ! 3pt
+relationship: VariableU_of SO11:0000247 ! estimation: fruit total soluble solids.
+relationship: VariableU_of SO11:0000249 ! 3pt
+created_by: fruticultura
+creation_date: 2016-11-07T19:31:48Z
+
+[Term]
+id: SO11:0000249
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000247 ! estimation: fruit total soluble solids.
+created_by: fruticultura
+creation_date: 2016-11-07T19:31:57Z
+
+[Term]
+id: SO11:0000251
+name: few
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000059 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T17:14:25Z
+
+[Term]
+id: SO11:0000252
+name: fruit amount of stone cell
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000062
+alt_id: SO11:0000064
+alt_id: SO11:0000444
+alt_id: SO11:0000451
+alt_id: SO11:0000483
+def: "Visual observation of fruit amount of stone cell with: 3: few(e.g. Bay Ott, Honey Hart, Miguel, White), 5: medium(e.g. Big Sister, Chaffey, Libby), 7:many(e.g. Booth, Campas, Ott, Sabor)." []
+synonym: "<new term>" EXACT []
+synonym: "fruit amount of stone cell" EXACT []
+relationship: VariableU_of SO11:0000045 ! Fruit amount of stone cell
+relationship: VariableU_of SO11:0000059 ! 3pt
+relationship: VariableU_of SO11:0000061 ! Visual observation: fruit amount of stone cell_method.
+relationship: VariableU_of SO11:0000063 ! 3pt
+relationship: VariableU_of SO11:0000096 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-14T19:02:14Z
+
+[Term]
+id: SO11:0000254
+name: absent
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000083 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T18:25:23Z
+
+[Term]
+id: SO11:0000256
+name: small
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000075 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:15:40Z
+
+[Term]
+id: SO11:0000257
+name: present
+namespace: CherimoyaScaleUPOV
+synonym: "9" EXACT []
+is_a: SO11:0000083 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T18:25:23Z
+
+[Term]
+id: SO11:0000260
+name: low
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000087 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:47:12Z
+
+[Term]
+id: SO11:0000261
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000087 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:47:12Z
+
+[Term]
+id: SO11:0000262
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000091 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:08:34Z
+
+[Term]
+id: SO11:0000269
+name: few
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000096 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:15:30Z
+
+[Term]
+id: SO11:0000270
+name: thin
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000111 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:28:19Z
+
+[Term]
+id: SO11:0000271
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000111 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:28:19Z
+
+[Term]
+id: SO11:0000272
+name: absent
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000119 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T19:42:13Z
+
+[Term]
+id: SO11:0000273
+name: present
+namespace: CherimoyaScaleUPOV
+synonym: "9" EXACT []
+is_a: SO11:0000119 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T19:42:13Z
+
+[Term]
+id: SO11:0000284
+name: small
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000127 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:54:16Z
+
+[Term]
+id: SO11:0000285
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000127 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:54:16Z
+
+[Term]
+id: SO11:0000286
+name: large
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000127 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:54:16Z
+
+[Term]
+id: SO11:0000287
+name: early
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000135 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T08:52:35Z
+
+[Term]
+id: SO11:0000288
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000135 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T08:52:35Z
+
+[Term]
+id: SO11:0000289
+name: late
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000135 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T08:52:35Z
+
+[Term]
+id: SO11:0000291
+name: sparse
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000139 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T08:55:22Z
+
+[Term]
+id: SO11:0000292
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000139 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T08:55:22Z
+
+[Term]
+id: SO11:0000293
+name: dense
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000139 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T08:55:22Z
+
+[Term]
+id: SO11:0000296
+name: light
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000143 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:03:12Z
+
+[Term]
+id: SO11:0000297
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000143 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:03:12Z
+
+[Term]
+id: SO11:0000298
+name: dark
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000143 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:03:12Z
+
+[Term]
+id: SO11:0000301
+name: light
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000147 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:06:21Z
+
+[Term]
+id: SO11:0000302
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000147 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:06:21Z
+
+[Term]
+id: SO11:0000303
+name: dark
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000147 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:06:21Z
+
+[Term]
+id: SO11:0000304
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000151 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:09:04Z
+
+[Term]
+id: SO11:0000312
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000151 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:09:28Z
+
+[Term]
+id: SO11:0000313
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000151 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:09:28Z
+
+[Term]
+id: SO11:0000319
+name: narrow
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000187 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:16:15Z
+
+[Term]
+id: SO11:0000320
+name: broad
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000187 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:16:15Z
+
+[Term]
+id: SO11:0000321
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000187 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:16:15Z
+
+[Term]
+id: SO11:0000322
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000191 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:25:25Z
+
+[Term]
+id: SO11:0000329
+name: petal length
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000200
+alt_id: SO11:0000202
+alt_id: SO11:0000267
+alt_id: SO11:0000281
+alt_id: SO11:0000307
+alt_id: SO11:0000354
+alt_id: SO11:0000387
+alt_id: SO11:0000408
+alt_id: SO11:0000571
+def: "Visual rating of petal length scored as 3: short (e.g. Bays, Pink´s Mommoth), 5: medium (e.g. Big Sister, El Bumpo, Sabor), 7: long (e.g. Libby, Villapark)." []
+synonym: "<new term 8>" EXACT []
+synonym: "<new term>" EXACT []
+synonym: "petal length" EXACT []
+relationship: VariableU_of SO11:0000024 ! Petal length
+relationship: VariableU_of SO11:0000091 ! 3pt
+relationship: VariableU_of SO11:0000123 ! 3pt
+relationship: VariableU_of SO11:0000151 ! 3pt
+relationship: VariableU_of SO11:0000179 ! 3pt
+relationship: VariableU_of SO11:0000191 ! 3pt
+relationship: VariableU_of SO11:0000199 ! Visual rating: petal length_method.
+relationship: VariableU_of SO11:0000201 ! 3pt
+relationship: VariableU_of SO11:0000221 ! 3pt
+relationship: VariableU_of SO11:0000233 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:25:25Z
+
+[Term]
+id: SO11:0000331
+name: short
+namespace: CherimoyaScaleUPOV
+is_a: SO11:0000331 ! short
+created_by: aliciata
+creation_date: 2016-11-17T10:25:36Z
+
+[Term]
+id: SO11:0000332
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000191 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:25:36Z
+
+[Term]
+id: SO11:0000333
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000191 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:32:25Z
+
+[Term]
+id: SO11:0000335
+name: green
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000195 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:41:21Z
+
+[Term]
+id: SO11:0000336
+name: light brown
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000195 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:41:21Z
+
+[Term]
+id: SO11:0000337
+name: yellow
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000195 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:41:21Z
+
+[Term]
+id: SO11:0000339
+name: 3pt
+namespace: CherimoyaScaleUPOV
+relationship: ScaleU_of SO11:0000197 ! Visual observation: petal curving_method.
+created_by: aliciata
+creation_date: 2016-11-17T10:44:03Z
+
+[Term]
+id: SO11:0000340
+name: weak
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000339 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:48:34Z
+
+[Term]
+id: SO11:0000341
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000339 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:48:34Z
+
+[Term]
+id: SO11:0000342
+name: strong
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000339 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T10:48:34Z
+
+[Term]
+id: SO11:0000347
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000201 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T11:00:44Z
+
+[Term]
+id: SO11:0000348
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000201 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T11:00:44Z
+
+[Term]
+id: SO11:0000349
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000201 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T11:00:44Z
+
+[Term]
+id: SO11:0000358
+name: small
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000205 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T11:11:44Z
+
+[Term]
+id: SO11:0000363
+name: large
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000205 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T11:11:44Z
+
+[Term]
+id: SO11:0000364
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000205 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T11:11:44Z
+
+[Term]
+id: SO11:0000366
+name: thin
+namespace: CherimoyaScaleUPOV
+synonym: "<new synonym>3" EXACT []
+is_a: SO11:0000209 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T09:49:17Z
+
+[Term]
+id: SO11:0000367
+name: thick
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000209 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T09:49:17Z
+
+[Term]
+id: SO11:0000368
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000209 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T09:49:17Z
+
+[Term]
+id: SO11:0000370
+name: Petiole thickness
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000224
+alt_id: SO11:0000226
+alt_id: SO11:0000398
+alt_id: SO11:0000500
+def: "Measurement of petiole thickness at the thickest point scored as: 3: thin(e.g. Libby, Villapark), 5: medium (e.g. Big Sister), 7: thick (e.g. Bays, Salmon)." []
+synonym: "petiole thickness" EXACT []
+relationship: VariableU_of SO11:0000021 ! Petiole thickness
+relationship: VariableU_of SO11:0000111 ! 3pt
+relationship: VariableU_of SO11:0000209 ! 3pt
+relationship: VariableU_of SO11:0000223 ! Measurement: petiole thickness_method.
+relationship: VariableU_of SO11:0000225 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-17T11:17:07Z
+
+[Term]
+id: SO11:0000371
+name: strong
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000213 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T09:51:27Z
+
+[Term]
+id: SO11:0000372
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000213 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T09:51:27Z
+
+[Term]
+id: SO11:0000377
+name: weak
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000213 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T09:51:59Z
+
+[Term]
+id: SO11:0000378
+name: narrow
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000217 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T10:45:52Z
+
+[Term]
+id: SO11:0000379
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000217 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T10:45:52Z
+
+[Term]
+id: SO11:0000384
+name: broad
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000217 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T10:45:52Z
+
+[Term]
+id: SO11:0000392
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000221 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T12:19:35Z
+
+[Term]
+id: SO11:0000393
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000221 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T12:19:35Z
+
+[Term]
+id: SO11:0000394
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000221 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T12:19:42Z
+
+[Term]
+id: SO11:0000396
+name: thin
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000225 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:02:38Z
+
+[Term]
+id: SO11:0000400
+name: thick
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000225 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:02:38Z
+
+[Term]
+id: SO11:0000401
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000225 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:02:38Z
+
+[Term]
+id: SO11:0000403
+name: greyish green
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000229 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:09:57Z
+
+[Term]
+id: SO11:0000404
+name: brown
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000229 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:09:57Z
+
+[Term]
+id: SO11:0000405
+name: grey
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000229 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:09:57Z
+
+[Term]
+id: SO11:0000414
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000233 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:15:56Z
+
+[Term]
+id: SO11:0000415
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000233 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:15:56Z
+
+[Term]
+id: SO11:0000416
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000233 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T13:15:56Z
+
+[Term]
+id: SO11:0000417
+name: absent
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000237 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T16:03:28Z
+
+[Term]
+id: SO11:0000418
+name: present
+namespace: CherimoyaScaleUPOV
+synonym: "9" EXACT []
+is_a: SO11:0000237 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T16:03:28Z
+
+[Term]
+id: SO11:0000424
+name: low
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000241 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:13:08Z
+
+[Term]
+id: SO11:0000425
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000241 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:13:08Z
+
+[Term]
+id: SO11:0000426
+name: high
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000241 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:13:08Z
+
+[Term]
+id: SO11:0000430
+name: weak
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000245 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:23:23Z
+
+[Term]
+id: SO11:0000431
+name: fruit aroma
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000244
+alt_id: SO11:0000246
+alt_id: SO11:0000346
+alt_id: SO11:0000376
+alt_id: SO11:0000508
+def: "Sensory assessment of fruit aroma scored as: 3: weak (e.g. Big sister, Pierce), 5: medium (e.g. Bay Ott, Bays, El Bumpo), 7: strong(e.g. Booth, Honey, Hart, Sabor,White)." []
+synonym: "fruit aroma" EXACT []
+relationship: VariableU_of SO11:0000056 ! Fruit aroma
+relationship: VariableU_of SO11:0000115 ! 3pt
+relationship: VariableU_of SO11:0000213 ! 3pt
+relationship: VariableU_of SO11:0000243 ! Sensory assessment: fruit aroma_method.
+relationship: VariableU_of SO11:0000245 ! 3pt
+relationship: VariableU_of SO11:0000339 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:23:23Z
+
+[Term]
+id: SO11:0000433
+name: strong
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000245 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:23:23Z
+
+[Term]
+id: SO11:0000434
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000245 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:23:23Z
+
+[Term]
+id: SO11:0000435
+name: low
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000249 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:55:53Z
+
+[Term]
+id: SO11:0000439
+name: high
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000249 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:55:53Z
+
+[Term]
+id: SO11:0000440
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000249 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T16:55:53Z
+
+[Term]
+id: SO11:0000441
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000059 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T17:14:25Z
+
+[Term]
+id: SO11:0000442
+name: many
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000059 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T17:14:25Z
+
+[Term]
+id: SO11:0000446
+name: few
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000063 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:00:55Z
+
+[Term]
+id: SO11:0000447
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000063 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:00:55Z
+
+[Term]
+id: SO11:0000448
+name: many
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000063 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:00:55Z
+
+[Term]
+id: SO11:0000452
+name: white
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000067 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T18:06:34Z
+
+[Term]
+id: SO11:0000454
+name: cream
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000067 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T18:06:34Z
+
+[Term]
+id: SO11:0000455
+name: pale yellow green
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000071 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:12:14Z
+
+[Term]
+id: SO11:0000456
+name: pale green
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000071 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:12:14Z
+
+[Term]
+id: SO11:0000457
+name: greyish green
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000071 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:12:14Z
+
+[Term]
+id: SO11:0000459
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000075 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:15:40Z
+
+[Term]
+id: SO11:0000460
+name: large
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000075 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:15:40Z
+
+[Term]
+id: SO11:0000465
+name: soft
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000079 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:21:16Z
+
+[Term]
+id: SO11:0000466
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000079 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:21:16Z
+
+[Term]
+id: SO11:0000467
+name: firm
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000079 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:21:16Z
+
+[Term]
+id: SO11:0000472
+name: high
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000087 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T18:47:12Z
+
+[Term]
+id: SO11:0000478
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000091 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:08:46Z
+
+[Term]
+id: SO11:0000479
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000091 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:08:46Z
+
+[Term]
+id: SO11:0000480
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000096 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:15:30Z
+
+[Term]
+id: SO11:0000481
+name: many
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000096 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:15:30Z
+
+[Term]
+id: SO11:0000484
+name: absent or very small
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000099 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-21T19:18:31Z
+
+[Term]
+id: SO11:0000485
+name: small
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000099 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-21T19:18:31Z
+
+[Term]
+id: SO11:0000486
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000099 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-21T19:18:31Z
+
+[Term]
+id: SO11:0000487
+name: large
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000099 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-21T19:18:31Z
+
+[Term]
+id: SO11:0000490
+name: reticulate
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000103 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T19:21:45Z
+
+[Term]
+id: SO11:0000491
+name: overlapping
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000103 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-21T19:21:45Z
+
+[Term]
+id: SO11:0000493
+name: circular
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000107 ! 5 pt
+created_by: aliciata
+creation_date: 2016-11-21T19:24:17Z
+
+[Term]
+id: SO11:0000494
+name: cordate
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000107 ! 5 pt
+created_by: aliciata
+creation_date: 2016-11-21T19:24:17Z
+
+[Term]
+id: SO11:0000495
+name: conical
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000107 ! 5 pt
+created_by: aliciata
+creation_date: 2016-11-21T19:24:17Z
+
+[Term]
+id: SO11:0000496
+name: broad conical
+namespace: CherimoyaScaleUPOV
+synonym: "4" EXACT []
+is_a: SO11:0000107 ! 5 pt
+created_by: aliciata
+creation_date: 2016-11-21T19:24:17Z
+
+[Term]
+id: SO11:0000497
+name: trapezoidal
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000107 ! 5 pt
+created_by: aliciata
+creation_date: 2016-11-21T19:24:17Z
+
+[Term]
+id: SO11:0000498
+name: thick
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000111 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:28:19Z
+
+[Term]
+id: SO11:0000501
+name: petal thickness
+namespace: CherimoyaVariableUPOV
+alt_id: SO11:0000208
+alt_id: SO11:0000210
+alt_id: SO11:0000365
+alt_id: SO11:0000397
+def: "Visual rating of petal thickness using a scale of 3: Thin (Bays, Campas, Fino de Jete), 5: Medium (Big sister, Honey Hart), 7: Thick (Libby, Sabor)." []
+synonym: "<new term>" EXACT []
+synonym: "PETAL THICKNESS" EXACT []
+synonym: "petal thickness" EXACT []
+relationship: VariableU_of SO11:0000027 ! Petal thickness
+relationship: VariableU_of SO11:0000111 ! 3pt
+relationship: VariableU_of SO11:0000207 ! Visual rating: petal thickness_method.
+relationship: VariableU_of SO11:0000209 ! 3pt
+relationship: VariableU_of SO11:0000225 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:28:19Z
+
+[Term]
+id: SO11:0000502
+name: weak
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000115 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:36:53Z
+
+[Term]
+id: SO11:0000503
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000115 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:36:53Z
+
+[Term]
+id: SO11:0000504
+name: strong
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000115 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:36:53Z
+
+[Term]
+id: SO11:0000513
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000123 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:47:03Z
+
+[Term]
+id: SO11:0000514
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000123 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:47:03Z
+
+[Term]
+id: SO11:0000515
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000123 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:47:03Z
+
+[Term]
+id: SO11:0000524
+name: small
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000131 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:57:44Z
+
+[Term]
+id: SO11:0000525
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000131 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:57:44Z
+
+[Term]
+id: SO11:0000526
+name: broad
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000131 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-21T19:57:44Z
+
+[Term]
+id: SO11:0000531
+name: absent
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000155 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-22T09:19:45Z
+
+[Term]
+id: SO11:0000532
+name: present
+namespace: CherimoyaScaleUPOV
+synonym: "9" EXACT []
+is_a: SO11:0000155 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-22T09:19:45Z
+
+[Term]
+id: SO11:0000538
+name: absent
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000159 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-22T09:23:35Z
+
+[Term]
+id: SO11:0000539
+name: present
+namespace: CherimoyaScaleUPOV
+synonym: "9" EXACT []
+is_a: SO11:0000159 ! 2pt
+created_by: aliciata
+creation_date: 2016-11-22T09:23:35Z
+
+[Term]
+id: SO11:0000544
+name: small
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000163 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:27:40Z
+
+[Term]
+id: SO11:0000545
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000163 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:27:40Z
+
+[Term]
+id: SO11:0000546
+name: large
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000163 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:27:40Z
+
+[Term]
+id: SO11:0000547
+name: broad ovate
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000167 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:31:00Z
+
+[Term]
+id: SO11:0000548
+name: ovate
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000167 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:31:00Z
+
+[Term]
+id: SO11:0000549
+name: narrow ovate
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000167 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:31:00Z
+
+[Term]
+id: SO11:0000550
+name: lanceolate
+namespace: CherimoyaScaleUPOV
+synonym: "4" EXACT []
+is_a: SO11:0000167 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:31:00Z
+
+[Term]
+id: SO11:0000552
+name: absent or very weak
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000171 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:34:00Z
+
+[Term]
+id: SO11:0000553
+name: weak
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000171 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:34:00Z
+
+[Term]
+id: SO11:0000554
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000171 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:34:00Z
+
+[Term]
+id: SO11:0000555
+name: strong
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000171 ! 4pt
+created_by: aliciata
+creation_date: 2016-11-22T09:34:00Z
+
+[Term]
+id: SO11:0000557
+name: narrow
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000175 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:36:59Z
+
+[Term]
+id: SO11:0000558
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000175 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:36:59Z
+
+[Term]
+id: SO11:0000559
+name: broad
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000175 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:36:59Z
+
+[Term]
+id: SO11:0000564
+name: medium
+namespace: CherimoyaScaleUPOV
+synonym: "5" EXACT []
+is_a: SO11:0000179 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:40:09Z
+
+[Term]
+id: SO11:0000565
+name: long
+namespace: CherimoyaScaleUPOV
+synonym: "7" EXACT []
+is_a: SO11:0000179 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:40:09Z
+
+[Term]
+id: SO11:0000566
+name: short
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000179 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:40:09Z
+
+[Term]
+id: SO11:0000575
+name: narrow cordate
+namespace: CherimoyaScaleUPOV
+synonym: "1" EXACT []
+is_a: SO11:0000183 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:49:54Z
+
+[Term]
+id: SO11:0000576
+name: cordate
+namespace: CherimoyaScaleUPOV
+synonym: "2" EXACT []
+is_a: SO11:0000183 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:49:54Z
+
+[Term]
+id: SO11:0000577
+name: broad cordate
+namespace: CherimoyaScaleUPOV
+synonym: "3" EXACT []
+is_a: SO11:0000183 ! 3pt
+created_by: aliciata
+creation_date: 2016-11-22T09:49:54Z
+
+[Typedef]
+id: MethodU_of
+name: Method_of
+namespace: CherimoyaMethodUPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:56:25Z
+
+[Typedef]
+id: ScaleU_of
+name: Scale_of
+namespace: CherimoyaScaleUPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:57:04Z
+
+[Typedef]
+id: VariableU_of
+name: Variable_of
+namespace: CherimoyaVariableUPOV
+created_by: fruticultura
+creation_date: 2016-11-07T17:56:41Z
+
