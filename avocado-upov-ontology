@@ -1,0 +1,4474 @@
+format-version: 1.2
+date: 05:12:2016 23:09
+saved-by: aliciata
+auto-generated-by: OBO-Edit 2.3
+default-namespace: AvocadoTraitUPOV
+
+[Term]
+id: SO21:0000000
+name: AvocadoOntology_UPOV
+namespace: Avocadotrait
+def: "Controlled vocabulary to describe each trait as a distinguishable, characteristic, quality or phenotypic feature of a developing or mature avocado trait." []
+creation_date: 2015-11-12T18:30:45Z
+
+[Term]
+id: SO21:0000001
+name: Agronomic trait
+namespace: Avocadotrait
+def: "A characteristic in an avocado plant that will add or remove economic value to agricultural production." []
+is_a: SO21:0000000 ! AvocadoOntology_UPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T13:18:01Z
+
+[Term]
+id: SO21:0000002
+name: Morphological trait
+namespace: Avocadotrait
+def: "Physical attributes that describe the shape or form of avocado plant." []
+is_a: SO21:0000000 ! AvocadoOntology_UPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T13:18:01Z
+
+[Term]
+id: SO21:0000003
+name: Phenological trait
+namespace: Avocadotrait
+def: "Characteristic related to the functioning of periodic avocado plant life cycle events and how these are influenced by seasonal and interannual variations." []
+is_a: SO21:0000000 ! AvocadoOntology_UPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T13:18:01Z
+
+[Term]
+id: SO21:0000004
+name: Quality trait
+namespace: Avocadotrait
+def: "A characteristic of distinguishing feature of avocado related to its utilization after harvest." []
+is_a: SO21:0000000 ! AvocadoOntology_UPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T13:18:01Z
+
+[Term]
+id: SO21:0000005
+name: Stress trait
+namespace: Avocadotrait
+def: "A characteristic related to plant functioning in the presence of a biotic or abiotic challenge to normal or optimal growing conditions." []
+is_a: SO21:0000000 ! AvocadoOntology_UPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T13:18:01Z
+
+[Term]
+id: SO21:0000006
+name: tree growth habit
+namespace: Avocadotrait
+def: "A tree trait which is associated with tree growth." []
+synonym: "growthabtree" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000007
+name: Mature fruit length
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait (TO:0002629) which is associated with the variation in the length of a fruit (PO:0009001)." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "lengthmatf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000008
+name: Mature fruit diameter
+namespace: Avocadotrait
+def: "A fruit size trait (TO:0002625) which is associated with the diameter of a fruit (PO:0009001)." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "dimmatf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000009
+name: Mature fruit ratio length /diameter
+namespace: Avocadotrait
+def: "Ratio of length to diameter estimated mature fruit." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "ratiolengthdiam" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000010
+name: Mature fruit shape of stalk end
+namespace: Avocadotrait
+def: "A fruit trait which is associated with the mature fruit shape of stalk end." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "shapstalkenmf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000011
+name: Mature fruit presence of neck
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait which is associated with the existence or absence of neck." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "presneckmatf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000012
+name: Mature fruit presence of depression at stalk end
+namespace: Avocadotrait
+def: "Mature fruit trait which is associated with the presence of depression at stalk end." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "presendepstalendmatf " EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000013
+name: Mature fruit shape at stylar region
+namespace: Avocadotrait
+def: "A fruit shape which is associated with the variation in the shape of fruit apex." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "shastyrmtf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000014
+name: Mature fruit conspicuousness of lenticels
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait which is a measure of the density of lenticels on fruit." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "conslentimatf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000015
+name: Mature fruit lenticels size
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait which is a measured of the size of lenticels on fruit." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "sizelentmatf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000016
+name: Mature fruit lenticels color
+namespace: Avocadotrait
+def: "A mature fruit trait which is associated with the lenticels color." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "colentilmf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000017
+name: Mature fruit glossiness
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait (TO:0002629) which is associated with the appearance of glossiness of the fruit skin." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "glossmatf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000018
+name: Mature fruit surface
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait which is associated with fruit skin surface." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "surfmatf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000019
+name: Ripe fruit color
+namespace: Avocadotrait
+def: "A ripe fruit trait which is associated with color." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "coloripef" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000020
+name: Ripe fruit thickness of skin
+namespace: Avocadotrait
+def: "A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "thickskinripf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000021
+name: Ripe fruit consistency of skin
+namespace: Avocadotrait
+def: "A ripe fruit trait which is associated with the consistency of skin." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "coskinripfruit " EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000022
+name: Ripe fruit adherence of skin to flesh
+namespace: Avocadotrait
+def: "A ripe fruit trait which is associated with adherence of skin to flesh." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "Adskinflerip" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000023
+name: Ripe fruit main color of flesh
+namespace: Avocadotrait
+def: "A fruit anatomy and morphological trait which is associated with the flesh color." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "maincoflesripf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000024
+name: Ripe fruit color of layer next to skin
+namespace: Avocadotrait
+def: "A ripe fruit trait which is associated with the color of layer next to skin." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "colayneskinripf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000025
+name: Ripe fruit width of layer next to skin
+namespace: Avocadotrait
+def: "A ripe fruit trait which is associated with the width of layer next to skin." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "widtlanexskinripf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000026
+name: Ripe fruit conspicuousness of fibers in flesh
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait which is associated with the flesh fibre." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "consfibflesripf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000027
+name: Ripe fruit consistency of flesh
+namespace: Avocadotrait
+def: "The best measurement of ripeness. Assessment  of the force necessary to break the flesh tissues and depends on the different growth stages during the ripening process." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "consisflesripf" RELATED []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000028
+name: Ripe fruit anise aroma of flesh
+namespace: Avocadotrait
+def: "A ripe fruit trait which is associated with the anise aroma of flesh." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "Anarflesripf" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000029
+name: Ripe fruit ratio fruit length/seed length
+namespace: Avocadotrait
+def: "Ratio of  fruit length over seed length estimated in ripe fruit." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "ratflesedflenripf " EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:04:27Z
+
+[Term]
+id: SO21:0000030
+name: Seed shape in longitudinal section (lateral view).
+namespace: Avocadotrait
+def: "A seed trait which is associated with the shape in longitudinal section." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "shaplonsectse" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:06:35Z
+
+[Term]
+id: SO21:0000031
+name: Seed shape in cross section
+namespace: Avocadotrait
+def: "A seed trait which is associated with the shape in cross section." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "shcrosectseed" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:06:35Z
+
+[Term]
+id: SO21:0000032
+name: Seed coat adherence to flesh
+namespace: Avocadotrait
+def: "A seed coat trait which is associated with adherence of seed coat to flesh." []
+synonym: "Adhfleseedc" EXACT []
+is_a: SO21:0000001 ! Agronomic trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:06:35Z
+
+[Term]
+id: SO21:0000033
+name: Shoot length of internode
+namespace: Avocadotrait
+def: "Measurement of length of the internode." []
+synonym: "lengthinternodofshoot" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000034
+name: Leaf attitude relative to shoot
+namespace: Avocadotrait
+def: "A leaf trait which is associated with the  attitude relative to shoot." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "leafattitrelativshoot" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000035
+name: Leaf blade length
+namespace: Avocadotrait
+def: "A leaf lamina anatomy and morphology trait (TO:0000829) which is associated with the actual length measurements." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "lengtleafblad" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000036
+name: Leaf blade width
+namespace: Avocadotrait
+def: "A leaf lamina anatomy and morphology trait which is associated with the leaf blade width." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000037
+name: Young shoot color
+namespace: Avocadotrait
+def: "A shoot anatomy and morphology trait which is associated with young shoot color." []
+synonym: "coloyoungshoot" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000038
+name: Young shoot color of lenticels
+namespace: Avocadotrait
+def: "A shoot anatomy and morphology trait which is associated with young shoot color of lenticels." []
+synonym: "cololentiyounshoot" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000039
+name: Young leaf color of pubescence of petiole
+namespace: Avocadotrait
+def: "A leaf anatomy and morphology trait which is associated with the pubescence of petiole of young leaf." []
+comment: All observations on pubescence should be made with the aid of a magnifying glass.
+synonym: "younglecolorpubespetiol" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000040
+name: Leaf blade ratio length/width
+namespace: Avocadotrait
+def: "Ratio of leaf length over width." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "ratlengthwidthleafb" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000041
+name: Leaf blade shape
+namespace: Avocadotrait
+def: "A leaf anatomy and morphology trait (TO:0000748) which is associated with the variation in shapes and forms of a leaf (PO:0025034)." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "shapeleafblade" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000042
+name: Leaf blade shape of apex
+namespace: Avocadotrait
+def: "A leaf anatomy and morphology trait which is associated with the leaf blade shape of apex." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "shapeapexleafb" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000043
+name: Leaf blade twisting along whole length
+namespace: Avocadotrait
+def: "A trait to measure leaf spiralling." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "twistalongwholengthleafb" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000044
+name: Leaf blade twisting of apex
+namespace: Avocadotrait
+def: "A leaf anatomy and morphology trait which is associated with the twisting of apex." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "twistapexleafb" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000045
+name: Leaf blade undulation of margin
+namespace: Avocadotrait
+def: "A leaf margin anatomy and morphology trait  which is associated with the undulation of margin." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "undulamarginleafb " EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000046
+name: Leaf blade relief of venation on upper surface
+namespace: Avocadotrait
+def: "A leaf anatomy and morphology trait which is associated with the relief of venation on upper surface." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "reliefvenatuppersurfleafb" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000047
+name: Leaf blade number of secondary veins
+namespace: Avocadotrait
+def: "A leaf anatomy and morphology trait which is associated with the number of secondary veins." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "nseconveinfleaf" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000048
+name: Leaf blade density of pubescence on lower surface
+namespace: Avocadotrait
+def: "A leaf anatomical and morphological trait which is associated with  the density of pubescence on lower surface." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.\n\nAll observations on pubescence should be made with the aid of a\nmagnifying glass.
+synonym: "leafbdenspubeonlowsurf" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000049
+name: Leaf blade anise aroma
+namespace: Avocadotrait
+def: "A leaf trait which is associated with the anise smell." []
+comment: Unless otherwise indicated, all observations on the leaf should be made\non mature leaves from branches which are neither bearing fruit nor showing\nsigns of new flush on the outside of the tree. They should be made in the\nmiddle third of the current season's growth.
+synonym: "anisearomleafb" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000050
+name: Petiole length
+namespace: Avocadotrait
+def: "Length of the petiole." []
+synonym: "lengthofpetiole" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000051
+name: Inflorescence length of axis
+namespace: Avocadotrait
+def: "A inflorescence anatomy and morphology trait which is associated with the length of axis." []
+comment: All observations on the inflorescence should be made at the\ntime of full flowering.
+synonym: "lengaxisinflor" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000052
+name: Inflorescence color of lenticels
+namespace: Avocadotrait
+def: "A inflorescence anatomy and morphology trait which is associated with the lenticels color." []
+comment: All observations on the inflorescence should be made at the\ntime of full flowering.
+synonym: "inflorcoloelentic" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000053
+name: Flowering type of inflorescence
+namespace: Avocadotrait
+def: "A flower anatomy and morphology trait (TO:0000499) which is associated with the type of a flower (PO:0009046)." []
+comment: All observations on the inflorescence should be made at the\ntime of full flowering.
+synonym: "flowtypinflor" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000054
+name: Flower nectary
+namespace: Avocadotrait
+def: "A flower anatomy and morphology trait which is associated with the nectary." []
+comment: All observations on the flower should be made during female\nopening.
+synonym: "nectaryflow" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000055
+name: Flower style
+namespace: Avocadotrait
+def: "A floral organ shape that is associated with the shape of the style." []
+comment: All observations on the flower should be made during female\nopening.
+synonym: "styleflower" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000056
+name: Pollen
+namespace: Avocadotrait
+def: "Existence or absence of pollen." []
+comment: All observations on the flower should be made during female\nopening.
+synonym: "pollenf" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000057
+name: Sepal pubescence of inner surface
+namespace: Avocadotrait
+def: "A sepal anatomical and morphological trait which is associated with  inner surface pubescence." []
+comment: All observations on pubescence should be made with the aid of a\nmagnifying glass.
+synonym: "pubesinnersurfsepal" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000058
+name: Sepal density of pubescence of inner surface
+namespace: Avocadotrait
+def: "A sepal anatomical and morphological trait which is associated with  the density of pubescence of inner surface." []
+comment: All observations on pubescence should be made with the aid of a\nmagnifying glass.
+synonym: "sepaldensitpubeinsurfa" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000059
+name: Mature fruit diameter of stalk attachment
+namespace: Avocadotrait
+def: "A mature fruit anatomical and morphological trait which is associated with stalk attachment diameter." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "matfdiamstalkattach" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000060
+name: Mature fruit position of stalk
+namespace: Avocadotrait
+def: "A fruit anatomy and morphology trait which is associated with the position of stalk." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "positstalkmf" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000061
+name: Mature fruit persistence of perianth
+namespace: Avocadotrait
+def: "Presence of a collective phyllome structure (PO:0025023) that includes as parts the corolla (PO:0009059) and/or the calyx (PO:0009060); or one or more tepals (PO:0009033)." []
+comment: The mature fruit is defined as the fruit ready for harvesting.
+synonym: "persistperianthofmf" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000062
+name: Pedicel thickness compared to peduncle (at junction)
+namespace: Avocadotrait
+def: "Difference of width between the pedicel and the peduncle." []
+comment: All observations on the pedicel should be made on mature fruits.
+synonym: "thicknesscompapeduncpedic" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000063
+name: Pedicel length
+namespace: Avocadotrait
+def: "Length of the pedicel." []
+comment: All observations on the pedicel should be made on mature fruits.
+synonym: "lengthofpedicel" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000064
+name: Pedicel shape
+namespace: Avocadotrait
+def: "A pedicel anatomy and morphology trait which is associated with the pedicel shape." []
+comment: All observations on the pedicel should be made on mature fruits.
+synonym: "shappedicel" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000065
+name: Pedicel "Nailhead"
+namespace: Avocadotrait
+def: "A pedicel anatomy and morphology trait which is associated with nailhead pedicel apex shape." []
+comment: All observations on the pedicel should be made on mature fruits.
+synonym: "nailheadped" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000066
+name: Pedicel color
+namespace: Avocadotrait
+def: "A pedicel anatomy and morphology trait which is associated with the pedicel color." []
+comment: All observations on the pedicel should be made on mature fruits.
+synonym: "colorpedic" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000067
+name: Pedicel surface
+namespace: Avocadotrait
+def: "A pedicel anatomy and morphology trait  which is associated with the pedicel surface." []
+comment: All observations on the pedicel should be made on mature fruits.
+synonym: "surfacepedicel" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000068
+name: Seed coat adherence to cotyledon
+namespace: Avocadotrait
+def: "A seed coat trait which is associated with adherence to cotyledon." []
+synonym: "adhcotyseedcoat" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000069
+name: Seed coat surface
+namespace: Avocadotrait
+def: "A seed anatomy and morphology trait  which is associated with the seed coat surface." []
+synonym: "surfaceseedcoat" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000070
+name: Cotyledon surface
+namespace: Avocadotrait
+def: "A cotyledon anatomy and morphology trait  which is associated with the cotyledon surface." []
+comment: observations on the ripe fruit, seed and cotyledon\nwhich should be made when the fruit is ready for eating.
+synonym: "surfacecotyledon " EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000071
+name: Time of beginning of flowering
+namespace: Avocadotrait
+def: "A plant phenological trait (TO:0000933) associated with the timing of anthesis (flowering stage; PO:0007616)." []
+synonym: "timebeginflower" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000072
+name: Time of fruit maturity for harvesting
+namespace: Avocadotrait
+def: "A plant phenological trait  associated with the timing of fruit maturity for harvesting." []
+synonym: "timefruitmaturitharvesting. " EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000073
+name: Seed multiple sprouting
+namespace: Avocadotrait
+def: "Existence or absence of multiple sprouting seeds." []
+synonym: "seedmultsprouting" EXACT []
+is_a: SO21:0000002 ! Morphological trait
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:24:28Z
+
+[Term]
+id: SO21:0000075
+name: Visual Observation: ripe fruit adherence of skin to flesh_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000022 ! Ripe fruit adherence of skin to flesh
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:26:37Z
+
+[Term]
+id: SO21:0000076
+name: Ripe fruit adherence of skin to flesh
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000074
+alt_id: SO21:0000346
+comment: Visual observation of adherence of skin to flesh of ripe fruit with 1:Weak(e.g. Edranol, Fuerte), 2: Intermediate(e.g.Sharwil), 3:Strong(e.g.Ettinger, Nabal, Teague).
+synonym: "<new term 1>" EXACT []
+relationship: Variableu_of SO21:0000022 ! Ripe fruit adherence of skin to flesh
+relationship: Variableu_of SO21:0000075 ! Visual Observation: ripe fruit adherence of skin to flesh_method
+relationship: Variableu_of SO21:0000077 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:27:04Z
+
+[Term]
+id: SO21:0000077
+name: 3pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000075 ! Visual Observation: ripe fruit adherence of skin to flesh_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:27:04Z
+
+[Term]
+id: SO21:0000079
+name: Visual observation: seed coat adherence to flesh_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000032 ! Seed coat adherence to flesh
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:27:31Z
+
+[Term]
+id: SO21:0000083
+name: Sensory assessment : ripe fruit anise aroma of flesh_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000028 ! Ripe fruit anise aroma of flesh
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:28:16Z
+
+[Term]
+id: SO21:0000087
+name: visual observation: ripe fruit color of layer next to skin_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000024 ! Ripe fruit color of layer next to skin
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:29:07Z
+
+[Term]
+id: SO21:0000088
+name: ripe fruit color of layer next to skin
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000086
+alt_id: SO21:0000369
+def: "Visual observation of ripe fruit color of layer next to skin with: 1:light green(e.g. Santana), 2: medium green(e.g. Hass, Sharwil,Sir Prize), 3:yellow green (e.g.Duke)." []
+synonym: "<new term 1>" EXACT []
+synonym: "color of layer next to skin of ripe fruit. " EXACT []
+relationship: Variableu_of SO21:0000024 ! Ripe fruit color of layer next to skin
+relationship: Variableu_of SO21:0000087 ! visual observation: ripe fruit color of layer next to skin_method
+relationship: Variableu_of SO21:0000089 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:29:21Z
+
+[Term]
+id: SO21:0000089
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000087 ! visual observation: ripe fruit color of layer next to skin_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:29:21Z
+
+[Term]
+id: SO21:0000091
+name: visual observation : mature fruit lenticels color_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000016 ! Mature fruit lenticels color
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:29:42Z
+
+[Term]
+id: SO21:0000092
+name: Mature fruit lenticels color
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000090
+alt_id: SO21:0000374
+def: "Visual observation of color of lenticels of mature fruit with: 1: cream(e.g. Biscayne Seedling), 2: yellow(e.g. Fuerte), 3: light green(e.g. Akbal), 4: brown ( Aycock Red 3, Carlsbad)." []
+synonym: "<new term 2>" EXACT []
+synonym: "color of lenticels of mature fruit " EXACT []
+relationship: Variableu_of SO21:0000016 ! Mature fruit lenticels color
+relationship: Variableu_of SO21:0000091 ! visual observation : mature fruit lenticels color_method
+relationship: Variableu_of SO21:0000093 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:29:58Z
+
+[Term]
+id: SO21:0000093
+name: 4 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000091 ! visual observation : mature fruit lenticels color_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:29:58Z
+
+[Term]
+id: SO21:0000095
+name: visual observation: ripe fruit color_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000019 ! Ripe fruit color
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:30:22Z
+
+[Term]
+id: SO21:0000097
+name: 7pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000095 ! visual observation: ripe fruit color_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:30:41Z
+
+[Term]
+id: SO21:0000099
+name: Assessment: ripe fruit consistency of flesh_method.
+namespace: AvocadoMethodUPOV
+def: "Assessment  of the force necessary to break the flesh tissues and depends on the different growth stages during the ripening process." []
+relationship: methodu_of SO21:0000027 ! Ripe fruit consistency of flesh
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:30:59Z
+
+[Term]
+id: SO21:0000101
+name: 4 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000099 ! Assessment: ripe fruit consistency of flesh_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:31:18Z
+
+[Term]
+id: SO21:0000103
+name: Assessment : ripe fruit consistency of skin_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000021 ! Ripe fruit consistency of skin
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:31:40Z
+
+[Term]
+id: SO21:0000105
+name: 3pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000103 ! Assessment : ripe fruit consistency of skin_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:31:59Z
+
+[Term]
+id: SO21:0000107
+name: visual observation: ripe fruit conspicuousness of fibers in flesh_method.
+namespace: Avocadotrait
+relationship: methodu_of SO21:0000026 ! Ripe fruit conspicuousness of fibers in flesh
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:32:22Z
+
+[Term]
+id: SO21:0000108
+name: Ripe fruit conspicuousness of fibers in flesh
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000106
+alt_id: SO21:0000395
+def: "Visual observation of ripe fruit conspicuousness of fibers in flesh with: 1: inconspicuous(e.g. Fuerte, Santana), 2:  conspicuous (e.g. Edranol, Ettinger, Ryan)." []
+synonym: "<new term 1>" EXACT []
+synonym: "conspicuousness of fibers in flesh of ripe fruit " EXACT []
+relationship: Variableu_of SO21:0000026 ! Ripe fruit conspicuousness of fibers in flesh
+relationship: Variableu_of SO21:0000107 ! visual observation: ripe fruit conspicuousness of fibers in flesh_method.
+relationship: Variableu_of SO21:0000109 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:32:39Z
+
+[Term]
+id: SO21:0000109
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000107 ! visual observation: ripe fruit conspicuousness of fibers in flesh_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:32:39Z
+
+[Term]
+id: SO21:0000111
+name: Visual observation: mature fruit conspicuousness of lenticels_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000014 ! Mature fruit conspicuousness of lenticels
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:33:01Z
+
+[Term]
+id: SO21:0000112
+name: Mature fruit conspicuousness of lenticels
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000110
+alt_id: SO21:0000398
+def: "Visual observation of conspicuousness of lenticels of mature fruit with 1: inconspicuous or weak (e.g. Topa Topa), 2: medium (e.g. Fuerte), 3: strong(e.g. Carlsbad , Stewart)." []
+synonym: "<new term 1>" EXACT []
+synonym: "conspicuousness of lenticels of mature fruit." EXACT []
+relationship: Variableu_of SO21:0000014 ! Mature fruit conspicuousness of lenticels
+relationship: Variableu_of SO21:0000111 ! Visual observation: mature fruit conspicuousness of lenticels_method.
+relationship: Variableu_of SO21:0000113 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:33:21Z
+
+[Term]
+id: SO21:0000113
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000111 ! Visual observation: mature fruit conspicuousness of lenticels_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:33:21Z
+
+[Term]
+id: SO21:0000115
+name: Visual observation: mature fruit diameter_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000008 ! Mature fruit diameter
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:33:41Z
+
+[Term]
+id: SO21:0000119
+name: Visual rating: mature fruit glossiness_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000017 ! Mature fruit glossiness
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:34:49Z
+
+[Term]
+id: SO21:0000123
+name: Visual rating: tree growth habit_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000006 ! tree growth habit
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:35:23Z
+
+[Term]
+id: SO21:0000124
+name: tree growth habit
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000122
+alt_id: SO21:0000419
+def: "Visual rating of tree growth habit with 1: upright (e.g. Bacon , Zutano), 2: spreading(e.g. Fuerte, Hass), 3: semi drooping (e.g. Colín V-33), 4: drooping." []
+synonym: "<new term 1>" EXACT []
+synonym: "growth habit of tree" EXACT []
+relationship: Variableu_of SO21:0000006 ! tree growth habit
+relationship: Variableu_of SO21:0000123 ! Visual rating: tree growth habit_method.
+relationship: Variableu_of SO21:0000125 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:35:39Z
+
+[Term]
+id: SO21:0000125
+name: 4 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000123 ! Visual rating: tree growth habit_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:35:39Z
+
+[Term]
+id: SO21:0000127
+name: Visual observation: mature fruit length_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000007 ! Mature fruit length
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:36:00Z
+
+[Term]
+id: SO21:0000131
+name: visual observation: ripe fruit main color of flesh_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000023 ! Ripe fruit main color of flesh
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:36:29Z
+
+[Term]
+id: SO21:0000133
+name: 4 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000131 ! visual observation: ripe fruit main color of flesh_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:36:45Z
+
+[Term]
+id: SO21:0000135
+name: Visual rating: Mature fruit presence of depression at stalk end_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000012 ! Mature fruit presence of depression at stalk end
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:37:06Z
+
+[Term]
+id: SO21:0000139
+name: Visual observation: Mature fruit presence of neck_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000011 ! Mature fruit presence of neck
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:37:49Z
+
+[Term]
+id: SO21:0000143
+name: Visual observation: Mature fruit ratio length /diameter_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000009 ! Mature fruit ratio length /diameter
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:38:29Z
+
+[Term]
+id: SO21:0000147
+name: visual observation: ratio fruit length/ seed length of ripe fruit_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000029 ! Ripe fruit ratio fruit length/seed length
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:39:03Z
+
+[Term]
+id: SO21:0000151
+name: visual observation: mature fruit shape at stylar region_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000013 ! Mature fruit shape at stylar region
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:39:41Z
+
+[Term]
+id: SO21:0000152
+name: Mature fruit shape at stylar region
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000150
+alt_id: SO21:0000482
+def: "Visual observation of shape at stylar region of mature fruit with 1: pointed(e.g. Lamat, Mexicola), 2:rounded, 3:flattened(e.g. Dade, Stewart, Trapp), 4:slightly depressed(e.g. Gordo, Irving, Nimlioh),5:deeply depressed(e.g.Duke)." []
+synonym: "<new term 6>" EXACT []
+synonym: "shape at stylar region of mature fruit. " EXACT []
+relationship: Variableu_of SO21:0000013 ! Mature fruit shape at stylar region
+relationship: Variableu_of SO21:0000151 ! visual observation: mature fruit shape at stylar region_method.
+relationship: Variableu_of SO21:0000153 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:40:06Z
+
+[Term]
+id: SO21:0000153
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000151 ! visual observation: mature fruit shape at stylar region_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:40:06Z
+
+[Term]
+id: SO21:0000155
+name: Visual observation: Seed shape in cross section_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000031 ! Seed shape in cross section
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:40:27Z
+
+[Term]
+id: SO21:0000156
+name: Seed shape in cross section
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000154
+alt_id: SO21:0000484
+def: "Visual observation of seed shape in cross section with 1: circular(e.g. Fuerte), 2: elliptic(e.g. Ryan)." []
+synonym: "<new term 2>" EXACT []
+synonym: "shape in cross section of seed. " EXACT []
+relationship: Variableu_of SO21:0000031 ! Seed shape in cross section
+relationship: Variableu_of SO21:0000155 ! Visual observation: Seed shape in cross section_method.
+relationship: Variableu_of SO21:0000157 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:40:45Z
+
+[Term]
+id: SO21:0000157
+name: 3pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000155 ! Visual observation: Seed shape in cross section_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:40:45Z
+
+[Term]
+id: SO21:0000159
+name: visual observation: seed shape in longitudinal section (lateral view)._method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000030 ! Seed shape in longitudinal section (lateral view).
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:41:16Z
+
+[Term]
+id: SO21:0000160
+name: seed shape in longitudinal section (lateral view).
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000158
+alt_id: SO21:0000486
+def: "Visual observation of seed shape in longitudinal section (lateral view) with: 1: triangular(e.g. Simmonds, Telsen, Zutano), 2: ovate (e.g. Anaheim, Colín V-33, Rincon), 3: elliptic(e.g. Jan Boyce, Lima Late, Topa Topa), 4:circular(e.g. Lamat, Lamb Hass, Mayapan), 5: oblate(e.g. Hayes, McDonald, Suardia), 6: depressed oblate(Carlsbad Nowels)." []
+synonym: "<new term 1>" EXACT []
+synonym: "shape in longitudinal section(lateral view) of seed. " EXACT []
+relationship: Variableu_of SO21:0000030 ! Seed shape in longitudinal section (lateral view).
+relationship: Variableu_of SO21:0000159 ! visual observation: seed shape in longitudinal section (lateral view)._method.
+relationship: Variableu_of SO21:0000161 ! 6pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:41:31Z
+
+[Term]
+id: SO21:0000161
+name: 6pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000159 ! visual observation: seed shape in longitudinal section (lateral view)._method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:41:31Z
+
+[Term]
+id: SO21:0000163
+name: Visual observation: mature fruit shape of stalk end_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000010 ! Mature fruit shape of stalk end
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:41:53Z
+
+[Term]
+id: SO21:0000164
+name: mature fruit shape of stalk end
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000162
+alt_id: SO21:0000494
+def: "Visual observation of shape of stalk end of mature fruit with 1: pointed(e.g. Dickinson, Frazer), 2: narrowly rounded(e.g.Carlsbad, Edranol, Sharwil), 3:broadly rounded(e.g. Esther, Hashimoto, Nimlioh), 4: truncate(e.g.Lamb Hass, Mayo, Puebla)." []
+synonym: "<new term 1>" EXACT []
+synonym: "<new term 2>" EXACT []
+relationship: Variableu_of SO21:0000010 ! Mature fruit shape of stalk end
+relationship: Variableu_of SO21:0000163 ! Visual observation: mature fruit shape of stalk end_method.
+relationship: Variableu_of SO21:0000165 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:42:07Z
+
+[Term]
+id: SO21:0000165
+name: 4 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000163 ! Visual observation: mature fruit shape of stalk end_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:42:07Z
+
+[Term]
+id: SO21:0000167
+name: visual rating: mature fruit lenticels size_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000015 ! Mature fruit lenticels size
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:42:25Z
+
+[Term]
+id: SO21:0000170
+name: Mature fruit surface
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000168
+alt_id: SO21:0000172
+def: "Sensory assessment of surface of mature fruit with 1: very smooth (e.g.Duke, Simmonds, Topa Topa), 3:smooth(e.g. Bacon, Ettinger), 5: medium(e.g. Alboyce,Fuerte,Horshim), 7:rough(e.g.Hass, Whitsell), 9:very rought (e.g. Dickinson)." []
+synonym: "surface of mature fruit " EXACT []
+relationship: Variableu_of SO21:0000018 ! Mature fruit surface
+relationship: Variableu_of SO21:0000171 ! sensory assessment: mature fruit surface_method.
+relationship: Variableu_of SO21:0000173 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:43:01Z
+
+[Term]
+id: SO21:0000171
+name: sensory assessment: mature fruit surface_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000018 ! Mature fruit surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:43:01Z
+
+[Term]
+id: SO21:0000173
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000171 ! sensory assessment: mature fruit surface_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:43:18Z
+
+[Term]
+id: SO21:0000175
+name: visual observation: ripe fruit thickness of skin_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000020 ! Ripe fruit thickness of skin
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:44:16Z
+
+[Term]
+id: SO21:0000176
+name: Ripe fruit thickness of skin
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000174
+alt_id: SO21:0000509
+def: "Visual observation of ripe fruit thickness of skin with 1: very thin(e.g. Mexicola, Topa Topa), 3: moderately thin(e.g. Colín V-33, Fuerte), 5: medium(e.g. Edranol), 7:moderately thick(e.g.Hass), 9: very thick(e.g. Dickinson)." []
+synonym: "<new term 1>" EXACT []
+synonym: "thickness of skin of ripe fruit" EXACT []
+relationship: Variableu_of SO21:0000020 ! Ripe fruit thickness of skin
+relationship: Variableu_of SO21:0000175 ! visual observation: ripe fruit thickness of skin_method.
+relationship: Variableu_of SO21:0000177 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:44:44Z
+
+[Term]
+id: SO21:0000177
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000175 ! visual observation: ripe fruit thickness of skin_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:44:44Z
+
+[Term]
+id: SO21:0000179
+name: visual observation: ripe fruit width of layer next to skin_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000025 ! Ripe fruit width of layer next to skin
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:45:04Z
+
+[Term]
+id: SO21:0000181
+name: 3pt
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000179 ! visual observation: ripe fruit width of layer next to skin_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:45:31Z
+
+[Term]
+id: SO21:0000183
+name: visual observation: pedicel "Nailhead"_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000065 ! Pedicel "Nailhead"
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:47:06Z
+
+[Term]
+id: SO21:0000187
+name: Visual observation: seed coat adherence to cotyledon_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000068 ! Seed coat adherence to cotyledon
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:47:48Z
+
+[Term]
+id: SO21:0000191
+name: sensory assessment: leaf blade anise aroma_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000049 ! Leaf blade anise aroma
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:50:27Z
+
+[Term]
+id: SO21:0000195
+name: visual observation: leaf attitude relative to shoot_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000034 ! Leaf attitude relative to shoot
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:51:55Z
+
+[Term]
+id: SO21:0000196
+name: Leaf attitude relative to shoot
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000194
+alt_id: SO21:0000547
+def: "Visual observation of leaf attitude relative to shoot with: 1: upwards (e.g. G-6), 2: outwards(e.g.Hass), 3: downwards." []
+synonym: "<new term 2>" EXACT []
+synonym: "attitude relative to shoot of leaf " EXACT []
+relationship: Variableu_of SO21:0000034 ! Leaf attitude relative to shoot
+relationship: Variableu_of SO21:0000195 ! visual observation: leaf attitude relative to shoot_method.
+relationship: Variableu_of SO21:0000197 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:52:12Z
+
+[Term]
+id: SO21:0000197
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000195 ! visual observation: leaf attitude relative to shoot_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:52:12Z
+
+[Term]
+id: SO21:0000199
+name: visual rating: Inflorescence color of lenticels_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000052 ! Inflorescence color of lenticels
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:53:55Z
+
+[Term]
+id: SO21:0000200
+name: Inflorescence color of lenticels
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000198
+alt_id: SO21:0000550
+def: "Visual rating of inflorescence color of lenticels with 1: green(e.g. Topa Topa), 2:red(e.g. Teague)." []
+synonym: "<new term 1>" EXACT []
+synonym: "color of lenticels of inflorescence. " EXACT []
+relationship: Variableu_of SO21:0000052 ! Inflorescence color of lenticels
+relationship: Variableu_of SO21:0000199 ! visual rating: Inflorescence color of lenticels_method.
+relationship: Variableu_of SO21:0000201 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:54:09Z
+
+[Term]
+id: SO21:0000201
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000199 ! visual rating: Inflorescence color of lenticels_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:54:09Z
+
+[Term]
+id: SO21:0000203
+name: visual rating: young shoot color of lenticels_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000038 ! Young shoot color of lenticels
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:54:34Z
+
+[Term]
+id: SO21:0000204
+name: young shoot color of lenticels
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000202
+alt_id: SO21:0000554
+def: "Visual rating of young shoot color of lenticels: 1: yellow, 2:green(e.g. Collinson, G-22), 3: red(e.g. Benedict,Duke 6), 4:purple." []
+synonym: "<new term 1>" EXACT []
+synonym: "<new term 2>" EXACT []
+relationship: Variableu_of SO21:0000038 ! Young shoot color of lenticels
+relationship: Variableu_of SO21:0000203 ! visual rating: young shoot color of lenticels_method.
+relationship: Variableu_of SO21:0000205 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:54:55Z
+
+[Term]
+id: SO21:0000205
+name: 4 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000203 ! visual rating: young shoot color of lenticels_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:54:55Z
+
+[Term]
+id: SO21:0000207
+name: visual rating: pedicel color_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000066 ! Pedicel color
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:55:20Z
+
+[Term]
+id: SO21:0000208
+name: pedicel color
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000206
+alt_id: SO21:0000555
+def: "Visual rating of pedicel color with: 1: yellow(e.g. Aycock,Red 3, Duke), 2:yellow green (e.g.Hass, Iriet), 3: Green(e.g. Alboyce,Lamat), 4:green brown(e.g. Horshim), 5: reddish(e.g. Wurtz)." []
+synonym: "<new term 1>" EXACT []
+synonym: "color of pedicel" EXACT []
+relationship: Variableu_of SO21:0000066 ! Pedicel color
+relationship: Variableu_of SO21:0000207 ! visual rating: pedicel color_method.
+relationship: Variableu_of SO21:0000209 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:55:36Z
+
+[Term]
+id: SO21:0000209
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000207 ! visual rating: pedicel color_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:55:36Z
+
+[Term]
+id: SO21:0000211
+name: visual rating: young leaf color of pubescence of petiole_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000039 ! Young leaf color of pubescence of petiole
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:55:58Z
+
+[Term]
+id: SO21:0000212
+name: young leaf color of pubescence of petiole
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000210
+alt_id: SO21:0000564
+def: "Visual rating of young leaf color of pubescence of petiole:\n1: white (e.g. Edranol), 2: yellow(e.g. Duke 6), 3:brown, 4:red brown(e.g. Fuerte)." []
+synonym: "<new term 1>" EXACT []
+synonym: "color of pubescence of petiole of young leaf" EXACT []
+relationship: Variableu_of SO21:0000039 ! Young leaf color of pubescence of petiole
+relationship: Variableu_of SO21:0000211 ! visual rating: young leaf color of pubescence of petiole_method.
+relationship: Variableu_of SO21:0000213 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:56:16Z
+
+[Term]
+id: SO21:0000213
+name: 4 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000211 ! visual rating: young leaf color of pubescence of petiole_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:56:16Z
+
+[Term]
+id: SO21:0000215
+name: visual rating: young shoot color_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000037 ! Young shoot color
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:56:41Z
+
+[Term]
+id: SO21:0000216
+name: young shoot color
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000214
+alt_id: SO21:0000569
+def: "Visual rating of color of young shoot with 1: yellow green (e.g. Collinson), 2: green (e.g. Benedict, G-22, Teague), 3: reddish(e.g. Duke 6)." []
+synonym: "<new term 1>" EXACT []
+synonym: "color of young shoot " EXACT []
+relationship: Variableu_of SO21:0000037 ! Young shoot color
+relationship: Variableu_of SO21:0000215 ! visual rating: young shoot color_method.
+relationship: Variableu_of SO21:0000217 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:57:03Z
+
+[Term]
+id: SO21:0000217
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000215 ! visual rating: young shoot color_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:57:03Z
+
+[Term]
+id: SO21:0000219
+name: Visual observation : sepal density of pubescence of inner surface_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000058 ! Sepal density of pubescence of inner surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:57:32Z
+
+[Term]
+id: SO21:0000220
+name: sepal density of pubescence of inner surface
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000218
+alt_id: SO21:0000573
+def: "Visual observation of sepal density of pubescence of inner surface:\n3: sparse(e.g. Hass), 5: medium, 7:dense(e.g.Duke)." []
+synonym: "<new term 1>" EXACT []
+synonym: "density of pubescence of inner surface of sepal. " EXACT []
+relationship: Variableu_of SO21:0000058 ! Sepal density of pubescence of inner surface
+relationship: Variableu_of SO21:0000219 ! Visual observation : sepal density of pubescence of inner surface_method.
+relationship: Variableu_of SO21:0000221 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:57:47Z
+
+[Term]
+id: SO21:0000221
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000219 ! Visual observation : sepal density of pubescence of inner surface_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:57:47Z
+
+[Term]
+id: SO21:0000223
+name: visual observation: leaf blade density of pubescence on lower surface_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000048 ! Leaf blade density of pubescence on lower surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:58:09Z
+
+[Term]
+id: SO21:0000224
+name: leaf blade density of pubescence on lower surface
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000222
+alt_id: SO21:0000577
+def: "Visual observation of leaf blade density of pubescence on lower surface with: 1: absent or sparse (e.g. Hass), 2: medium(e.g. Edranol), 3:dense(e.g.Duke)." []
+synonym: "<new term 1>" EXACT []
+synonym: "density of pubescence on lower surface of leaf blade. " EXACT []
+relationship: Variableu_of SO21:0000048 ! Leaf blade density of pubescence on lower surface
+relationship: Variableu_of SO21:0000223 ! visual observation: leaf blade density of pubescence on lower surface_method.
+relationship: Variableu_of SO21:0000225 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:58:24Z
+
+[Term]
+id: SO21:0000225
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000223 ! visual observation: leaf blade density of pubescence on lower surface_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:58:24Z
+
+[Term]
+id: SO21:0000227
+name: visual observation: mature fruit diameter of stalk attachment _method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000059 ! Mature fruit diameter of stalk attachment
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T14:59:48Z
+
+[Term]
+id: SO21:0000229
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+alt_id: SO21:0000169
+synonym: "3 pt scale" EXACT []
+relationship: scaleu_of SO21:0000167 ! visual rating: mature fruit lenticels size_method
+relationship: scaleu_of SO21:0000227 ! visual observation: mature fruit diameter of stalk attachment _method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:00:03Z
+
+[Term]
+id: SO21:0000231
+name: short
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000249 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:25:33Z
+
+[Term]
+id: SO21:0000232
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000249 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:25:33Z
+
+[Term]
+id: SO21:0000233
+name: long
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000249 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:25:33Z
+
+[Term]
+id: SO21:0000235
+name: visual observation: inflorescence length of axis_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000051 ! Inflorescence length of axis
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:01:58Z
+
+[Term]
+id: SO21:0000239
+name: visual observation: shoot length of internode_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000033 ! Shoot length of internode
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:05:29Z
+
+[Term]
+id: SO21:0000240
+name: Shoot length of internode
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000238
+alt_id: SO21:0000603
+def: "Visual observation of shoot length of internode:\n1: short(e.g. San Martín), 2:intermediate(e.g. Fuerte, Hass), 3:long." []
+synonym: "<new term>" EXACT []
+synonym: "length of internode of shoot " EXACT []
+relationship: Variableu_of SO21:0000033 ! Shoot length of internode
+relationship: Variableu_of SO21:0000239 ! visual observation: shoot length of internode_method.
+relationship: Variableu_of SO21:0000241 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:05:58Z
+
+[Term]
+id: SO21:0000241
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000239 ! visual observation: shoot length of internode_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:05:58Z
+
+[Term]
+id: SO21:0000243
+name: visual observation: leaf blade length_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000035 ! Leaf blade length
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:06:20Z
+
+[Term]
+id: SO21:0000247
+name: visual observation: pedicel length_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000063 ! Pedicel length
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:09:36Z
+
+[Term]
+id: SO21:0000249
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+alt_id: SO21:0000237
+synonym: "3 pt scale" EXACT []
+relationship: scaleu_of SO21:0000235 ! visual observation: inflorescence length of axis_method.
+relationship: scaleu_of SO21:0000247 ! visual observation: pedicel length_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:10:11Z
+
+[Term]
+id: SO21:0000251
+name: visual observation: petiole length_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000050 ! Petiole length
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:11:23Z
+
+[Term]
+id: SO21:0000253
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+alt_id: SO21:0000129
+alt_id: SO21:0000245
+synonym: "5 pt scale" EXACT []
+relationship: scaleu_of SO21:0000127 ! Visual observation: mature fruit length_method
+relationship: scaleu_of SO21:0000243 ! visual observation: leaf blade length_method.
+relationship: scaleu_of SO21:0000251 ! visual observation: petiole length_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:11:39Z
+
+[Term]
+id: SO21:0000255
+name: visual observation: flower nectary_method.
+namespace: Avocadotrait
+relationship: methodu_of SO21:0000054 ! Flower nectary
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:12:13Z
+
+[Term]
+id: SO21:0000256
+name: Flower nectary
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000254
+alt_id: SO21:0000620
+def: "Visual observation of flower nectary with: 1:sessile (e.g. Ettinger), 2: stalked( e.g. Fuerte)." []
+synonym: "nectary of flower" EXACT []
+relationship: Variableu_of SO21:0000054 ! Flower nectary
+relationship: Variableu_of SO21:0000255 ! visual observation: flower nectary_method.
+relationship: Variableu_of SO21:0000257 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:12:31Z
+
+[Term]
+id: SO21:0000257
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000255 ! visual observation: flower nectary_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:12:31Z
+
+[Term]
+id: SO21:0000259
+name: visual rating: leaf blade number of secondary veins_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000047 ! Leaf blade number of secondary veins
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:12:50Z
+
+[Term]
+id: SO21:0000260
+name: leaf blade number of secondary veins
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000258
+alt_id: SO21:0000622
+def: "Visual rating of leaf blade number of secondary veins with: 1:Few (e.g. Aguilar, Hass, Mike), 2: Intermediate(e.g. Duke 7, Fuerte, Pinkerton), 3: Many (e.g. Encinos, G755c)." []
+synonym: "<new term 1>" EXACT []
+synonym: "number of secondary veins of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000047 ! Leaf blade number of secondary veins
+relationship: Variableu_of SO21:0000259 ! visual rating: leaf blade number of secondary veins_method.
+relationship: Variableu_of SO21:0000261 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:13:11Z
+
+[Term]
+id: SO21:0000261
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000259 ! visual rating: leaf blade number of secondary veins_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:13:11Z
+
+[Term]
+id: SO21:0000263
+name: Visual observation: mature fruit persistence of perianth_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000061 ! Mature fruit persistence of perianth
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:15:10Z
+
+[Term]
+id: SO21:0000265
+name: 3pt scale
+namespace: AvocadoScaleUPOV
+alt_id: SO21:0000081
+alt_id: SO21:0000121
+alt_id: SO21:0000189
+alt_id: SO21:0000193
+synonym: "3 pt scale" EXACT []
+synonym: "3pt scale" EXACT []
+relationship: scaleu_of SO21:0000079 ! Visual observation: seed coat adherence to flesh_method
+relationship: scaleu_of SO21:0000119 ! Visual rating: mature fruit glossiness_method.
+relationship: scaleu_of SO21:0000187 ! Visual observation: seed coat adherence to cotyledon_method.
+relationship: scaleu_of SO21:0000191 ! sensory assessment: leaf blade anise aroma_method.
+relationship: scaleu_of SO21:0000263 ! Visual observation: mature fruit persistence of perianth_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:15:27Z
+
+[Term]
+id: SO21:0000267
+name: visual rating: pollen_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000056 ! Pollen
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:15:59Z
+
+[Term]
+id: SO21:0000271
+name: visual observation: mature fruit position of stalk_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000060 ! Mature fruit position of stalk
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:16:33Z
+
+[Term]
+id: SO21:0000272
+name: Mature fruit position of stalk
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000270
+alt_id: SO21:0000645
+def: "Visual observation of mature fruit position of stalk with: 1: Along axis (e.g. G-22, Nabal, Simmonds), 2: Slightly oblique (e.g. Fuerte, Rincon), 3: Strongly oblique(e.g. Hayes, Whitsell)." []
+synonym: "<new term 1>" EXACT []
+synonym: "position of stalk of mature fruit " EXACT []
+relationship: Variableu_of SO21:0000060 ! Mature fruit position of stalk
+relationship: Variableu_of SO21:0000271 ! visual observation: mature fruit position of stalk_method.
+relationship: Variableu_of SO21:0000273 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:16:47Z
+
+[Term]
+id: SO21:0000273
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000271 ! visual observation: mature fruit position of stalk_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:16:47Z
+
+[Term]
+id: SO21:0000275
+name: visual observation: sepal pubescence of inner surface_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000057 ! Sepal pubescence of inner surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:17:07Z
+
+[Term]
+id: SO21:0000279
+name: visual observation of leaf blade ratio length/width _method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000040 ! Leaf blade ratio length/width
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:17:51Z
+
+[Term]
+id: SO21:0000281
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+alt_id: SO21:0000117
+alt_id: SO21:0000145
+alt_id: SO21:0000149
+synonym: "5 pt scale" EXACT []
+synonym: "5pt scale" EXACT []
+relationship: scaleu_of SO21:0000115 ! Visual observation: mature fruit diameter_method.
+relationship: scaleu_of SO21:0000143 ! Visual observation: Mature fruit ratio length /diameter_method.
+relationship: scaleu_of SO21:0000147 ! visual observation: ratio fruit length/ seed length of ripe fruit_method.
+relationship: scaleu_of SO21:0000279 ! visual observation of leaf blade ratio length/width _method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:18:10Z
+
+[Term]
+id: SO21:0000283
+name: visual observation: leaf blade relief of venation on upper surface_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000046 ! Leaf blade relief of venation on upper surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:18:32Z
+
+[Term]
+id: SO21:0000284
+name: Leaf blade relief of venation on upper surface.
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000282
+alt_id: SO21:0000669
+def: "Visual observation of leaf blade relief of venation on upper surface with: 1: Sunken (e.g. G755c, Topa Topa), 2: level (e.g. Duke 7, Fuerte), 3 Raised (e.g. Edranol, Frazer, Teague)." []
+synonym: "Relief of venation on upper surface of leaf blade " EXACT []
+synonym: "relief of venation on upper surface of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000046 ! Leaf blade relief of venation on upper surface
+relationship: Variableu_of SO21:0000283 ! visual observation: leaf blade relief of venation on upper surface_method.
+relationship: Variableu_of SO21:0000285 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:18:55Z
+
+[Term]
+id: SO21:0000285
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000283 ! visual observation: leaf blade relief of venation on upper surface_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:18:55Z
+
+[Term]
+id: SO21:0000287
+name: visual rating: seed multiple sprouting_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000073 ! Seed multiple sprouting
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:19:18Z
+
+[Term]
+id: SO21:0000291
+name: Visual observation: leaf blade shape of apex_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000042 ! Leaf blade shape of apex
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:19:59Z
+
+[Term]
+id: SO21:0000292
+name: Leaf blade shape of apex
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000290
+alt_id: SO21:0000684
+def: "Visual observation of leaf blade shape of apex with: 1: acuminate(e.g. Fuerte), 2: acute(e.g. Hass), 3: rounded(e.g. Santana)." []
+synonym: "<new term 1>" EXACT []
+synonym: "shape of apex of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000042 ! Leaf blade shape of apex
+relationship: Variableu_of SO21:0000291 ! Visual observation: leaf blade shape of apex_method
+relationship: Variableu_of SO21:0000293 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:20:16Z
+
+[Term]
+id: SO21:0000293
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000291 ! Visual observation: leaf blade shape of apex_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:20:16Z
+
+[Term]
+id: SO21:0000295
+name: visual observation: leaf blade shape_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000041 ! Leaf blade shape
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:20:49Z
+
+[Term]
+id: SO21:0000296
+name: leaf blade shape
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000294
+alt_id: SO21:0000693
+def: "Visual observation of leaf blade shape with: 1: lanceolate(e.g. Collinson), 2: ovate (e.g. Teague), 3: elliptic (Duke), 4: circular(e.g. Santana), 5:obovate(e.g. Dilly)." []
+synonym: "<new term>" EXACT []
+synonym: "shape of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000041 ! Leaf blade shape
+relationship: Variableu_of SO21:0000295 ! visual observation: leaf blade shape_method.
+relationship: Variableu_of SO21:0000297 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:21:07Z
+
+[Term]
+id: SO21:0000297
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000295 ! visual observation: leaf blade shape_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:21:07Z
+
+[Term]
+id: SO21:0000299
+name: visual observation: pedicel shape_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000064 ! Pedicel shape
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:21:45Z
+
+[Term]
+id: SO21:0000300
+name: Pedicel shape
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000298
+alt_id: SO21:0000694
+def: "Visual observation of pedicel shape:  1:cylindrical (e.g. Horshim, Iriet, teague), 2: conical (e.g. Dunedin, Edranol, Monroe)." []
+synonym: "<new term 1>" EXACT []
+synonym: "shape of pedicel " EXACT []
+relationship: Variableu_of SO21:0000064 ! Pedicel shape
+relationship: Variableu_of SO21:0000299 ! visual observation: pedicel shape_method.
+relationship: Variableu_of SO21:0000301 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:22:02Z
+
+[Term]
+id: SO21:0000301
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000299 ! visual observation: pedicel shape_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:22:02Z
+
+[Term]
+id: SO21:0000303
+name: visual observation: flower style_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000055 ! Flower style
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:22:26Z
+
+[Term]
+id: SO21:0000304
+name: Flower style
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000302
+alt_id: SO21:0000697
+def: "Visual observation of flower style with: 1: straight (e.g. Fuerte), 2: kinked (e.g. Collinson)." []
+synonym: "<new term 1>" EXACT []
+synonym: "style of flower " EXACT []
+relationship: Variableu_of SO21:0000055 ! Flower style
+relationship: Variableu_of SO21:0000303 ! visual observation: flower style_method.
+relationship: Variableu_of SO21:0000305 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:24:39Z
+
+[Term]
+id: SO21:0000305
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000303 ! visual observation: flower style_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:24:39Z
+
+[Term]
+id: SO21:0000307
+name: sensory assessment: cotyledon surface_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000070 ! Cotyledon surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:25:21Z
+
+[Term]
+id: SO21:0000311
+name: visual observation: pedicel shape_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000067 ! Pedicel surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:26:28Z
+
+[Term]
+id: SO21:0000313
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+alt_id: SO21:0000309
+synonym: "2 pt scale" EXACT []
+relationship: scaleu_of SO21:0000307 ! sensory assessment: cotyledon surface_method.
+relationship: scaleu_of SO21:0000311 ! visual observation: pedicel shape_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:26:46Z
+
+[Term]
+id: SO21:0000315
+name: sensory assessment: seed coat surface_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000069 ! Seed coat surface
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:27:07Z
+
+[Term]
+id: SO21:0000317
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000315 ! sensory assessment: seed coat surface_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:27:27Z
+
+[Term]
+id: SO21:0000319
+name: visual observation: pedicel thickness compared to peduncle (at junction)_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000062 ! Pedicel thickness compared to peduncle (at junction)
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:28:51Z
+
+[Term]
+id: SO21:0000320
+name: pedicel thickness compared to peduncle (at junction)
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000318
+alt_id: SO21:0000712
+def: "Visual observation of pedicel thickness compared to peduncle (at junction):\n1: same (e.g. Ettinger, Simmonds), 2:thicker (e.g. Collinson,Dade)." []
+synonym: "<new term 1>" EXACT []
+synonym: "thickness compared to peduncle(at junction) of pedicel. " EXACT []
+relationship: Variableu_of SO21:0000062 ! Pedicel thickness compared to peduncle (at junction)
+relationship: Variableu_of SO21:0000319 ! visual observation: pedicel thickness compared to peduncle (at junction)_method
+relationship: Variableu_of SO21:0000321 ! 2pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:29:09Z
+
+[Term]
+id: SO21:0000321
+name: 2pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000319 ! visual observation: pedicel thickness compared to peduncle (at junction)_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:29:09Z
+
+[Term]
+id: SO21:0000323
+name: visual observation: time of beginning of flowering_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000071 ! Time of beginning of flowering
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:29:43Z
+
+[Term]
+id: SO21:0000324
+name: time of beginning of flowering.
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000322
+alt_id: SO21:0000716
+def: "Visual observation of time of beginning of flowering: \n3: early (e.g. Duke), 5:medium(e.g. Fuerte), 7:late (e.g. Hass)." []
+synonym: "<new term 2>" EXACT []
+synonym: "time of beginning of flowering" EXACT []
+relationship: Variableu_of SO21:0000071 ! Time of beginning of flowering
+relationship: Variableu_of SO21:0000323 ! visual observation: time of beginning of flowering_method.
+relationship: Variableu_of SO21:0000325 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:30:05Z
+
+[Term]
+id: SO21:0000325
+name: 3 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000323 ! visual observation: time of beginning of flowering_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:30:05Z
+
+[Term]
+id: SO21:0000327
+name: visual observation: time of fruit maturity for harvesting_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000072 ! Time of fruit maturity for harvesting
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:30:30Z
+
+[Term]
+id: SO21:0000328
+name: time of fruit maturity for harvesting.
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000326
+alt_id: SO21:0000724
+def: "Visual observation of time of fruit maturity for harvesting: \n1: very early (e.g. Topa Topa), 3: early(e.g. Ettinger), 5:Medium(e.g. Fuerte), 7: late(e.g. Hass, Ryan), 9: very late(e.g. Reed)." []
+synonym: "<new term>" EXACT []
+synonym: "time of fruit maturity for harvesting " EXACT []
+relationship: Variableu_of SO21:0000072 ! Time of fruit maturity for harvesting
+relationship: Variableu_of SO21:0000327 ! visual observation: time of fruit maturity for harvesting_method.
+relationship: Variableu_of SO21:0000329 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:30:55Z
+
+[Term]
+id: SO21:0000329
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000327 ! visual observation: time of fruit maturity for harvesting_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:30:55Z
+
+[Term]
+id: SO21:0000331
+name: visual rating: leaf blade twisting along whole length_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000043 ! Leaf blade twisting along whole length
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:31:34Z
+
+[Term]
+id: SO21:0000335
+name: visual rating: leaf blade twisting of apex_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000044 ! Leaf blade twisting of apex
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:32:14Z
+
+[Term]
+id: SO21:0000336
+name: Leaf blade twisting of apex
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000334
+alt_id: SO21:0000360
+alt_id: SO21:0000440
+alt_id: SO21:0000450
+alt_id: SO21:0000526
+alt_id: SO21:0000638
+alt_id: SO21:0000650
+alt_id: SO21:0000675
+alt_id: SO21:0000735
+alt_id: SO21:0000737
+def: "Visual rating of leaf blade twisting of apex with: 1: absent(e.g. Fuerte), 9: present(e.g. Collinson)." []
+synonym: "<new term 2>" EXACT []
+synonym: "twisting of apex of leaf blade" EXACT []
+synonym: "twisting of apex of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000044 ! Leaf blade twisting of apex
+relationship: Variableu_of SO21:0000335 ! visual rating: leaf blade twisting of apex_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:32:31Z
+
+[Term]
+id: SO21:0000337
+name: 2 pt scale
+namespace: AvocadoScaleUPOV
+alt_id: SO21:0000085
+alt_id: SO21:0000137
+alt_id: SO21:0000141
+alt_id: SO21:0000185
+alt_id: SO21:0000269
+alt_id: SO21:0000277
+alt_id: SO21:0000289
+alt_id: SO21:0000333
+synonym: "2 pt scale" EXACT []
+synonym: "2pt scale" EXACT []
+relationship: scaleu_of SO21:0000083 ! Sensory assessment : ripe fruit anise aroma of flesh_method
+relationship: scaleu_of SO21:0000135 ! Visual rating: Mature fruit presence of depression at stalk end_method.
+relationship: scaleu_of SO21:0000139 ! Visual observation: Mature fruit presence of neck_method.
+relationship: scaleu_of SO21:0000183 ! visual observation: pedicel "Nailhead"_method.
+relationship: scaleu_of SO21:0000267 ! visual rating: pollen_method.
+relationship: scaleu_of SO21:0000275 ! visual observation: sepal pubescence of inner surface_method.
+relationship: scaleu_of SO21:0000287 ! visual rating: seed multiple sprouting_method.
+relationship: scaleu_of SO21:0000331 ! visual rating: leaf blade twisting along whole length_method.
+relationship: scaleu_of SO21:0000335 ! visual rating: leaf blade twisting of apex_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:32:31Z
+
+[Term]
+id: SO21:0000339
+name: visual observation: leaf blade undulation of margin_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000045 ! Leaf blade undulation of margin
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:32:51Z
+
+[Term]
+id: SO21:0000340
+name: leaf blade undulation of margin
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000338
+alt_id: SO21:0000747
+def: "Visual observation of leaf blade undulation of margin with 1: absent or very weak (e.g. Duke), 3: weak (e.g. Frazer), 5:medium (e.g. Ettinger), 7: strong(e.g. Pinkerton), 9: very strong(e.g. Arturo)." []
+synonym: "<new term 1>" EXACT []
+synonym: "undulation of margin of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000045 ! Leaf blade undulation of margin
+relationship: Variableu_of SO21:0000339 ! visual observation: leaf blade undulation of margin_method.
+relationship: Variableu_of SO21:0000341 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:33:09Z
+
+[Term]
+id: SO21:0000341
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000339 ! visual observation: leaf blade undulation of margin_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:33:09Z
+
+[Term]
+id: SO21:0000342
+name: leaf blade width
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000344
+alt_id: SO21:0000753
+def: "Visual observation of  leaf blade width with: 1: very narrow(e.g. Duke 7, San Martín), 3: narrow(e.g. Hass, Thomas), 5: medium(e.g. Choquette, Fuerte), 7: broad(e.g. Monroe, Pollock), 9: very broad(Encinos, G755c)." []
+synonym: "<new term 1>" EXACT []
+synonym: "width of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000036 ! Leaf blade width
+relationship: Variableu_of SO21:0000343 ! visual observation: Leaf blade width_method
+relationship: Variableu_of SO21:0000345 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:33:32Z
+
+[Term]
+id: SO21:0000343
+name: visual observation: Leaf blade width_method
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000036 ! Leaf blade width
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:33:32Z
+
+[Term]
+id: SO21:0000345
+name: 5 pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000343 ! visual observation: Leaf blade width_method
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T15:33:49Z
+
+[Term]
+id: SO21:0000347
+name: weak
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000077 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-15T20:15:25Z
+
+[Term]
+id: SO21:0000348
+name: intermediate
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000077 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-15T20:15:25Z
+
+[Term]
+id: SO21:0000349
+name: strong
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000077 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-15T20:15:25Z
+
+[Term]
+id: SO21:0000370
+name: light green
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000089 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-16T10:22:41Z
+
+[Term]
+id: SO21:0000371
+name: medium green
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000089 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-16T10:22:41Z
+
+[Term]
+id: SO21:0000372
+name: yellow green
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000089 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-16T10:22:41Z
+
+[Term]
+id: SO21:0000373
+name: cream
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000093 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:03:40Z
+
+[Term]
+id: SO21:0000375
+name: brown
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000093 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:03:40Z
+
+[Term]
+id: SO21:0000376
+name: light green
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000093 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:03:40Z
+
+[Term]
+id: SO21:0000377
+name: yellow
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000093 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:03:40Z
+
+[Term]
+id: SO21:0000378
+name: Ripe fruit color
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000094
+alt_id: SO21:0000096
+def: "Visual observation of ripe fruit color with: 1: Yellow green(e.g. Melendez), 2: light green(e.g. Marsheline, Mayo), 3: medium green(e.g. Greengold, Rincon, Zutano),  4: dark green(e.g. Ahaheim, Colín V-33, Edranol), 5: reddish(e.g. Los moros), 6: medium purple, 7: dark purple or black(e.g.Hass, Topa Topa)." []
+synonym: "<new term 1>" EXACT []
+synonym: "color of ripe fruit " EXACT []
+relationship: Variableu_of SO21:0000019 ! Ripe fruit color
+relationship: Variableu_of SO21:0000095 ! visual observation: ripe fruit color_method
+relationship: Variableu_of SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000379
+name: yellow green
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000380
+name: dark purple or black
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000381
+name: medium purple
+namespace: AvocadoScaleUPOV
+synonym: "6" EXACT []
+is_a: SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000382
+name: reddish
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000383
+name: dark green
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000384
+name: medium green
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000385
+name: light green
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000097 ! 7pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T10:34:25Z
+
+[Term]
+id: SO21:0000386
+name: Ripe fruit consistency of flesh
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000098
+alt_id: SO21:0000100
+def: "Assessment of ripe fruit consistency of flesh with: 1: watery(e.g. Simmonds), 2: buttery (e.g. Fuerte, Hass) , 3: dry (e.g. Fundación II), 4: granular." []
+synonym: "<new term 1>" EXACT []
+synonym: "consistency of flesh of ripe fruit " EXACT []
+relationship: Variableu_of SO21:0000027 ! Ripe fruit consistency of flesh
+relationship: Variableu_of SO21:0000099 ! Assessment: ripe fruit consistency of flesh_method.
+relationship: Variableu_of SO21:0000101 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:36:50Z
+
+[Term]
+id: SO21:0000387
+name: watery
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000101 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:36:50Z
+
+[Term]
+id: SO21:0000388
+name: granular
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000101 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:36:50Z
+
+[Term]
+id: SO21:0000389
+name: dry
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000101 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:36:50Z
+
+[Term]
+id: SO21:0000390
+name: buttery
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000101 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:36:50Z
+
+[Term]
+id: SO21:0000391
+name: Ripe fruit consistency of skin
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000102
+alt_id: SO21:0000104
+def: "Assessment of ripe fruit consistency of skin with: 1: membranous (e.g. Ettinger, Teague, Topa Topa), 2: Leathery (e.g. Edranol, Pollock, Santana), 3: corky(e.g. G-22, Nabal)." []
+synonym: "consistency of skin of ripe fruit " EXACT []
+synonym: "consistency of skin of ripe fruit. " EXACT []
+relationship: Variableu_of SO21:0000021 ! Ripe fruit consistency of skin
+relationship: Variableu_of SO21:0000103 ! Assessment : ripe fruit consistency of skin_method.
+relationship: Variableu_of SO21:0000105 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:58:49Z
+
+[Term]
+id: SO21:0000392
+name: membranous
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000105 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:58:49Z
+
+[Term]
+id: SO21:0000393
+name: corky
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000105 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:58:49Z
+
+[Term]
+id: SO21:0000394
+name: leathery
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000105 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T14:58:49Z
+
+[Term]
+id: SO21:0000396
+name: inconspicuous
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000109 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T15:12:00Z
+
+[Term]
+id: SO21:0000397
+name: conspicuous
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000109 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T15:12:00Z
+
+[Term]
+id: SO21:0000399
+name: inconspicuous or weak
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000113 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T15:55:19Z
+
+[Term]
+id: SO21:0000400
+name: strong
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000113 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T15:55:19Z
+
+[Term]
+id: SO21:0000401
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000113 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T15:55:19Z
+
+[Term]
+id: SO21:0000416
+name: Mature fruit persistence of perianth
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000262
+alt_id: SO21:0000264
+alt_id: SO21:0000354
+alt_id: SO21:0000537
+alt_id: SO21:0000542
+alt_id: SO21:0000629
+def: "Visual observation of mature fruit persistence of perianth with: 1:absent or weak(e.g. Hass), 2:medium(e.g. Colín V-33, Lypps), 3:strong(e.g. Irving, Jim)." []
+synonym: "<new term 1>" EXACT []
+synonym: "persistence of perianth of mature fruit" EXACT []
+synonym: "persistence of perianth of mature fruit." EXACT []
+synonym: "persistence of perianth of mature fruit. " EXACT []
+synonym: "persistperianthmf" EXACT []
+relationship: Variableu_of SO21:0000061 ! Mature fruit persistence of perianth
+relationship: Variableu_of SO21:0000263 ! Visual observation: mature fruit persistence of perianth_method.
+relationship: Variableu_of SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T16:54:31Z
+
+[Term]
+id: SO21:0000420
+name: upright
+namespace: AvocadoScaleUPOV
+synonym: "1 " EXACT []
+is_a: SO21:0000125 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T17:38:57Z
+
+[Term]
+id: SO21:0000421
+name: spreading
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000125 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T17:38:57Z
+
+[Term]
+id: SO21:0000422
+name: drooping
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000125 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T17:38:57Z
+
+[Term]
+id: SO21:0000423
+name: semi drooping
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000125 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T17:38:57Z
+
+[Term]
+id: SO21:0000432
+name: Ripe fruit main color of flesh
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000130
+alt_id: SO21:0000132
+def: "Visual observation of ripe fruit main color of flesh with: 1:whitish(e.g Hazzard), 2: cream(e.g Bacon, Ettinger, Zutano), 3: yellow(e.g. Hayes, Nabal), 4: light green(e.g. G-6, San Miguel)." []
+synonym: "<new term 1>" EXACT []
+relationship: Variableu_of SO21:0000023 ! Ripe fruit main color of flesh
+relationship: Variableu_of SO21:0000131 ! visual observation: ripe fruit main color of flesh_method
+relationship: Variableu_of SO21:0000133 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T18:05:41Z
+
+[Term]
+id: SO21:0000433
+name: whitish
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000133 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T18:05:41Z
+
+[Term]
+id: SO21:0000434
+name: light green
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000133 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T18:05:41Z
+
+[Term]
+id: SO21:0000435
+name: yellow
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000133 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T18:05:41Z
+
+[Term]
+id: SO21:0000436
+name: cream
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000133 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-17T18:05:41Z
+
+[Term]
+id: SO21:0000473
+name: leaf blade ratio length/width
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000278
+alt_id: SO21:0000280
+alt_id: SO21:0000407
+alt_id: SO21:0000461
+alt_id: SO21:0000665
+def: "Visual observation of leaf blade ratio length/width :  \n1:Very small (e.g. Santana), 3: Small (e.g. G755c), 5:Medium (e.g. Choquette), 7: Large (e.g. Mike, Pinkerton), 9:Very large (e.g. Reed)." []
+synonym: "<new term 1>" EXACT []
+synonym: "ratio length/width of leaf blade" EXACT []
+synonym: "ratio length/width of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000040 ! Leaf blade ratio length/width
+relationship: Variableu_of SO21:0000279 ! visual observation of leaf blade ratio length/width _method.
+relationship: Variableu_of SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T08:58:42Z
+
+[Term]
+id: SO21:0000477
+name: pointed
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000153 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T09:25:30Z
+
+[Term]
+id: SO21:0000478
+name: rounded
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000153 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T09:25:30Z
+
+[Term]
+id: SO21:0000479
+name: flattened
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000153 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T09:25:30Z
+
+[Term]
+id: SO21:0000480
+name: deeply depressed
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000153 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T09:25:30Z
+
+[Term]
+id: SO21:0000481
+name: slightly depressed
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000153 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T09:25:30Z
+
+[Term]
+id: SO21:0000483
+name: circular
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000157 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T09:54:59Z
+
+[Term]
+id: SO21:0000485
+name: elliptic
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000157 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T09:54:59Z
+
+[Term]
+id: SO21:0000487
+name: triangular
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000161 ! 6pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:10:03Z
+
+[Term]
+id: SO21:0000488
+name: depressed oblate
+namespace: AvocadoScaleUPOV
+synonym: "6 " EXACT []
+is_a: SO21:0000161 ! 6pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:10:03Z
+
+[Term]
+id: SO21:0000489
+name: oblate
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000161 ! 6pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:10:03Z
+
+[Term]
+id: SO21:0000490
+name: circular
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000161 ! 6pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:10:03Z
+
+[Term]
+id: SO21:0000491
+name: elliptic
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000161 ! 6pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:10:03Z
+
+[Term]
+id: SO21:0000492
+name: ovate
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000161 ! 6pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:10:03Z
+
+[Term]
+id: SO21:0000493
+name: pointed
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000165 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:23:34Z
+
+[Term]
+id: SO21:0000495
+name: truncate
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000165 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:23:34Z
+
+[Term]
+id: SO21:0000496
+name: broadly rounded
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000165 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:23:34Z
+
+[Term]
+id: SO21:0000497
+name: narrowly rounded
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000165 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:23:34Z
+
+[Term]
+id: SO21:0000498
+name: Mature fruit diameter of stalk attachment
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000226
+alt_id: SO21:0000228
+alt_id: SO21:0000581
+def: "Visual observation of mature fruit diameter of stalk attachment with: 3:small(e.g. Frazer), 5:medium(e.g. Fuerte), 7:large(e.g. Encinos)." []
+synonym: "<new term 1>" EXACT []
+synonym: "diameter of stalk attachment of mature fruit " EXACT []
+relationship: Variableu_of SO21:0000059 ! Mature fruit diameter of stalk attachment
+relationship: Variableu_of SO21:0000227 ! visual observation: mature fruit diameter of stalk attachment _method.
+relationship: Variableu_of SO21:0000229 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:49:11Z
+
+[Term]
+id: SO21:0000502
+name: very smooth
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000173 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T11:55:40Z
+
+[Term]
+id: SO21:0000504
+name: mature fruit lenticels size
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000166
+alt_id: SO21:0000503
+alt_id: SO21:0000582
+def: "Visual rating of size of lenticels of mature fruit with 3: small(e.g. Rincon), 5:medium(e.g. Fuerte, Stewart), 7:large(e.g. Ettinger)." []
+synonym: "size of lenticels of mature fruit" EXACT []
+synonym: "size of lenticels of mature fruit. " EXACT []
+relationship: Variableu_of SO21:0000015 ! Mature fruit lenticels size
+relationship: Variableu_of SO21:0000167 ! visual rating: mature fruit lenticels size_method
+relationship: Variableu_of SO21:0000229 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T10:58:18Z
+
+[Term]
+id: SO21:0000505
+name: very rough
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000173 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T11:55:40Z
+
+[Term]
+id: SO21:0000506
+name: rough
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000173 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T11:55:40Z
+
+[Term]
+id: SO21:0000507
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000173 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T11:55:40Z
+
+[Term]
+id: SO21:0000508
+name: smooth
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000173 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T11:55:40Z
+
+[Term]
+id: SO21:0000510
+name: very thin
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000177 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:18:16Z
+
+[Term]
+id: SO21:0000511
+name: very thick
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000177 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:18:16Z
+
+[Term]
+id: SO21:0000512
+name: moderately thick
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000177 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:18:16Z
+
+[Term]
+id: SO21:0000513
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000177 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:18:16Z
+
+[Term]
+id: SO21:0000514
+name: moderately thin
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000177 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:18:16Z
+
+[Term]
+id: SO21:0000515
+name: ripe fruit width of layer next to skin
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000178
+alt_id: SO21:0000180
+def: "Visual observation of ripe fruit width of layer next to skin with 3: narrow (e.g.Duke, Santana), 5:medium(e.g. Colín V-33, Fuerte, Santana), 7: broad(e.g. Edranol, Reed, Whitsell)." []
+synonym: "<new term 1>" EXACT []
+synonym: "width of layer next to skin of ripe fruit " EXACT []
+relationship: Variableu_of SO21:0000025 ! Ripe fruit width of layer next to skin
+relationship: Variableu_of SO21:0000179 ! visual observation: ripe fruit width of layer next to skin_method.
+relationship: Variableu_of SO21:0000181 ! 3pt
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:36:44Z
+
+[Term]
+id: SO21:0000516
+name: narrow
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000181 ! 3pt
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:36:44Z
+
+[Term]
+id: SO21:0000517
+name: broad
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000181 ! 3pt
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:36:44Z
+
+[Term]
+id: SO21:0000518
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000181 ! 3pt
+created_by: aliciatalaverajudez
+creation_date: 2015-11-19T12:36:44Z
+
+[Term]
+id: SO21:0000546
+name: upwards
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000197 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:40:17Z
+
+[Term]
+id: SO21:0000548
+name: downwards
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000197 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:40:17Z
+
+[Term]
+id: SO21:0000549
+name: outwards
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000197 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:40:17Z
+
+[Term]
+id: SO21:0000551
+name: green
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000201 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:49:51Z
+
+[Term]
+id: SO21:0000552
+name: red
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000201 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:49:51Z
+
+[Term]
+id: SO21:0000553
+name: yellow
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000205 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:55:45Z
+
+[Term]
+id: SO21:0000556
+name: purple
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000205 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:55:45Z
+
+[Term]
+id: SO21:0000557
+name: red
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000205 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:55:45Z
+
+[Term]
+id: SO21:0000558
+name: green
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000205 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T09:55:45Z
+
+[Term]
+id: SO21:0000559
+name: yellow
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000209 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:13:43Z
+
+[Term]
+id: SO21:0000560
+name: yellow green
+namespace: AvocadoVariableUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000209 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:13:43Z
+
+[Term]
+id: SO21:0000561
+name: reddish
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000209 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:13:43Z
+
+[Term]
+id: SO21:0000562
+name: green brown
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000209 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:13:43Z
+
+[Term]
+id: SO21:0000563
+name: green
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000209 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:13:43Z
+
+[Term]
+id: SO21:0000565
+name: white
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000213 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:24:16Z
+
+[Term]
+id: SO21:0000566
+name: red brown
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000213 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:24:16Z
+
+[Term]
+id: SO21:0000567
+name: brown
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000213 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:24:16Z
+
+[Term]
+id: SO21:0000568
+name: yellow
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000213 ! 4 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:24:16Z
+
+[Term]
+id: SO21:0000570
+name: yellow green
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000217 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:36:51Z
+
+[Term]
+id: SO21:0000571
+name: reddish
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000217 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:36:51Z
+
+[Term]
+id: SO21:0000572
+name: green
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000217 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:36:51Z
+
+[Term]
+id: SO21:0000574
+name: sparse
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000221 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:43:53Z
+
+[Term]
+id: SO21:0000575
+name: dense
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000221 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:43:53Z
+
+[Term]
+id: SO21:0000576
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000221 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T10:43:53Z
+
+[Term]
+id: SO21:0000578
+name: absent or sparse
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000225 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T11:01:11Z
+
+[Term]
+id: SO21:0000579
+name: dense
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000225 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T11:01:11Z
+
+[Term]
+id: SO21:0000580
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000225 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T11:01:11Z
+
+[Term]
+id: SO21:0000583
+name: small
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000229 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T11:17:50Z
+
+[Term]
+id: SO21:0000584
+name: large
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000229 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T11:17:50Z
+
+[Term]
+id: SO21:0000585
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000229 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T11:17:50Z
+
+[Term]
+id: SO21:0000586
+name: Inflorescence length of axis
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000234
+alt_id: SO21:0000236
+alt_id: SO21:0000595
+def: "Visual observation of inflorescence length of axis with: 3: short(e.g. Bacon), 5:medium(e.g. Fuerte), 7: long(e.g. Pinkerton)." []
+synonym: "<new term 1>" EXACT []
+synonym: "length of axis of inflorescence" EXACT []
+synonym: "length of axis of inflorescence " EXACT []
+relationship: Variableu_of SO21:0000051 ! Inflorescence length of axis
+relationship: Variableu_of SO21:0000235 ! visual observation: inflorescence length of axis_method.
+relationship: Variableu_of SO21:0000249 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:25:42Z
+
+[Term]
+id: SO21:0000588
+name: very short
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:59:58Z
+
+[Term]
+id: SO21:0000589
+name: visual observation: flowering type of inflorescence_method.
+namespace: AvocadoMethodUPOV
+relationship: methodu_of SO21:0000053 ! Flowering type of inflorescence
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:12:34Z
+
+[Term]
+id: SO21:0000590
+name: flowering type of inflorescence
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000230
+alt_id: SO21:0000592
+def: "Visual observation of flowering type of inflorescence with 1: type A(e.g.Hass), 2: type B (e.g. Colín V-33, Fuerte)." []
+synonym: "<new term 1>" EXACT []
+synonym: "flowering type of inflorescence" EXACT []
+relationship: Variableu_of SO21:0000053 ! Flowering type of inflorescence
+relationship: Variableu_of SO21:0000589 ! visual observation: flowering type of inflorescence_method.
+relationship: Variableu_of SO21:0000591 ! 2pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:12:56Z
+
+[Term]
+id: SO21:0000591
+name: 2pt scale
+namespace: AvocadoScaleUPOV
+relationship: scaleu_of SO21:0000589 ! visual observation: flowering type of inflorescence_method.
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:12:56Z
+
+[Term]
+id: SO21:0000593
+name: type A
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000591 ! 2pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:14:18Z
+
+[Term]
+id: SO21:0000594
+name: type B
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000591 ! 2pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:14:18Z
+
+[Term]
+id: SO21:0000597
+name: pedicel length
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000246
+alt_id: SO21:0000248
+alt_id: SO21:0000587
+def: "Visual observation of pedicel length with: 3: short (e.g. Pollock),5:medium(e.g. Fuerte), 7:long(e.g. G-22,Hass)." []
+synonym: "<new term 2>" EXACT []
+synonym: "length of pedicel " EXACT []
+relationship: Variableu_of SO21:0000063 ! Pedicel length
+relationship: Variableu_of SO21:0000247 ! visual observation: pedicel length_method.
+relationship: Variableu_of SO21:0000249 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:23:57Z
+
+[Term]
+id: SO21:0000600
+name: short
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000241 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:33:07Z
+
+[Term]
+id: SO21:0000601
+name: intermediate
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000241 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:33:07Z
+
+[Term]
+id: SO21:0000602
+name: long
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000241 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:33:07Z
+
+[Term]
+id: SO21:0000611
+name: Petiole length
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000250
+alt_id: SO21:0000252
+alt_id: SO21:0000431
+alt_id: SO21:0000616
+def: "Visual observation of petiole length: 1:very short(e.g. San Martín), 3:short (e.g. Aguilar, Reed), 5: medium(Frazer, G755c, Mike),7: long(e.g. Encinos , Hass), 9:very long(Fuerte)." []
+synonym: "<new term 1>" EXACT []
+synonym: "length of petiole" EXACT []
+synonym: "length of petiole " EXACT []
+relationship: Variableu_of SO21:0000050 ! Petiole length
+relationship: Variableu_of SO21:0000251 ! visual observation: petiole length_method.
+relationship: Variableu_of SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-20T17:48:32Z
+
+[Term]
+id: SO21:0000612
+name: short
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:59:58Z
+
+[Term]
+id: SO21:0000613
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:59:58Z
+
+[Term]
+id: SO21:0000614
+name: long
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:59:58Z
+
+[Term]
+id: SO21:0000615
+name: very long
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T14:59:58Z
+
+[Term]
+id: SO21:0000617
+name: leaf blade length
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000242
+alt_id: SO21:0000244
+alt_id: SO21:0000429
+alt_id: SO21:0000609
+def: "Visual observation: leaf blade length with 1: very short( e.g. San Martín),3:short(e.g. Fuchsia,Puebla,TopaTopa), 5:medium(e.g. Choquette, Colín V-33, Fuerte), 7: long(e.g. Barker), 9:very long(e.g. Encinos)." []
+synonym: "<new term 1>" EXACT []
+synonym: "length of leaf blade" EXACT []
+synonym: "length of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000035 ! Leaf blade length
+relationship: Variableu_of SO21:0000243 ! visual observation: leaf blade length_method.
+relationship: Variableu_of SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T15:00:09Z
+
+[Term]
+id: SO21:0000618
+name: Mature fruit length
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000126
+alt_id: SO21:0000128
+alt_id: SO21:0000430
+alt_id: SO21:0000610
+def: "Visual observation of length of mature fruit with 1: very short(e.g.Mexicola, Northrup), 3: short (e.g. Dickinson, Edranol, Fuerte), 5: medium(e.g. Avis, Hellen), 7: Long (e.g. Cellon´s Hawaii Seedling), 9: Very long (e.g. Lima Late, Telsen)." []
+synonym: "<new term 7>" EXACT []
+synonym: "length of mature fruit" EXACT []
+synonym: "length of mature fruit " EXACT []
+relationship: Variableu_of SO21:0000007 ! Mature fruit length
+relationship: Variableu_of SO21:0000127 ! Visual observation: mature fruit length_method
+relationship: Variableu_of SO21:0000253 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T15:00:09Z
+
+[Term]
+id: SO21:0000619
+name: sessile
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000257 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T15:16:43Z
+
+[Term]
+id: SO21:0000621
+name: stalked
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000257 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T15:16:43Z
+
+[Term]
+id: SO21:0000623
+name: few
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000261 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:15:12Z
+
+[Term]
+id: SO21:0000624
+name: many
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000261 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:15:12Z
+
+[Term]
+id: SO21:0000625
+name: intermediate
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000261 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:15:12Z
+
+[Term]
+id: SO21:0000626
+name: absent or weak
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:33:28Z
+
+[Term]
+id: SO21:0000627
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:33:28Z
+
+[Term]
+id: SO21:0000628
+name: strong
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:33:28Z
+
+[Term]
+id: SO21:0000630
+name: leaf blade anise aroma
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000190
+alt_id: SO21:0000192
+alt_id: SO21:0000351
+alt_id: SO21:0000417
+alt_id: SO21:0000533
+alt_id: SO21:0000539
+def: "Sensory assessment of leaf blade anise aroma with: 1: absent or weak(e.g.Hass, Reed), 2: medium(e.g.Duke 7), 3:strong(Thomas)." []
+synonym: "<new term 1>" EXACT []
+synonym: "anise aroma of leaf blade" EXACT []
+synonym: "anise aroma of leaf blade." EXACT []
+synonym: "anise aroma of leaf blade. " EXACT []
+relationship: Variableu_of SO21:0000049 ! Leaf blade anise aroma
+relationship: Variableu_of SO21:0000191 ! sensory assessment: leaf blade anise aroma_method.
+relationship: Variableu_of SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:33:43Z
+
+[Term]
+id: SO21:0000631
+name: seed coat adherence to cotyledon
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000186
+alt_id: SO21:0000188
+alt_id: SO21:0000352
+alt_id: SO21:0000413
+alt_id: SO21:0000535
+alt_id: SO21:0000540
+def: "Visual observation of seed coat adherence to cotyledon:\n1: absent or weak(e.g.Akbal,Aycock Red 3#,Hardee), 2:medium(e.g.Dade), 3:strong(e.g.Hass, Fuerte)." []
+synonym: "adherence to cotyledon of seed coat" EXACT []
+synonym: "adherence to cotyledon of seed coat." EXACT []
+synonym: "adherence to cotyledon of seed coat. " EXACT []
+relationship: Variableu_of SO21:0000068 ! Seed coat adherence to cotyledon
+relationship: Variableu_of SO21:0000187 ! Visual observation: seed coat adherence to cotyledon_method.
+relationship: Variableu_of SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:33:43Z
+
+[Term]
+id: SO21:0000632
+name: Seed coat adherence to flesh
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000078
+alt_id: SO21:0000080
+alt_id: SO21:0000353
+alt_id: SO21:0000415
+alt_id: SO21:0000536
+alt_id: SO21:0000541
+def: "Visual observation of seed coat adherence to flesh with 1:absent or weak (e.g. Zutano), 2:medium(e.g. Northrup,Topa Topa), 3:strong(e.g. Colín V-33, Fuerte, Hass)." []
+synonym: "<new term 1>" EXACT []
+synonym: "adherence to flesh of seed coat" EXACT []
+synonym: "adherence to flesh of seed coat." EXACT []
+synonym: "adherence to flesh of seed coat. " EXACT []
+relationship: Variableu_of SO21:0000032 ! Seed coat adherence to flesh
+relationship: Variableu_of SO21:0000079 ! Visual observation: seed coat adherence to flesh_method
+relationship: Variableu_of SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:33:43Z
+
+[Term]
+id: SO21:0000633
+name: Mature fruit glossiness
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000118
+alt_id: SO21:0000120
+alt_id: SO21:0000355
+alt_id: SO21:0000410
+alt_id: SO21:0000534
+alt_id: SO21:0000543
+def: "Visual rating of glossiness of mature fruit with 1: absent or weak (e.g. Fuerte, Horshim), 2: medium (e.g. Ettinger, Zutano), 3: strong(e.g. Simmonds, Topa Topa)." []
+synonym: "glossiness of mature fruit" EXACT []
+synonym: "glossiness of mature fruit " EXACT []
+synonym: "glossiness of mature fruit. " EXACT []
+relationship: Variableu_of SO21:0000017 ! Mature fruit glossiness
+relationship: Variableu_of SO21:0000119 ! Visual rating: mature fruit glossiness_method.
+relationship: Variableu_of SO21:0000265 ! 3pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-21T17:33:43Z
+
+[Term]
+id: SO21:0000646
+name: along axis
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000273 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T09:55:01Z
+
+[Term]
+id: SO21:0000647
+name: strongly oblique
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000273 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T09:55:01Z
+
+[Term]
+id: SO21:0000648
+name: slightly oblique
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000273 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T09:55:01Z
+
+[Term]
+id: SO21:0000660
+name: very small
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T10:31:33Z
+
+[Term]
+id: SO21:0000661
+name: small
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T10:31:33Z
+
+[Term]
+id: SO21:0000662
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T10:31:33Z
+
+[Term]
+id: SO21:0000663
+name: large
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T10:31:33Z
+
+[Term]
+id: SO21:0000664
+name: very large
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T10:31:33Z
+
+[Term]
+id: SO21:0000666
+name: Mature fruit diameter.
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000114
+alt_id: SO21:0000116
+alt_id: SO21:0000409
+alt_id: SO21:0000463
+alt_id: SO21:0000475
+def: "Visual observation of  mature fruit diameter with: 1: Very small (e.g. Mexicola, Northrup), 3: small (e.g. Dickinson, Edranol, Fuerte), 5: medium (e.g. Avis, Hellen), 7: large(e.g. Cellon´ s Hawaii Seedling), 9:very large(e.g. Lima Late, Telsen)." []
+synonym: "<new term 8>" EXACT []
+synonym: "diameter of mature fruit" EXACT []
+synonym: "diameter of mature fruit." EXACT []
+relationship: Variableu_of SO21:0000008 ! Mature fruit diameter
+relationship: Variableu_of SO21:0000115 ! Visual observation: mature fruit diameter_method.
+relationship: Variableu_of SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:06:34Z
+
+[Term]
+id: SO21:0000667
+name: ripe fruit ratio fruit length/seed length
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000146
+alt_id: SO21:0000148
+alt_id: SO21:0000411
+alt_id: SO21:0000462
+alt_id: SO21:0000474
+def: "Visual observation of ripe fruit ratio fruit length/seed length with 1: very small(e.g. Toltec), 3:small(e.g. Bacon, Ettinger), 5:medium(e.g. Hashimoto, Hass, Lamat), 7: large(e.g.T181), 9: very large(e.g. Carlsbad)." []
+synonym: "<new term 7>" EXACT []
+synonym: "ratio fruit length/seed length of ripe fruit" EXACT []
+synonym: "ratio fruit length/seed length of ripe fruit " EXACT []
+synonym: "ratio fruit length/seed length of ripe fruit." EXACT []
+relationship: Variableu_of SO21:0000029 ! Ripe fruit ratio fruit length/seed length
+relationship: Variableu_of SO21:0000147 ! visual observation: ratio fruit length/ seed length of ripe fruit_method.
+relationship: Variableu_of SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:06:34Z
+
+[Term]
+id: SO21:0000668
+name: Mature fruit ratio length /diameter
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000142
+alt_id: SO21:0000144
+alt_id: SO21:0000408
+alt_id: SO21:0000467
+alt_id: SO21:0000476
+def: "Visual observation of ratio length/diameter of mature fruit. 1: very small(e.g. Trapp), 3: small (e.g. Monroe),5:medium(e.g. Carlsbad , Lima Late, Topa Topa), 7:large (e.g. #86), 9:very large(e.g. Telsen)." []
+synonym: "<new term>" EXACT []
+synonym: "ratio length/diameter of mature fruit " EXACT []
+synonym: "ratio length/diameter of mature fruit." EXACT []
+synonym: "ratio length/diameter of mature fruit. " EXACT []
+relationship: Variableu_of SO21:0000009 ! Mature fruit ratio length /diameter
+relationship: Variableu_of SO21:0000143 ! Visual observation: Mature fruit ratio length /diameter_method.
+relationship: Variableu_of SO21:0000281 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:06:34Z
+
+[Term]
+id: SO21:0000670
+name: sunken
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000285 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:22:48Z
+
+[Term]
+id: SO21:0000671
+name: raised
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000285 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:22:48Z
+
+[Term]
+id: SO21:0000672
+name: level
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000285 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:22:48Z
+
+[Term]
+id: SO21:0000685
+name: acuminate
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000293 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:57:38Z
+
+[Term]
+id: SO21:0000686
+name: rounded
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000293 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:57:38Z
+
+[Term]
+id: SO21:0000687
+name: acute
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000293 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T13:57:38Z
+
+[Term]
+id: SO21:0000688
+name: lanceolate
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000297 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:05:51Z
+
+[Term]
+id: SO21:0000689
+name: ovate
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000297 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:05:51Z
+
+[Term]
+id: SO21:0000690
+name: elliptic
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000297 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:05:51Z
+
+[Term]
+id: SO21:0000691
+name: circular
+namespace: AvocadoScaleUPOV
+synonym: "4" EXACT []
+is_a: SO21:0000297 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:05:51Z
+
+[Term]
+id: SO21:0000692
+name: obovate
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000297 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:05:51Z
+
+[Term]
+id: SO21:0000695
+name: cylindrical
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000301 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:20:08Z
+
+[Term]
+id: SO21:0000696
+name: conical
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000301 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:20:08Z
+
+[Term]
+id: SO21:0000698
+name: straight
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000305 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:38:09Z
+
+[Term]
+id: SO21:0000699
+name: kinked
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000305 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:38:09Z
+
+[Term]
+id: SO21:0000703
+name: pedicel shape
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000310
+alt_id: SO21:0000312
+alt_id: SO21:0000704
+def: "Visual observation of pedicel shape:  1: smooth(e.g. Duke,Ferdyn,Topa Topa), 2:wrinkled (e.g. Edranol, ettinger)." []
+synonym: "<new term 1>" EXACT []
+synonym: "surface of pedicel " EXACT []
+relationship: Variableu_of SO21:0000067 ! Pedicel surface
+relationship: Variableu_of SO21:0000311 ! visual observation: pedicel shape_method
+relationship: Variableu_of SO21:0000313 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T14:55:03Z
+
+[Term]
+id: SO21:0000705
+name: Cotyledon surface
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000306
+alt_id: SO21:0000308
+alt_id: SO21:0000702
+def: "Sensory assessment of cotyledon surface with 1: smooth (e.g.  bacon), 2:wrinkled (e.g. Collinson)." []
+synonym: "surface of cotyledon" EXACT []
+synonym: "surface of cotyledon " EXACT []
+relationship: Variableu_of SO21:0000070 ! Cotyledon surface
+relationship: Variableu_of SO21:0000307 ! sensory assessment: cotyledon surface_method.
+relationship: Variableu_of SO21:0000313 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T15:59:51Z
+
+[Term]
+id: SO21:0000706
+name: smooth
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000313 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T15:59:51Z
+
+[Term]
+id: SO21:0000707
+name: wrinkled
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000313 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T15:59:51Z
+
+[Term]
+id: SO21:0000708
+name: seed coat surface
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000314
+alt_id: SO21:0000316
+def: "Sensory assessment of seed coat surface:\n1: smooth or slightly wrinkled (e.g. Hass),2:  moderately wrinkled(e.g. Lula), 3: strongly wrinkled (e.g.  Trapp)." []
+synonym: "<new term 1>" EXACT []
+synonym: "surface of seed coat " EXACT []
+relationship: Variableu_of SO21:0000069 ! Seed coat surface
+relationship: Variableu_of SO21:0000315 ! sensory assessment: seed coat surface_method.
+relationship: Variableu_of SO21:0000317 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:25:42Z
+
+[Term]
+id: SO21:0000709
+name: smooth or slightly wrinkled
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000317 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:25:42Z
+
+[Term]
+id: SO21:0000710
+name: strongly wrinkled
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000317 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:25:42Z
+
+[Term]
+id: SO21:0000711
+name: moderately wrinkled
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000317 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:25:42Z
+
+[Term]
+id: SO21:0000713
+name: same
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000321 ! 2pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:36:47Z
+
+[Term]
+id: SO21:0000714
+name: thicker
+namespace: AvocadoScaleUPOV
+synonym: "2" EXACT []
+is_a: SO21:0000321 ! 2pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:36:47Z
+
+[Term]
+id: SO21:0000715
+name: early
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000325 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:59:07Z
+
+[Term]
+id: SO21:0000717
+name: late
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000325 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:59:07Z
+
+[Term]
+id: SO21:0000718
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000325 ! 3 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T16:59:07Z
+
+[Term]
+id: SO21:0000719
+name: very early
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000329 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T17:09:35Z
+
+[Term]
+id: SO21:0000720
+name: early
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000329 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T17:09:35Z
+
+[Term]
+id: SO21:0000721
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000329 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T17:09:35Z
+
+[Term]
+id: SO21:0000722
+name: late
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000329 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T17:09:35Z
+
+[Term]
+id: SO21:0000723
+name: very late
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000329 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T17:09:35Z
+
+[Term]
+id: SO21:0000736
+name: present
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000738
+name: pollen
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000266
+alt_id: SO21:0000268
+alt_id: SO21:0000365
+alt_id: SO21:0000441
+alt_id: SO21:0000456
+alt_id: SO21:0000525
+alt_id: SO21:0000636
+alt_id: SO21:0000651
+alt_id: SO21:0000681
+alt_id: SO21:0000727
+def: "Visual rating of pollen: 1: absent (e.g. Collinson), 9: present (e.g. Aguilar, Fuerte, Hass)." []
+synonym: "<new term 1>" EXACT []
+synonym: "pollen of flower" EXACT []
+synonym: "pollen of flower " EXACT []
+synonym: "Pollen of flower " EXACT []
+relationship: Variableu_of SO21:0000056 ! Pollen
+relationship: Variableu_of SO21:0000267 ! visual rating: pollen_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000739
+name: seed multiple sprouting
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000286
+alt_id: SO21:0000288
+alt_id: SO21:0000368
+alt_id: SO21:0000438
+alt_id: SO21:0000452
+alt_id: SO21:0000520
+alt_id: SO21:0000642
+alt_id: SO21:0000657
+alt_id: SO21:0000673
+alt_id: SO21:0000729
+def: "Visual rating of seed multiple sprouting: 1. Absent (e.g. Hass), 9. Present (e.g. Lula)." []
+synonym: "<new term 1>" EXACT []
+synonym: "seed multiple sprouting" EXACT []
+synonym: "seed multiple sprouting " EXACT []
+relationship: Variableu_of SO21:0000073 ! Seed multiple sprouting
+relationship: Variableu_of SO21:0000287 ! visual rating: seed multiple sprouting_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000740
+name: Ripe fruit anise aroma of flesh
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000082
+alt_id: SO21:0000084
+alt_id: SO21:0000359
+alt_id: SO21:0000444
+alt_id: SO21:0000451
+alt_id: SO21:0000521
+alt_id: SO21:0000643
+alt_id: SO21:0000656
+alt_id: SO21:0000677
+alt_id: SO21:0000728
+def: "Sensory assessment of ripe fruit anise aroma of flesh with 1: absent (e.g. Aguilar, Hass, Lamb Hass), 9: present (e.g. Mexicola)." []
+synonym: "anise aroma of flesh of ripe fruit" EXACT []
+synonym: "anise aroma of flesh of ripe fruit " EXACT []
+synonym: "anise aroma of flesh of ripe fruit." EXACT []
+synonym: "anise aroma of flesh of ripe fruit. " EXACT []
+relationship: Variableu_of SO21:0000028 ! Ripe fruit anise aroma of flesh
+relationship: Variableu_of SO21:0000083 ! Sensory assessment : ripe fruit anise aroma of flesh_method
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000741
+name: pedicel "Nailhead"
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000182
+alt_id: SO21:0000184
+alt_id: SO21:0000361
+alt_id: SO21:0000445
+alt_id: SO21:0000453
+alt_id: SO21:0000529
+alt_id: SO21:0000644
+alt_id: SO21:0000655
+alt_id: SO21:0000678
+alt_id: SO21:0000730
+def: "Visual observation of  pedicel \"Nailhead\" with 1: absent(e.g.Duke, Edranol, Wurtz), 9: present (e.g. Maxima, Pollock)." []
+synonym: "\"nailhead of pedicel\"" EXACT []
+synonym: "\"nailhead\" of pedicel" EXACT []
+synonym: "\"nailhead\" of pedicel " EXACT []
+synonym: "\"nailhead\"of pedicel" EXACT []
+synonym: "\"nailhead\"of pedicel. " EXACT []
+synonym: "<new term>" EXACT []
+relationship: Variableu_of SO21:0000065 ! Pedicel "Nailhead"
+relationship: Variableu_of SO21:0000183 ! visual observation: pedicel "Nailhead"_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000742
+name: Mature fruit presence of depression at stalk end
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000134
+alt_id: SO21:0000136
+alt_id: SO21:0000362
+alt_id: SO21:0000446
+alt_id: SO21:0000454
+alt_id: SO21:0000522
+alt_id: SO21:0000641
+alt_id: SO21:0000654
+alt_id: SO21:0000676
+alt_id: SO21:0000731
+def: "Visual rating of presence of depression at stalk end of mature fruit with 1: absent(e.g. Jim, Sharwil, Wurtz), 9: present(e.g. Maxima, Simmonds, Trapp)." []
+synonym: "<new term 1>" EXACT []
+synonym: "presence of depression at stalk end" EXACT []
+synonym: "Presence of depression at stalk end of mature fruit" EXACT []
+synonym: "presence of depression at stalk end of mature fruit" EXACT []
+synonym: "presence of depression at stalk end of mature fruit " EXACT []
+synonym: "presence of depression at stalk end of mature fruit. " EXACT []
+relationship: Variableu_of SO21:0000012 ! Mature fruit presence of depression at stalk end
+relationship: Variableu_of SO21:0000135 ! Visual rating: Mature fruit presence of depression at stalk end_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000743
+name: Mature fruit presence of neck
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000138
+alt_id: SO21:0000140
+alt_id: SO21:0000363
+alt_id: SO21:0000443
+alt_id: SO21:0000457
+alt_id: SO21:0000523
+alt_id: SO21:0000640
+alt_id: SO21:0000653
+alt_id: SO21:0000679
+alt_id: SO21:0000732
+def: "Visual observation of presence of neck of mature fruit with 1: absent (e.g. Hashimoto,Hass, Lamat), 9: present(e.g. Akbal, Fuerte, Horshim)." []
+synonym: "<new term 1>" EXACT []
+synonym: "presence of neck of mature fruit" EXACT []
+synonym: "presence of neck of mature fruit " EXACT []
+relationship: Variableu_of SO21:0000011 ! Mature fruit presence of neck
+relationship: Variableu_of SO21:0000139 ! Visual observation: Mature fruit presence of neck_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000744
+name: sepal pubescence of inner surface
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000274
+alt_id: SO21:0000276
+alt_id: SO21:0000364
+alt_id: SO21:0000442
+alt_id: SO21:0000455
+alt_id: SO21:0000524
+alt_id: SO21:0000639
+alt_id: SO21:0000652
+alt_id: SO21:0000680
+alt_id: SO21:0000733
+def: "Visual observation of sepal pubescence of inner surface: \n1: Absent (e.g. Pollock), 9:Present (e.g.Duke, Hass)." []
+synonym: "pubescence of inner surface of sepal" EXACT []
+synonym: "pubescence of inner surface of sepal " EXACT []
+synonym: "pubescence of inner surface of sepal." EXACT []
+relationship: Variableu_of SO21:0000057 ! Sepal pubescence of inner surface
+relationship: Variableu_of SO21:0000275 ! visual observation: sepal pubescence of inner surface_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:01:53Z
+
+[Term]
+id: SO21:0000745
+name: absent
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:02:00Z
+
+[Term]
+id: SO21:0000746
+name: leaf blade twisting along whole length
+namespace: AvocadoVariableUPOV
+alt_id: SO21:0000330
+alt_id: SO21:0000332
+alt_id: SO21:0000366
+alt_id: SO21:0000449
+alt_id: SO21:0000459
+alt_id: SO21:0000519
+alt_id: SO21:0000637
+alt_id: SO21:0000649
+alt_id: SO21:0000674
+alt_id: SO21:0000726
+def: "Visual rating of leaf blade twisting along whole length with: 1: absent(e.g. Fuerte), 9: present(e.g. Zutano)." []
+synonym: "<new term 2>" EXACT []
+synonym: "twisting along whole length of leaf blade" EXACT []
+synonym: "twisting along whole length of leaf blade " EXACT []
+relationship: Variableu_of SO21:0000043 ! Leaf blade twisting along whole length
+relationship: Variableu_of SO21:0000331 ! visual rating: leaf blade twisting along whole length_method.
+relationship: Variableu_of SO21:0000337 ! 2 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:02:00Z
+
+[Term]
+id: SO21:0000748
+name: absent or very weak
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000341 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:24:09Z
+
+[Term]
+id: SO21:0000749
+name: weak
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000341 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:24:09Z
+
+[Term]
+id: SO21:0000750
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000341 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:24:09Z
+
+[Term]
+id: SO21:0000751
+name: very strong
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000341 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:24:09Z
+
+[Term]
+id: SO21:0000752
+name: strong
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000341 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-23T18:24:09Z
+
+[Term]
+id: SO21:0000754
+name: very narrow
+namespace: AvocadoScaleUPOV
+synonym: "1" EXACT []
+is_a: SO21:0000345 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-24T15:04:29Z
+
+[Term]
+id: SO21:0000755
+name: narrow
+namespace: AvocadoScaleUPOV
+synonym: "3" EXACT []
+is_a: SO21:0000345 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-24T15:04:29Z
+
+[Term]
+id: SO21:0000756
+name: very broad
+namespace: AvocadoScaleUPOV
+synonym: "9" EXACT []
+is_a: SO21:0000345 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-24T15:04:29Z
+
+[Term]
+id: SO21:0000757
+name: broad
+namespace: AvocadoScaleUPOV
+synonym: "7" EXACT []
+is_a: SO21:0000345 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-24T15:04:29Z
+
+[Term]
+id: SO21:0000758
+name: medium
+namespace: AvocadoScaleUPOV
+synonym: "5" EXACT []
+is_a: SO21:0000345 ! 5 pt scale
+created_by: aliciatalaverajudez
+creation_date: 2015-11-24T15:04:29Z
+
+[Typedef]
+id: methodu_of
+name: method_of
+namespace: AvocadoMethodUPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T12:37:05Z
+
+[Typedef]
+id: scaleu_of
+name: scale_of
+namespace: AvocadoScaleUPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T12:36:45Z
+
+[Typedef]
+id: Variableu_of
+name: Variable_of
+namespace: AvocadoVariableUPOV
+created_by: aliciatalaverajudez
+creation_date: 2015-11-13T12:37:49Z
+

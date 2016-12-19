@@ -1,0 +1,2795 @@
+format-version: 1.2
+date: 07:12:2016 16:43
+saved-by: aliciata
+auto-generated-by: OBO-Edit 2.3
+default-namespace: AvocadoTraitCustom
+SO23: 0format-version: 1.2
+
+[Term]
+id: SO23:0000000
+name: AvocadoOntology_Custom
+namespace: Avocadotrait
+def: "Controlled vocabulary to describe each trait as a distinguishable, characteristic,quality or phenotypic feature of developing or mature avocado plant." []
+creation_date: 2016-12-04T17:28:42Z
+
+[Term]
+id: SO23:0000001
+name: Agronomic trait
+def: "A characteristic in a avocado plant that will add or remove economic value to agricultural production." []
+is_a: SO23:0000000 ! AvocadoOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-04T17:32:42Z
+
+[Term]
+id: SO23:0000002
+name: Morphological trait
+def: "Physical attributes that describe the shape or form of avocado plant." []
+is_a: SO23:0000000 ! AvocadoOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-04T17:32:42Z
+
+[Term]
+id: SO23:0000003
+name: Phenological trait
+def: "Characteristic related to the functioning of periodic avocado plant life cycle events and how these are influenced by seasonal and interannual variations." []
+is_a: SO23:0000000 ! AvocadoOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-04T17:32:42Z
+
+[Term]
+id: SO23:0000004
+name: Quality trait
+def: "A characteristic or distinguishing feature of avocado related to its utilization after harvest." []
+is_a: SO23:0000000 ! AvocadoOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-04T17:32:42Z
+
+[Term]
+id: SO23:0000005
+name: Stress trait
+def: "A characteristic related to plant functioning in the presence of a biotic or abiotic challenge to normal or optimal growing conditions." []
+is_a: SO23:0000000 ! AvocadoOntology_Custom
+created_by: aliciata
+creation_date: 2016-12-04T17:32:42Z
+
+[Term]
+id: SO23:0000006
+name: Crotch angle of leaf petiole
+def: "A leaf petiole attitude which is associated with the angle of leaf petiole measured against the stem." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T17:54:22Z
+
+[Term]
+id: SO23:0000007
+name: Leaf blade length (Mature leaves)
+def: "A leaf lamina anatomy and morphology trait (TO:0000829) which is associated with the actual length measurements, in centimeters of the leaf laimina (PO:0020039). Average of 10 mature leaves." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T17:54:55Z
+
+[Term]
+id: SO23:0000008
+name: Leaf blade length (Young leaves)
+def: "A leaf lamina anatomy and morphology trait (TO:0000829) which is associated with the actual length measurements, in centimeters of the leaf laimina (PO:0020039). Average of 10 mature leaves." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T17:56:15Z
+
+[Term]
+id: SO23:0000009
+name: Petiole length
+def: "A petiole morphology trait (TO:0000765) which is the length of a petiole (PO:0020038)." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T17:57:28Z
+
+[Term]
+id: SO23:0000010
+name: Leaf width (1/2 of length)
+def: "A leaf size (TO:0002637) trait which the width of a leaf (PO:0025034)." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T17:58:01Z
+
+[Term]
+id: SO23:0000011
+name: Young leaf width
+def: "A  young leaf lamina anatomy and morphology trait which is associated with the actual measurements." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T17:58:54Z
+
+[Term]
+id: SO23:0000012
+name: Leaf width(1/4 of length)
+def: "A leaf size (TO:0002637) trait which the width of a leaf (PO:0025034)." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T17:59:58Z
+
+[Term]
+id: SO23:0000013
+name: Leaf width (3/4 of length)
+def: "A leaf size (TO:0002637) trait which the width of a leaf (PO:0025034)." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:00:36Z
+
+[Term]
+id: SO23:0000014
+name: Leaf ratio length/width
+def: "Ratio of leaf length and width." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:02:38Z
+
+[Term]
+id: SO23:0000015
+name: Leaf shape
+def: "A leaf anatomy and morphology trait (TO:0000748) which is associated with the variation in shapes and forms of a leaf (PO:0025034)." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:03:21Z
+
+[Term]
+id: SO23:0000016
+name: Leaf base shape
+def: "A leaf anatomy and morphology trait which is associated with the variation in shape and forms of a leaf base." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:03:45Z
+
+[Term]
+id: SO23:0000017
+name: Leaf apex shape
+def: "A leaf anatomy and morphology trait which is associated with the leaf apex shape." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:04:11Z
+
+[Term]
+id: SO23:0000018
+name: Leaf color upper side (mature leaves)
+def: "COLOR UPPER SIDE (ML)" []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:04:49Z
+
+[Term]
+id: SO23:0000019
+name: Leaf color lower side
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:05:27Z
+
+[Term]
+id: SO23:0000020
+name: Color of young leaf on upper side
+def: "A leaf anatomy and morphology trait which is associated with the color of young leaf upper superface." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000021
+name: Color of young leaf on lower side
+def: "A leaf anatomy and morphology trait which is associated with the color of young leaf lower superface." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000022
+name: Pubescence upper side (touch)
+def: "A leaf anatomy and morphology trait which is associated with the pubescence of leaf upper superface," []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000023
+name: Pubescence upper side (lens)
+def: "A leaf anatomy and morphology trait which is associated with the pubescence of leaf upper superface," []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000024
+name: Pubescence lower side (touch)
+def: "A leaf anatomy and morphology trait which is associated with the pubescence of leaf lower superface," []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000025
+name: Pubescence lower side (lens)
+def: "A leaf anatomy and morphology trait which is associated with the pubescence of leaf lower superface." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000026
+name: Young leaf color of pubescence of petiole.
+def: "A leaf anatomy and morphology trait which is associated with the color of pubescence of petiole." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000027
+name: Leaf margin
+def: "A leaf margin anatomy and morphology trait (TO:0002635) which is associated with a leaf lamina margin (PO:0025009)." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000028
+name: Twisting along whole length
+def: "A trait to measure leaf spiralling." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000029
+name: Twisting of apex
+def: "A leaf anatomy and morphology trait which is associated with the twisting of apex." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000030
+name: Number of primary veins
+def: "A leaf  anatomy and morphology trait  which is associated with the number of primary veins." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000031
+name: Number of secondary veins
+def: "A leaf anatomy and morphology trait which is associated with the number of secondary veins." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000032
+name: Relief of venation on upper surface
+def: "A leaf anatomy and morphology trait which is associated with the relief of venation on upper surface." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000033
+name: Primary leaf vein divergence relative to the main vein (º)
+def: "A leaf anatomy and morphology trait which is associated with the primary leaf vein divergence relative to the main vein(º)." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000034
+name: Groove on petiole
+def: "A petiole anatomy and morphology trait which is associated with the groove on petiole." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000035
+name: Leaf texture
+def: "A leaf anatomy and morphology trait which is associated with the leaf texture." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000036
+name: Anise smell
+def: "A leaf trait which is associated with the anise smell. Leaf must be crushed." []
+is_a: SO23:0000002 {namespace="<new namespace id>"} ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000037
+name: Leaf area
+def: "Leaf Area Index (LAI) is the ratio of total upper leaf surface of vegetation divided by the surface area of the land on which the vegetation grows." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T18:16:59Z
+
+[Term]
+id: SO23:0000038
+name: Dry matter
+def: "The percentage of dry matter." []
+is_a: SO23:0000004 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-04T19:09:13Z
+
+[Term]
+id: SO23:0000039
+name: Penetrometer resistance
+def: "It is assayed as the force necessary to break the flesh tissues and depends on the different growth stages during the ripening process.  Measure in fully ripened fruits, at four points of the equator and on the apex." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-05T13:30:16Z
+
+[Term]
+id: SO23:0000040
+name: anise smell
+namespace: Avocadovariable
+alt_id: SO23:0000043
+alt_id: SO23:0000045
+def: "Sensory assessment of anise smell.\n\nIt is scored on a numeric scale: 3:Weak, 5: Intermediate. 7: Strong and \nNo: Absent." []
+synonym: "<new term 2>" EXACT []
+relationship: variable_of SO23:0000036 ! Anise smell
+relationship: variable_of SO23:0000041 ! Sensory assessment: anise smell_method.
+relationship: variable_of SO23:0000042 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T18:44:45Z
+
+[Term]
+id: SO23:0000041
+name: Sensory assessment: anise smell_method.
+namespace: Avocadomethod
+def: "Sensory assessment of anise smell." []
+relationship: method_of SO23:0000036 ! Anise smell
+created_by: aliciata
+creation_date: 2016-12-04T18:44:45Z
+
+[Term]
+id: SO23:0000042
+name: 4pt
+relationship: scale_of SO23:0000041 ! Sensory assessment: anise smell_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:45:08Z
+
+[Term]
+id: SO23:0000044
+name: Visual observation: leaf margin:_method.
+namespace: Avocadomethod
+def: "Visual observation of leaf margin." []
+relationship: method_of SO23:0000027 ! Leaf margin
+created_by: aliciata
+creation_date: 2016-12-04T18:45:59Z
+
+[Term]
+id: SO23:0000046
+name: leaf margin
+namespace: Avocadovariable
+alt_id: SO23:0000048
+alt_id: SO23:0000049
+def: "Visual observation of leaf margin. It is scored on a numeric scale:  1: Entire and 2: Undulate." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000027 ! Leaf margin
+relationship: variable_of SO23:0000044 ! Visual observation: leaf margin:_method.
+relationship: variable_of SO23:0000047 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T18:45:59Z
+
+[Term]
+id: SO23:0000047
+name: 2pt
+relationship: scale_of SO23:0000044 ! Visual observation: leaf margin:_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:46:14Z
+
+[Term]
+id: SO23:0000050
+name: Visual rating: color of young leaf on lower side_method.
+namespace: Avocadomethod
+def: "Visual rating: color of young leaf on lower side." []
+relationship: method_of SO23:0000021 ! Color of young leaf on lower side
+created_by: aliciata
+creation_date: 2016-12-04T18:46:33Z
+
+[Term]
+id: SO23:0000051
+name: color of young leaf on lower side
+namespace: Avocadovariable
+alt_id: SO23:0000053
+alt_id: SO23:0000054
+def: "Visual rating: color of young leaf on lower side. \n\n If possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1. Yellow green, 2. Green, 3. Reddish(e.g. Duke 6.)." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000021 ! Color of young leaf on lower side
+relationship: variable_of SO23:0000050 ! Visual rating: color of young leaf on lower side_method.
+relationship: variable_of SO23:0000052 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T18:46:33Z
+
+[Term]
+id: SO23:0000052
+name: 3pt
+relationship: scale_of SO23:0000050 ! Visual rating: color of young leaf on lower side_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:46:48Z
+
+[Term]
+id: SO23:0000055
+name: Visual rating: color of young leaf upper superface_method.
+namespace: Avocadomethod
+def: "Visual rating: color of young leaf on upper side." []
+relationship: method_of SO23:0000020 ! Color of young leaf on upper side
+created_by: aliciata
+creation_date: 2016-12-04T18:47:08Z
+
+[Term]
+id: SO23:0000056
+name: color of young leaf on upper side.
+namespace: Avocadovariable
+alt_id: SO23:0000058
+alt_id: SO23:0000059
+def: "Visual rating: color of young leaf on upper side.\n\nIf possible, use colour codes from the Royal Horticultural Society." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000020 ! Color of young leaf on upper side
+relationship: variable_of SO23:0000055 ! Visual rating: color of young leaf upper superface_method.
+relationship: variable_of SO23:0000057 ! RHS colour codes
+created_by: aliciata
+creation_date: 2016-12-04T18:47:08Z
+
+[Term]
+id: SO23:0000057
+name: RHS colour codes
+relationship: scale_of SO23:0000055 ! Visual rating: color of young leaf upper superface_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:47:22Z
+
+[Term]
+id: SO23:0000060
+name: Visual observation: crotch angle of leaf petiole_method.
+namespace: Avocadomethod
+def: "Visual observation of crotch angle of leaf petiole." []
+relationship: method_of SO23:0000006 ! Crotch angle of leaf petiole
+created_by: aliciata
+creation_date: 2016-12-04T18:47:43Z
+
+[Term]
+id: SO23:0000061
+name: crotch angle of leaf petiole
+namespace: Avocadovariable
+alt_id: SO23:0000063
+alt_id: SO23:0000064
+def: "Visual observation of crotch angle of leaf petiole. \n\nIt is scored on a numeric scale: 1. Acute (90°) and 2. Obtuse (>90°)." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000006 ! Crotch angle of leaf petiole
+relationship: variable_of SO23:0000060 ! Visual observation: crotch angle of leaf petiole_method.
+relationship: variable_of SO23:0000062 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T18:47:43Z
+
+[Term]
+id: SO23:0000062
+name: 2pt
+relationship: scale_of SO23:0000060 ! Visual observation: crotch angle of leaf petiole_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:47:55Z
+
+[Term]
+id: SO23:0000065
+name: Visual rating: penetrometer resistance_method.
+namespace: Avocadomethod
+def: "Visual rating of penetrometer resistance." []
+relationship: method_of SO23:0000039 ! Penetrometer resistance
+created_by: aliciata
+creation_date: 2016-12-05T13:31:39Z
+
+[Term]
+id: SO23:0000066
+name: penetrometer resistance
+namespace: Avocadovariable
+alt_id: SO23:0000284
+alt_id: SO23:0000308
+def: "Visual rating of penetrometer resistance in N/cm2." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000039 ! Penetrometer resistance
+relationship: variable_of SO23:0000065 ! Visual rating: penetrometer resistance_method.
+relationship: variable_of SO23:0000067 ! N/cm2.
+created_by: aliciata
+creation_date: 2016-12-05T13:31:39Z
+
+[Term]
+id: SO23:0000067
+name: N/cm2.
+relationship: scale_of SO23:0000065 ! Visual rating: penetrometer resistance_method.
+created_by: aliciata
+creation_date: 2016-12-05T13:38:33Z
+
+[Term]
+id: SO23:0000070
+name: Visual observation: groove on petiole_method.
+namespace: Avocadomethod
+def: "Visual observation of groove on petiole." []
+relationship: method_of SO23:0000034 ! Groove on petiole
+created_by: aliciata
+creation_date: 2016-12-04T18:48:54Z
+
+[Term]
+id: SO23:0000071
+name: groove on petiole
+namespace: Avocadovariable
+alt_id: SO23:0000073
+alt_id: SO23:0000074
+alt_id: SO23:0000075
+def: "Visual observation of groove on petiole.\n\nIt is scored on a numeric scale: 0: Absent and 1. Present." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000034 ! Groove on petiole
+relationship: variable_of SO23:0000070 ! Visual observation: groove on petiole_method.
+relationship: variable_of SO23:0000072 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T18:48:54Z
+
+[Term]
+id: SO23:0000072
+name: 2pt
+relationship: scale_of SO23:0000070 ! Visual observation: groove on petiole_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:49:08Z
+
+[Term]
+id: SO23:0000076
+name: Visual observation: leaf apex shape_method.
+namespace: Avocadomethod
+def: "Visual observation of leaf apex shape." []
+relationship: method_of SO23:0000017 ! Leaf apex shape
+created_by: aliciata
+creation_date: 2016-12-04T18:49:39Z
+
+[Term]
+id: SO23:0000078
+name: 5pt
+relationship: scale_of SO23:0000076 ! Visual observation: leaf apex shape_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:49:53Z
+
+[Term]
+id: SO23:0000079
+name: leaf apex shape
+namespace: Avocadovariable
+alt_id: SO23:0000077
+alt_id: SO23:0000080
+def: "Visual observation of leaf apex shape. It is scored on a numeric scale: \n1. Very acute 3. Acute 5. Intermediate 7. Obtuse 9. Very obtuse." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000017 ! Leaf apex shape
+relationship: variable_of SO23:0000076 ! Visual observation: leaf apex shape_method.
+relationship: variable_of SO23:0000078 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T18:49:53Z
+
+[Term]
+id: SO23:0000081
+name: leaf area
+namespace: Avocadovariable
+alt_id: SO23:0000084
+alt_id: SO23:0000085
+def: "Estimation of leaf area." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000037 ! Leaf area
+relationship: variable_of SO23:0000082 ! Estimation: leaf area_method.
+relationship: variable_of SO23:0000083 ! <new term 1>
+created_by: aliciata
+creation_date: 2016-12-04T18:50:15Z
+
+[Term]
+id: SO23:0000082
+name: Estimation: leaf area_method.
+namespace: Avocadomethod
+def: "Estimation of leaf area." []
+relationship: method_of SO23:0000037 ! Leaf area
+created_by: aliciata
+creation_date: 2016-12-04T18:50:15Z
+
+[Term]
+id: SO23:0000083
+name: <new term 1>
+relationship: scale_of SO23:0000082 ! Estimation: leaf area_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:50:35Z
+
+[Term]
+id: SO23:0000086
+name: Visual observation: leaf base shape_method.
+namespace: Avocadomethod
+def: "Visual observation of leaf base shape." []
+relationship: method_of SO23:0000016 ! Leaf base shape
+created_by: aliciata
+creation_date: 2016-12-04T18:50:55Z
+
+[Term]
+id: SO23:0000088
+name: 3pt
+relationship: scale_of SO23:0000086 ! Visual observation: leaf base shape_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:51:12Z
+
+[Term]
+id: SO23:0000089
+name: leaf base shape
+namespace: Avocadovariable
+alt_id: SO23:0000087
+alt_id: SO23:0000090
+def: "Visual observation of leaf base shape. It is scored on a numeric scale.\n1. Acute, 2. Obtuse, 3. Truncate." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000016 ! Leaf base shape
+relationship: variable_of SO23:0000086 ! Visual observation: leaf base shape_method.
+relationship: variable_of SO23:0000088 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T18:51:12Z
+
+[Term]
+id: SO23:0000091
+name: Measurement: leaf blade length (ML)_method.
+namespace: Avocadomethod
+def: "Measure of 10 mature leaves blade length." []
+relationship: method_of SO23:0000007 ! Leaf blade length (Mature leaves)
+created_by: aliciata
+creation_date: 2016-12-04T18:51:32Z
+
+[Term]
+id: SO23:0000092
+name: leaf blade length (ML)
+namespace: Avocadovariable
+alt_id: SO23:0000094
+alt_id: SO23:0000095
+def: "Measure of 10 mature leaves blade length in centimeter (cm)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000007 ! Leaf blade length (Mature leaves)
+relationship: variable_of SO23:0000091 ! Measurement: leaf blade length (ML)_method.
+relationship: variable_of SO23:0000093 ! cm
+created_by: aliciata
+creation_date: 2016-12-04T18:51:32Z
+
+[Term]
+id: SO23:0000093
+name: cm
+alt_id: SO23:0000098
+alt_id: SO23:0000128
+alt_id: SO23:0000134
+alt_id: SO23:0000148
+alt_id: SO23:0000194
+synonym: "cm" EXACT []
+relationship: scale_of SO23:0000091 ! Measurement: leaf blade length (ML)_method.
+relationship: scale_of SO23:0000096 ! Measurement: leaf blade (YL)_method.
+relationship: scale_of SO23:0000127 ! Measurement: leaf wdth (1/2 of length)_method.
+relationship: scale_of SO23:0000131 ! Measurement: leaf width (3/4 of length)_method.
+relationship: scale_of SO23:0000146 ! Visual rating: petiole length_method.
+relationship: scale_of SO23:0000192 ! Measurement: leaf width (1/4 of length)_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:51:45Z
+
+[Term]
+id: SO23:0000096
+name: Measurement: leaf blade (YL)_method.
+namespace: Avocadomethod
+def: "Measure of 10 young leaves blade length." []
+relationship: method_of SO23:0000008 ! Leaf blade length (Young leaves)
+created_by: aliciata
+creation_date: 2016-12-04T18:52:10Z
+
+[Term]
+id: SO23:0000097
+name: leaf blade length (YL)
+namespace: Avocadovariable
+alt_id: SO23:0000099
+alt_id: SO23:0000100
+def: "Measure of 10 length leaves blade length in centimeter (cm)." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000008 ! Leaf blade length (Young leaves)
+relationship: variable_of SO23:0000093 ! cm
+relationship: variable_of SO23:0000096 ! Measurement: leaf blade (YL)_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:52:10Z
+
+[Term]
+id: SO23:0000101
+name: Visual observation: leaf shape_method.
+namespace: Avocadomethod
+def: "Visual observation of leaf shape. \nRecord on midspring flush leaf." []
+relationship: method_of SO23:0000015 ! Leaf shape
+created_by: aliciata
+creation_date: 2016-12-04T18:52:41Z
+
+[Term]
+id: SO23:0000103
+name: 10pt
+relationship: scale_of SO23:0000101 ! Visual observation: leaf shape_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:52:57Z
+
+[Term]
+id: SO23:0000104
+name: leaf shape
+namespace: Avocadovariable
+alt_id: SO23:0000102
+alt_id: SO23:0000105
+def: "Visual observation of leaf shape. Record on midspring flush leaf.\n\nIt is scored on a numeric scale: 1 Ovate, 2. Narrowly obovate, 3.Obovate, 4. Oval, 5. Roundish, 6.Cordiform, 7. Lanceolate, 8. Oblong, 9.Oblong-lanceolate, 10. Other." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000015 ! Leaf shape
+relationship: variable_of SO23:0000101 ! Visual observation: leaf shape_method.
+relationship: variable_of SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T18:52:57Z
+
+[Term]
+id: SO23:0000106
+name: Visual rating: leaf color lower side_method.
+namespace: Avocadomethod
+def: "Visual rating of leaf color lower side." []
+relationship: method_of SO23:0000019 ! Leaf color lower side
+created_by: aliciata
+creation_date: 2016-12-04T18:53:15Z
+
+[Term]
+id: SO23:0000107
+name: leaf color lower side
+namespace: Avocadovariable
+alt_id: SO23:0000109
+alt_id: SO23:0000110
+def: "Visual rating of leaf color lower side. Scored as: RHS colour codes." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000019 ! Leaf color lower side
+relationship: variable_of SO23:0000106 ! Visual rating: leaf color lower side_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:53:15Z
+
+[Term]
+id: SO23:0000108
+name: RHS colour codes
+alt_id: SO23:0000113
+synonym: "RHS colour codes" EXACT []
+relationship: scale_of SO23:0000106 ! Visual rating: leaf color lower side_method.
+relationship: scale_of SO23:0000111 ! Visual rating: leaf color upper side _method.
+created_by: aliciata
+creation_date: 2016-12-04T18:53:26Z
+
+[Term]
+id: SO23:0000111
+name: Visual rating: leaf color upper side _method.
+namespace: Avocadomethod
+def: "Visual observation of leaf color upper side." []
+relationship: method_of SO23:0000018 ! Leaf color upper side (mature leaves)
+created_by: aliciata
+creation_date: 2016-12-04T18:53:44Z
+
+[Term]
+id: SO23:0000112
+name: leaf color upper side
+namespace: Avocadovariable
+alt_id: SO23:0000114
+alt_id: SO23:0000115
+def: "Visual observation of leaf color upper side. Scored as: RHS colour codes." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000018 ! Leaf color upper side (mature leaves)
+relationship: variable_of SO23:0000108 ! RHS colour codes
+relationship: variable_of SO23:0000111 ! Visual rating: leaf color upper side _method.
+created_by: aliciata
+creation_date: 2016-12-04T18:53:44Z
+
+[Term]
+id: SO23:0000116
+name: Estimation: leaf ratio length/width_Method.
+namespace: Avocadomethod
+def: "Estimation of leaf ration length/width." []
+relationship: method_of SO23:0000014 ! Leaf ratio length/width
+created_by: aliciata
+creation_date: 2016-12-04T18:54:25Z
+
+[Term]
+id: SO23:0000118
+name: 5pt
+relationship: scale_of SO23:0000116 ! Estimation: leaf ratio length/width_Method.
+created_by: aliciata
+creation_date: 2016-12-04T18:54:39Z
+
+[Term]
+id: SO23:0000119
+name: leaf ratio length/width
+namespace: Avocadovariable
+alt_id: SO23:0000117
+alt_id: SO23:0000120
+def: "Ratio of leaf length and width.\nScored as:  1. Very small (Santana), 3. Small (G755c), 5. Medium (Choquette), 7. Large (Mike, Pinkerton), 9. Very large (Reed)." []
+relationship: variable_of SO23:0000014 ! Leaf ratio length/width
+relationship: variable_of SO23:0000116 ! Estimation: leaf ratio length/width_Method.
+relationship: variable_of SO23:0000118 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T18:54:39Z
+
+[Term]
+id: SO23:0000121
+name: Sensory assessment:leaf texture_method.
+namespace: Avocadomethod
+def: "Sensory assesssment of leaf texture." []
+relationship: method_of SO23:0000035 ! Leaf texture
+created_by: aliciata
+creation_date: 2016-12-04T18:55:01Z
+
+[Term]
+id: SO23:0000123
+name: 4pt
+relationship: scale_of SO23:0000121 ! Sensory assessment:leaf texture_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:55:17Z
+
+[Term]
+id: SO23:0000124
+name: leaf texture
+namespace: Avocadovariable
+alt_id: SO23:0000122
+alt_id: SO23:0000125
+def: "Sensory assesssment of leaf texture. Scored as: 3. Soft, 5. Semihard, 7. Hard and 9.Very hard." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000035 ! Leaf texture
+relationship: variable_of SO23:0000121 ! Sensory assessment:leaf texture_method.
+relationship: variable_of SO23:0000123 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T18:55:17Z
+
+[Term]
+id: SO23:0000126
+name: leaf width (1/2 of length)
+namespace: Avocadovariable
+alt_id: SO23:0000129
+alt_id: SO23:0000130
+def: "Measure of leaf width at 1/2 of length in centimeters (cm)." []
+synonym: "<new term 1>" EXACT []
+synonym: "<new term 2>" EXACT []
+relationship: variable_of SO23:0000010 ! Leaf width (1/2 of length)
+relationship: variable_of SO23:0000093 ! cm
+relationship: variable_of SO23:0000127 ! Measurement: leaf wdth (1/2 of length)_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:55:48Z
+
+[Term]
+id: SO23:0000127
+name: Measurement: leaf wdth (1/2 of length)_method.
+namespace: Avocadomethod
+def: "Measure of leaf width at 1/2 of length." []
+relationship: method_of SO23:0000010 ! Leaf width (1/2 of length)
+created_by: aliciata
+creation_date: 2016-12-04T18:55:48Z
+
+[Term]
+id: SO23:0000131
+name: Measurement: leaf width (3/4 of length)_method.
+namespace: Avocadomethod
+def: "Measure of leaf width at 3/4 length." []
+relationship: method_of SO23:0000013 ! Leaf width (3/4 of length)
+created_by: aliciata
+creation_date: 2016-12-04T18:56:33Z
+
+[Term]
+id: SO23:0000132
+name: Leaf width (3/4 of length)
+namespace: Avocadovariable
+alt_id: SO23:0000133
+alt_id: SO23:0000135
+def: "Measure of leaf width at 3/4 length in centimeters (cm)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000013 ! Leaf width (3/4 of length)
+relationship: variable_of SO23:0000093 ! cm
+relationship: variable_of SO23:0000131 ! Measurement: leaf width (3/4 of length)_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:56:33Z
+
+[Term]
+id: SO23:0000136
+name: Counting :number of primary veins_method.
+namespace: Avocadomethod
+def: "A count of primary veins." []
+relationship: method_of SO23:0000030 ! Number of primary veins
+created_by: aliciata
+creation_date: 2016-12-04T18:57:09Z
+
+[Term]
+id: SO23:0000137
+name: number of primary veins
+namespace: Avocadovariable
+alt_id: SO23:0000139
+alt_id: SO23:0000140
+def: "Count of primary veins." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000030 ! Number of primary veins
+relationship: variable_of SO23:0000136 ! Counting :number of primary veins_method.
+relationship: variable_of SO23:0000138 ! number
+created_by: aliciata
+creation_date: 2016-12-04T18:57:09Z
+
+[Term]
+id: SO23:0000138
+name: number
+relationship: scale_of SO23:0000136 ! Counting :number of primary veins_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:57:27Z
+
+[Term]
+id: SO23:0000141
+name: Counting: number of secondary veins_method.
+namespace: Avocadomethod
+def: "Count of secondary veins." []
+relationship: method_of SO23:0000031 ! Number of secondary veins
+created_by: aliciata
+creation_date: 2016-12-04T18:57:51Z
+
+[Term]
+id: SO23:0000143
+name: 3pt
+relationship: scale_of SO23:0000141 ! Counting: number of secondary veins_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:58:34Z
+
+[Term]
+id: SO23:0000144
+name: number of secondary veins
+namespace: Avocadovariable
+alt_id: SO23:0000142
+alt_id: SO23:0000145
+def: "A count of secondary veins. Scored as: 1. Few (e.g. Aguilar, Hass, Mike) , 2.Intermedite (e.g. Duke 7, Fuerte, Pinkerton) and 3. Many (e.g.Encinos, G755c)." []
+relationship: variable_of SO23:0000031 ! Number of secondary veins
+relationship: variable_of SO23:0000141 ! Counting: number of secondary veins_method.
+relationship: variable_of SO23:0000143 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T18:58:34Z
+
+[Term]
+id: SO23:0000146
+name: Visual rating: petiole length_method.
+namespace: Avocadomethod
+def: "Visual rating of petiole length." []
+relationship: method_of SO23:0000009 ! Petiole length
+created_by: aliciata
+creation_date: 2016-12-04T18:59:02Z
+
+[Term]
+id: SO23:0000150
+name: petiole length
+namespace: Avocadovariable
+alt_id: SO23:0000147
+alt_id: SO23:0000149
+def: "Visual rating of petiole length in centimeters (cm)." []
+synonym: "<new term 2>" EXACT []
+synonym: "petiole length" EXACT []
+relationship: variable_of SO23:0000009 ! Petiole length
+relationship: variable_of SO23:0000093 ! cm
+relationship: variable_of SO23:0000146 ! Visual rating: petiole length_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:59:25Z
+
+[Term]
+id: SO23:0000151
+name: Visual rating:primary leaf vein divergence relative to the main vein (º)_method.
+namespace: Avocadomethod
+def: "Visual rating of primary leaf vein divergence relative to the main vein at middle part of the leaf." []
+relationship: method_of SO23:0000033 ! Primary leaf vein divergence relative to the main vein (º)
+created_by: aliciata
+creation_date: 2016-12-04T18:59:37Z
+
+[Term]
+id: SO23:0000152
+name: primary leaf divergence relative to the main vein (º)
+namespace: Avocadovariable
+alt_id: SO23:0000154
+alt_id: SO23:0000155
+def: "Visual rating of primary leaf vein divergence relative to the main vein at middle part of the leaf in º." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000033 ! Primary leaf vein divergence relative to the main vein (º)
+relationship: variable_of SO23:0000151 ! Visual rating:primary leaf vein divergence relative to the main vein (º)_method.
+relationship: variable_of SO23:0000153 ! º
+created_by: aliciata
+creation_date: 2016-12-04T18:59:37Z
+
+[Term]
+id: SO23:0000153
+name: º
+relationship: scale_of SO23:0000151 ! Visual rating:primary leaf vein divergence relative to the main vein (º)_method.
+created_by: aliciata
+creation_date: 2016-12-04T18:59:52Z
+
+[Term]
+id: SO23:0000156
+name: Visual observation: pubescence lower side_method.
+namespace: Avocadomethod
+def: "Visual observation of pubescence lower side." []
+relationship: method_of SO23:0000025 ! Pubescence lower side (lens)
+created_by: aliciata
+creation_date: 2016-12-04T19:00:17Z
+
+[Term]
+id: SO23:0000157
+name: pubescence lower side
+namespace: Avocadovariable
+alt_id: SO23:0000159
+alt_id: SO23:0000160
+def: "Visual observation of pubescence lower side using a lens. Scored as:\n3.(Sparse), 5(Intermediate)\n7.(Dense), Absent." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000025 ! Pubescence lower side (lens)
+relationship: variable_of SO23:0000156 ! Visual observation: pubescence lower side_method.
+relationship: variable_of SO23:0000158 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T19:00:17Z
+
+[Term]
+id: SO23:0000158
+name: 4pt
+alt_id: SO23:0000163
+alt_id: SO23:0000168
+alt_id: SO23:0000173
+synonym: "4pt" EXACT []
+relationship: scale_of SO23:0000156 ! Visual observation: pubescence lower side_method.
+relationship: scale_of SO23:0000161 ! Sensory assessment: pubescence lower side_method.
+relationship: scale_of SO23:0000166 ! Visual observation: pubescence upper side_method.
+relationship: scale_of SO23:0000171 ! Sensory assessment: pubescence upper side_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:00:33Z
+
+[Term]
+id: SO23:0000161
+name: Sensory assessment: pubescence lower side_method.
+namespace: Avocadomethod
+def: "Sensory assessment of pubescence lower side." []
+relationship: method_of SO23:0000024 ! Pubescence lower side (touch)
+created_by: aliciata
+creation_date: 2016-12-04T19:00:55Z
+
+[Term]
+id: SO23:0000162
+name: pubescence lower side
+namespace: Avocadovariable
+alt_id: SO23:0000164
+alt_id: SO23:0000165
+def: "Sensory assessment of pubescence lower side. \nScored as:\n3.(Sparse), 5(Intermediate)\n7.(Dense), Absent." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000024 ! Pubescence lower side (touch)
+relationship: variable_of SO23:0000158 ! 4pt
+relationship: variable_of SO23:0000161 ! Sensory assessment: pubescence lower side_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:00:55Z
+
+[Term]
+id: SO23:0000166
+name: Visual observation: pubescence upper side_method.
+namespace: Avocadomethod
+def: "Visual observation of pubescence upper side using a lens." []
+relationship: method_of SO23:0000023 ! Pubescence upper side (lens)
+created_by: aliciata
+creation_date: 2016-12-04T19:02:10Z
+
+[Term]
+id: SO23:0000167
+name: pubescence upper side(lens)
+namespace: Avocadovariable
+alt_id: SO23:0000169
+alt_id: SO23:0000170
+def: "Visual observation of pubescence upper side using a lens. Scored as:\n3.(Sparse), 5(Intermediate)\n7.(Dense), Absent." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000023 ! Pubescence upper side (lens)
+relationship: variable_of SO23:0000158 ! 4pt
+relationship: variable_of SO23:0000166 ! Visual observation: pubescence upper side_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:02:10Z
+
+[Term]
+id: SO23:0000171
+name: Sensory assessment: pubescence upper side_method.
+namespace: Avocadomethod
+def: "Sensory assessment of pubescence upper side." []
+relationship: method_of SO23:0000022 ! Pubescence upper side (touch)
+created_by: aliciata
+creation_date: 2016-12-04T19:02:44Z
+
+[Term]
+id: SO23:0000172
+name: pubescence upper side
+namespace: Avocadovariable
+alt_id: SO23:0000174
+alt_id: SO23:0000175
+def: "Sensory assessment of pubescence upper side. \nScored as:\n3.(Sparse), 5(Intermediate)\n7.(Dense), Absent." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000022 ! Pubescence upper side (touch)
+relationship: variable_of SO23:0000158 ! 4pt
+relationship: variable_of SO23:0000171 ! Sensory assessment: pubescence upper side_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:02:44Z
+
+[Term]
+id: SO23:0000176
+name: Sensory assessment: relief of venation on upper surface_method.
+namespace: Avocadomethod
+def: "Sensory assessment of relief of venation on upper surface." []
+relationship: method_of SO23:0000032 ! Relief of venation on upper surface
+created_by: aliciata
+creation_date: 2016-12-04T19:03:16Z
+
+[Term]
+id: SO23:0000177
+name: relief of venation on upper surface
+namespace: Avocadovariable
+alt_id: SO23:0000179
+alt_id: SO23:0000180
+def: "Sensory assessment of relief of venation on upper surface.\nScored as: 3. Sunken. 5. Intermediate  and 7. Raised." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000032 ! Relief of venation on upper surface
+relationship: variable_of SO23:0000176 ! Sensory assessment: relief of venation on upper surface_method.
+relationship: variable_of SO23:0000178 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T19:03:16Z
+
+[Term]
+id: SO23:0000178
+name: 3pt
+relationship: scale_of SO23:0000176 ! Sensory assessment: relief of venation on upper surface_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:04:36Z
+
+[Term]
+id: SO23:0000181
+name: Visual observation: twisting along whole length_method.
+namespace: Avocadomethod
+def: "Visual observation of twisting along whole length." []
+relationship: method_of SO23:0000028 ! Twisting along whole length
+created_by: aliciata
+creation_date: 2016-12-04T19:05:16Z
+
+[Term]
+id: SO23:0000183
+name: 2pt
+alt_id: SO23:0000188
+synonym: "2pt" EXACT []
+relationship: scale_of SO23:0000181 ! Visual observation: twisting along whole length_method.
+relationship: scale_of SO23:0000186 ! Visual observation: twisting of apex_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:05:29Z
+
+[Term]
+id: SO23:0000184
+name: twisting along whole length
+namespace: Avocadovariable
+alt_id: SO23:0000182
+alt_id: SO23:0000185
+def: "Visual observation of twisting along whole length.\nScored as: 1. Absent(e.g. Fuerte) and 9. Present (e.g. Zutano)." []
+relationship: variable_of SO23:0000028 ! Twisting along whole length
+relationship: variable_of SO23:0000181 ! Visual observation: twisting along whole length_method.
+relationship: variable_of SO23:0000183 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T19:05:29Z
+
+[Term]
+id: SO23:0000186
+name: Visual observation: twisting of apex_method.
+namespace: Avocadomethod
+def: "Visual observation of twisting of apex." []
+relationship: method_of SO23:0000029 ! Twisting of apex
+created_by: aliciata
+creation_date: 2016-12-04T19:05:52Z
+
+[Term]
+id: SO23:0000187
+name: twisting of apex
+namespace: Avocadovariable
+alt_id: SO23:0000189
+alt_id: SO23:0000190
+def: "Visual observation of twisting of apex. Scored as: \n1. Absent (e.g.Fuerte) and  9. Present (e.g.Collinson)." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000029 ! Twisting of apex
+relationship: variable_of SO23:0000183 ! 2pt
+relationship: variable_of SO23:0000186 ! Visual observation: twisting of apex_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:05:52Z
+
+[Term]
+id: SO23:0000191
+name: leaf width (1/4 of length)
+namespace: Avocadovariable
+alt_id: SO23:0000193
+alt_id: SO23:0000195
+def: "Measure of leaf width at 1/4 length in centimeters (cm)." []
+relationship: variable_of SO23:0000012 ! Leaf width(1/4 of length)
+relationship: variable_of SO23:0000093 ! cm
+relationship: variable_of SO23:0000192 ! Measurement: leaf width (1/4 of length)_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:06:37Z
+
+[Term]
+id: SO23:0000192
+name: Measurement: leaf width (1/4 of length)_method.
+namespace: Avocadomethod
+def: "Measure of leaf width (1/4 of length)." []
+relationship: method_of SO23:0000012 ! Leaf width(1/4 of length)
+created_by: aliciata
+creation_date: 2016-12-04T19:06:37Z
+
+[Term]
+id: SO23:0000196
+name: Visual rating: color of pubescence of petiole_method
+namespace: Avocadomethod
+def: "Visual rating of coloration of pubescence of petiole." []
+relationship: method_of SO23:0000026 ! Young leaf color of pubescence of petiole.
+created_by: aliciata
+creation_date: 2016-12-04T19:07:28Z
+
+[Term]
+id: SO23:0000197
+name: young leaf color of pubescence of petiole
+namespace: Avocadovariable
+alt_id: SO23:0000199
+alt_id: SO23:0000200
+def: "Visual rating of color of pubescence of petiole. \nScored as: 1 White(edranol), 2. Yellow(Duke 6), 3. Brown and 4. Red brown(fuerte)." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000026 ! Young leaf color of pubescence of petiole.
+relationship: variable_of SO23:0000196 ! Visual rating: color of pubescence of petiole_method
+relationship: variable_of SO23:0000198 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T19:07:28Z
+
+[Term]
+id: SO23:0000198
+name: 4pt
+relationship: scale_of SO23:0000196 ! Visual rating: color of pubescence of petiole_method
+created_by: aliciata
+creation_date: 2016-12-04T19:07:37Z
+
+[Term]
+id: SO23:0000201
+name: Visual rating: young leaf width_method.
+namespace: Avocadomethod
+def: "Visual rating of young leaf width." []
+relationship: method_of SO23:0000011 ! Young leaf width
+created_by: aliciata
+creation_date: 2016-12-04T19:08:11Z
+
+[Term]
+id: SO23:0000202
+name: young leaf width
+namespace: Avocadovariable
+alt_id: SO23:0000204
+alt_id: SO23:0000205
+def: "Visual rating of young leaf width in centimeters of the widest portion of the leaf lamina." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000011 ! Young leaf width
+relationship: variable_of SO23:0000201 ! Visual rating: young leaf width_method.
+relationship: variable_of SO23:0000203 ! cm
+created_by: aliciata
+creation_date: 2016-12-04T19:08:11Z
+
+[Term]
+id: SO23:0000203
+name: cm
+relationship: scale_of SO23:0000201 ! Visual rating: young leaf width_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:08:27Z
+
+[Term]
+id: SO23:0000206
+name: Estimation: dry matter_method.
+namespace: Avocadomethod
+def: "Estimation of dry matter." []
+relationship: method_of SO23:0000038 ! Dry matter
+created_by: aliciata
+creation_date: 2016-12-04T19:09:30Z
+
+[Term]
+id: SO23:0000207
+name: dry matter
+namespace: Avocadovariable
+alt_id: SO23:0000209
+alt_id: SO23:0000210
+def: "Estimation of dry matter." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000038 ! Dry matter
+relationship: variable_of SO23:0000206 ! Estimation: dry matter_method.
+relationship: variable_of SO23:0000208 ! %
+created_by: aliciata
+creation_date: 2016-12-04T19:09:30Z
+
+[Term]
+id: SO23:0000208
+name: %
+relationship: scale_of SO23:0000206 ! Estimation: dry matter_method.
+created_by: aliciata
+creation_date: 2016-12-04T19:09:44Z
+
+[Term]
+id: SO23:0000211
+name: weak
+synonym: "3" EXACT []
+is_a: SO23:0000042 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T19:16:30Z
+
+[Term]
+id: SO23:0000212
+name: intermediate
+synonym: "5" EXACT []
+is_a: SO23:0000042 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T19:16:30Z
+
+[Term]
+id: SO23:0000213
+name: strong
+synonym: "7" EXACT []
+is_a: SO23:0000042 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T19:16:30Z
+
+[Term]
+id: SO23:0000214
+name: absent
+synonym: "no" EXACT []
+is_a: SO23:0000042 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T19:16:30Z
+
+[Term]
+id: SO23:0000215
+name: Entire
+synonym: "1" EXACT []
+is_a: SO23:0000047 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T19:23:12Z
+
+[Term]
+id: SO23:0000216
+name: Undulate
+synonym: "2" EXACT []
+is_a: SO23:0000047 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T19:23:12Z
+
+[Term]
+id: SO23:0000217
+name: Yellow green
+synonym: "1" EXACT []
+is_a: SO23:0000052 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T19:31:55Z
+
+[Term]
+id: SO23:0000218
+name: Green
+synonym: "2" EXACT []
+is_a: SO23:0000052 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T19:31:55Z
+
+[Term]
+id: SO23:0000219
+name: Reddish
+synonym: "3" EXACT []
+is_a: SO23:0000052 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T19:31:55Z
+
+[Term]
+id: SO23:0000220
+name: Acute (90°)
+synonym: "1" EXACT []
+is_a: SO23:0000062 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T19:38:54Z
+
+[Term]
+id: SO23:0000221
+name: Obtuse (>90°).
+synonym: "2" EXACT []
+is_a: SO23:0000062 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T19:38:54Z
+
+[Term]
+id: SO23:0000222
+name: Absent
+synonym: "0" EXACT []
+is_a: SO23:0000072 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T19:42:44Z
+
+[Term]
+id: SO23:0000223
+name: Present
+synonym: "1" EXACT []
+is_a: SO23:0000072 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T19:42:44Z
+
+[Term]
+id: SO23:0000224
+name: very acute
+synonym: "1" EXACT []
+is_a: SO23:0000078 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T19:45:44Z
+
+[Term]
+id: SO23:0000225
+name: acute
+synonym: "3" EXACT []
+is_a: SO23:0000078 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T19:45:44Z
+
+[Term]
+id: SO23:0000226
+name: intermediate
+synonym: "5" EXACT []
+is_a: SO23:0000078 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T19:45:44Z
+
+[Term]
+id: SO23:0000227
+name: obtuse
+synonym: "7" EXACT []
+is_a: SO23:0000078 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T19:45:44Z
+
+[Term]
+id: SO23:0000228
+name: very obtuse.
+synonym: "9" EXACT []
+is_a: SO23:0000078 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T19:45:44Z
+
+[Term]
+id: SO23:0000229
+name: Acute
+synonym: "1" EXACT []
+is_a: SO23:0000088 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T19:53:43Z
+
+[Term]
+id: SO23:0000230
+name: Obtuse
+synonym: "2" EXACT []
+is_a: SO23:0000088 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T19:53:43Z
+
+[Term]
+id: SO23:0000231
+name: Truncate
+synonym: "3" EXACT []
+is_a: SO23:0000088 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T19:53:43Z
+
+[Term]
+id: SO23:0000232
+name: ovate
+synonym: "1" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000233
+name: narrowly obovate
+synonym: "2" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000234
+name: obovate
+synonym: "3" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000235
+name: oval
+synonym: "4" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000236
+name: roundish
+synonym: "5" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000237
+name: cordiform
+synonym: "6" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000238
+name: lanceolate
+synonym: "7" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000239
+name: oblong
+synonym: "8" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000240
+name: oblong-lanceolate
+synonym: "7" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000241
+name: other
+synonym: "10" EXACT []
+is_a: SO23:0000103 ! 10pt
+created_by: aliciata
+creation_date: 2016-12-04T20:03:30Z
+
+[Term]
+id: SO23:0000242
+name: soft
+synonym: "3" EXACT []
+is_a: SO23:0000123 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:08:56Z
+
+[Term]
+id: SO23:0000243
+name: semihard
+synonym: "5" EXACT []
+is_a: SO23:0000123 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:08:56Z
+
+[Term]
+id: SO23:0000244
+name: hard
+synonym: "7" EXACT []
+is_a: SO23:0000123 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:08:56Z
+
+[Term]
+id: SO23:0000245
+name: very hard
+synonym: "9" EXACT []
+is_a: SO23:0000123 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:08:56Z
+
+[Term]
+id: SO23:0000246
+name: few
+synonym: "1" EXACT []
+is_a: SO23:0000143 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T20:23:40Z
+
+[Term]
+id: SO23:0000247
+name: intermedite
+synonym: "2" EXACT []
+is_a: SO23:0000143 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T20:23:40Z
+
+[Term]
+id: SO23:0000248
+name: many
+synonym: "3" EXACT []
+is_a: SO23:0000143 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T20:23:40Z
+
+[Term]
+id: SO23:0000249
+name: sparse
+synonym: "3" EXACT []
+is_a: SO23:0000158 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:38:26Z
+
+[Term]
+id: SO23:0000250
+name: intermediate
+synonym: "5" EXACT []
+is_a: SO23:0000158 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:38:26Z
+
+[Term]
+id: SO23:0000251
+name: dense
+synonym: "7" EXACT []
+is_a: SO23:0000158 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:38:26Z
+
+[Term]
+id: SO23:0000252
+name: absent.
+is_a: SO23:0000158 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T20:38:26Z
+
+[Term]
+id: SO23:0000253
+name: sunken
+synonym: "3" EXACT []
+is_a: SO23:0000178 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T20:48:13Z
+
+[Term]
+id: SO23:0000254
+name: intermediate
+synonym: "5" EXACT []
+is_a: SO23:0000178 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T20:48:13Z
+
+[Term]
+id: SO23:0000255
+name: raised
+synonym: "7" EXACT []
+is_a: SO23:0000178 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-04T20:48:13Z
+
+[Term]
+id: SO23:0000256
+name: absent
+synonym: "1" EXACT []
+is_a: SO23:0000183 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T20:52:07Z
+
+[Term]
+id: SO23:0000257
+name: present
+synonym: "9" EXACT []
+is_a: SO23:0000183 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T20:52:07Z
+
+[Term]
+id: SO23:0000258
+name: White
+synonym: "1" EXACT []
+is_a: SO23:0000198 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T21:02:45Z
+
+[Term]
+id: SO23:0000259
+name: Yellow
+synonym: "2" EXACT []
+is_a: SO23:0000198 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T21:02:45Z
+
+[Term]
+id: SO23:0000260
+name: Brown
+synonym: "3" EXACT []
+is_a: SO23:0000198 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T21:02:45Z
+
+[Term]
+id: SO23:0000261
+name: Red brown.
+synonym: "4" EXACT []
+is_a: SO23:0000198 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-04T21:02:45Z
+
+[Term]
+id: SO23:0000262
+name: Biotic stress susceptibility
+def: "Response in terms of resistance susceptibility or tolerance to biotic stress." []
+is_a: SO23:0000005 ! Stress trait
+created_by: aliciata
+creation_date: 2016-12-04T21:11:57Z
+
+[Term]
+id: SO23:0000263
+name: Persea mite
+def: "Presence of persea mite." []
+is_a: SO23:0000262 ! Biotic stress susceptibility
+created_by: aliciata
+creation_date: 2016-12-04T21:13:18Z
+
+[Term]
+id: SO23:0000264
+name: Visual observation: persea mite_method.
+namespace: Avocadomethod
+def: "Visual observation of persea mite presence." []
+relationship: method_of SO23:0000263 ! Persea mite
+created_by: aliciata
+creation_date: 2016-12-04T21:13:59Z
+
+[Term]
+id: SO23:0000265
+name: persea mite
+namespace: Avocadovariable
+alt_id: SO23:0000267
+alt_id: SO23:0000268
+def: "Visual observation of persea mite presence. Scored as: presence or absent." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000263 ! Persea mite
+relationship: variable_of SO23:0000264 ! Visual observation: persea mite_method.
+relationship: variable_of SO23:0000266 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T21:13:59Z
+
+[Term]
+id: SO23:0000266
+name: 2pt
+namespace: Avocadotrait
+relationship: scale_of SO23:0000264 ! Visual observation: persea mite_method.
+created_by: aliciata
+creation_date: 2016-12-04T21:14:14Z
+
+[Term]
+id: SO23:0000269
+name: presence
+namespace: Avocadotrait
+is_a: SO23:0000266 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T21:16:20Z
+
+[Term]
+id: SO23:0000270
+name: absent
+namespace: Avocadotrait
+is_a: SO23:0000266 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-04T21:16:20Z
+
+[Term]
+id: SO23:0000271
+name: General taste of flesh
+def: "An assay to determine the sensory impression of a fruit by the chemical senses of taste and smell." []
+is_a: SO23:0000004 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-04T21:17:06Z
+
+[Term]
+id: SO23:0000272
+name: general taste of flesh
+namespace: Avocadovariable
+alt_id: SO23:0000275
+alt_id: SO23:0000276
+def: "Sensory assessment of general taste of flesh." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000271 ! General taste of flesh
+relationship: variable_of SO23:0000273 ! Sensory assessment: general taste of flesh_method.
+relationship: variable_of SO23:0000274 ! <new term 1>
+created_by: aliciata
+creation_date: 2016-12-04T21:17:51Z
+
+[Term]
+id: SO23:0000273
+name: Sensory assessment: general taste of flesh_method.
+namespace: Avocadomethod
+def: "Sensory assessment of general taste of flesh." []
+relationship: method_of SO23:0000271 ! General taste of flesh
+created_by: aliciata
+creation_date: 2016-12-04T21:17:51Z
+
+[Term]
+id: SO23:0000274
+name: <new term 1>
+namespace: Avocadotrait
+relationship: scale_of SO23:0000273 ! Sensory assessment: general taste of flesh_method.
+created_by: aliciata
+creation_date: 2016-12-04T21:18:11Z
+
+[Term]
+id: SO23:0000277
+name: Flesh fibre
+def: "A fruit anatomy and morphology trait which is associated with the flesh fibre." []
+is_a: SO23:0000004 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-04T21:20:19Z
+
+[Term]
+id: SO23:0000278
+name: flesh fibre
+namespace: Avocadovariable
+alt_id: SO23:0000281
+relationship: variable_of SO23:0000277 ! Flesh fibre
+relationship: variable_of SO23:0000279 ! <new term 2>
+created_by: aliciata
+creation_date: 2016-12-04T21:20:49Z
+
+[Term]
+id: SO23:0000279
+name: <new term 2>
+namespace: Avocadotrait
+relationship: method_of SO23:0000277 ! Flesh fibre
+created_by: aliciata
+creation_date: 2016-12-04T21:20:49Z
+
+[Term]
+id: SO23:0000280
+name: <new term 1>
+namespace: Avocadotrait
+relationship: scale_of SO23:0000279 ! <new term 2>
+created_by: aliciata
+creation_date: 2016-12-04T21:21:05Z
+
+[Term]
+id: SO23:0000282
+name: <new term>
+namespace: Avocadotrait
+relationship: variable_of SO23:0000280 ! <new term 1>
+created_by: aliciata
+creation_date: 2016-12-04T21:21:17Z
+
+[Term]
+id: SO23:0000283
+name: whole skin percent
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-04T21:22:40Z
+
+[Term]
+id: SO23:0000285
+name: Healthy fruits percentage
+def: "The percentage of healthy fruits." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-04T21:23:20Z
+
+[Term]
+id: SO23:0000286
+name: Seed germination percentage
+def: "The percentage of seeds that germinate against the total number of seeds planted." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-04T21:24:27Z
+
+[Term]
+id: SO23:0000287
+name: very small
+synonym: "1" EXACT []
+is_a: SO23:0000118 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T21:29:26Z
+
+[Term]
+id: SO23:0000288
+name: small
+synonym: "3" EXACT []
+is_a: SO23:0000118 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T21:29:26Z
+
+[Term]
+id: SO23:0000289
+name: medium
+synonym: "5" EXACT []
+is_a: SO23:0000118 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T21:29:26Z
+
+[Term]
+id: SO23:0000290
+name: large
+synonym: "7" EXACT []
+is_a: SO23:0000118 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T21:29:26Z
+
+[Term]
+id: SO23:0000291
+name: very large
+synonym: "9" EXACT []
+is_a: SO23:0000118 ! 5pt
+created_by: aliciata
+creation_date: 2016-12-04T21:29:26Z
+
+[Term]
+id: SO23:0000292
+name: Estimation: healthy fruits percentage_method
+namespace: Avocadomethod
+def: "Estimation of healthy fruits percentage." []
+relationship: method_of SO23:0000285 ! Healthy fruits percentage
+created_by: aliciata
+creation_date: 2016-12-05T12:36:31Z
+
+[Term]
+id: SO23:0000293
+name: healthy fruits percentage
+namespace: Avocadovariable
+alt_id: SO23:0000295
+alt_id: SO23:0000296
+def: "Estimation of healthy fruits percentage." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000285 ! Healthy fruits percentage
+relationship: variable_of SO23:0000292 ! Estimation: healthy fruits percentage_method
+relationship: variable_of SO23:0000294 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T12:36:31Z
+
+[Term]
+id: SO23:0000294
+name: 2pt
+alt_id: SO23:0000299
+alt_id: SO23:0000320
+synonym: "%" EXACT []
+relationship: scale_of SO23:0000292 ! Estimation: healthy fruits percentage_method
+relationship: scale_of SO23:0000297 ! Estimation: seed germination_method.
+relationship: scale_of SO23:0000318 ! Visual observation: rotten peduncle_method.
+created_by: aliciata
+creation_date: 2016-12-05T12:38:04Z
+
+[Term]
+id: SO23:0000297
+name: Estimation: seed germination_method.
+namespace: Avocadomethod
+def: "Estimation of seed germination." []
+relationship: method_of SO23:0000286 ! Seed germination percentage
+created_by: aliciata
+creation_date: 2016-12-05T12:40:40Z
+
+[Term]
+id: SO23:0000298
+name: seed germination percentage
+namespace: Avocadovariable
+alt_id: SO23:0000300
+alt_id: SO23:0000301
+def: "Estimation of seed germination." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000286 ! Seed germination percentage
+relationship: variable_of SO23:0000294 ! 2pt
+relationship: variable_of SO23:0000297 ! Estimation: seed germination_method.
+created_by: aliciata
+creation_date: 2016-12-05T12:40:40Z
+
+[Term]
+id: SO23:0000302
+name: Days to ripen
+def: "Number of days to softening (ripening) at room temperature(20ºC)." []
+is_a: SO23:0000003 ! Phenological trait
+created_by: aliciata
+creation_date: 2016-12-05T13:13:23Z
+
+[Term]
+id: SO23:0000303
+name: Estimation: days to ripen_method
+namespace: Avocadomethod
+def: "Estimation of days to ripen." []
+relationship: method_of SO23:0000302 ! Days to ripen
+created_by: aliciata
+creation_date: 2016-12-05T13:14:15Z
+
+[Term]
+id: SO23:0000304
+name: days to ripen
+namespace: Avocadovariable
+alt_id: SO23:0000306
+alt_id: SO23:0000307
+def: "Average of days to ripen." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000302 ! Days to ripen
+relationship: variable_of SO23:0000303 ! Estimation: days to ripen_method
+relationship: variable_of SO23:0000305 ! d
+created_by: aliciata
+creation_date: 2016-12-05T13:14:15Z
+
+[Term]
+id: SO23:0000305
+name: d
+relationship: scale_of SO23:0000303 ! Estimation: days to ripen_method
+created_by: aliciata
+creation_date: 2016-12-05T13:14:32Z
+
+[Term]
+id: SO23:0000309
+name: Presence of lenticels
+def: "A fruit anatomy and morphology trait which is a measure of the presence of lenticels on fruit." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-05T13:54:17Z
+
+[Term]
+id: SO23:0000310
+name: presence of lenticels
+namespace: Avocadovariable
+alt_id: SO23:0000312
+alt_id: SO23:0000314
+def: "Visual observation of presence of lentices. Scored as: 101: some and 102: many" []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000309 ! Presence of lenticels
+relationship: variable_of SO23:0000311 ! Visual observation: presence of lenticels_method.
+relationship: variable_of SO23:0000313 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T14:00:05Z
+
+[Term]
+id: SO23:0000311
+name: Visual observation: presence of lenticels_method.
+namespace: Avocadomethod
+def: "Visual observation of presence of lentices." []
+relationship: method_of SO23:0000309 ! Presence of lenticels
+created_by: aliciata
+creation_date: 2016-12-05T14:00:05Z
+
+[Term]
+id: SO23:0000313
+name: 2pt
+relationship: scale_of SO23:0000311 ! Visual observation: presence of lenticels_method.
+created_by: aliciata
+creation_date: 2016-12-05T14:00:23Z
+
+[Term]
+id: SO23:0000315
+name: many
+synonym: "102" EXACT []
+is_a: SO23:0000313 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T14:02:58Z
+
+[Term]
+id: SO23:0000316
+name: some
+synonym: "101" EXACT []
+is_a: SO23:0000313 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T14:02:58Z
+
+[Term]
+id: SO23:0000317
+name: Rotten peduncle
+def: "The percentage of rotten peduncle." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-05T14:05:15Z
+
+[Term]
+id: SO23:0000318
+name: Visual observation: rotten peduncle_method.
+namespace: Avocadomethod
+def: "Visual observation of rotten peduncle." []
+relationship: method_of SO23:0000317 ! Rotten peduncle
+created_by: aliciata
+creation_date: 2016-12-05T14:05:48Z
+
+[Term]
+id: SO23:0000319
+name: rotten peduncle
+namespace: Avocadovariable
+alt_id: SO23:0000321
+alt_id: SO23:0000322
+def: "Visual observation of rotten peduncle." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000294 ! 2pt
+relationship: variable_of SO23:0000317 ! Rotten peduncle
+relationship: variable_of SO23:0000318 ! Visual observation: rotten peduncle_method.
+created_by: aliciata
+creation_date: 2016-12-05T14:05:48Z
+
+[Term]
+id: SO23:0000323
+name: Pliability of skin
+def: "A fruit anatomy and morphology trait which is associated with pliability of fruit skin." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-05T14:08:20Z
+
+[Term]
+id: SO23:0000324
+name: Visual observation: pliability of skin_method.
+namespace: Avocadomethod
+def: "Visual observation of pliability of skin." []
+relationship: method_of SO23:0000323 ! Pliability of skin
+created_by: aliciata
+creation_date: 2016-12-05T14:09:57Z
+
+[Term]
+id: SO23:0000325
+name: pliability of skin
+namespace: Avocadovariable
+alt_id: SO23:0000326
+alt_id: SO23:0000327
+alt_id: SO23:0000329
+alt_id: SO23:0000330
+def: "Visual observation of pliability of skin. Scored as: pliable or brittle." []
+synonym: "<new term 1>" EXACT []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000323 ! Pliability of skin
+relationship: variable_of SO23:0000324 ! Visual observation: pliability of skin_method.
+relationship: variable_of SO23:0000328 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T14:09:57Z
+
+[Term]
+id: SO23:0000328
+name: 2pt
+relationship: scale_of SO23:0000324 ! Visual observation: pliability of skin_method.
+created_by: aliciata
+creation_date: 2016-12-05T14:29:25Z
+
+[Term]
+id: SO23:0000331
+name: pliable
+is_a: SO23:0000328 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T14:31:08Z
+
+[Term]
+id: SO23:0000332
+name: brittle.
+is_a: SO23:0000328 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T14:31:08Z
+
+[Term]
+id: SO23:0000333
+name: Rotten fruit
+def: "The percentage of rotten fruits." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-05T21:47:27Z
+
+[Term]
+id: SO23:0000334
+name: Visual observation: rotten fruit_method.
+namespace: Avocadomethod
+def: "Percent of rotten fruit." []
+relationship: method_of SO23:0000333 ! Rotten fruit
+created_by: aliciata
+creation_date: 2016-12-05T21:50:05Z
+
+[Term]
+id: SO23:0000335
+name: rotten fruit
+namespace: Avocadovariable
+alt_id: SO23:0000337
+alt_id: SO23:0000338
+def: "Percent of rotten fruit. (%)" []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000333 ! Rotten fruit
+relationship: variable_of SO23:0000334 ! Visual observation: rotten fruit_method.
+relationship: variable_of SO23:0000336 ! %
+created_by: aliciata
+creation_date: 2016-12-05T21:50:05Z
+
+[Term]
+id: SO23:0000336
+name: %
+relationship: scale_of SO23:0000334 ! Visual observation: rotten fruit_method.
+created_by: aliciata
+creation_date: 2016-12-05T21:50:49Z
+
+[Term]
+id: SO23:0000339
+name: Free space of the seed cavity
+def: "A seed anatomy and morphological trait which is associated with the free space of the seed cavity." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-05T21:54:35Z
+
+[Term]
+id: SO23:0000340
+name: Visual observation: free space of the seed cavity_method.
+namespace: Avocadomethod
+def: "Visual observation of free space of the seed cavity." []
+relationship: method_of SO23:0000339 ! Free space of the seed cavity
+created_by: aliciata
+creation_date: 2016-12-05T21:56:05Z
+
+[Term]
+id: SO23:0000341
+name: free space of the seed cavity
+namespace: Avocadovariable
+alt_id: SO23:0000343
+alt_id: SO23:0000344
+def: "Visual observation of free space of the seed cavity. \nSpecify time of measurement.\n\nIt is scored on a numeric scale:\n 1: Space on seed apex, 2: Space on seed base, 3: Space on seed apex and base and 4: Other." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000339 ! Free space of the seed cavity
+relationship: variable_of SO23:0000340 ! Visual observation: free space of the seed cavity_method.
+relationship: variable_of SO23:0000342 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-05T21:56:05Z
+
+[Term]
+id: SO23:0000342
+name: 4pt
+relationship: scale_of SO23:0000340 ! Visual observation: free space of the seed cavity_method.
+created_by: aliciata
+creation_date: 2016-12-05T21:56:22Z
+
+[Term]
+id: SO23:0000345
+name: space on seed apex
+synonym: "1" EXACT []
+is_a: SO23:0000342 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-05T22:01:07Z
+
+[Term]
+id: SO23:0000346
+name: space on seed base
+synonym: "2" EXACT []
+is_a: SO23:0000342 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-05T22:01:07Z
+
+[Term]
+id: SO23:0000347
+name: space on seed apex and base
+synonym: "3" EXACT []
+is_a: SO23:0000342 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-05T22:01:07Z
+
+[Term]
+id: SO23:0000348
+name: other
+synonym: "4" EXACT []
+is_a: SO23:0000342 ! 4pt
+created_by: aliciata
+creation_date: 2016-12-05T22:01:07Z
+
+[Term]
+id: SO23:0000349
+name: Ceratitis capitata
+def: "Presence of mediterranean fruit flies." []
+is_a: SO23:0000262 ! Biotic stress susceptibility
+created_by: aliciata
+creation_date: 2016-12-05T22:06:00Z
+
+[Term]
+id: SO23:0000350
+name: Visual observation:ceratitis capitata_method.
+namespace: Avocadomethod
+def: "Visual observation of presence of ceratitis capitata." []
+relationship: method_of SO23:0000349 ! Ceratitis capitata
+created_by: aliciata
+creation_date: 2016-12-05T22:07:11Z
+
+[Term]
+id: SO23:0000351
+name: ceratitis capitata
+namespace: Avocadovariable
+alt_id: SO23:0000353
+alt_id: SO23:0000354
+def: "Visual observation of presence of ceratitis capitata." []
+synonym: "<new term 1>" EXACT []
+synonym: "<new term 2>" EXACT []
+relationship: variable_of SO23:0000349 ! Ceratitis capitata
+relationship: variable_of SO23:0000350 ! Visual observation:ceratitis capitata_method.
+relationship: variable_of SO23:0000352 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:07:11Z
+
+[Term]
+id: SO23:0000352
+name: 2pt
+relationship: scale_of SO23:0000350 ! Visual observation:ceratitis capitata_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:07:31Z
+
+[Term]
+id: SO23:0000355
+name: presence
+is_a: SO23:0000352 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:09:46Z
+
+[Term]
+id: SO23:0000356
+name: absence
+is_a: SO23:0000352 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:09:46Z
+
+[Term]
+id: SO23:0000357
+name: no
+synonym: "0" EXACT []
+is_a: SO23:0000294 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:10:51Z
+
+[Term]
+id: SO23:0000358
+name: si
+synonym: "1" EXACT []
+is_a: SO23:0000294 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:10:51Z
+
+[Term]
+id: SO23:0000359
+name: Black fibre
+def: "A fruit anatomy and morphology trait which is associated with the black fibre." []
+is_a: SO23:0000004 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-05T22:11:34Z
+
+[Term]
+id: SO23:0000360
+name: black fibre
+namespace: Avocadovariable
+alt_id: SO23:0000363
+alt_id: SO23:0000364
+def: "Visual observation of black fibre." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000359 ! Black fibre
+relationship: variable_of SO23:0000361 ! Visual observation:black fibre_method.
+relationship: variable_of SO23:0000362 ! <new term 1>
+created_by: aliciata
+creation_date: 2016-12-05T22:18:13Z
+
+[Term]
+id: SO23:0000361
+name: Visual observation:black fibre_method.
+namespace: Avocadomethod
+def: "Visual observation of black fibre." []
+relationship: method_of SO23:0000359 ! Black fibre
+created_by: aliciata
+creation_date: 2016-12-05T22:18:13Z
+
+[Term]
+id: SO23:0000362
+name: <new term 1>
+relationship: scale_of SO23:0000361 ! Visual observation:black fibre_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:18:29Z
+
+[Term]
+id: SO23:0000365
+name: Ridges on fruit
+def: "An assay of firmness and freshness of the fruit." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-05T22:22:18Z
+
+[Term]
+id: SO23:0000366
+name: Visual observation: ridges on fruit_method.
+namespace: Avocadomethod
+def: "Visual observation of ridges on fruit." []
+relationship: method_of SO23:0000365 ! Ridges on fruit
+created_by: aliciata
+creation_date: 2016-12-05T22:23:09Z
+
+[Term]
+id: SO23:0000367
+name: ridges on fruit
+namespace: Avocadovariable
+alt_id: SO23:0000369
+alt_id: SO23:0000370
+def: "Visual observation of ridges on fruit." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000365 ! Ridges on fruit
+relationship: variable_of SO23:0000366 ! Visual observation: ridges on fruit_method.
+relationship: variable_of SO23:0000368 ! <new term 1>
+created_by: aliciata
+creation_date: 2016-12-05T22:23:09Z
+
+[Term]
+id: SO23:0000368
+name: <new term 1>
+relationship: scale_of SO23:0000366 ! Visual observation: ridges on fruit_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:23:28Z
+
+[Term]
+id: SO23:0000371
+name: Corky flesh
+def: "A ripe fruit trait which is associated with corky flesh." []
+is_a: SO23:0000004 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-05T22:28:55Z
+
+[Term]
+id: SO23:0000372
+name: Visual observation: corky flesh_method.
+namespace: Avocadomethod
+def: "Visual observation of corky flesh." []
+relationship: method_of SO23:0000371 ! Corky flesh
+created_by: aliciata
+creation_date: 2016-12-05T22:29:19Z
+
+[Term]
+id: SO23:0000373
+name: corky flesh
+namespace: Avocadovariable
+alt_id: SO23:0000375
+alt_id: SO23:0000376
+def: "Visual observation of corky flesh." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000371 ! Corky flesh
+relationship: variable_of SO23:0000372 ! Visual observation: corky flesh_method.
+relationship: variable_of SO23:0000374 ! <new term 1>
+created_by: aliciata
+creation_date: 2016-12-05T22:29:19Z
+
+[Term]
+id: SO23:0000374
+name: <new term 1>
+relationship: scale_of SO23:0000372 ! Visual observation: corky flesh_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:29:36Z
+
+[Term]
+id: SO23:0000377
+name: Red fibre in flesh
+def: "A fruit anatomy and morphological trait which is associated with red fibre in flesh." []
+is_a: SO23:0000004 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-05T22:31:37Z
+
+[Term]
+id: SO23:0000378
+name: Visual observation:red fibre in flesh_method.
+namespace: Avocadomethod
+def: "Visual observation of red fibre in flesh." []
+relationship: method_of SO23:0000377 ! Red fibre in flesh
+created_by: aliciata
+creation_date: 2016-12-05T22:33:52Z
+
+[Term]
+id: SO23:0000379
+name: red fibre in flesh
+namespace: Avocadovariable
+alt_id: SO23:0000380
+alt_id: SO23:0000381
+alt_id: SO23:0000382
+alt_id: SO23:0000384
+def: "Visual observation of red fibre in flesh." []
+relationship: variable_of SO23:0000377 ! Red fibre in flesh
+relationship: variable_of SO23:0000378 ! Visual observation:red fibre in flesh_method.
+relationship: variable_of SO23:0000383 ! <new term>
+created_by: aliciata
+creation_date: 2016-12-05T22:33:52Z
+
+[Term]
+id: SO23:0000383
+name: <new term>
+relationship: scale_of SO23:0000378 ! Visual observation:red fibre in flesh_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:36:50Z
+
+[Term]
+id: SO23:0000385
+name: Exploited lenticels
+def: "A mature fruit trait which is associated with the exploited lenticels." []
+is_a: SO23:0000001 ! Agronomic trait
+created_by: aliciata
+creation_date: 2016-12-05T22:40:26Z
+
+[Term]
+id: SO23:0000386
+name: Visual observation: explited lenticels_method.
+namespace: Avocadomethod
+def: "Visual observation of explited lenticels." []
+relationship: method_of SO23:0000385 ! Exploited lenticels
+created_by: aliciata
+creation_date: 2016-12-05T22:42:04Z
+
+[Term]
+id: SO23:0000387
+name: exploited lenticels
+namespace: Avocadovariable
+alt_id: SO23:0000389
+alt_id: SO23:0000390
+def: "Visual observation of explited lenticels.\nScored as: 1801: some and 1802: many." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000385 ! Exploited lenticels
+relationship: variable_of SO23:0000386 ! Visual observation: explited lenticels_method.
+relationship: variable_of SO23:0000388 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:42:04Z
+
+[Term]
+id: SO23:0000388
+name: 2pt
+relationship: scale_of SO23:0000386 ! Visual observation: explited lenticels_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:42:21Z
+
+[Term]
+id: SO23:0000391
+name: some
+synonym: "1801" EXACT []
+is_a: SO23:0000388 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:45:50Z
+
+[Term]
+id: SO23:0000392
+name: many
+synonym: "1802" EXACT []
+is_a: SO23:0000388 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:45:50Z
+
+[Term]
+id: SO23:0000393
+name: Colour of skin in ripe fruit
+def: "A fruit anatomy and morphology trait which is associated with the colour of skin in ripe fruit." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-05T22:46:49Z
+
+[Term]
+id: SO23:0000394
+name: Visual rating: colour of skin in ripe fruit_method.
+namespace: Avocadomethod
+def: "Visual rating of colour of skin in ripe fruit." []
+relationship: method_of SO23:0000393 ! Colour of skin in ripe fruit
+created_by: aliciata
+creation_date: 2016-12-05T22:48:20Z
+
+[Term]
+id: SO23:0000395
+name: colour of skin in ripe fruit
+namespace: Avocadovariable
+alt_id: SO23:0000396
+alt_id: SO23:0000398
+def: "Visual rating of colour of skin in ripe fruit. Scored as: 0: green, 1: green-purple and 2: purple." []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000393 ! Colour of skin in ripe fruit
+relationship: variable_of SO23:0000394 ! Visual rating: colour of skin in ripe fruit_method.
+relationship: variable_of SO23:0000397 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-05T22:48:20Z
+
+[Term]
+id: SO23:0000397
+name: 3pt
+relationship: scale_of SO23:0000394 ! Visual rating: colour of skin in ripe fruit_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:48:38Z
+
+[Term]
+id: SO23:0000399
+name: green
+synonym: "0" EXACT []
+is_a: SO23:0000397 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-05T22:51:17Z
+
+[Term]
+id: SO23:0000400
+name: green-purple
+synonym: "1" EXACT []
+is_a: SO23:0000397 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-05T22:51:17Z
+
+[Term]
+id: SO23:0000401
+name: purple.
+synonym: "2" EXACT []
+is_a: SO23:0000397 ! 3pt
+created_by: aliciata
+creation_date: 2016-12-05T22:51:17Z
+
+[Term]
+id: SO23:0000402
+name: Seed coat
+def: "The average surface area of the grain with hull (hulled) in a grass fruit caryopsis." []
+is_a: SO23:0000002 ! Morphological trait
+created_by: aliciata
+creation_date: 2016-12-05T22:52:28Z
+
+[Term]
+id: SO23:0000403
+name: Visual observation: seed coat_method.
+namespace: Avocadomethod
+def: "Visual observation of seed coat." []
+relationship: method_of SO23:0000402 ! Seed coat
+created_by: aliciata
+creation_date: 2016-12-05T22:53:08Z
+
+[Term]
+id: SO23:0000404
+name: seed coat
+namespace: Avocadovariable
+alt_id: SO23:0000406
+alt_id: SO23:0000407
+def: "Visual observation of seed coat.  Scored as: 0: commun and 1: loose." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000402 ! Seed coat
+relationship: variable_of SO23:0000403 ! Visual observation: seed coat_method.
+relationship: variable_of SO23:0000405 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:53:08Z
+
+[Term]
+id: SO23:0000405
+name: 2pt
+relationship: scale_of SO23:0000403 ! Visual observation: seed coat_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:53:22Z
+
+[Term]
+id: SO23:0000408
+name: commun
+synonym: "0" EXACT []
+is_a: SO23:0000405 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:55:49Z
+
+[Term]
+id: SO23:0000409
+name: loose
+synonym: "1" EXACT []
+is_a: SO23:0000405 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:55:49Z
+
+[Term]
+id: SO23:0000410
+name: Colletotrichum
+def: "Number of colletotrichum." []
+is_a: SO23:0000262 ! Biotic stress susceptibility
+created_by: aliciata
+creation_date: 2016-12-05T22:56:43Z
+
+[Term]
+id: SO23:0000411
+name: Counting: colletotrichum_method.
+namespace: Avocadomethod
+def: "Count of colletotrichum." []
+relationship: method_of SO23:0000410 ! Colletotrichum
+created_by: aliciata
+creation_date: 2016-12-05T22:57:28Z
+
+[Term]
+id: SO23:0000412
+name: colletotrichum
+namespace: Avocadovariable
+alt_id: SO23:0000414
+alt_id: SO23:0000415
+def: "Count of colletotrichum." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000410 ! Colletotrichum
+relationship: variable_of SO23:0000411 ! Counting: colletotrichum_method.
+relationship: variable_of SO23:0000413 ! number
+created_by: aliciata
+creation_date: 2016-12-05T22:57:29Z
+
+[Term]
+id: SO23:0000413
+name: number
+relationship: scale_of SO23:0000411 ! Counting: colletotrichum_method.
+created_by: aliciata
+creation_date: 2016-12-05T22:57:47Z
+
+[Term]
+id: SO23:0000416
+name: Fibre
+def: "A fruit anatomy and morphology trait which is associated with the flesh fibre." []
+is_a: SO23:0000004 ! Quality trait
+created_by: aliciata
+creation_date: 2016-12-05T22:59:17Z
+
+[Term]
+id: SO23:0000417
+name: Visual observation:fibre_method.
+namespace: Avocadomethod
+def: "Visual observation of fibre in flesh." []
+relationship: method_of SO23:0000416 ! Fibre
+created_by: aliciata
+creation_date: 2016-12-05T22:59:49Z
+
+[Term]
+id: SO23:0000418
+name: fibre
+namespace: Avocadovariable
+alt_id: SO23:0000420
+alt_id: SO23:0000421
+def: "Visual observation of fibre in flesh. Scored as: 10: absence, 0: many." []
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variable_of SO23:0000416 ! Fibre
+relationship: variable_of SO23:0000417 ! Visual observation:fibre_method.
+relationship: variable_of SO23:0000419 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T22:59:49Z
+
+[Term]
+id: SO23:0000419
+name: 2pt
+relationship: scale_of SO23:0000417 ! Visual observation:fibre_method.
+created_by: aliciata
+creation_date: 2016-12-05T23:00:05Z
+
+[Term]
+id: SO23:0000422
+name: absence
+synonym: "10" EXACT []
+is_a: SO23:0000419 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T23:02:09Z
+
+[Term]
+id: SO23:0000423
+name: many
+synonym: "0" EXACT []
+is_a: SO23:0000419 ! 2pt
+created_by: aliciata
+creation_date: 2016-12-05T23:02:09Z
+
+[Typedef]
+id: method_of
+name: method_of
+namespace: Avocadomethod
+created_by: aliciata
+creation_date: 2016-12-04T17:32:55Z
+
+[Typedef]
+id: scale_of
+name: scale_of
+namespace: Avocadoscale
+created_by: aliciata
+creation_date: 2016-12-04T17:33:18Z
+
+[Typedef]
+id: variable_of
+name: variable_of
+namespace: Avocadovariable
+created_by: aliciata
+creation_date: 2016-12-04T17:33:32Z
+
