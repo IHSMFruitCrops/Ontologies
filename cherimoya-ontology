@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:12:2016 08:58
+date: 03:01:2017 14:03
 saved-by: aliciata
 auto-generated-by: OBO-Edit 2.3
 default-namespace: 
@@ -76,9 +76,9 @@ creation_date: 2016-12-10T13:24:22Z
 
 [Term]
 id: SO1:0000008
-name: Abrasion resistence
+name: Resistance to abrasion
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which is associated with resistance to abrasion." []
+def: "A fruit anatomy and morphology trait which is associated with resistance to abrasion." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -96,16 +96,16 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000010
 name: Exocarp colour
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which is associated with exocarp color." []
+def: "An exocarp morphology trait (TO:0000906) which is the color of an exocarp (PO:0009085)." []
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
 
 [Term]
 id: SO1:0000011
-name: Exocarp thickness
+name: Thickness of the exocarp
 namespace: CherimoyaTrait
-def: "A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width." []
+def: "An exocarp morphology trait (TO:0000906) (TO:0000843) which is the thickness of the exocarp (PO:0009085)." []
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -123,16 +123,16 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000013
 name: Exocarp weight
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait that is associated with peel weight of the fully ripened fruit." []
+def: "A fruit anatomy and morphology trait that is associated with peel weight of the fully ripened fruit." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
 
 [Term]
 id: SO1:0000014
-name: Fresh seed weight
+name: Weight of fresh seed
 namespace: CherimoyaTrait
-def: "A seed anatomy and morphology trait  which is associated with the weight of fresh seed." []
+def: "A seed anatomy and morphology trait  which is associated with the weight of fresh seed." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -150,7 +150,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000016
 name: Ripe fruit weight
 namespace: CherimoyaTrait
-def: "A  ripe fruit anatomy and morphology that is associated with weight of ripe fruit." []
+def: "A  ripe fruit anatomy and morphology that is associated with weight of ripe fruit." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -168,16 +168,16 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000018
 name: Fruit shape
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait (TO:0002629) which is associated with the variation in the shape of a fruit (PO:0009001)." []
+def: "A fruit anatomy and morphology trait (TO:0002629) which is associated with the variation in the shape of a fruit (PO:0009001)." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
 
 [Term]
 id: SO1:0000019
-name: Fruit size uniformity
+name: Uniformity in fruit size
 namespace: CherimoyaTrait
-def: "Existence or absence of uniformity in fruit size." []
+def: "Existence or absence of uniformity in fruit size." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -186,7 +186,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000020
 name: Fruit symmetry
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which means a fruit can be divided into two or more identical pieces." []
+def: "A fruit anatomy and morphology trait which means a fruit can be divided into two or more identical pieces." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -209,7 +209,7 @@ creation_date: 2016-12-10T13:33:18Z
 
 [Term]
 id: SO1:0000023
-name: Penetrometer resistence
+name: Resistence to penetrometer
 namespace: CherimoyaTrait
 def: "In addition to the fruit color, firmness is the best measurement of ripeness. It is assayed as the force necessary to break the flesh tissues and depends on the different growth stages during the ripening process." []
 is_a: SO1:0000001 ! Agronomic trait
@@ -218,9 +218,9 @@ creation_date: 2016-12-10T13:33:18Z
 
 [Term]
 id: SO1:0000024
-name: Production regularity
+name: Regularity of production
 namespace: CherimoyaTrait
-def: "Existance or absence of regularity of production." []
+def: "Existance or absence of regularity of production." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -229,7 +229,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000025
 name: Yield
 namespace: CherimoyaTrait
-def: "Average yield of five trees." [ISBN:978-92-9043-779-6]
+def: "A plant trait (TO:0000387) which is a harvestable product that is a plant anatomical entity (PO:0025131) or one or more constituent cellular components (GO:0005575) contained therein.\n\nAverage yield of five trees." []
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -238,7 +238,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000026
 name: Pulp (PU)
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which is associated with the pulp." []
+def: "A portion of plant tissue (PO:0009007) that is the innermost differentiated layer of a pericarp (PO:0009084)." []
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -247,7 +247,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000027
 name: Pulp texture
 namespace: CherimoyaTrait
-def: "A ripe fruit trait which is associated with the flesh texture." []
+def: "A ripe fruit trait which is associated with the flesh texture." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -301,7 +301,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000033
 name: Fruit glossiness of skin
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which is associated with the appearance of glossiness of the fruit skin." []
+def: "A fruit anatomy and morphology trait which is associated with the appearance of glossiness of the fruit skin." [UPOV:TG/208/1]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -310,7 +310,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000034
 name: Fruit juiciness of flesh
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which is associated with juiciness of flesh." []
+def: "A fruit anatomy and morphology trait which is associated with juiciness of flesh." [UPOV:TG/208/1]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -319,7 +319,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000035
 name: Seed adherence to flesh
 namespace: CherimoyaTrait
-def: "A seed trait which is associated with adherence to flesh." []
+def: "A seed trait which is associated with adherence to flesh." [UPOV:TG/208/1]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -328,7 +328,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000036
 name: Seed glossiness
 namespace: CherimoyaTrait
-def: "A seed anatomy and morphology trait  which is associated with the glossiness of seed." []
+def: "A seed anatomy and morphology trait  which is associated with the glossiness of seed." [UPOV:TG/208/1]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -337,7 +337,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000037
 name: Seed ratio length/width
 namespace: CherimoyaTrait
-def: "Ratio of seed length to width" []
+def: "Ratio of seed length to width" [UPOV:TG/208/1]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -346,7 +346,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000038
 name: Cl2Ca
 namespace: CherimoyaTrait
-def: "Fruit treated with Cl2Ca." []
+def: "Fruit treated with Cl2Ca." [IHSM:custom]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -355,7 +355,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000039
 name: Cut endocarp (CoC)
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which is associated with cut of endocarp." []
+def: "A fruit anatomy and morphology trait which is associated with cut of endocarp." [IHSM:custom]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -364,7 +364,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000040
 name: Rotten fruit (PO)
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology trait which is associated with rotten fruit." []
+def: "A fruit anatomy and morphology trait which is associated with rotten fruit." [IHSM:custom]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -373,7 +373,7 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000041
 name: Seeds (SE)
 namespace: CherimoyaTrait
-def: "A seed anatomy and morphology trait which is associated with characteristic of seed." []
+def: "A seed anatomy and morphology trait which is associated with characteristic of seed." [IHSM:custom]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
@@ -382,14 +382,14 @@ creation_date: 2016-12-10T13:33:18Z
 id: SO1:0000042
 name: Soil
 namespace: CherimoyaTrait
-def: "Fallen fruit or not fallen fruit." []
+def: "Fallen fruit or not fallen fruit." [IHSM:custom]
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
 creation_date: 2016-12-10T13:33:18Z
 
 [Term]
 id: SO1:0000043
-name: Flowering evaluation
+name: Inflorescence
 namespace: CherimoyaTrait
 is_a: SO1:0000001 ! Agronomic trait
 created_by: aliciata
@@ -397,25 +397,25 @@ creation_date: 2016-12-10T13:33:18Z
 
 [Term]
 id: SO1:0000044
-name: Abrasion resistence
+name: Resistance to abrasion
 namespace: CherimoyaVariable
 alt_id: SO1:0000046
 alt_id: SO1:0000048
-def: "Measurement of abrasion resistence scored as: 1:Mild, 2: Moderate and 3:Strong." []
+def: "Measurement of abrasion resistence scored as: 1:Mild, 2: Moderate and 3:Strong." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000008 ! Abrasion resistence
-relationship: variablec_of SO1:0000045 ! Measurement: abrasion resistence_method
+relationship: variablec_of SO1:0000008 ! Resistance to abrasion
+relationship: variablec_of SO1:0000045 ! Measurement: resistence to abrasion_method
 relationship: variablec_of SO1:0000047 ! 3pt
 created_by: aliciata
 creation_date: 2016-12-10T13:35:09Z
 
 [Term]
 id: SO1:0000045
-name: Measurement: abrasion resistence_method
+name: Measurement: resistence to abrasion_method
 namespace: CherimoyaMethod
-def: "Measurement of abrasion resistence. Record the resistence of fruit peel to abrasion, by thumb friction." []
-relationship: methodc_of SO1:0000008 ! Abrasion resistence
+def: "Measurement of abrasion resistence. Record the resistence of fruit peel to abrasion, by thumb friction." [ISBN:978-92-9043-779-6]
+relationship: methodc_of SO1:0000008 ! Resistance to abrasion
 created_by: aliciata
 creation_date: 2016-12-10T13:35:09Z
 
@@ -423,7 +423,7 @@ creation_date: 2016-12-10T13:35:09Z
 id: SO1:0000047
 name: 3pt
 namespace: CherimoyaScale
-relationship: scalec_of SO1:0000045 ! Measurement: abrasion resistence_method
+relationship: scalec_of SO1:0000045 ! Measurement: resistence to abrasion_method
 created_by: aliciata
 creation_date: 2016-12-10T13:36:09Z
 
@@ -431,7 +431,7 @@ creation_date: 2016-12-10T13:36:09Z
 id: SO1:0000049
 name: Measurement: all fresh seeds weight per fruit_method
 namespace: CherimoyaMethod
-def: "Measure of all fresh seeds weight per fruit. Measure at extraction from the fruit." []
+def: "Measure of all fresh seeds weight per fruit. Measure at extraction from the fruit." [ISBN:978-92-9043-779-6]
 relationship: methodc_of SO1:0000009 ! All seeds weight per fresh fruit
 created_by: aliciata
 creation_date: 2016-12-10T13:38:08Z
@@ -440,7 +440,7 @@ creation_date: 2016-12-10T13:38:08Z
 id: SO1:0000050
 name: Measurement:seeds total weight (PSE)_method.
 namespace: CherimoyaMethod
-def: "Measure of total weight of seeds at extraction from the fruit." []
+def: "Measure of total weight of seeds at extraction from the fruit." [IHSM:custom]
 relationship: methodc_of SO1:0000009 ! All seeds weight per fresh fruit
 created_by: aliciata
 creation_date: 2016-12-10T13:38:08Z
@@ -451,7 +451,7 @@ name: Seeds total weight (PSE)
 namespace: CherimoyaVariable
 alt_id: SO1:0000055
 alt_id: SO1:0000058
-def: "Measure of total weight of seeds at extraction from the fruit in grams (g)." []
+def: "Measure of total weight of seeds at extraction from the fruit in grams (g)." [IHSM:custom]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000009 ! All seeds weight per fresh fruit
@@ -466,7 +466,7 @@ name: All seeds weight per fresh fruit
 namespace: CherimoyaVariable
 alt_id: SO1:0000054
 alt_id: SO1:0000057
-def: "Measure of all fresh seeds weight per fruit." []
+def: "Measure of all fresh seeds weight per fruit." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000009 ! All seeds weight per fresh fruit
@@ -511,18 +511,16 @@ created_by: aliciata
 creation_date: 2016-12-10T13:44:48Z
 
 [Term]
-id: SO1:0000060
-name: <new term 2>
-namespace: CherimoyaTrait
-relationship: variablec_of SO1:0000038 ! Cl2Ca
-created_by: aliciata
-creation_date: 2016-12-10T13:44:48Z
-
-[Term]
 id: SO1:0000061
-name: <new term 1>
-namespace: CherimoyaTrait
+name: Cl2Ca
+namespace: CherimoyaVariable
+alt_id: SO1:0000060
+alt_id: SO1:0000063
+synonym: "<new term 2>" EXACT []
+synonym: "<new term>" EXACT []
+relationship: variablec_of SO1:0000038 ! Cl2Ca
 relationship: variablec_of SO1:0000059 ! <new term 1>
+relationship: variablec_of SO1:0000062 ! <new term 2>
 created_by: aliciata
 creation_date: 2016-12-10T13:45:03Z
 
@@ -535,18 +533,10 @@ created_by: aliciata
 creation_date: 2016-12-10T13:45:03Z
 
 [Term]
-id: SO1:0000063
-name: <new term>
-namespace: CherimoyaTrait
-relationship: variablec_of SO1:0000062 ! <new term 2>
-created_by: aliciata
-creation_date: 2016-12-10T13:45:13Z
-
-[Term]
 id: SO1:0000064
 name: Visual observation: cut endocarp: method.
 namespace: CherimoyaMethod
-def: "Visual observation of cut of endocarp." []
+def: "Visual observation of cut of endocarp." [IHSM:custom]
 relationship: methodc_of SO1:0000039 ! Cut endocarp (CoC)
 created_by: aliciata
 creation_date: 2016-12-10T13:45:57Z
@@ -557,7 +547,7 @@ name: Cut endocarp (CoC)
 namespace: CherimoyaVariable
 alt_id: SO1:0000067
 alt_id: SO1:0000068
-def: "Visual observation of cut of endocarp scored as: 0: No and 1: Yes." []
+def: "Visual observation of cut of endocarp scored as: 0: No and 1: Yes." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000039 ! Cut endocarp (CoC)
@@ -579,7 +569,7 @@ alt_id: SO1:0001317
 alt_id: SO1:0001342
 synonym: "2pt" EXACT []
 relationship: scalec_of SO1:0000064 ! Visual observation: cut endocarp: method.
-relationship: scalec_of SO1:0000199 ! Visual observation: fruit size uniformity_method.
+relationship: scalec_of SO1:0000199 ! Visual observation: Uniformity in fruit size_method.
 relationship: scalec_of SO1:0000203 ! Visual observation: fruit symmetry_method
 relationship: scalec_of SO1:0000236 ! Visual observation: production regularity_method.
 relationship: scalec_of SO1:0000296 ! Visual observation: rotten fruit_method.
@@ -593,7 +583,7 @@ creation_date: 2016-12-10T13:46:09Z
 id: SO1:0000069
 name: Visual rating: fruit color of skin_method.
 namespace: CherimoyaMethod
-def: "Visual rating of fruit color of skin." []
+def: "Visual rating of fruit color of skin." [UPOV:TG/208/1]
 relationship: methodc_of SO1:0000010 ! Exocarp colour
 created_by: aliciata
 creation_date: 2016-12-10T13:48:38Z
@@ -602,7 +592,7 @@ creation_date: 2016-12-10T13:48:38Z
 id: SO1:0000070
 name: Visual rating: exocarp colour_method.
 namespace: CherimoyaMethod
-def: "Visual observation of exocarp colour." []
+def: "Visual observation of exocarp colour." [ISBN:978-92-9043-779-6]
 relationship: methodc_of SO1:0000010 ! Exocarp colour
 created_by: aliciata
 creation_date: 2016-12-10T13:48:38Z
@@ -613,7 +603,7 @@ name: Exocarp colour
 namespace: CherimoyaVariable
 alt_id: SO1:0000075
 alt_id: SO1:0000078
-def: "Visual rating of exocarp colour. If possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1:Light green, 2: Green, 3: Dark green, 4: Yellowish green, 5: Yellow, 6: Brownish green, 7: Brown, 99: Other." []
+def: "Visual rating of exocarp colour. If possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1:Light green, 2: Green, 3: Dark green, 4: Yellowish green, 5: Yellow, 6: Brownish green, 7: Brown, 99: Other." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000010 ! Exocarp colour
@@ -628,7 +618,7 @@ name: Fruit color of skin
 namespace: CherimoyaVariable
 alt_id: SO1:0000073
 alt_id: SO1:0000077
-def: "Visual rating of fruit color of skin scored as: 1: pale yellow green(e.g. Pierce), 2: pale green(e.g. Bays, Big sister, Libby), 3: greyish green(e.g. Sabor, Campas, Miguel)." []
+def: "Visual rating of fruit color of skin scored as: 1: pale yellow green(e.g. Pierce), 2: pale green(e.g. Bays, Big sister, Libby), 3: greyish green(e.g. Sabor, Campas, Miguel)." [UPOV:TG/208/1]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000010 ! Exocarp colour
@@ -657,31 +647,31 @@ creation_date: 2016-12-10T13:49:07Z
 id: SO1:0000079
 name: Measurement: fruit thickness of rind_method.
 namespace: CherimoyaMethod
-def: "Measurement of fruit thickness of rind." []
-relationship: methodc_of SO1:0000011 ! Exocarp thickness
+def: "Measurement of fruit thickness of rind." [UPOV:TG/208/1]
+relationship: methodc_of SO1:0000011 ! Thickness of the exocarp
 created_by: aliciata
 creation_date: 2016-12-10T13:54:21Z
 
 [Term]
 id: SO1:0000080
-name: Visual rating: exocarp thickness_method.
+name: Visual rating: thickness of the exocarp_method.
 namespace: CherimoyaMethod
-def: "Visual rating of exocarp thickness." []
-relationship: methodc_of SO1:0000011 ! Exocarp thickness
+def: "Visual rating of exocarp thickness." [ISBN:978-92-9043-779-6]
+relationship: methodc_of SO1:0000011 ! Thickness of the exocarp
 created_by: aliciata
 creation_date: 2016-12-10T13:54:21Z
 
 [Term]
 id: SO1:0000081
-name: Exocarp thickness
+name: Thickness of the exocarp
 namespace: CherimoyaVariable
 alt_id: SO1:0000083
 alt_id: SO1:0000085
-def: "Visual rating of exocarp thickness using a scale of mm. \nAll the observations should be recorded when fruit are fully ripened , unless otherwise specified. Measurements should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual rating of exocarp thickness using a scale of mm. \nAll the observations should be recorded when fruit are fully ripened , unless otherwise specified. Measurements should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000011 ! Exocarp thickness
-relationship: variablec_of SO1:0000080 ! Visual rating: exocarp thickness_method.
+relationship: variablec_of SO1:0000011 ! Thickness of the exocarp
+relationship: variablec_of SO1:0000080 ! Visual rating: thickness of the exocarp_method.
 relationship: variablec_of SO1:0000084 ! mm
 created_by: aliciata
 creation_date: 2016-12-10T13:54:21Z
@@ -692,9 +682,9 @@ name: Fruit thickness of rind
 namespace: CherimoyaVariable
 alt_id: SO1:0000086
 alt_id: SO1:0000088
-def: "Measurement of fruit thickness of rind scored as: 3: thin (e.g. El Bumpo), 5: medium (e.g. Big Sister), 7: thick (e.g. Bay Ott)" []
+def: "Measurement of fruit thickness of rind scored as: 3: thin (e.g. El Bumpo), 5: medium (e.g. Big Sister), 7: thick (e.g. Bay Ott)" [UPOV:TG/208/1]
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000011 ! Exocarp thickness
+relationship: variablec_of SO1:0000011 ! Thickness of the exocarp
 relationship: variablec_of SO1:0000079 ! Measurement: fruit thickness of rind_method.
 relationship: variablec_of SO1:0000087 ! 3pt
 created_by: aliciata
@@ -722,7 +712,7 @@ alt_id: SO1:0001302
 alt_id: SO1:0001312
 alt_id: SO1:0001511
 synonym: "mm" EXACT []
-relationship: scalec_of SO1:0000080 ! Visual rating: exocarp thickness_method.
+relationship: scalec_of SO1:0000080 ! Visual rating: thickness of the exocarp_method.
 relationship: scalec_of SO1:0000148 ! Measurement: fruit diameter_method.
 relationship: scalec_of SO1:0000166 ! Measurement: fruit length_method.
 relationship: scalec_of SO1:0000337 ! Visual rating:seed lengh[mm]_method.
@@ -735,8 +725,8 @@ relationship: scalec_of SO1:0001136 ! Measurement: main stem diameter_method.
 relationship: scalec_of SO1:0001184 ! Visual rating: peduncle diameter_method.
 relationship: scalec_of SO1:0001196 ! Measurement: peduncle length_method.
 relationship: scalec_of SO1:0001238 ! Measurement : petal length_method
-relationship: scalec_of SO1:0001278 ! Measurement: petal width_method.
-relationship: scalec_of SO1:0001288 ! Measurement: petiole length_method.
+relationship: scalec_of SO1:0001278 ! Measurement: Petal width_method.
+relationship: scalec_of SO1:0001288 ! Measurement: Petiole length_method.
 relationship: scalec_of SO1:0001298 ! Measurement: petiole thickness_method.
 relationship: scalec_of SO1:0001310 ! Measurement: rootstock diameter_method.
 relationship: scalec_of SO1:0001509 ! Measurement: flower peduncle length_method.
@@ -762,7 +752,7 @@ name: Exocarp type
 namespace: CherimoyaVariable
 alt_id: SO1:0000099
 alt_id: SO1:0000101
-def: "Visual observation of exocarp type when fruit are fully ripened scored as: 1: Laevis (smooth), 2: Impressa (slight depressions), 3: Umbonata (small protrusions), 4: Tuberculata (medium protrusions), 5: Mamillata (large protrusions), 99: Other type. \nMeasurements should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual observation of exocarp type when fruit are fully ripened scored as: 1: Laevis (smooth), 2: Impressa (slight depressions), 3: Umbonata (small protrusions), 4: Tuberculata (medium protrusions), 5: Mamillata (large protrusions), 99: Other type. \nMeasurements should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000012 ! Exocarp type
@@ -775,7 +765,7 @@ creation_date: 2016-12-10T14:01:54Z
 id: SO1:0000090
 name: Visual observation: fruit protuberances on surface_method.
 namespace: CherimoyaMethod
-def: "Visual observation of fruit protuberances on surface." []
+def: "Visual observation of fruit protuberances on surface." [UPOV:TG/208/1]
 relationship: methodc_of SO1:0000012 ! Exocarp type
 created_by: aliciata
 creation_date: 2016-12-10T14:01:54Z
@@ -786,7 +776,7 @@ name: Fruit protuberances on surface
 namespace: CherimoyaVariable
 alt_id: SO1:0000102
 alt_id: SO1:0000104
-def: "Visual observation of fruit protuberances on surface scored as: 1: Absent or very small (e.g. Honey Hart, White), 3: Small (e.g. Big Sister, Libby, Mariella, Villapark), 5: Medium (e.g. El Bumpo, Oakwood), 7: Large (e.g. Miguel, Sabor)." []
+def: "Visual observation of fruit protuberances on surface scored as: 1: Absent or very small (e.g. Honey Hart, White), 3: Small (e.g. Big Sister, Libby, Mariella, Villapark), 5: Medium (e.g. El Bumpo, Oakwood), 7: Large (e.g. Miguel, Sabor)." [UPOV:TG/208/1]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000012 ! Exocarp type
@@ -799,7 +789,7 @@ creation_date: 2016-12-10T14:01:54Z
 id: SO1:0000092
 name: Visual observation: fruit segmentation of surface_method.
 namespace: CherimoyaMethod
-def: "Visual observation of fruit segmentation of surface." []
+def: "Visual observation of fruit segmentation of surface." [UPOV:TG/208/1]
 relationship: methodc_of SO1:0000012 ! Exocarp type
 created_by: aliciata
 creation_date: 2016-12-10T14:01:54Z
@@ -810,7 +800,7 @@ name: Fruit segmentation of surface
 namespace: CherimoyaVariable
 alt_id: SO1:0000105
 alt_id: SO1:0000107
-def: "Visual observation of fruit segmentation of surface scored as: 1: Reticulate (e.g. Booth, El Bumpo, Ott), 2: Overlapping (e.g. Bay Ott, Big Sister, Spain)." []
+def: "Visual observation of fruit segmentation of surface scored as: 1: Reticulate (e.g. Booth, El Bumpo, Ott), 2: Overlapping (e.g. Bay Ott, Big Sister, Spain)." [UPOV:TG/208/1]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000012 ! Exocarp type
@@ -823,7 +813,7 @@ creation_date: 2016-12-10T14:01:54Z
 id: SO1:0000094
 name: Visual observation: exocarp type(TP)_method.
 namespace: CherimoyaMethod
-def: "Visual observation of exocarp type." []
+def: "Visual observation of exocarp type." [IHSM:custom]
 relationship: methodc_of SO1:0000012 ! Exocarp type
 created_by: aliciata
 creation_date: 2016-12-10T14:01:54Z
@@ -834,7 +824,7 @@ name: Exocarp type(TP)
 namespace: CherimoyaVariable
 alt_id: SO1:0000108
 alt_id: SO1:0000110
-def: "Visual observation of exocarp type scored as: 1: Laevis (Smooth) , 2: Impressa (Slight depressions),3: Umbonata (Small protrusions), 4:Tuberlata (Medium protrusions) and 5: Mamillata (Large protrusions)." []
+def: "Visual observation of exocarp type scored as: 1: Laevis (Smooth) , 2: Impressa (Slight depressions),3: Umbonata (Small protrusions), 4:Tuberlata (Medium protrusions) and 5: Mamillata (Large protrusions)." [IHSM:custom]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000012 ! Exocarp type
@@ -847,7 +837,7 @@ creation_date: 2016-12-10T14:01:54Z
 id: SO1:0000096
 name: Visual observation: exocarp(PL)_method.
 namespace: CherimoyaMethod
-def: "Visual observation of exocarp." []
+def: "Visual observation of exocarp." [IHSM:custom]
 relationship: methodc_of SO1:0000012 ! Exocarp type
 created_by: aliciata
 creation_date: 2016-12-10T14:01:54Z
@@ -858,7 +848,7 @@ name: Exocarp (PL)
 namespace: CherimoyaVariable
 alt_id: SO1:0000112
 alt_id: SO1:0000113
-def: "Visual observation of exocarp scored as: 1: Normal, 2: Dried fungi in the exocarp/Dried black spot/petrified spot, 301: Small amount black spots.  ,302: many black spots, 4: Brown spots,5: black exocarp, 7: brown exocarp, 8: grey exocarp, 9: Yellow exocarp,1001: corky area/ mummified area,1002: corky exocap,11: Aweak exocarp,12: Cracked exocarp,13: Burned area due to the sun,14: Blue- purple spots area,15:Abraded exocarp  and 16: corky exocarp due to..." []
+def: "Visual observation of exocarp scored as: 1: Normal, 2: Dried fungi in the exocarp/Dried black spot/petrified spot, 301: Small amount black spots.  ,302: many black spots, 4: Brown spots,5: black exocarp, 7: brown exocarp, 8: grey exocarp, 9: Yellow exocarp,1001: corky area/ mummified area,1002: corky exocap,11: Aweak exocarp,12: Cracked exocarp,13: Burned area due to the sun,14: Blue- purple spots area,15:Abraded exocarp  and 16: corky exocarp due to..." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000012 ! Exocarp type
@@ -871,7 +861,7 @@ creation_date: 2016-12-10T14:01:54Z
 id: SO1:0000098
 name: Visual observation: exocarp type_method.
 namespace: CherimoyaMethod
-def: "Visual observation of exocarp type when fruit are fully ripened. Measurements should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual observation of exocarp type when fruit are fully ripened. Measurements should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 relationship: methodc_of SO1:0000012 ! Exocarp type
 created_by: aliciata
 creation_date: 2016-12-10T14:01:56Z
@@ -920,7 +910,7 @@ creation_date: 2016-12-10T14:15:21Z
 id: SO1:0000114
 name: Measurement : exocarp weight_method.
 namespace: CherimoyaMethod
-def: "Measurement of exocarp weight ( Peel weight of the fully ripened fruit). \nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Measurement of exocarp weight ( Peel weight of the fully ripened fruit). \nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 relationship: methodc_of SO1:0000013 ! Exocarp weight
 created_by: aliciata
 creation_date: 2016-12-10T14:17:25Z
@@ -931,7 +921,7 @@ name: Exocarp weight
 namespace: CherimoyaVariable
 alt_id: SO1:0000116
 alt_id: SO1:0000118
-def: "Measurement of exocarp weight (Peel weight of the fully ripened fruit. ) using a scale of g. \n \nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Measurement of exocarp weight (Peel weight of the fully ripened fruit. ) using a scale of g. \n \nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000013 ! Exocarp weight
@@ -944,8 +934,8 @@ creation_date: 2016-12-10T14:17:25Z
 id: SO1:0000119
 name: Counting: number of years between grafting and first flowering_method.
 namespace: CherimoyaMethod
-def: "Count of number of years between grafting and first flowering." []
-relationship: methodc_of SO1:0000043 ! Flowering evaluation
+def: "Count of number of years between grafting and first flowering." [ISBN:978-92-9043-779-6]
+relationship: methodc_of SO1:0000043 ! Inflorescence
 created_by: aliciata
 creation_date: 2016-12-10T14:21:59Z
 
@@ -953,8 +943,8 @@ creation_date: 2016-12-10T14:21:59Z
 id: SO1:0000120
 name: Visual observation: flowering season end_method.
 namespace: CherimoyaMethod
-def: "Visual observation of end of flowering season." []
-relationship: methodc_of SO1:0000043 ! Flowering evaluation
+def: "Visual observation of end of flowering season." [ISBN:978-92-9043-779-6]
+relationship: methodc_of SO1:0000043 ! Inflorescence
 created_by: aliciata
 creation_date: 2016-12-10T14:21:59Z
 
@@ -962,8 +952,8 @@ creation_date: 2016-12-10T14:21:59Z
 id: SO1:0000121
 name: Counting: number of years between planting and first flowering_method.
 namespace: CherimoyaMethod
-def: "Counting of number of years between planting and first flowering." []
-relationship: methodc_of SO1:0000043 ! Flowering evaluation
+def: "Counting of number of years between planting and first flowering." [ISBN:978-92-9043-779-6]
+relationship: methodc_of SO1:0000043 ! Inflorescence
 created_by: aliciata
 creation_date: 2016-12-10T14:21:59Z
 
@@ -974,11 +964,11 @@ namespace: CherimoyaVariable
 alt_id: SO1:0000124
 alt_id: SO1:0000126
 alt_id: SO1:0000127
-def: "Count of number of years between grafting and first flowering." []
+def: "Count of number of years between grafting and first flowering." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 synonym: "jhfjgf" EXACT []
-relationship: variablec_of SO1:0000043 ! Flowering evaluation
+relationship: variablec_of SO1:0000043 ! Inflorescence
 relationship: variablec_of SO1:0000119 ! Counting: number of years between grafting and first flowering_method.
 relationship: variablec_of SO1:0000125 ! y
 created_by: aliciata
@@ -991,11 +981,10 @@ namespace: CherimoyaVariable
 alt_id: SO1:0000133
 alt_id: SO1:0000134
 alt_id: SO1:0000135
-def: "Count of number of years between planting and first flowering." []
-synonym: "" EXACT []
+def: "Count of number of years between planting and first flowering." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000043 ! Flowering evaluation
+relationship: variablec_of SO1:0000043 ! Inflorescence
 relationship: variablec_of SO1:0000121 ! Counting: number of years between planting and first flowering_method.
 relationship: variablec_of SO1:0000125 ! y
 created_by: aliciata
@@ -1025,10 +1014,10 @@ name: Flowering season end
 namespace: CherimoyaVariable
 alt_id: SO1:0000130
 alt_id: SO1:0000131
-def: "Visual observation of end of flowering season with date [YYYYMMDD]." []
+def: "Visual observation of end of flowering season with date [YYYYMMDD]." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000043 ! Flowering evaluation
+relationship: variablec_of SO1:0000043 ! Inflorescence
 relationship: variablec_of SO1:0000120 ! Visual observation: flowering season end_method.
 relationship: variablec_of SO1:0000413 ! YYYYMMDD
 created_by: aliciata
@@ -1038,8 +1027,8 @@ creation_date: 2016-12-10T14:33:05Z
 id: SO1:0000136
 name: Visual observation: flowering season start_method.
 namespace: CherimoyaMethod
-def: "Visual observation of flowering season start." []
-relationship: methodc_of SO1:0000043 ! Flowering evaluation
+def: "Visual observation of flowering season start." [ISBN:978-92-9043-779-6]
+relationship: methodc_of SO1:0000043 ! Inflorescence
 created_by: aliciata
 creation_date: 2016-12-10T14:38:12Z
 
@@ -1049,10 +1038,10 @@ name: Flowering season start
 namespace: CherimoyaVariable
 alt_id: SO1:0000138
 alt_id: SO1:0000140
-def: "Visual observation of start of flowering season with date [YYYYMMDD]." []
+def: "Visual observation of start of flowering season with date [YYYYMMDD]." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000043 ! Flowering evaluation
+relationship: variablec_of SO1:0000043 ! Inflorescence
 relationship: variablec_of SO1:0000136 ! Visual observation: flowering season start_method.
 relationship: variablec_of SO1:0000413 ! YYYYMMDD
 created_by: aliciata
@@ -1063,7 +1052,7 @@ id: SO1:0000141
 name: Measurement: fresh seed weight_method.
 namespace: CherimoyaMethod
 def: "Measurement of fresh seed weight.\n\nRecorded on five healthy seeds per fruit in 10 healthy, representative fruits." []
-relationship: methodc_of SO1:0000014 ! Fresh seed weight
+relationship: methodc_of SO1:0000014 ! Weight of fresh seed
 created_by: aliciata
 creation_date: 2016-12-10T14:42:10Z
 
@@ -1073,10 +1062,10 @@ name: Fresh seed weight
 namespace: CherimoyaVariable
 alt_id: SO1:0000144
 alt_id: SO1:0000145
-def: "Measurement of fresh seed weight using a scale of g. \n\nRecorded on five healthy seeds per fruit in 10 healthy, representative fruits" []
+def: "Measurement of fresh seed weight using a scale of g. \n\nRecorded on five healthy seeds per fruit in 10 healthy, representative fruits" [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000014 ! Fresh seed weight
+relationship: variablec_of SO1:0000014 ! Weight of fresh seed
 relationship: variablec_of SO1:0000053 ! g
 relationship: variablec_of SO1:0000141 ! Measurement: fresh seed weight_method.
 created_by: aliciata
@@ -1116,7 +1105,7 @@ namespace: CherimoyaVariable
 alt_id: SO1:0000154
 alt_id: SO1:0000155
 alt_id: SO1:0001500
-def: "Visual rating of fruit glossiness of skin scored as: 1: Absent (Bays , Big sister) , 9: Present (African Pride, Gefner)." []
+def: "Visual rating of fruit glossiness of skin scored as: 1: Absent (Bays , Big sister) , 9: Present (African Pride, Gefner)." [UPOV:TG/208/1]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
@@ -1132,7 +1121,7 @@ name: Fruit diameter in cross section
 namespace: CherimoyaVariable
 alt_id: SO1:0000153
 alt_id: SO1:0000160
-def: "Measurement of fruit diameter in cross section with: 3: small (e.g. Bay Ott, Bays), 5: medium (Mariella, Pierce), 7: large (Big Sister, Salmon)." []
+def: "Measurement of fruit diameter in cross section with: 3: small (e.g. Bay Ott, Bays), 5: medium (Mariella, Pierce), 7: large (Big Sister, Salmon)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000015 ! Fruit diameter
@@ -1147,7 +1136,7 @@ name: Fruit diameter
 namespace: CherimoyaVariable
 alt_id: SO1:0000158
 alt_id: SO1:0000159
-def: "Measurement of fruit diameter at the broadest point of the fruit using a scale of mm.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Measurement of fruit diameter at the broadest point of the fruit using a scale of mm.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000015 ! Fruit diameter
@@ -1203,7 +1192,7 @@ name: Fruit juiciness of flesh
 namespace: CherimoyaVariable
 alt_id: SO1:0000164
 alt_id: SO1:0000165
-def: "Sensory assesment of fruit juiciness of flesh scored as:  3: Low (Chaffey, Pierce), 5: Medium (Bay Ott, Big Sister, Honey Hart), 7: High (Booth, El Bumpo, Mariella, Oakwood)." []
+def: "Sensory assesment of fruit juiciness of flesh scored as:  3: Low (Chaffey, Pierce), 5: Medium (Bay Ott, Big Sister, Honey Hart), 7: High (Booth, El Bumpo, Mariella, Oakwood)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000034 ! Fruit juiciness of flesh
@@ -1237,7 +1226,7 @@ namespace: CherimoyaVariable
 alt_id: SO1:0000171
 alt_id: SO1:0000172
 alt_id: SO1:0000176
-def: "Measurement of fruit length using a scale of mm. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Measurement of fruit length using a scale of mm. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000017 ! Fruit length
@@ -1248,11 +1237,11 @@ creation_date: 2016-12-10T15:08:35Z
 
 [Term]
 id: SO1:0000169
-name: Fruit length
+name: Fruit: length
 namespace: CherimoyaVariable
 alt_id: SO1:0000174
 alt_id: SO1:0000175
-def: "Measurement of fruit length scored as:  3: short (e.g. Chafey), 5: medium (e.g.Bay Ott), 7: long(e.g.Big Sister)." []
+def: "Measurement of fruit length scored as:  3: short (e.g. Chafey), 5: medium (e.g.Bay Ott), 7: long(e.g.Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000017 ! Fruit length
@@ -1308,7 +1297,7 @@ name: Fruit shape
 namespace: CherimoyaVariable
 alt_id: SO1:0000182
 alt_id: SO1:0000183
-def: "Visual observation of fruit shape scored as : 1: Round,  2: Oblate,  3: Cordate,  4: Broadly cordate, 5: Oval,  99: Other. \n\nThe observation should be recorded when fruit are fully ripened, unless otherwise specified. \n\nMeasurement should be made on 10 well developed representative fruit at harvest time." []
+def: "Visual observation of fruit shape scored as : 1: Round,  2: Oblate,  3: Cordate,  4: Broadly cordate, 5: Oval,  99: Other. \n\nThe observation should be recorded when fruit are fully ripened, unless otherwise specified. \n\nMeasurement should be made on 10 well developed representative fruit at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000018 ! Fruit shape
@@ -1323,7 +1312,7 @@ name: Fruit shape in lateral view
 namespace: CherimoyaVariable
 alt_id: SO1:0000185
 alt_id: SO1:0000186
-def: "Visual observation of fruit shape in lateral view scored as: 1: circular (e.g. Bay Ott, Chaffey), 2: cordate (e.g. Bays, Honey Hart, Pierce, White), 3: conical (e.g. El Bumbo, Libby, Mariella, Villapark), 4: broad conical (e.g. Booth, Campas, Fino de Jete, Miguel, Ott), 5: trapezoidal (e.g. Big Sister)." []
+def: "Visual observation of fruit shape in lateral view scored as: 1: circular (e.g. Bay Ott, Chaffey), 2: cordate (e.g. Bays, Honey Hart, Pierce, White), 3: conical (e.g. El Bumbo, Libby, Mariella, Villapark), 4: broad conical (e.g. Booth, Campas, Fino de Jete, Miguel, Ott), 5: trapezoidal (e.g. Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000018 ! Fruit shape
@@ -1449,25 +1438,25 @@ creation_date: 2016-12-10T16:38:37Z
 
 [Term]
 id: SO1:0000198
-name: Fruit size uniformity
+name: Uniformity in fruit size
 namespace: CherimoyaVariable
 alt_id: SO1:0000201
 alt_id: SO1:0000202
-def: "Visual observation of fruit size uniformity scored as: 0:No and 1: Yes." []
+def: "Visual observation of fruit size uniformity scored as: 0:No and 1: Yes." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000019 ! Fruit size uniformity
+relationship: variablec_of SO1:0000019 ! Uniformity in fruit size
 relationship: variablec_of SO1:0000066 ! 2pt
-relationship: variablec_of SO1:0000199 ! Visual observation: fruit size uniformity_method.
+relationship: variablec_of SO1:0000199 ! Visual observation: Uniformity in fruit size_method.
 created_by: aliciata
 creation_date: 2016-12-10T16:40:29Z
 
 [Term]
 id: SO1:0000199
-name: Visual observation: fruit size uniformity_method.
+name: Visual observation: Uniformity in fruit size_method.
 namespace: CherimoyaMethod
 def: "Visual observation of fruit size uniformity." []
-relationship: methodc_of SO1:0000019 ! Fruit size uniformity
+relationship: methodc_of SO1:0000019 ! Uniformity in fruit size
 created_by: aliciata
 creation_date: 2016-12-10T16:40:29Z
 
@@ -1486,7 +1475,7 @@ name: Fruit symmetry
 namespace: CherimoyaVariable
 alt_id: SO1:0000206
 alt_id: SO1:0000207
-def: "Visual observation of fruit symmetry scored as: 0:No and 1:Yes. \n\nIt should be recorded when fruit are fully ripened. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual observation of fruit symmetry scored as: 0:No and 1:Yes. \n\nIt should be recorded when fruit are fully ripened. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000020 ! Fruit symmetry
@@ -1500,7 +1489,7 @@ id: SO1:0000208
 name: Measurement: penetrometer resistance(PP)_method.
 namespace: CherimoyaMethod
 def: "Measure of resistence of penetrometer." []
-relationship: methodc_of SO1:0000023 ! Penetrometer resistence
+relationship: methodc_of SO1:0000023 ! Resistence to penetrometer
 created_by: aliciata
 creation_date: 2016-12-10T16:50:28Z
 
@@ -1509,7 +1498,7 @@ id: SO1:0000209
 name: Measurement: penetrometer resistance_method.
 namespace: CherimoyaMethod
 def: "Measurement of penetrometer resistance.\n\nMeasure in fully ripened fruits, at four points if the equator and on the apex." []
-relationship: methodc_of SO1:0000023 ! Penetrometer resistence
+relationship: methodc_of SO1:0000023 ! Resistence to penetrometer
 created_by: aliciata
 creation_date: 2016-12-10T16:50:28Z
 
@@ -1518,7 +1507,7 @@ id: SO1:0000210
 name: Measurement: fruit firmness of flesh_method.
 namespace: CherimoyaMethod
 def: "Measurement of fruit firmness of flesh." []
-relationship: methodc_of SO1:0000023 ! Penetrometer resistence
+relationship: methodc_of SO1:0000023 ! Resistence to penetrometer
 created_by: aliciata
 creation_date: 2016-12-10T16:50:28Z
 
@@ -1528,10 +1517,10 @@ name: Penetrometer resistence
 namespace: CherimoyaVariable
 alt_id: SO1:0000215
 alt_id: SO1:0000216
-def: "Measurement of penetrometer resistance scored as: N/ cm2.\n\nMeasure in fully ripened fruits, at four points if the equator and on the apex." []
+def: "Measurement of penetrometer resistance scored as: N/ cm2.\n\nMeasure in fully ripened fruits, at four points if the equator and on the apex." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000023 ! Penetrometer resistence
+relationship: variablec_of SO1:0000023 ! Resistence to penetrometer
 relationship: variablec_of SO1:0000209 ! Measurement: penetrometer resistance_method.
 relationship: variablec_of SO1:0000214 ! N/cm2
 created_by: aliciata
@@ -1543,10 +1532,10 @@ name: Penetrometer resistance (PP)
 namespace: CherimoyaVariable
 alt_id: SO1:0000224
 alt_id: SO1:0000225
-def: "Measure of resistence of penetrometer in N/cm2.\nScored as: 1: Corky(500), 2: Rotten exocarp (700), 3: Corky + rotten(800) , 4: Green or Hard (900), 5: Mummified(600) , 6: Very weak skin(0,001) , 7: Very cracked skin(400), 8:  Small(1000) 9. X and 10. undefined(2000)." []
+def: "Measure of resistence of penetrometer in N/cm2.\nScored as: 1: Corky(500), 2: Rotten exocarp (700), 3: Corky + rotten(800) , 4: Green or Hard (900), 5: Mummified(600) , 6: Very weak skin(0,001) , 7: Very cracked skin(400), 8:  Small(1000) 9. X and 10. undefined(2000)." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000023 ! Penetrometer resistence
+relationship: variablec_of SO1:0000023 ! Resistence to penetrometer
 relationship: variablec_of SO1:0000208 ! Measurement: penetrometer resistance(PP)_method.
 relationship: variablec_of SO1:0000223 ! 10pt
 created_by: aliciata
@@ -1558,10 +1547,10 @@ name: Fruit firmness of flesh
 namespace: CherimoyaVariable
 alt_id: SO1:0000218
 alt_id: SO1:0000219
-def: "Measurement of fruit firmness of flesh scored as: 3:soft (e.g. El Bumpo, Miguel), 5: medium (e.g. White), 7: firm (e.g. African Pride, Pink´s Mommoth)." []
+def: "Measurement of fruit firmness of flesh scored as: 3:soft (e.g. El Bumpo, Miguel), 5: medium (e.g. White), 7: firm (e.g. African Pride, Pink´s Mommoth)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000023 ! Penetrometer resistence
+relationship: variablec_of SO1:0000023 ! Resistence to penetrometer
 relationship: variablec_of SO1:0000210 ! Measurement: fruit firmness of flesh_method.
 relationship: variablec_of SO1:0000217 ! 3pt
 created_by: aliciata
@@ -1713,20 +1702,20 @@ id: SO1:0000236
 name: Visual observation: production regularity_method.
 namespace: CherimoyaMethod
 def: "Visual observation of regularity of production." []
-relationship: methodc_of SO1:0000024 ! Production regularity
+relationship: methodc_of SO1:0000024 ! Regularity of production
 created_by: aliciata
 creation_date: 2016-12-10T17:09:50Z
 
 [Term]
 id: SO1:0000237
-name: production regularity
+name: Regularity of production
 namespace: CherimoyaVariable
 alt_id: SO1:0000239
 alt_id: SO1:0000240
-def: "Visual observation of regularity o production scored as: 0: No and 1:Yes." []
+def: "Visual observation of regularity o production scored as: 0: No and 1:Yes." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000024 ! Production regularity
+relationship: variablec_of SO1:0000024 ! Regularity of production
 relationship: variablec_of SO1:0000066 ! 2pt
 relationship: variablec_of SO1:0000236 ! Visual observation: production regularity_method.
 created_by: aliciata
@@ -1766,7 +1755,7 @@ namespace: CherimoyaVariable
 alt_id: SO1:0000248
 alt_id: SO1:0000249
 alt_id: SO1:0000268
-def: "Visual observation of pulp scored as: 1: Normal, 2: Black and blue spots (bitter), 3: Black, 4: Yellow, 5: Brown and pink spots,6:  With grain, 7: dried pulp, 8: Hard black areas in the pulp,9: Black fibers, 10: Hard brown or pink areas in the pulp, 11: Hard white area in the pulp, 12: Hard blue area n the pulp, 13: Brown fibers in the pulp, 14: Hard pulp,15: Yellow area in the pulp,  16: Black, Brown and pink spots under the skin (thick), 17: Translucent areas in pulp and 18: Granulated pulp under the skin." []
+def: "Visual observation of pulp scored as: 1: Normal, 2: Black and blue spots (bitter), 3: Black, 4: Yellow, 5: Brown and pink spots,6:  With grain, 7: dried pulp, 8: Hard black areas in the pulp,9: Black fibers, 10: Hard brown or pink areas in the pulp, 11: Hard white area in the pulp, 12: Hard blue area n the pulp, 13: Brown fibers in the pulp, 14: Hard pulp,15: Yellow area in the pulp,  16: Black, Brown and pink spots under the skin (thick), 17: Translucent areas in pulp and 18: Granulated pulp under the skin." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000026 ! Pulp (PU)
@@ -1781,7 +1770,7 @@ name: Fruit color of flesh
 namespace: CherimoyaVariable
 alt_id: SO1:0000275
 alt_id: SO1:0000277
-def: "visual rating of fruit color of flesh scored as: 1: White(e.g. Pierce), 2: Cream(e.g. Villapark)." []
+def: "visual rating of fruit color of flesh scored as: 1: White(e.g. Pierce), 2: Cream(e.g. Villapark)." [UPOV:TG/208/1]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000026 ! Pulp (PU)
@@ -1796,7 +1785,7 @@ name: Pulp colour
 namespace: CherimoyaVariable
 alt_id: SO1:0000270
 alt_id: SO1:0000271
-def: "Visual rating  of pulp colour. \nIf possible, use colour codes from the Royal Horticultural Society.  If these are not available, use the following colour codes: \n\n1: White\n2:Cream\n99:Other" []
+def: "Visual rating  of pulp colour. \nIf possible, use colour codes from the Royal Horticultural Society.  If these are not available, use the following colour codes: \n\n1: White\n2:Cream\n99:Other" [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000026 ! Pulp (PU)
@@ -2051,7 +2040,7 @@ name: Pulp texture
 namespace: CherimoyaVariable
 alt_id: SO1:0000283
 alt_id: SO1:0000284
-def: "Sensory assessment of pulp texture when fruit are fully ripened scored as: 1: Watery  2: Creamy  3: Granular  4: Hard  5: Hard areas in the pulp.  99: Other.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Sensory assessment of pulp texture when fruit are fully ripened scored as: 1: Watery  2: Creamy  3: Granular  4: Hard  5: Hard areas in the pulp.  99: Other.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000027 ! Pulp texture
@@ -2137,7 +2126,7 @@ name: Ripe fruit weight
 namespace: CherimoyaVariable
 alt_id: SO1:0000294
 alt_id: SO1:0000295
-def: "Visual rating of ripe fruit weight when fruit are fully ripened in grams (g).\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual rating of ripe fruit weight when fruit are fully ripened in grams (g).\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000016 ! Ripe fruit weight
@@ -2161,7 +2150,7 @@ name: Rotten fruit (PO)
 namespace: CherimoyaVariable
 alt_id: SO1:0000298
 alt_id: SO1:0000300
-def: "Visual observation of rotten fruit scored as: 0: No and 1: Yes." []
+def: "Visual observation of rotten fruit scored as: 0: No and 1: Yes." [IHSM:custom]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000040 ! Rotten fruit (PO)
 relationship: variablec_of SO1:0000066 ! 2pt
@@ -2184,7 +2173,7 @@ name: Seed adherence to flesh
 namespace: CherimoyaVariable
 alt_id: SO1:0000304
 alt_id: SO1:0000305
-def: "Visual rating of seed adherence to flesh scored as : 3: weak (e.g. Booth, Campus), 5: medium (e.g. Big Sister, Chaffey), 7: strong (e.g. Bay Ott, Bays)" []
+def: "Visual rating of seed adherence to flesh scored as : 3: weak (e.g. Booth, Campus), 5: medium (e.g. Big Sister, Chaffey), 7: strong (e.g. Bay Ott, Bays)" [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000035 ! Seed adherence to flesh
@@ -2231,7 +2220,7 @@ name: Seed coat colour
 namespace: CherimoyaVariable
 alt_id: SO1:0000307
 alt_id: SO1:0000310
-def: "Visual scoring of seed coat colour scored as:  1: grey, 2: dark brown, 3: black, 99: other.  \nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." []
+def: "Visual scoring of seed coat colour scored as:  1: grey, 2: dark brown, 3: black, 99: other.  \nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000028 ! Seed coat colour
@@ -2291,7 +2280,7 @@ name: Seed epithelium tenacity
 namespace: CherimoyaVariable
 alt_id: SO1:0000318
 alt_id: SO1:0000319
-def: "Visual observation of seed epithelium tenacity scored as: 1: Cloaked, 2: Semi-cloaked, 3: Loose. \n\nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." []
+def: "Visual observation of seed epithelium tenacity scored as: 1: Cloaked, 2: Semi-cloaked, 3: Loose. \n\nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000029 ! Seed epithelium tenacity
@@ -2350,7 +2339,7 @@ name: Coat (CS)
 namespace: CherimoyaVariable
 alt_id: SO1:0000326
 alt_id: SO1:0000327
-def: "Visual observation of coat scored as: 0:Cloaked, 1:Semi-cloaked and 2: Loose." []
+def: "Visual observation of coat scored as: 0:Cloaked, 1:Semi-cloaked and 2: Loose." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000029 ! Seed epithelium tenacity
@@ -2442,7 +2431,7 @@ name: Seed length [mm]
 namespace: CherimoyaVariable
 alt_id: SO1:0000341
 alt_id: SO1:0000342
-def: "Visual rating of seed length using a scale of: mm. \n\nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." []
+def: "Visual rating of seed length using a scale of: mm. \n\nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000030 ! Seed length
@@ -2457,7 +2446,7 @@ name: Seed length
 namespace: CherimoyaVariable
 alt_id: SO1:0000344
 alt_id: SO1:0000345
-def: "Measurement of seed length scored as: 3:short (e.g. Oakwood, Pierce), 5: medium (e.g. Mariella), 7: long (e.g. Big Sister)." []
+def: "Measurement of seed length scored as: 3:short (e.g. Oakwood, Pierce), 5: medium (e.g. Mariella), 7: long (e.g. Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000030 ! Seed length
@@ -2508,7 +2497,7 @@ name: Seed ratio length/width
 namespace: CherimoyaVariable
 alt_id: SO1:0000352
 alt_id: SO1:0000353
-def: "Estimation of seed ratio length/width scored as: 3: Small ( Oakwood) , 5: Medium (El Bumpo) , 7: Large (Bay Ott)." []
+def: "Estimation of seed ratio length/width scored as: 3: Small ( Oakwood) , 5: Medium (El Bumpo) , 7: Large (Bay Ott)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000037 ! Seed ratio length/width
@@ -2546,9 +2535,9 @@ creation_date: 2016-12-10T18:40:56Z
 
 [Term]
 id: SO1:0000357
-name: Measurement: seed width_method.
+name: Visual observation: seed: width_method.
 namespace: CherimoyaMethod
-def: "Measure of seed width at widest point." []
+def: "Visual observation of seed width at widest point." []
 relationship: methodc_of SO1:0000031 ! Seed width
 created_by: aliciata
 creation_date: 2016-12-10T18:42:09Z
@@ -2568,7 +2557,7 @@ name: Seed width
 namespace: CherimoyaVariable
 alt_id: SO1:0000362
 alt_id: SO1:0000363
-def: "Visual rating of seed width using a scale of: mm. \n\nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." []
+def: "Visual rating of seed width using a scale of: mm. \n\nRecorded on five healthy seeds per fruit in 10 healthy,representative fruits." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000031 ! Seed width
@@ -2583,11 +2572,11 @@ name: Seed: width
 namespace: CherimoyaVariable
 alt_id: SO1:0000365
 alt_id: SO1:0000366
-def: "Measure of seed width at widest point scored as: 3:narrow (e.g. African Pride, Gefner), 5: medium (e.g. Bay Ott, Honey Hart), 7: broad (e.g. Chaffey, Mariella)." []
+def: "Measure of seed width at widest point scored as: 3:narrow (e.g. African Pride, Gefner), 5: medium (e.g. Bay Ott, Honey Hart), 7: broad (e.g. Chaffey, Mariella)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000031 ! Seed width
-relationship: variablec_of SO1:0000357 ! Measurement: seed width_method.
+relationship: variablec_of SO1:0000357 ! Visual observation: seed: width_method.
 relationship: variablec_of SO1:0000364 ! 3pt
 created_by: aliciata
 creation_date: 2016-12-10T18:42:09Z
@@ -2600,7 +2589,7 @@ alt_id: SO1:0001130
 alt_id: SO1:0001178
 alt_id: SO1:0001279
 synonym: "3pt" EXACT []
-relationship: scalec_of SO1:0000357 ! Measurement: seed width_method.
+relationship: scalec_of SO1:0000357 ! Visual observation: seed: width_method.
 relationship: scalec_of SO1:0001128 ! Measurement: leaf blade width_method.
 relationship: scalec_of SO1:0001176 ! Measurement: ovary width_method.
 relationship: scalec_of SO1:0001277 ! Measurement: petal: width_method.
@@ -2622,7 +2611,7 @@ name: seeds (SE)
 namespace: CherimoyaVariable
 alt_id: SO1:0000369
 alt_id: SO1:0000371
-def: "Visual observation of seeds  scored as: 1. Normal, 2: Germinated, 3: All brown , 4: Some brown, 5: Not brown, 6: Some vain , 7: All vain, 8: Almost all vain and 9: Double seed." []
+def: "Visual observation of seeds  scored as: 1. Normal, 2: Germinated, 3: All brown , 4: Some brown, 5: Not brown, 6: Some vain , 7: All vain, 8: Almost all vain and 9: Double seed." [IHSM:custom]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000041 ! Seeds (SE)
 relationship: variablec_of SO1:0000367 ! Visual observation: seeds_method.
@@ -2752,7 +2741,7 @@ name: Seeds number (NSE)
 namespace: CherimoyaVariable
 alt_id: SO1:0000397
 alt_id: SO1:0000398
-def: "Count of seeds number per fruit." []
+def: "Count of seeds number per fruit." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000032 ! Seeds number
@@ -2767,7 +2756,7 @@ name: Fruit number of seeds
 namespace: CherimoyaVariable
 alt_id: SO1:0000391
 alt_id: SO1:0000393
-def: "Count of the number of seeds per fruit scored as: 3: Few (Salmon), 5: Medium (Fino de Jete), 7: Many (Big Sister)." []
+def: "Count of the number of seeds per fruit scored as: 3: Few (Salmon), 5: Medium (Fino de Jete), 7: Many (Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 relationship: variablec_of SO1:0000032 ! Seeds number
 relationship: variablec_of SO1:0000382 ! Counting: fruit number of seeds_method
@@ -2781,7 +2770,7 @@ name: Number of seeds
 namespace: CherimoyaVariable
 alt_id: SO1:0000388
 alt_id: SO1:0000389
-def: "Count of seeds.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Count of seeds.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000032 ! Seeds number
@@ -2862,7 +2851,7 @@ name: Soil
 namespace: CherimoyaVariable
 alt_id: SO1:0000402
 alt_id: SO1:0000403
-def: "Observation of fallen fruit or not fallen fruit. Scored as: 1: no and 2: yes." []
+def: "Observation of fallen fruit or not fallen fruit. Scored as: 1: no and 2: yes." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000042 ! Soil
@@ -2934,7 +2923,7 @@ name: Harvest season end
 namespace: CherimoyaVariable
 alt_id: SO1:0000414
 alt_id: SO1:0000415
-def: "Evaluate of end of the harvest season with date [YYYYMMDD]." []
+def: "Evaluate of end of the harvest season with date [YYYYMMDD]." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000021 ! Harvest period
@@ -2949,7 +2938,7 @@ name: Harvest season start
 namespace: CherimoyaVariable
 alt_id: SO1:0000417
 alt_id: SO1:0000418
-def: "Evaluate of start of the harvest season.\n\n[YYYYMMDD]" []
+def: "Evaluate of start of the harvest season.\n\n[YYYYMMDD]" [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000021 ! Harvest period
@@ -3015,7 +3004,7 @@ name: Number of days from flowering to fruit set
 namespace: CherimoyaVariable
 alt_id: SO1:0000437
 alt_id: SO1:0000438
-def: "Count of number of days from flowering to fruit set." []
+def: "Count of number of days from flowering to fruit set." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000022 ! Fruit evaluation
@@ -3030,7 +3019,7 @@ name: Number of days from flowering to fruit ripeness
 namespace: CherimoyaVariable
 alt_id: SO1:0000434
 alt_id: SO1:0000435
-def: "Count of number of days from flowering to fruit ripeness." []
+def: "Count of number of days from flowering to fruit ripeness." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000022 ! Fruit evaluation
@@ -3045,7 +3034,7 @@ name: Number of years from planting to first fructification
 namespace: CherimoyaVariable
 alt_id: SO1:0000431
 alt_id: SO1:0000432
-def: "Count of number of years from planting to first fructification" []
+def: "Count of number of years from planting to first fructification" [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000022 ! Fruit evaluation
@@ -3060,7 +3049,7 @@ name: Number of years from grafting to first fructification
 namespace: CherimoyaVariable
 alt_id: SO1:0000428
 alt_id: SO1:0000429
-def: "Count of number of years from grafting to first fructification." []
+def: "Count of number of years from grafting to first fructification." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000022 ! Fruit evaluation
@@ -3084,7 +3073,7 @@ creation_date: 2016-12-10T19:45:56Z
 id: SO1:0000439
 name: Constant winds reaction
 namespace: CherimoyaTrait
-def: "Reaction to constant winds." []
+def: "The treatment involving an exposure to wind, which may depend on regional environment." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000006 ! Abiotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:26Z
@@ -3093,7 +3082,7 @@ creation_date: 2016-12-10T20:04:26Z
 id: SO1:0000440
 name: Drought reaction
 namespace: CherimoyaTrait
-def: "Reaction to drought." []
+def: "Becoming tolerant to drought like conditions of minimal or no water content in the growth environment." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000006 ! Abiotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:26Z
@@ -3102,7 +3091,7 @@ creation_date: 2016-12-10T20:04:26Z
 id: SO1:0000441
 name: High soil moisture reaction
 namespace: CherimoyaTrait
-def: "Reaction to high soil moisture." []
+def: "Reaction to high soil moisture." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000006 ! Abiotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:26Z
@@ -3111,7 +3100,7 @@ creation_date: 2016-12-10T20:04:26Z
 id: SO1:0000442
 name: High temperature reaction
 namespace: CherimoyaTrait
-def: "Reaction to high temperature." []
+def: "Reaction to high temperature." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000006 ! Abiotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:26Z
@@ -3120,7 +3109,7 @@ creation_date: 2016-12-10T20:04:26Z
 id: SO1:0000443
 name: Low temperature reaction
 namespace: CherimoyaTrait
-def: "Reaction to low temperature." []
+def: "Reaction to low temperature." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000006 ! Abiotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:26Z
@@ -3129,7 +3118,7 @@ creation_date: 2016-12-10T20:04:26Z
 id: SO1:0000444
 name: Soil alkalinity reaction
 namespace: CherimoyaTrait
-def: "Reaction to soil alkalinity" []
+def: "Plant sensitivity to soils with alkali conditions." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000006 ! Abiotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:26Z
@@ -3138,7 +3127,7 @@ creation_date: 2016-12-10T20:04:26Z
 id: SO1:0000445
 name: Soil salinity reaction
 namespace: CherimoyaTrait
-def: "Reaction to soil salinity." []
+def: "Plant sensitivity observed in response to different concentrations of salt in the growth medium." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000006 ! Abiotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:26Z
@@ -3147,6 +3136,7 @@ creation_date: 2016-12-10T20:04:26Z
 id: SO1:0000446
 name: Aphids
 namespace: CherimoyaTrait
+def: "Resistance displayed by the plant to the aphid infestation." []
 is_a: SO1:0000007 ! Biotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:57Z
@@ -3163,6 +3153,7 @@ creation_date: 2016-12-10T20:04:57Z
 id: SO1:0000448
 name: Coleoptera
 namespace: CherimoyaTrait
+def: "Treatment involving the exposure of plant to the pest commonly called as beetles or Coleoptera." []
 is_a: SO1:0000007 ! Biotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:57Z
@@ -3187,6 +3178,7 @@ creation_date: 2016-12-10T20:04:57Z
 id: SO1:0000451
 name: Lepidoptera
 namespace: CherimoyaTrait
+def: "Treatment involving the exposure of plant to the pest of lepidoptera class" []
 is_a: SO1:0000007 ! Biotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:57Z
@@ -3203,6 +3195,7 @@ creation_date: 2016-12-10T20:04:57Z
 id: SO1:0000453
 name: Nematodes
 namespace: CherimoyaTrait
+def: "An assay to determine the resistance exhibited by a plant or a group of plants (population) in response to nematode infestation as compared to the susceptible and/or the reference plants of the same species." []
 is_a: SO1:0000007 ! Biotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:57Z
@@ -3227,6 +3220,7 @@ creation_date: 2016-12-10T20:04:57Z
 id: SO1:0000456
 name: Wasps
 namespace: CherimoyaTrait
+def: "A Hymenoptera insect plant treatment (EO:0001032) that involves exposure to parasitic wasps." []
 is_a: SO1:0000007 ! Biotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:57Z
@@ -3235,6 +3229,7 @@ creation_date: 2016-12-10T20:04:57Z
 id: SO1:0000457
 name: Whiteflies
 namespace: CherimoyaTrait
+def: "An insect plant treatment (EO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order." []
 is_a: SO1:0000007 ! Biotic stress trait
 created_by: aliciata
 creation_date: 2016-12-10T20:04:57Z
@@ -3254,7 +3249,7 @@ name: Constant winds reaction
 namespace: CherimoyaVariable
 alt_id: SO1:0000461
 alt_id: SO1:0000462
-def: "Visual observation of reaction to constant winds, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of reaction to constant winds, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000439 ! Constant winds reaction
@@ -3454,7 +3449,7 @@ name: Drought reaction
 namespace: CherimoyaVariable
 alt_id: SO1:0000471
 alt_id: SO1:0000472
-def: "Scored in natural conditions at daytime, over at least 4 weeks. Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Scored in natural conditions at daytime, over at least 4 weeks. Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000440 ! Drought reaction
@@ -3478,7 +3473,7 @@ name: High soil moisture reaction
 namespace: CherimoyaVariable
 alt_id: SO1:0000476
 alt_id: SO1:0000477
-def: "Visual observation of high soil moisture reaction scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of high soil moisture reaction scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000441 ! High soil moisture reaction
@@ -3502,7 +3497,7 @@ name: High temperature reaction
 namespace: CherimoyaVariable
 alt_id: SO1:0000481
 alt_id: SO1:0000482
-def: "Visual observation of high temperature reaction, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of high temperature reaction, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000442 ! High temperature reaction
@@ -3526,7 +3521,7 @@ name: Low temperature reaction
 namespace: CherimoyaVariable
 alt_id: SO1:0000486
 alt_id: SO1:0000487
-def: "Visual observation of low temperature reaction.\nScore in natural conditions in the cold season. \nUse a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of low temperature reaction.\nScore in natural conditions in the cold season. \nUse a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000443 ! Low temperature reaction
@@ -3550,7 +3545,7 @@ name: Soil alkalinity reaction
 namespace: CherimoyaVariable
 alt_id: SO1:0000491
 alt_id: SO1:0000492
-def: "Visual observation of reaction to soil alkalinity, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of reaction to soil alkalinity, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000444 ! Soil alkalinity reaction
@@ -3574,7 +3569,7 @@ name: Soil salinity reaction
 namespace: CherimoyaVariable
 alt_id: SO1:0000496
 alt_id: SO1:0000497
-def: "Visual observation of reaction to soil salinity, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of reaction to soil salinity, scored under artificial and/or natural conditions (to be clearly specified). Use a susceptibility scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000445 ! Soil salinity reaction
@@ -3587,7 +3582,7 @@ creation_date: 2016-12-10T20:27:26Z
 id: SO1:0000498
 name: Parasaissetia nigra
 namespace: CherimoyaTrait
-def: "NIgra scale" []
+def: "NIgra scale" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3596,7 +3591,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000499
 name: Icerya purchasi
 namespace: CherimoyaTrait
-def: "Cotton cushion scale" []
+def: "Cotton cushion scale" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3605,7 +3600,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000500
 name: Lepidosaphes beckii
 namespace: CherimoyaTrait
-def: "Purple scale." []
+def: "Purple scale." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3614,7 +3609,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000501
 name: Pseudococcus filamentosus
 namespace: CherimoyaTrait
-def: "Citrus mite." []
+def: "Citrus mite." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3623,7 +3618,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000502
 name: Planococcus citri
 namespace: CherimoyaTrait
-def: "Citrus mealybug." []
+def: "Citrus mealybug." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3632,7 +3627,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000503
 name: Parthenolecanium corni
 namespace: CherimoyaTrait
-def: "European fruit lecanium." []
+def: "European fruit lecanium." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3641,7 +3636,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000504
 name: Pinnaspis aspidistrae
 namespace: CherimoyaTrait
-def: "Fern scale." []
+def: "Fern scale." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3650,7 +3645,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000505
 name: Aspidiotus spp.
 namespace: CherimoyaTrait
-def: "Coconut scale." []
+def: "Coconut scale." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3659,7 +3654,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000506
 name: Ceropute yuccae
 namespace: CherimoyaTrait
-def: "Coccid." []
+def: "Coccid." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3668,7 +3663,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000507
 name: Selenaspidus articulatus
 namespace: CherimoyaTrait
-def: "Rufous scale" []
+def: "Rufous scale" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3677,7 +3672,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000508
 name: Saissetia spp.
 namespace: CherimoyaTrait
-def: "Scale" []
+def: "Scale" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3686,7 +3681,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000509
 name: Unaspis citri
 namespace: CherimoyaTrait
-def: "White louse scale" []
+def: "White louse scale" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000454 ! Scale insects
 created_by: aliciata
 creation_date: 2016-12-10T20:30:50Z
@@ -3695,7 +3690,7 @@ creation_date: 2016-12-10T20:30:50Z
 id: SO1:0000510
 name: Aleurotrachelus trachoides
 namespace: CherimoyaTrait
-def: "Whitefly" []
+def: "Whitefly" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000457 ! Whiteflies
 created_by: aliciata
 creation_date: 2016-12-10T20:31:05Z
@@ -3704,7 +3699,7 @@ creation_date: 2016-12-10T20:31:05Z
 id: SO1:0000511
 name: Aphis gossypii
 namespace: CherimoyaTrait
-def: "Cotton aphid." []
+def: "Cotton aphid." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000446 ! Aphids
 created_by: aliciata
 creation_date: 2016-12-10T20:31:45Z
@@ -3713,7 +3708,7 @@ creation_date: 2016-12-10T20:31:45Z
 id: SO1:0000512
 name: Anastrepha spp.
 namespace: CherimoyaTrait
-def: "fruit fly" []
+def: "fruit fly" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000449 ! Fruit flies
 created_by: aliciata
 creation_date: 2016-12-10T20:32:13Z
@@ -3739,7 +3734,7 @@ creation_date: 2016-12-10T20:32:13Z
 id: SO1:0000515
 name: Apate monachus
 namespace: CherimoyaTrait
-def: "Black borer" []
+def: "Black borer" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000448 ! Coleoptera
 created_by: aliciata
 creation_date: 2016-12-10T20:34:37Z
@@ -3756,7 +3751,7 @@ creation_date: 2016-12-10T20:34:37Z
 id: SO1:0000517
 name: Diabrotica spp.
 namespace: CherimoyaTrait
-def: "Corn rootworm." []
+def: "Corn rootworm." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000448 ! Coleoptera
 created_by: aliciata
 creation_date: 2016-12-10T20:34:37Z
@@ -3765,7 +3760,7 @@ creation_date: 2016-12-10T20:34:37Z
 id: SO1:0000518
 name: Ralstonia solanacearum
 namespace: CherimoyaTrait
-def: "Southern wilt." []
+def: "Southern wilt." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000447 ! Bacteria
 created_by: aliciata
 creation_date: 2016-12-10T20:35:54Z
@@ -3774,7 +3769,7 @@ creation_date: 2016-12-10T20:35:54Z
 id: SO1:0000519
 name: Botryris spp.
 namespace: CherimoyaTrait
-def: "Botrytis" []
+def: "Botrytis" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000450 ! Fungi
 created_by: aliciata
 creation_date: 2016-12-10T20:41:05Z
@@ -3791,7 +3786,7 @@ creation_date: 2016-12-10T20:41:05Z
 id: SO1:0000521
 name: Colletotrichum spp.
 namespace: CherimoyaTrait
-def: "Anthracnose" []
+def: "Anthracnose" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000450 ! Fungi
 created_by: aliciata
 creation_date: 2016-12-10T20:41:05Z
@@ -3816,7 +3811,7 @@ creation_date: 2016-12-10T20:41:05Z
 id: SO1:0000524
 name: Lasiodiplodia theobromae
 namespace: CherimoyaTrait
-def: "fruit rot" []
+def: "fruit rot" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000450 ! Fungi
 created_by: aliciata
 creation_date: 2016-12-10T20:41:05Z
@@ -3825,7 +3820,7 @@ creation_date: 2016-12-10T20:41:05Z
 id: SO1:0000525
 name: Monilia spp.
 namespace: CherimoyaTrait
-def: "monilia" []
+def: "monilia" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000450 ! Fungi
 created_by: aliciata
 creation_date: 2016-12-10T20:41:05Z
@@ -3834,7 +3829,7 @@ creation_date: 2016-12-10T20:41:05Z
 id: SO1:0000526
 name: Phakopsora cherimolae
 namespace: CherimoyaTrait
-def: "rust fungus" []
+def: "rust fungus" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000450 ! Fungi
 created_by: aliciata
 creation_date: 2016-12-10T20:41:05Z
@@ -3883,7 +3878,7 @@ creation_date: 2016-12-10T20:41:05Z
 id: SO1:0000532
 name: Rhizopus nigricans(syn. R. stolonifer)
 namespace: CherimoyaTrait
-def: "black mould" []
+def: "black mould" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000450 ! Fungi
 created_by: aliciata
 creation_date: 2016-12-10T20:41:05Z
@@ -3916,7 +3911,7 @@ creation_date: 2016-12-10T20:41:05Z
 id: SO1:0000536
 name: Cerconota anonella
 namespace: CherimoyaTrait
-def: "annona fruit borer" []
+def: "annona fruit borer" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000451 ! Lepidoptera
 created_by: aliciata
 creation_date: 2016-12-11T10:46:34Z
@@ -3925,7 +3920,7 @@ creation_date: 2016-12-11T10:46:34Z
 id: SO1:0000537
 name: Cocytius antaeus
 namespace: CherimoyaTrait
-def: "giant sphinx" []
+def: "giant sphinx" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000451 ! Lepidoptera
 created_by: aliciata
 creation_date: 2016-12-11T10:46:34Z
@@ -3942,7 +3937,7 @@ creation_date: 2016-12-11T10:46:34Z
 id: SO1:0000539
 name: Lyonetia sp.
 namespace: CherimoyaTrait
-def: "leaf miner" []
+def: "leaf miner" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000451 ! Lepidoptera
 created_by: aliciata
 creation_date: 2016-12-11T10:46:34Z
@@ -3951,7 +3946,7 @@ creation_date: 2016-12-11T10:46:34Z
 id: SO1:0000540
 name: Talponia batesi
 namespace: CherimoyaTrait
-def: "seed borer" []
+def: "seed borer" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000451 ! Lepidoptera
 created_by: aliciata
 creation_date: 2016-12-11T10:46:34Z
@@ -3968,7 +3963,7 @@ creation_date: 2016-12-11T10:46:34Z
 id: SO1:0000542
 name: Brevipalpus californicus
 namespace: CherimoyaTrait
-def: "false spider mite." []
+def: "false spider mite." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000452 ! Mites
 created_by: aliciata
 creation_date: 2016-12-11T10:47:13Z
@@ -3977,7 +3972,7 @@ creation_date: 2016-12-11T10:47:13Z
 id: SO1:0000543
 name: Brevipalpus chilensis
 namespace: CherimoyaTrait
-def: "chilean false red mite" []
+def: "chilean false red mite" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000452 ! Mites
 created_by: aliciata
 creation_date: 2016-12-11T10:47:13Z
@@ -3986,7 +3981,7 @@ creation_date: 2016-12-11T10:47:13Z
 id: SO1:0000544
 name: Tetranychus urticae
 namespace: CherimoyaTrait
-def: "Two-spotted spider mite." []
+def: "Two-spotted spider mite." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000452 ! Mites
 created_by: aliciata
 creation_date: 2016-12-11T10:47:13Z
@@ -3995,7 +3990,7 @@ creation_date: 2016-12-11T10:47:13Z
 id: SO1:0000545
 name: Helicotylenchus spp.
 namespace: CherimoyaTrait
-def: "Spiral nematode." []
+def: "Spiral nematode." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000453 ! Nematodes
 created_by: aliciata
 creation_date: 2016-12-11T10:48:00Z
@@ -4004,7 +3999,7 @@ creation_date: 2016-12-11T10:48:00Z
 id: SO1:0000546
 name: Meloidogyne incognita
 namespace: CherimoyaTrait
-def: "Root-knot nematode." []
+def: "Root-knot nematode." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000453 ! Nematodes
 created_by: aliciata
 creation_date: 2016-12-11T10:48:00Z
@@ -4013,7 +4008,7 @@ creation_date: 2016-12-11T10:48:00Z
 id: SO1:0000547
 name: Pratylenchus spp.
 namespace: CherimoyaTrait
-def: "Lesion nematode." []
+def: "Lesion nematode." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000453 ! Nematodes
 created_by: aliciata
 creation_date: 2016-12-11T10:48:00Z
@@ -4022,7 +4017,7 @@ creation_date: 2016-12-11T10:48:00Z
 id: SO1:0000548
 name: Tylenchorhynchus spp.
 namespace: CherimoyaTrait
-def: "Stunt nematode." []
+def: "Stunt nematode." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000453 ! Nematodes
 created_by: aliciata
 creation_date: 2016-12-11T10:48:00Z
@@ -4031,7 +4026,7 @@ creation_date: 2016-12-11T10:48:00Z
 id: SO1:0000549
 name: Xiphinema americanum
 namespace: CherimoyaTrait
-def: "American dagger nematode." []
+def: "American dagger nematode." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000453 ! Nematodes
 created_by: aliciata
 creation_date: 2016-12-11T10:48:00Z
@@ -4040,7 +4035,7 @@ creation_date: 2016-12-11T10:48:00Z
 id: SO1:0000550
 name: Thrips tabaci
 namespace: CherimoyaTrait
-def: "Thrips" []
+def: "Thrips" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000455 ! Thrips
 created_by: aliciata
 creation_date: 2016-12-11T10:50:50Z
@@ -4049,7 +4044,7 @@ creation_date: 2016-12-11T10:50:50Z
 id: SO1:0000551
 name: Bephrata maculicollis
 namespace: CherimoyaTrait
-def: "Soursop wasp" []
+def: "Soursop wasp" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000456 ! Wasps
 created_by: aliciata
 creation_date: 2016-12-11T10:51:12Z
@@ -4058,7 +4053,7 @@ creation_date: 2016-12-11T10:51:12Z
 id: SO1:0000552
 name: Bephratelloides spp.
 namespace: CherimoyaTrait
-def: "Annona seed wasp" []
+def: "Annona seed wasp" [ISBN:978-92-9043-779-6]
 is_a: SO1:0000456 ! Wasps
 created_by: aliciata
 creation_date: 2016-12-11T10:51:26Z
@@ -4078,7 +4073,7 @@ name: Ralstonia solanacearum
 namespace: CherimoyaVariable
 alt_id: SO1:0000556
 alt_id: SO1:0000557
-def: "Visual observation of the infestation or infection of Ralstonia solanacearum. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Ralstonia solanacearum. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4102,7 +4097,7 @@ name: Aphis gossypii
 namespace: CherimoyaVariable
 alt_id: SO1:0000561
 alt_id: SO1:0000562
-def: "Visual observation of the infestation or infection of aphis gossypii.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of aphis gossypii.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4126,7 +4121,7 @@ name: Apate monachus
 namespace: CherimoyaVariable
 alt_id: SO1:0000566
 alt_id: SO1:0000567
-def: "Visual observation of the infestation or infection of apate monachus.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of apate monachus.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4150,7 +4145,7 @@ name: Conoderus spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000571
 alt_id: SO1:0000572
-def: "Visual observation of the infestation or infection of conoderus spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of conoderus spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4174,7 +4169,7 @@ name: Diabrotica spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000576
 alt_id: SO1:0000577
-def: "Visual observation of the infestation or infection of diabrotica spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of diabrotica spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4198,7 +4193,7 @@ name: Anastrepha spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000581
 alt_id: SO1:0000582
-def: "Visual observation of the infestation or infection of anastrepha spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of anastrepha spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4222,7 +4217,7 @@ name: Bactrocera tryoni
 namespace: CherimoyaVariable
 alt_id: SO1:0000585
 alt_id: SO1:0000587
-def: "Visual observation of the infestation or infection of bactrocera tryoni. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of bactrocera tryoni. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
 relationship: variablec_of SO1:0000513 ! Bactrocera tryoni
@@ -4245,7 +4240,7 @@ name: Ceratitis capitata
 namespace: CherimoyaVariable
 alt_id: SO1:0000591
 alt_id: SO1:0000592
-def: "Visual observation of the infestation or infection of ceratitis capitata .  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of ceratitis capitata .  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4269,7 +4264,7 @@ name: Brotryris spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000596
 alt_id: SO1:0000597
-def: "Visual observation of the infestation or infection of brotryris spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of brotryris spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4293,7 +4288,7 @@ name: Cercospora annonaceae
 namespace: CherimoyaVariable
 alt_id: SO1:0000600
 alt_id: SO1:0000602
-def: "Visual observation of the infestation or infection of cercospora annonaceae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of cercospora annonaceae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
 relationship: variablec_of SO1:0000520 ! Cercospora annonaceae
@@ -4316,7 +4311,7 @@ name: Colletotrichum spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000605
 alt_id: SO1:0000607
-def: "Visual observation of the infestation or infection of  colletotrichum sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of  colletotrichum sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
 relationship: variablec_of SO1:0000521 ! Colletotrichum spp.
@@ -4339,7 +4334,7 @@ name: Fusarium sp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000610
 alt_id: SO1:0000612
-def: "Visual observation of the infestation or infection of fusarium sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of fusarium sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
 relationship: variablec_of SO1:0000522 ! Fusarium sp.
@@ -4362,7 +4357,7 @@ name: Isariopsis anonarum
 namespace: CherimoyaVariable
 alt_id: SO1:0000616
 alt_id: SO1:0000617
-def: "Visual observation of the infestation or infection of isariopsis anonarum. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of isariopsis anonarum. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4386,7 +4381,7 @@ name: Lasiodiplodia theobromae
 namespace: CherimoyaVariable
 alt_id: SO1:0000621
 alt_id: SO1:0000622
-def: "Visual observation of the infestation or infection of lasiodiploidia theobromae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of lasiodiploidia theobromae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4410,7 +4405,7 @@ name: Monilia spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000626
 alt_id: SO1:0000627
-def: "Visual observation of the infestation or infection of monilia spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of monilia spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4434,7 +4429,7 @@ name: Phakopsora cherimolae
 namespace: CherimoyaVariable
 alt_id: SO1:0000631
 alt_id: SO1:0000632
-def: "Visual observation of the infestation or infection of phakopsora cherimolae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of phakopsora cherimolae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4458,7 +4453,7 @@ name: Phomopsis spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000636
 alt_id: SO1:0000637
-def: "Visual observation of the infestation or infection of phomopsis spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of phomopsis spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4482,7 +4477,7 @@ name: Phyllosticta spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000641
 alt_id: SO1:0000642
-def: "Visual observation of the infestation or infection of phyllosticta spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of phyllosticta spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4506,7 +4501,7 @@ name: Phytophtora spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000646
 alt_id: SO1:0000647
-def: "Visual observation of the infestation or infection of phytophtora spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of phytophtora spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4530,7 +4525,7 @@ name: Pythium sp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000651
 alt_id: SO1:0000652
-def: "Visual observation of the infestation or infection of pythium sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of pythium sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4554,7 +4549,7 @@ name: Rhizoctonia spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000655
 alt_id: SO1:0000657
-def: "Visual observation of the infestation or infection of Rhizoctonia spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Rhizoctonia spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
 relationship: variablec_of SO1:0000531 ! Rhizoctonia spp.
@@ -4577,7 +4572,7 @@ name: Rhizopus nigricans (syn. R. stolonifer)
 namespace: CherimoyaVariable
 alt_id: SO1:0000661
 alt_id: SO1:0000662
-def: "Visual observation of the infestation or infection of rhizopus nigricans (syn. R. stolonifer). It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate, 7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of rhizopus nigricans (syn. R. stolonifer). It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate, 7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4601,7 +4596,7 @@ name: Sclerotium rolfsii
 namespace: CherimoyaVariable
 alt_id: SO1:0000666
 alt_id: SO1:0000667
-def: "Visual observation of the infestation or infection of sclerotium rolfsii. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of sclerotium rolfsii. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4625,7 +4620,7 @@ name: Uredo cherimola
 namespace: CherimoyaVariable
 alt_id: SO1:0000671
 alt_id: SO1:0000672
-def: "Visual observation of the infestation or infection of uredo cherimola. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of uredo cherimola. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4649,7 +4644,7 @@ name: Verticillium spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000676
 alt_id: SO1:0000677
-def: "Visual observation of the infestation or infection of  verticillim spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of  verticillim spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4673,7 +4668,7 @@ name: Cerconota anonella
 namespace: CherimoyaVariable
 alt_id: SO1:0000681
 alt_id: SO1:0000682
-def: "Visual observation of the infestation or infection of   cerconota anonella. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of   cerconota anonella. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4697,7 +4692,7 @@ name: Cocytius antaeus
 namespace: CherimoyaVariable
 alt_id: SO1:0000686
 alt_id: SO1:0000687
-def: "Visual observation of the infestation or infection of cocytius antaeus. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of cocytius antaeus. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4721,7 +4716,7 @@ name: Graphium spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000691
 alt_id: SO1:0000692
-def: "Visual observation of the infestation or infection of graphium spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of graphium spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4745,7 +4740,7 @@ name: Lyonetia sp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000696
 alt_id: SO1:0000697
-def: "Visual observation of the infestation or infection of lyonetia sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of lyonetia sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4769,7 +4764,7 @@ name: Talponia batesi
 namespace: CherimoyaVariable
 alt_id: SO1:0000701
 alt_id: SO1:0000702
-def: "Visual observation of the infestation or infection of  talponia batesi.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of  talponia batesi.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4793,7 +4788,7 @@ name: Thecla sp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000706
 alt_id: SO1:0000707
-def: "Visual observation of the infestation or infection of thecla sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of thecla sp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4817,7 +4812,7 @@ name: Brevipalpus californicus
 namespace: CherimoyaVariable
 alt_id: SO1:0000711
 alt_id: SO1:0000712
-def: "Visual observation of the infestation or infection of brevipalpus californicus. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of brevipalpus californicus. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4841,7 +4836,7 @@ name: Brevipalpus chilensis
 namespace: CherimoyaVariable
 alt_id: SO1:0000716
 alt_id: SO1:0000717
-def: "Visual observation of the infestation or infection of  Brevipalpus chilensis. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of  Brevipalpus chilensis. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4865,7 +4860,7 @@ name: Tetranychus urticae
 namespace: CherimoyaVariable
 alt_id: SO1:0000721
 alt_id: SO1:0000722
-def: "Visual observation of the infestation or infection of tetranychus urticae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of tetranychus urticae.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4889,7 +4884,7 @@ name: Helicotylenchus spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000726
 alt_id: SO1:0000727
-def: "Visual observation of the infestation or infection of helicotylenchus spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of helicotylenchus spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4913,7 +4908,7 @@ name: Meloidogyne incognita
 namespace: CherimoyaVariable
 alt_id: SO1:0000731
 alt_id: SO1:0000732
-def: "Visual observation of the infestation or infection of meloidogyne incognita.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of meloidogyne incognita.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4937,7 +4932,7 @@ name: Pratylenchus spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000736
 alt_id: SO1:0000737
-def: "Visual observation of the infestation or infection of  pratylenchus spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of  pratylenchus spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4961,7 +4956,7 @@ name: Tylenchorhynchus spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000741
 alt_id: SO1:0000742
-def: "Visual observation of the infestation or infection of Tylenchorhynchus spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Tylenchorhynchus spp.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -4985,7 +4980,7 @@ name: Xiphinema americanum
 namespace: CherimoyaVariable
 alt_id: SO1:0000746
 alt_id: SO1:0000747
-def: "Visual observation of the infestation or infection of xiphinema americanum. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of xiphinema americanum. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5009,7 +5004,7 @@ name: Aspidiotus spp
 namespace: CherimoyaVariable
 alt_id: SO1:0000751
 alt_id: SO1:0000752
-def: "Visual observation of the infestation or infection of aspidiotus spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of aspidiotus spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5033,7 +5028,7 @@ name: Ceropute yuccae
 namespace: CherimoyaVariable
 alt_id: SO1:0000756
 alt_id: SO1:0000757
-def: "Visual observation of the infestation or infection of Ceropute yuccae. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Ceropute yuccae. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5057,7 +5052,7 @@ name: Icerya purchasi
 namespace: CherimoyaVariable
 alt_id: SO1:0000761
 alt_id: SO1:0000762
-def: "Visual observation of the infestation or infection of Icerya purchasi. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Icerya purchasi. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5081,7 +5076,7 @@ name: Lepidosaphes beckii
 namespace: CherimoyaVariable
 alt_id: SO1:0000766
 alt_id: SO1:0000767
-def: "Visual observation of the infestation or infection of Lepidosaphes beckii.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Lepidosaphes beckii.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5105,7 +5100,7 @@ name: Parasaissetia nigra.
 namespace: CherimoyaVariable
 alt_id: SO1:0000771
 alt_id: SO1:0000772
-def: "Visual observation of the infestation or infection of Parasaissetia nigra. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Parasaissetia nigra. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5129,7 +5124,7 @@ name: Parthenolecanium corni
 namespace: CherimoyaVariable
 alt_id: SO1:0000776
 alt_id: SO1:0000777
-def: "Visual observation of the infestation or infection of Parthenolecanium corni.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Parthenolecanium corni.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5153,7 +5148,7 @@ name: Pinnaspis aspidistrae
 namespace: CherimoyaVariable
 alt_id: SO1:0000781
 alt_id: SO1:0000782
-def: "Visual observation of the infestation or infection of Pinnaspis aspidistrae. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Pinnaspis aspidistrae. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5177,7 +5172,7 @@ name: Planococcus citri
 namespace: CherimoyaVariable
 alt_id: SO1:0000786
 alt_id: SO1:0000787
-def: "Visual observation of the infestation or infection of Planococcus citri. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Planococcus citri. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5201,7 +5196,7 @@ name: Pseudococcus filamentosus
 namespace: CherimoyaVariable
 alt_id: SO1:0000791
 alt_id: SO1:0000792
-def: "Visual observation of the infestation or infection of Pseudococcus filamentosus.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Pseudococcus filamentosus.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5225,7 +5220,7 @@ name: Saissetia spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000796
 alt_id: SO1:0000797
-def: "Visual observation of the infestation or infection of Saissetia spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Saissetia spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5249,7 +5244,7 @@ name: Selenaspidus articulatus
 namespace: CherimoyaVariable
 alt_id: SO1:0000800
 alt_id: SO1:0000802
-def: "Visual observation of the infestation or infection of Selenaspidus articulatus. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Selenaspidus articulatus. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
 relationship: variablec_of SO1:0000507 ! Selenaspidus articulatus
@@ -5272,7 +5267,7 @@ name: Unaspis citri
 namespace: CherimoyaVariable
 alt_id: SO1:0000806
 alt_id: SO1:0000807
-def: "Visual observation of the infestation or infection of Unaspis citri. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Unaspis citri. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5296,7 +5291,7 @@ name: Thrips tabaci
 namespace: CherimoyaVariable
 alt_id: SO1:0000811
 alt_id: SO1:0000812
-def: "Visual observation of the infestation or infection of thrips tabaci.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of thrips tabaci.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5320,7 +5315,7 @@ name: Bephrata maculicollis
 namespace: CherimoyaVariable
 alt_id: SO1:0000816
 alt_id: SO1:0000817
-def: "Visual observation of the infestation or infection of Bephrata maculicollis. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Bephrata maculicollis. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
 relationship: variablec_of SO1:0000551 ! Bephrata maculicollis
@@ -5343,7 +5338,7 @@ name: Bephratelloides spp.
 namespace: CherimoyaVariable
 alt_id: SO1:0000821
 alt_id: SO1:0000822
-def: "Visual observation of the infestation or infection of Bephratelloides spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Bephratelloides spp. It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5367,7 +5362,7 @@ name: Aleurotrachelus trachoides
 namespace: CherimoyaVariable
 alt_id: SO1:0000826
 alt_id: SO1:0000827
-def: "Visual observation of the infestation or infection of Aleurotrachelus trachoides.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." []
+def: "Visual observation of the infestation or infection of Aleurotrachelus trachoides.  It is scored on a numeric scale from 1 to 9: 1: Very low or no visible sign of stress susceptibility. , 3: Low, 5: Intermediate,7:High and 9: Very high." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000460 ! 5pt
@@ -5391,7 +5386,7 @@ name: Cerattis (M)
 namespace: CherimoyaVariable
 alt_id: SO1:0000831
 alt_id: SO1:0000832
-def: "Visual observation of presence of larvae ceratitis. Scored as: 0: without larvae and 1: with larvae." []
+def: "Visual observation of presence of larvae ceratitis. Scored as: 0: without larvae and 1: with larvae." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000514 ! Ceratitis capitata
@@ -5441,7 +5436,7 @@ name: Small amount of flies (PM)
 namespace: CherimoyaVariable
 alt_id: SO1:0000838
 alt_id: SO1:0000839
-def: "Visual observation of presence in fruit of small amount of mediterranean fruit flies. Scored as: 0: No and 1: Yes." []
+def: "Visual observation of presence in fruit of small amount of mediterranean fruit flies. Scored as: 0: No and 1: Yes." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 relationship: variablec_of SO1:0000066 ! 2pt
 relationship: variablec_of SO1:0000514 ! Ceratitis capitata
@@ -5453,7 +5448,7 @@ creation_date: 2016-12-11T12:54:01Z
 id: SO1:0000840
 name: Fungi exocarp (HO)
 namespace: CherimoyaTrait
-def: "A fruit morphological trait which is associated with presence of fungi." []
+def: "A fruit morphological trait which is associated with presence of fungi." [IHSM:custom]
 is_a: SO1:0000450 ! Fungi
 created_by: aliciata
 creation_date: 2016-12-11T12:56:23Z
@@ -5473,7 +5468,7 @@ name: Fungi exocarp (HO)
 namespace: CherimoyaVariable
 alt_id: SO1:0000844
 alt_id: SO1:0000845
-def: "Visual observation of presence of fungi in exocarp. Scored as: 1: Rizopus, 2: Botritis, 3: Colletotrichum, 4:Rotten indefiinite, 5:Pelicilium and 6: Alternaria." []
+def: "Visual observation of presence of fungi in exocarp. Scored as: 1: Rizopus, 2: Botritis, 3: Colletotrichum, 4:Rotten indefiinite, 5:Pelicilium and 6: Alternaria." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000840 ! Fungi exocarp (HO)
@@ -5584,7 +5579,7 @@ creation_date: 2016-12-11T13:14:25Z
 id: SO1:0000856
 name: Pulp oxidation
 namespace: CherimoyaTrait
-def: "A ripe fruit trait which is associated with  the degree of open fruit discolouration after 5 minutes." []
+def: "A ripe fruit trait which is associated with  the degree of open fruit discolouration after 5 minutes." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000004 ! Quality Trait
 created_by: aliciata
 creation_date: 2016-12-11T13:14:25Z
@@ -5593,7 +5588,7 @@ creation_date: 2016-12-11T13:14:25Z
 id: SO1:0000857
 name: Fruit amount of stone cell
 namespace: CherimoyaTrait
-def: "A ripe fruit trait which is associated with the amount of stone cell." []
+def: "A ripe fruit trait which is associated with the amount of stone cell." [UPOV:TG/208/1]
 is_a: SO1:0000004 ! Quality Trait
 created_by: aliciata
 creation_date: 2016-12-11T13:14:25Z
@@ -5602,7 +5597,7 @@ creation_date: 2016-12-11T13:14:25Z
 id: SO1:0000858
 name: Fruit aroma
 namespace: CherimoyaTrait
-def: "A fruit trait which is associated with aroma." []
+def: "A fruit trait which is associated with aroma." [UPOV:TG/208/1]
 is_a: SO1:0000004 ! Quality Trait
 created_by: aliciata
 creation_date: 2016-12-11T13:14:25Z
@@ -5640,7 +5635,7 @@ name: Contents of soluble solids in the pulp
 namespace: CherimoyaVariable
 alt_id: SO1:0000866
 alt_id: SO1:0000867
-def: "Measurement of contents of soluble solids in the pulp using a scale of º Brix. Average of 10 healthy, representative fruits." []
+def: "Measurement of contents of soluble solids in the pulp using a scale of º Brix. Average of 10 healthy, representative fruits." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000854 ! Contents of soluble solids in the pulp
@@ -5655,7 +5650,7 @@ name: Brixº.
 namespace: CherimoyaVariable
 alt_id: SO1:0000875
 alt_id: SO1:0000876
-def: "Measure of soluble solids contents in the pulp in Brixº." []
+def: "Measure of soluble solids contents in the pulp in Brixº." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000854 ! Contents of soluble solids in the pulp
@@ -5670,7 +5665,7 @@ name: Fruit total soluble solids
 namespace: CherimoyaVariable
 alt_id: SO1:0000869
 alt_id: SO1:0000870
-def: "Estimation of fruit total soluble solids scored as 3: low (e.g. Pierce, Salmon), 5: medium (e.g. Big Sister, Libby, Mariella, Pink´s mommoth, Ott), 7: high (e.g. Cumpas, Miguel, Sabor, White)." []
+def: "Estimation of fruit total soluble solids scored as 3: low (e.g. Pierce, Salmon), 5: medium (e.g. Big Sister, Libby, Mariella, Pink´s mommoth, Ott), 7: high (e.g. Cumpas, Miguel, Sabor, White)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000854 ! Contents of soluble solids in the pulp
@@ -5750,7 +5745,7 @@ name: Fruit amount of stone cell
 namespace: CherimoyaVariable
 alt_id: SO1:0000880
 alt_id: SO1:0000881
-def: "Visual observation of fruit amount of stone cell with: 3: few(e.g. Bay Ott, Honey Hart, Miguel, White), 5: medium(e.g. Big Sister, Chaffey, Libby), 7:many(e.g. Booth, Campas, Ott, Sabor)." []
+def: "Visual observation of fruit amount of stone cell with: 3: few(e.g. Bay Ott, Honey Hart, Miguel, White), 5: medium(e.g. Big Sister, Chaffey, Libby), 7:many(e.g. Booth, Campas, Ott, Sabor)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000390 ! 3pt
@@ -5801,7 +5796,7 @@ name: Fruit aroma
 namespace: CherimoyaVariable
 alt_id: SO1:0000888
 alt_id: SO1:0000889
-def: "Sensory assessment of fruit aroma scored as: 3: weak (e.g. Big sister, Pierce), 5: medium (e.g. Bay Ott, Bays, El Bumpo), 7: strong(e.g. Booth, Honey, Hart, Sabor,White)." []
+def: "Sensory assessment of fruit aroma scored as: 3: weak (e.g. Big sister, Pierce), 5: medium (e.g. Bay Ott, Bays, El Bumpo), 7: strong(e.g. Booth, Honey, Hart, Sabor,White)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000303 ! 3pt
@@ -5834,7 +5829,7 @@ name: Fruit amount of fiber
 namespace: CherimoyaVariable
 alt_id: SO1:0000898
 alt_id: SO1:0000899
-def: "Sensory assessment of amount fiber of fruit scored as: 3: few(e.g. African Pride, El Bumpo), 5:medium (e.g. Big Sister, Chaffey,Libby,Miguel), 7:many(e.g. Bay Ott, Honey Hart, Mariella, White)." []
+def: "Sensory assessment of amount fiber of fruit scored as: 3: few(e.g. African Pride, El Bumpo), 5:medium (e.g. Big Sister, Chaffey,Libby,Miguel), 7:many(e.g. Bay Ott, Honey Hart, Mariella, White)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000390 ! 3pt
@@ -5849,7 +5844,7 @@ name: Pulp fibre content
 namespace: CherimoyaVariable
 alt_id: SO1:0000895
 alt_id: SO1:0000896
-def: "Sensory assessment of pulp fibre content scored as: 0 : Absent  1: Low   2:High, when fruit are fully ripened.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Sensory assessment of pulp fibre content scored as: 0 : Absent  1: Low   2:High, when fruit are fully ripened.\n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000852 ! Pulp fibre content
@@ -5908,7 +5903,7 @@ name: Pulp oxidation
 namespace: CherimoyaVariable
 alt_id: SO1:0000905
 alt_id: SO1:0000907
-def: "Visual observation of pulp oxidation five minutes after cutting the fruit scored as:  0: No oxidation  1: Poorly oxidized   2: Oxidized  3: Very oxidized.\n\nMeasurement have should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual observation of pulp oxidation five minutes after cutting the fruit scored as:  0: No oxidation  1: Poorly oxidized   2: Oxidized  3: Very oxidized.\n\nMeasurement have should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000856 ! Pulp oxidation
 relationship: variablec_of SO1:0000903 ! Visual observation: pulp oxidation_method.
@@ -5966,7 +5961,7 @@ name: Pulp taste
 namespace: CherimoyaVariable
 alt_id: SO1:0000917
 alt_id: SO1:0000918
-def: "Sensory assessment of pup taste when fruit are fully ripened scored as: 3: Bad  5: Average 7: Good.  \n\nMeasure should be made on 10 well developed representative fruits at harvest time." []
+def: "Sensory assessment of pup taste when fruit are fully ripened scored as: 3: Bad  5: Average 7: Good.  \n\nMeasure should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000853 ! Pulp taste
@@ -5981,7 +5976,7 @@ name: Pulp taste (PS)
 namespace: CherimoyaVariable
 alt_id: SO1:0000923
 alt_id: SO1:0000924
-def: "Sensory assessment of pulp taste scored as: 1: normal , 2: subacid/acid , 3: buttery , 4:  dried pulp, 5:poor, 6: excellent and 7:all bitter." []
+def: "Sensory assessment of pulp taste scored as: 1: normal , 2: subacid/acid , 3: buttery , 4:  dried pulp, 5:poor, 6: excellent and 7:all bitter." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000853 ! Pulp taste
@@ -6120,7 +6115,7 @@ name: Fruit acidity
 namespace: CherimoyaVariable
 alt_id: SO1:0000937
 alt_id: SO1:0000938
-def: "Estimation of fruit acidity using a scale of  3: low(e.g. Big Sister, Campas, Fino de Jete), 5: medium(e.g. Booth, Miguel), 7: high (e.g. Bays, El Bumpo)." []
+def: "Estimation of fruit acidity using a scale of  3: low(e.g. Big Sister, Campas, Fino de Jete), 5: medium(e.g. Booth, Miguel), 7: high (e.g. Bays, El Bumpo)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000855 ! Titrated acidity
@@ -6135,7 +6130,7 @@ name: Titrated acidity
 namespace: CherimoyaVariable
 alt_id: SO1:0000940
 alt_id: SO1:0000941
-def: "Measure at full production and at the time of consumption ripeness. \nMeasured in milliequivalents/100 g pulp,titrated with NaOH,0.1 N and phenolphthalein." []
+def: "Measure at full production and at the time of consumption ripeness. \nMeasured in milliequivalents/100 g pulp,titrated with NaOH,0.1 N and phenolphthalein." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000855 ! Titrated acidity
@@ -6174,7 +6169,7 @@ creation_date: 2016-12-11T13:54:29Z
 id: SO1:0000942
 name: Defoliation at the end of the fructification phase
 namespace: CherimoyaTrait
-def: "A plant phenological trait which is associated with a defoliation at the end of fructification phase." []
+def: "A plant phenological trait which is associated with a defoliation at the end of fructification phase." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000003 ! Phenological trait
 created_by: aliciata
 creation_date: 2016-12-11T14:02:19Z
@@ -6194,7 +6189,7 @@ name: Defoliation at the end of the fructification phase
 namespace: CherimoyaVariable
 alt_id: SO1:0000946
 alt_id: SO1:0000947
-def: "Visual observation of defoliation at the end of the fructification phase. Scored as: 0: Absent, 1: Partial and 2: Complete." []
+def: "Visual observation of defoliation at the end of the fructification phase. Scored as: 0: Absent, 1: Partial and 2: Complete." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000942 ! Defoliation at the end of the fructification phase
@@ -6242,7 +6237,7 @@ creation_date: 2016-12-11T14:08:36Z
 id: SO1:0000951
 name: Crown diameter
 namespace: CherimoyaTrait
-def: "A tree anatomy and morphological trait which is associated with crown diameter only in trees that have not pruned." []
+def: "A tree anatomy and morphological trait which is associated with crown diameter only in trees that have not pruned." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6267,9 +6262,9 @@ creation_date: 2016-12-11T18:35:55Z
 
 [Term]
 id: SO1:0000954
-name: Flowers number per meter on the branch of the previous
+name: Flowers number per meter on the branch of the previous year
 namespace: CherimoyaTrait
-def: "Average number of flowers per meter on the twig." []
+def: "Average number of flowers per meter on the twig.\n\n." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6289,7 +6284,7 @@ name: Leaf blade shape
 namespace: CherimoyaVariable
 alt_id: SO1:0001074
 alt_id: SO1:0001075
-def: "Visual observation of leaf blade shape scored as: 1: Ovate, 2: Elliptic,  3: Obovate,  4: Lanceolate, 99:Other.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual observation of leaf blade shape scored as: 1: Ovate, 2: Elliptic,  3: Obovate,  4: Lanceolate, 99:Other.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000957 ! Leaf blade shape
@@ -6392,7 +6387,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000967
 name: Nodes number per meter of branch
 namespace: CherimoyaTrait
-def: "Average number of nodes present per branch meter." []
+def: "Average number of nodes present per branch meter." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6445,7 +6440,7 @@ creation_date: 2016-12-11T19:18:30Z
 id: SO1:0000973
 name: Petal pubescence
 namespace: CherimoyaTrait
-def: "A petal anatomy and morphology trait which is associated with the petal pubescence." []
+def: "A petal anatomy and morphology trait which is associated with the petal pubescence." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6490,7 +6485,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000978
 name: Primary leaf blade veins number
 namespace: CherimoyaTrait
-def: "A leaf  anatomy and morphology trait  which is associated with the number of primary veins." []
+def: "A leaf  anatomy and morphology trait  which is associated with the number of primary veins." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6499,7 +6494,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000979
 name: Rootstock diameter
 namespace: CherimoyaTrait
-def: "A rootstock anatomy and morphology trait which is associated with the diameter of rootstock." []
+def: "A rootstock anatomy and morphology trait which is associated with the diameter of rootstock." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6508,7 +6503,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000980
 name: Sepal pubescence
 namespace: CherimoyaTrait
-def: "A sepal anatomy and morphology trait which is associated with the sepal pubescence." []
+def: "A sepal anatomy and morphology trait which is associated with the sepal pubescence." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6517,7 +6512,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000981
 name: Stigma reddish colour
 namespace: CherimoyaTrait
-def: "Red color of the stigma in a blossoming flower." []
+def: "Red color of the stigma in a blossoming flower." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6526,7 +6521,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000982
 name: Stigmatic cone weight
 namespace: CherimoyaTrait
-def: "A flower anatomy and morphology trait which is associated with cone stigmatic weight." []
+def: "A flower anatomy and morphology trait which is associated with cone stigmatic weight." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6544,7 +6539,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000984
 name: Tree age
 namespace: CherimoyaTrait
-def: "A tree trait which is associated with age." []
+def: "A tree trait which is associated with age." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6553,7 +6548,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000985
 name: Tree height
 namespace: CherimoyaTrait
-def: "A tree trait which is associated with the tree height." []
+def: "A tree trait which is associated with the tree height." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6562,7 +6557,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000986
 name: Trunk colour
 namespace: CherimoyaTrait
-def: "A trunk trait which is associated with trunk colour." []
+def: "A trunk trait which is associated with trunk colour." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6571,7 +6566,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000987
 name: Trunk ramification
 namespace: CherimoyaTrait
-def: "A tree trait which is associated with trunk ramification." []
+def: "A tree trait which is associated with trunk ramification." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6580,7 +6575,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000988
 name: Young branches colour
 namespace: CherimoyaTrait
-def: "A twig anatomy and morphology trait which is associated with the color of young branch." []
+def: "A twig anatomy and morphology trait which is associated with the color of young branch." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6589,7 +6584,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000989
 name: Young branches pubescence
 namespace: CherimoyaTrait
-def: "A twig anatomy and morphology trait which is associated with the pubescence of twig." []
+def: "A twig anatomy and morphology trait which is associated with the pubescence of twig." [ISBN:978-92-9043-779-6]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6598,6 +6593,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000990
 name: Young leaves colour
 namespace: CherimoyaTrait
+def: "A leaf morphology trait  which is the color of a young leaf." []
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6615,7 +6611,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000992
 name: Leaf blade ratio length/width
 namespace: CherimoyaTrait
-def: "Ratio of leaf length and width." []
+def: "Ratio of leaf length and width." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6624,7 +6620,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000993
 name: Ovary length
 namespace: CherimoyaTrait
-def: "A ovary anatomy and morphology trait which is associated with length." []
+def: "A ovary anatomy and morphology trait which is associated with length." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6633,7 +6629,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000994
 name: Ovary shape
 namespace: CherimoyaTrait
-def: "An ovary anatomy and morphology trait which is associated with the shape of ovary." []
+def: "An ovary anatomy and morphology trait which is associated with the shape of ovary." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6642,7 +6638,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000995
 name: Ovary width
 namespace: CherimoyaTrait
-def: "An ovary anatomy and morphology trait which is associated with the width of ovary." []
+def: "An ovary anatomy and morphology trait which is associated with the width of ovary." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6651,7 +6647,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000996
 name: Petal curving
 namespace: CherimoyaTrait
-def: "A trait to measure petal spiralling." []
+def: "A trait to measure petal spiralling." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6660,7 +6656,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000997
 name: Petal ratio length/width
 namespace: CherimoyaTrait
-def: "Ratio of length to width petal." []
+def: "Ratio of length to width petal." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6669,7 +6665,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000998
 name: Petal thickness
 namespace: CherimoyaTrait
-def: "A petal anatomy and morphology trait which is associated with thickness petal." []
+def: "A petal anatomy and morphology trait which is associated with thickness petal." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6678,7 +6674,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0000999
 name: Petal twisting just before anthesis
 namespace: CherimoyaTrait
-def: "A petal morphological trait to measure petal spiralling before anthesis" []
+def: "A petal morphological trait to measure petal spiralling before anthesis" [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6687,7 +6683,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0001000
 name: Shoot color
 namespace: CherimoyaTrait
-def: "A shoot anatomy and morphological trait which is associated with the color of branch." []
+def: "A shoot anatomy and morphological trait which is associated with the color of branch." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6696,7 +6692,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0001001
 name: Shoot length of internode
 namespace: CherimoyaTrait
-def: "Measurement of length of the internode." []
+def: "Measurement of length of the internode." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6705,7 +6701,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0001002
 name: Shoot pubescence
 namespace: CherimoyaTrait
-def: "A branch anatomy and morphological trait which is associated with pubescence." []
+def: "A branch anatomy and morphological trait which is associated with pubescence." [UPOV:TG/208/1]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6714,7 +6710,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0001003
 name: Endosperm weight (CO)
 namespace: CherimoyaTrait
-def: "A fruit anatomy and morphology that is associated with weight of endosperm." []
+def: "A fruit anatomy and morphology that is associated with weight of endosperm." [IHSM:custom]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6723,7 +6719,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0001004
 name: Flower length
 namespace: CherimoyaTrait
-def: "A flower anatomy and morphology trait which is associated with the length of a flower." []
+def: "A flower morphology trait (TO:0000499) which is the length of a flower (PO:0009046)." []
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6732,7 +6728,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0001005
 name: Peduncle weight
 namespace: CherimoyaTrait
-def: "A peduncle anatomy and morphology trait which is associated with the weight of a peduncle." []
+def: "A peduncle anatomy and morphology trait which is associated with the weight of a peduncle." [IHSM:custom]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6741,7 +6737,7 @@ creation_date: 2016-12-11T18:35:55Z
 id: SO1:0001006
 name: Rotten peduncle (PPD)
 namespace: CherimoyaTrait
-def: "A peduncle anatomy and morphology trait which is associated with rotten peduncle." []
+def: "A peduncle anatomy and morphology trait which is associated with rotten peduncle." [IHSM:custom]
 is_a: SO1:0000002 ! Morphological trait
 created_by: aliciata
 creation_date: 2016-12-11T18:35:55Z
@@ -6761,7 +6757,7 @@ name: Crown diameter
 namespace: CherimoyaVariable
 alt_id: SO1:0001010
 alt_id: SO1:0001011
-def: "Measure of crown diameter using a scale of cm. \n\nMeasure the radius in two perpendicular directions and add up values to obtain the diameter." []
+def: "Measure of crown diameter using a scale of cm. \n\nMeasure the radius in two perpendicular directions and add up values to obtain the diameter." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000951 ! Crown diameter
 relationship: variablec_of SO1:0001007 ! Measurement: crown diameter_method.
@@ -6784,7 +6780,7 @@ name: Endosperm weight (CO)
 namespace: CherimoyaVariable
 alt_id: SO1:0001015
 alt_id: SO1:0001016
-def: "Measure of weight of endosperm in grams (g)." []
+def: "Measure of weight of endosperm in grams (g)." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000053 ! g
@@ -6808,7 +6804,7 @@ name: Flower length
 namespace: CherimoyaVariable
 alt_id: SO1:0001020
 alt_id: SO1:0001021
-def: "Visual rating of flower length in centimeters (cm)." []
+def: "Visual rating of flower length in centimeters (cm)." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0001004 ! Flower length
@@ -6847,7 +6843,7 @@ name: Flower peduncle length
 namespace: CherimoyaVariable
 alt_id: SO1:0001025
 alt_id: SO1:0001026
-def: "Visual rating of flower peduncle length using a scale of: mm.\n\nAverage of 10 flower." []
+def: "Visual rating of flower peduncle length using a scale of: mm.\n\nAverage of 10 flower." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -6871,7 +6867,7 @@ name: Flower weight
 namespace: CherimoyaVariable
 alt_id: SO1:0001030
 alt_id: SO1:0001031
-def: "Measure weight of flower using a scale of g.  \nAverage measurement from 10 flowers collected from five trees at bloom period." []
+def: "Measure weight of flower using a scale of g.  \nAverage measurement from 10 flowers collected from five trees at bloom period." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 relationship: variablec_of SO1:0000053 ! g
 relationship: variablec_of SO1:0000953 ! Flower weight
@@ -6894,7 +6890,7 @@ name: Flowering shoot density of flowers
 namespace: CherimoyaVariable
 alt_id: SO1:0001035
 alt_id: SO1:0001036
-def: "Count of density of flour per shoot with:  3: Sparse (Ott), 5: Medium (White), 7: Dense (Big sister)." []
+def: "Count of density of flour per shoot with:  3: Sparse (Ott), 5: Medium (White), 7: Dense (Big sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000991 ! Flowering shoot density of flowers
@@ -6913,15 +6909,15 @@ creation_date: 2016-12-11T18:41:19Z
 
 [Term]
 id: SO1:0001037
-name: Flowers number per meter on the branch of the previous
+name: Flowers number per meter on the branch of the previous year
 namespace: CherimoyaVariable
 alt_id: SO1:0001045
 alt_id: SO1:0001046
-def: "Measure the average number of flowers on five branches, 15 days after beginning of flowering." []
+def: "Measure the average number of flowers on five branches, 15 days after beginning of flowering." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000387 ! number
-relationship: variablec_of SO1:0000954 ! Flowers number per meter on the branch of the previous
+relationship: variablec_of SO1:0000954 ! Flowers number per meter on the branch of the previous year
 relationship: variablec_of SO1:0001040 ! Measurement: flowers number per meter in the branch of the previous year_method.
 created_by: aliciata
 creation_date: 2016-12-11T18:41:42Z
@@ -6932,10 +6928,10 @@ name: Buds percentage on branch of the current year
 namespace: CherimoyaVariable
 alt_id: SO1:0001042
 alt_id: SO1:0001043
-def: "Count of buds percentage on branch of the current year. \n\nAverage of five branches, 15 days after beginning of flowering." []
+def: "Count of buds percentage on branch of the current year. \n\nAverage of five branches, 15 days after beginning of flowering." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000954 ! Flowers number per meter on the branch of the previous
+relationship: variablec_of SO1:0000954 ! Flowers number per meter on the branch of the previous year
 relationship: variablec_of SO1:0001039 ! Counting:buds percentage on branch of the current year_method
 relationship: variablec_of SO1:0001041 ! %
 created_by: aliciata
@@ -6946,7 +6942,7 @@ id: SO1:0001039
 name: Counting:buds percentage on branch of the current year_method
 namespace: CherimoyaMethod
 def: "Count of buds percentage on branch of the current year. \n\nAverage of five branches, 15 days after beginning of flowering." []
-relationship: methodc_of SO1:0000954 ! Flowers number per meter on the branch of the previous
+relationship: methodc_of SO1:0000954 ! Flowers number per meter on the branch of the previous year
 created_by: aliciata
 creation_date: 2016-12-11T18:41:52Z
 
@@ -6955,7 +6951,7 @@ id: SO1:0001040
 name: Measurement: flowers number per meter in the branch of the previous year_method.
 namespace: CherimoyaMethod
 def: "Measure the average number of flowers on five branches, 15 days after beginning of flowering." []
-relationship: methodc_of SO1:0000954 ! Flowers number per meter on the branch of the previous
+relationship: methodc_of SO1:0000954 ! Flowers number per meter on the branch of the previous year
 created_by: aliciata
 creation_date: 2016-12-11T18:41:52Z
 
@@ -6982,7 +6978,7 @@ name: Fructification location
 namespace: CherimoyaVariable
 alt_id: SO1:0001050
 alt_id: SO1:0001051
-def: "Visual observation of location of fructification scored as:  1: Base of the crown 2: Middle of the crown 3: Top of the crown.\n\nMeasure should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual observation of location of fructification scored as:  1: Base of the crown 2: Middle of the crown 3: Top of the crown.\n\nMeasure should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000955 ! Fructification location
@@ -7014,7 +7010,7 @@ name: Leaf blade ratio length/width
 namespace: CherimoyaVariable
 alt_id: SO1:0001055
 alt_id: SO1:0001056
-def: "Estimation of ratio of length to width leaf blade scored as : 3: Small (African Pride, Gefner), 5: Medium (El Bumpo, Villapark), 7: Large (Booth, Mariella)" []
+def: "Estimation of ratio of length to width leaf blade scored as : 3: Small (African Pride, Gefner), 5: Medium (El Bumpo, Villapark), 7: Large (Booth, Mariella)" [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000152 ! 3pt
@@ -7029,7 +7025,7 @@ name: Leaf blade: shape
 namespace: CherimoyaVariable
 alt_id: SO1:0001065
 alt_id: SO1:0001066
-def: "Measure of leaf blade shape scored as: 1: broad ovate (e.g. Booth, Oakwood), 2: ovate (e.g. Miguel, Ott, Pierce), 3: narrow ovate (e.g. Big Sister, El Bumpo, Villapark), 4:lanceolate (e.g. African Price)." []
+def: "Measure of leaf blade shape scored as: 1: broad ovate (e.g. Booth, Oakwood), 2: ovate (e.g. Miguel, Ott, Pierce), 3: narrow ovate (e.g. Big Sister, El Bumpo, Villapark), 4:lanceolate (e.g. African Price)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000957 ! Leaf blade shape
@@ -7044,7 +7040,7 @@ name: Leaf base shape
 namespace: CherimoyaVariable
 alt_id: SO1:0001068
 alt_id: SO1:0001069
-def: "Visual observation of shape of leaf base scored as: 1: Acute, 2: Rounded, 3: Obtuse, 4: Cordate.  \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual observation of shape of leaf base scored as: 1: Acute, 2: Rounded, 3: Obtuse, 4: Cordate.  \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000957 ! Leaf blade shape
@@ -7059,7 +7055,7 @@ name: Leaf apex shape
 namespace: CherimoyaVariable
 alt_id: SO1:0001071
 alt_id: SO1:0001072
-def: "Visual observation of shape of leaf apex scored as: 1: Acute, 2:Rounded   3: Acuminate.  \n\nRecorded average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual observation of shape of leaf apex scored as: 1: Acute, 2:Rounded   3: Acuminate.  \n\nRecorded average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000957 ! Leaf blade shape
@@ -7151,7 +7147,7 @@ name: Leaf blade venation
 namespace: CherimoyaVariable
 alt_id: SO1:0001078
 alt_id: SO1:0001080
-def: "Visual observation of leaf blade venation scored as: \n3: Submerged, 5: Intermediate and 7:Raised.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual observation of leaf blade venation scored as: \n3: Submerged, 5: Intermediate and 7:Raised.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000958 ! Leaf blade venation
 relationship: variablec_of SO1:0001076 ! Visual observation: leaf blade venation_method.
@@ -7173,7 +7169,7 @@ name: Leaf length
 namespace: CherimoyaVariable
 alt_id: SO1:0001089
 alt_id: SO1:0001090
-def: "Visual rating of leaf length using a scale of: mm.  \n\nMeasure from the petiole base up to the leaf tip in fully developed leaves.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual rating of leaf length using a scale of: mm.  \n\nMeasure from the petiole base up to the leaf tip in fully developed leaves.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -7188,7 +7184,7 @@ name: Leaf blade length
 namespace: CherimoyaVariable
 alt_id: SO1:0001086
 alt_id: SO1:0001087
-def: "Measure of leaf lamina length scored as: 3: short (e.g. African Pride, Gefner), 5: medium (e.g. El Bumpo, Villapark), 7: long (Booth, Mariella)" []
+def: "Measure of leaf lamina length scored as: 3: short (e.g. African Pride, Gefner), 5: medium (e.g. El Bumpo, Villapark), 7: long (Booth, Mariella)" [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000173 ! 3pt
@@ -7221,7 +7217,7 @@ name: Leaf blade pubescence (lower side)
 namespace: CherimoyaVariable
 alt_id: SO1:0001099
 alt_id: SO1:0001100
-def: "Visual observation of leaf blade pubescence (lower side) scored as:  1: Absent (e.g. African Pride, Gefner), 9: Present (e.g. Bay Ott , Big Sister)." []
+def: "Visual observation of leaf blade pubescence (lower side) scored as:  1: Absent (e.g. African Pride, Gefner), 9: Present (e.g. Bay Ott , Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000156 ! 2pt
@@ -7236,7 +7232,7 @@ name: Leaf lower surface pubescence
 namespace: CherimoyaVariable
 alt_id: SO1:0001095
 alt_id: SO1:0001097
-def: "Visual observation of pubescence of flower surface scored as: 0:Absent and 1: Present.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual observation of pubescence of flower surface scored as: 0:Absent and 1: Present.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000960 ! Leaf lower surface pubescence
@@ -7286,7 +7282,7 @@ name: Leaf margin
 namespace: CherimoyaVariable
 alt_id: SO1:0001106
 alt_id: SO1:0001107
-def: "Visual observation of leaf margin scored as: 1: Entire and 2: Undulate.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual observation of leaf margin scored as: 1: Entire and 2: Undulate.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000961 ! Leaf margin
@@ -7301,7 +7297,7 @@ name: Leaf blade undulation of margin
 namespace: CherimoyaVariable
 alt_id: SO1:0001109
 alt_id: SO1:0001110
-def: "Visual observation of leaf blade undulation of margin scored as: 1: Absent or very weak (e.g. African Pride), 3: Weak (e.g. Pierce), 5: Medium (e.g. White), 7: Strong (e.g. Big Sister)." []
+def: "Visual observation of leaf blade undulation of margin scored as: 1: Absent or very weak (e.g. African Pride), 3: Weak (e.g. Pierce), 5: Medium (e.g. White), 7: Strong (e.g. Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000961 ! Leaf margin
@@ -7359,7 +7355,7 @@ name: Leaf thickness
 namespace: CherimoyaVariable
 alt_id: SO1:0001113
 alt_id: SO1:0001115
-def: "Visual rating of leaf thickness using a scale of: mm.  \n\nMeasure in completely developed leaves.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual rating of leaf thickness using a scale of: mm.  \n\nMeasure in completely developed leaves.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
 relationship: variablec_of SO1:0000962 ! Leaf thickness
@@ -7373,7 +7369,7 @@ name: Leaf upper surface pubescence
 namespace: CherimoyaVariable
 alt_id: SO1:0001124
 alt_id: SO1:0001125
-def: "Visual observation of lead upper surface pubescence scored as:   0:Absent and 1: Present.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual observation of lead upper surface pubescence scored as:   0:Absent and 1: Present.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000963 ! Leaf upper surface pubescence
@@ -7388,7 +7384,7 @@ name: Leaf blade pubescence (upper side)
 namespace: CherimoyaVariable
 alt_id: SO1:0001121
 alt_id: SO1:0001122
-def: "Visual observation of leaf blade pubescence (upper side) scored as: 1: Absent (e.g. African Pride, Gefner), 9: Present (e.g. Bay Ott , Big Sister)" []
+def: "Visual observation of leaf blade pubescence (upper side) scored as: 1: Absent (e.g. African Pride, Gefner), 9: Present (e.g. Bay Ott , Big Sister)" [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000156 ! 2pt
@@ -7421,7 +7417,7 @@ name: Leaf width
 namespace: CherimoyaVariable
 alt_id: SO1:0001134
 alt_id: SO1:0001135
-def: "Measure of leaf width in the widest part of fully developed leaves, using a scale of: mm. \n \nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees" []
+def: "Measure of leaf width in the widest part of fully developed leaves, using a scale of: mm. \n \nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees" [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -7436,7 +7432,7 @@ name: Leaf blade width
 namespace: CherimoyaVariable
 alt_id: SO1:0001131
 alt_id: SO1:0001132
-def: "Measure of leaf blade width scored as: 3: narrow (e.g. African Pride, Gefner), 5: medium (e.g. El Bumpo, Villapark), 7: Broad (e.g. Booth, Mariella)." []
+def: "Measure of leaf blade width scored as: 3: narrow (e.g. African Pride, Gefner), 5: medium (e.g. El Bumpo, Villapark), 7: Broad (e.g. Booth, Mariella)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000364 ! 3pt
@@ -7478,7 +7474,7 @@ name: Main stem diameter
 namespace: CherimoyaVariable
 alt_id: SO1:0001139
 alt_id: SO1:0001140
-def: "Measure of diameter of main stem at 50cm above ground level in mm. \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Measure of diameter of main stem at 50cm above ground level in mm. \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -7493,7 +7489,7 @@ name: Mature leaves colour
 namespace: CherimoyaVariable
 alt_id: SO1:0001154
 alt_id: SO1:0001155
-def: "Visual rating of mature leaves colour.\n\n If possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes:\n1: light green, 2: green, 3: greyish green, 4: dark green and 99:other. \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees" []
+def: "Visual rating of mature leaves colour.\n\n If possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes:\n1: light green, 2: green, 3: greyish green, 4: dark green and 99:other. \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees" [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000966 ! Mature leaves colour
@@ -7508,7 +7504,7 @@ name: Leaf blade green color (upper side)
 namespace: CherimoyaVariable
 alt_id: SO1:0001148
 alt_id: SO1:0001149
-def: "Visual rating of leaf blade green color (upper side) scored as: 3: Light (Mariella, Oakwood), 5: Medium (Bay Ott, Booth) , 7: Dark (Big sister)." []
+def: "Visual rating of leaf blade green color (upper side) scored as: 3: Light (Mariella, Oakwood), 5: Medium (Bay Ott, Booth) , 7: Dark (Big sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000966 ! Mature leaves colour
@@ -7523,7 +7519,7 @@ name: Leaf blade green color (lower side)
 namespace: CherimoyaVariable
 alt_id: SO1:0001151
 alt_id: SO1:0001152
-def: "Visual rating of leaf blade green color (lower side) scored as:  3:light, 5: medium, 7: dark (e.g. Bay Ott, Big Sister)." []
+def: "Visual rating of leaf blade green color (lower side) scored as:  3:light, 5: medium, 7: dark (e.g. Bay Ott, Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000966 ! Mature leaves colour
@@ -7582,7 +7578,7 @@ creation_date: 2016-12-11T19:00:57Z
 id: SO1:0001156
 name: Counting: nodes number per meter of branch_method.
 namespace: CherimoyaMethod
-def: "Count of nodes number per meter of branch.\n\nMeasure the average number of nodos on five branches." []
+def: "Count of nodes number per meter of branch.\n\nMeasure the average number of nodes on five branches." []
 relationship: methodc_of SO1:0000967 ! Nodes number per meter of branch
 created_by: aliciata
 creation_date: 2016-12-11T19:01:38Z
@@ -7593,7 +7589,7 @@ name: Nodes number per meter of branch
 namespace: CherimoyaVariable
 alt_id: SO1:0001159
 alt_id: SO1:0001160
-def: "Count of nodes number per meter of branch.\n\nMeasure the average number of nodos on five branches." []
+def: "Count of nodes number per meter of branch.\n\nMeasure the average number of nodes on five branches." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000387 ! number
@@ -7617,7 +7613,7 @@ name: Number of suckers: suckering tendency
 namespace: CherimoyaVariable
 alt_id: SO1:0001164
 alt_id: SO1:0001165
-def: "Count of number of sucker scored as: 0: Absent, 1: less or equal 5 suckers and 2: greater 5 suckers." []
+def: "Count of number of sucker scored as: 0: Absent, 1: less or equal 5 suckers and 2: greater 5 suckers." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000968 ! Number of suckers: suckering tendency
@@ -7649,7 +7645,7 @@ name: Ovary length
 namespace: CherimoyaVariable
 alt_id: SO1:0001169
 alt_id: SO1:0001170
-def: "Visual rating of ovary length with: 3:Short (e.g. African Pride, Gefner), 5:Medium (e.g. Chaffey), 7:Long (e.g. Big Sister)." []
+def: "Visual rating of ovary length with: 3:Short (e.g. African Pride, Gefner), 5:Medium (e.g. Chaffey), 7:Long (e.g. Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000173 ! 3pt
@@ -7673,7 +7669,7 @@ name: Ovary shape
 namespace: CherimoyaVariable
 alt_id: SO1:0001174
 alt_id: SO1:0001175
-def: "Visual observation of ovary shape scored as: 1: narrow cordate (e.g. Booth, Pierce, VillaPark), 2: cordate (e.g. Bays, Campas, Sapin), 3: broad cordate (e.g. Chaffey)." []
+def: "Visual observation of ovary shape scored as: 1: narrow cordate (e.g. Booth, Pierce, VillaPark), 2: cordate (e.g. Bays, Campas, Sapin), 3: broad cordate (e.g. Chaffey)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000994 ! Ovary shape
@@ -7705,7 +7701,7 @@ name: Ovary width
 namespace: CherimoyaVariable
 alt_id: SO1:0001179
 alt_id: SO1:0001180
-def: "Visual rating of ovary width scored as:  3:narrow (e.g. African Pride, Gefner), 5: medium (e.g.Chaffey), 7: broad(e.g. Booth)." []
+def: "Visual rating of ovary width scored as:  3:narrow (e.g. African Pride, Gefner), 5: medium (e.g.Chaffey), 7: broad(e.g. Booth)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000364 ! 3pt
@@ -7720,7 +7716,7 @@ name: Peduncle diameter
 namespace: CherimoyaVariable
 alt_id: SO1:0001189
 alt_id: SO1:0001190
-def: "Visual rating of peduncle diameter using a scale of: mm. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Visual rating of peduncle diameter using a scale of: mm. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -7789,7 +7785,7 @@ name: Peduncle length
 namespace: CherimoyaVariable
 alt_id: SO1:0001204
 alt_id: SO1:0001205
-def: "Measure of peduncle length using a scale of: mm. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." []
+def: "Measure of peduncle length using a scale of: mm. \n\nMeasurement should be made on 10 well developed representative fruits at harvest time." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -7804,7 +7800,7 @@ name: Peduncle length
 namespace: CherimoyaVariable
 alt_id: SO1:0001198
 alt_id: SO1:0001199
-def: "Measure of length of peduncle in centimeters (cm)." []
+def: "Measure of length of peduncle in centimeters (cm)." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000970 ! Peduncle length
@@ -7819,7 +7815,7 @@ name: Peduncle: length
 namespace: CherimoyaVariable
 alt_id: SO1:0001201
 alt_id: SO1:0001202
-def: "Measure of peduncle length using a scale of 3: short (e.g. Campas, Chaffey), 5:medium(e.g. African Pride, Pink´s Mommoth), 7:long(e.g. Booth, El Bumpo)." []
+def: "Measure of peduncle length using a scale of 3: short (e.g. Campas, Chaffey), 5:medium(e.g. African Pride, Pink´s Mommoth), 7:long(e.g. Booth, El Bumpo)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000173 ! 3pt
@@ -7861,7 +7857,7 @@ name: Peduncle weight
 namespace: CherimoyaVariable
 alt_id: SO1:0001211
 alt_id: SO1:0001212
-def: "Measure of peduncle weight in grams (g)." []
+def: "Measure of peduncle weight in grams (g)." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000053 ! g
@@ -7930,7 +7926,7 @@ name: Petal color
 namespace: CherimoyaVariable
 alt_id: SO1:0001229
 alt_id: SO1:0001230
-def: "Visual rating of petal color scored as 1: green (e.g. African Pride, Gefner), 2: yellow (e.g. Bay Ott, Big Sister), 3:Light brown (e.g. El Bumpo, Pierce)." []
+def: "Visual rating of petal color scored as 1: green (e.g. African Pride, Gefner), 2: yellow (e.g. Bay Ott, Big Sister), 3:Light brown (e.g. El Bumpo, Pierce)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000983 ! Petal color
@@ -7945,7 +7941,7 @@ name: Internal petal base color
 namespace: CherimoyaVariable
 alt_id: SO1:0001223
 alt_id: SO1:0001224
-def: "Average of colour of the internal petal base from 10 flowers collected from five trees at bloom period.\n\nIf possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: Pink , 2: Light red, 3: Dark red, 99: Other." []
+def: "Average of colour of the internal petal base from 10 flowers collected from five trees at bloom period.\n\nIf possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: Pink , 2: Light red, 3: Dark red, 99: Other." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000983 ! Petal color
@@ -7960,7 +7956,7 @@ name: Petal outer colour
 namespace: CherimoyaVariable
 alt_id: SO1:0001226
 alt_id: SO1:0001227
-def: "Visual rating of petal outer colour from 10 flowers collected from live trees at bloom period. \n\nIf possible,use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: Cream, 2: Yellow, 3:Green, 4: Brown, 99: Other." []
+def: "Visual rating of petal outer colour from 10 flowers collected from live trees at bloom period. \n\nIf possible,use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: Cream, 2: Yellow, 3:Green, 4: Brown, 99: Other." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000983 ! Petal color
@@ -8026,7 +8022,7 @@ name: Petal curving
 namespace: CherimoyaVariable
 alt_id: SO1:0001233
 alt_id: SO1:0001234
-def: "Visual observation of petal curving using a scale of 3: Weak (e.g. Booth, Pierce), 5: Medium (e.g. White), 7: Strong (e.g. Chaffey)" []
+def: "Visual observation of petal curving using a scale of 3: Weak (e.g. Booth, Pierce), 5: Medium (e.g. White), 7: Strong (e.g. Chaffey)" [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000303 ! 3pt
@@ -8041,7 +8037,7 @@ name: Petal length
 namespace: CherimoyaVariable
 alt_id: SO1:0001243
 alt_id: SO1:0001244
-def: "Measurement of petal length using a scale of: mm. \n\nAverage petal length of 10 flower collected from live trees at bloom period." []
+def: "Measurement of petal length using a scale of: mm. \n\nAverage petal length of 10 flower collected from live trees at bloom period." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -8056,7 +8052,7 @@ name: Petal: length
 namespace: CherimoyaVariable
 alt_id: SO1:0001240
 alt_id: SO1:0001241
-def: "Measure of petal length scored as 3: short (e.g. Bays, Pink´s Mommoth), 5: medium (e.g. Big Sister, El Bumpo, Sabor), 7: long (e.g. Libby, Villapark)." []
+def: "Measure of petal length scored as 3: short (e.g. Bays, Pink´s Mommoth), 5: medium (e.g. Big Sister, El Bumpo, Sabor), 7: long (e.g. Libby, Villapark)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000173 ! 3pt
@@ -8098,7 +8094,7 @@ name: Petal pubescence
 namespace: CherimoyaVariable
 alt_id: SO1:0001248
 alt_id: SO1:0001249
-def: "Visual observation of petal pubescence from 10 flowers collected from live trees at bloom period, scored as: 0:absent and 1:present." []
+def: "Visual observation of petal pubescence from 10 flowers collected from live trees at bloom period, scored as: 0:absent and 1:present." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000973 ! Petal pubescence
@@ -8122,7 +8118,7 @@ name: Petal ratio length/width
 namespace: CherimoyaVariable
 alt_id: SO1:0001253
 alt_id: SO1:0001254
-def: "Estimation of ratio of length to width petal using a scale of 3: Small (e.g. Honey Hart, White), 5: Medium (e.g. Campus, Miguel), 7: Large (e.g. Libby, Villapark)." []
+def: "Estimation of ratio of length to width petal using a scale of 3: Small (e.g. Honey Hart, White), 5: Medium (e.g. Campus, Miguel), 7: Large (e.g. Libby, Villapark)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000152 ! 3pt
@@ -8146,7 +8142,7 @@ name: Petal thickness
 namespace: CherimoyaVariable
 alt_id: SO1:0001258
 alt_id: SO1:0001259
-def: "Visual rating of petal thickness using a scale of 3: Thin (Bays, Campas, Fino de Jete), 5: Medium (Big sister, Honey Hart), 7: Thick (Libby, Sabor)." []
+def: "Visual rating of petal thickness using a scale of 3: Thin (Bays, Campas, Fino de Jete), 5: Medium (Big sister, Honey Hart), 7: Thick (Libby, Sabor)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000087 ! 3pt
@@ -8170,7 +8166,7 @@ name: Petal twisting just before anthesis
 namespace: CherimoyaVariable
 alt_id: SO1:0001263
 alt_id: SO1:0001264
-def: "Visual rating of petal twisting just before anthesis using a scale of 3: weak (e.g. White), 5: medium (e.g. Big Sister), 7: strong (e.g. Villapark)." []
+def: "Visual rating of petal twisting just before anthesis using a scale of 3: weak (e.g. White), 5: medium (e.g. Big Sister), 7: strong (e.g. Villapark)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000303 ! 3pt
@@ -8185,7 +8181,7 @@ name: Petal weight
 namespace: CherimoyaVariable
 alt_id: SO1:0001273
 alt_id: SO1:0001274
-def: "Average measure of petal weight of 10 flowers, using a scale of grams (g)." []
+def: "Average measure of petal weight of 10 flowers, using a scale of grams (g)." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000053 ! g
@@ -8200,7 +8196,7 @@ name: petal weight
 namespace: CherimoyaVariable
 alt_id: SO1:0001270
 alt_id: SO1:0001271
-def: "Measure weight of petal of 30 flowerS, in grams (g)." []
+def: "Measure weight of petal of 30 flowers, in grams (g)." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000053 ! g
@@ -8233,12 +8229,12 @@ name: Petal width
 namespace: CherimoyaVariable
 alt_id: SO1:0001283
 alt_id: SO1:0001284
-def: "Average of petal width of 10 flowers, scored as mm." []
+def: "Average of petal width of 10 flowers, scored as mm." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
 relationship: variablec_of SO1:0000975 ! Petal width
-relationship: variablec_of SO1:0001278 ! Measurement: petal width_method.
+relationship: variablec_of SO1:0001278 ! Measurement: Petal width_method.
 created_by: aliciata
 creation_date: 2016-12-11T19:27:27Z
 
@@ -8248,7 +8244,7 @@ name: Petal: width
 namespace: CherimoyaVariable
 alt_id: SO1:0001280
 alt_id: SO1:0001281
-def: "Measure of petal width scored as:  3: narrow (e.g. Honey Hart, White), 5: medium (e.g. Campus, Mariella, Miguel, Pink´s Mommoth),7:broad (e.g. Libby, Villapark)." []
+def: "Measure of petal width scored as:  3: narrow (e.g. Honey Hart, White), 5: medium (e.g. Campus, Mariella, Miguel, Pink´s Mommoth),7:broad (e.g. Libby, Villapark)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000364 ! 3pt
@@ -8268,7 +8264,7 @@ creation_date: 2016-12-11T19:27:37Z
 
 [Term]
 id: SO1:0001278
-name: Measurement: petal width_method.
+name: Measurement: Petal width_method.
 namespace: CherimoyaMethod
 def: "Average of petal width of 10 flowers." []
 relationship: methodc_of SO1:0000975 ! Petal width
@@ -8281,12 +8277,12 @@ name: Petiole length
 namespace: CherimoyaVariable
 alt_id: SO1:0001293
 alt_id: SO1:0001294
-def: "Measure  of petiole length from the base of petiole to the base of leaf blade, scored as: mm. \n\nRecorded average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Measure  of petiole length from the base of petiole to the base of leaf blade, scored as: mm. \n\nRecorded average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
 relationship: variablec_of SO1:0000976 ! Petiole length
-relationship: variablec_of SO1:0001288 ! Measurement: petiole length_method.
+relationship: variablec_of SO1:0001288 ! Measurement: Petiole length_method.
 created_by: aliciata
 creation_date: 2016-12-11T19:28:41Z
 
@@ -8296,7 +8292,7 @@ name: Petiole: length
 namespace: CherimoyaVariable
 alt_id: SO1:0001290
 alt_id: SO1:0001291
-def: "Measurement of petiole length from the base of petiole to the base of leaf blade. scored as: 3: short (e.g. Honey Hart), 5: medium(e.g. Fino de Jete), 7: long (e.g. Big Sister)." []
+def: "Measurement of petiole length from the base of petiole to the base of leaf blade. scored as: 3: short (e.g. Honey Hart), 5: medium(e.g. Fino de Jete), 7: long (e.g. Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000173 ! 3pt
@@ -8316,7 +8312,7 @@ creation_date: 2016-12-11T19:28:51Z
 
 [Term]
 id: SO1:0001288
-name: Measurement: petiole length_method.
+name: Measurement: Petiole length_method.
 namespace: CherimoyaMethod
 def: "Measure of petiole length from the base of petiole to the base of leaf blade.\n\nRecorded average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
 relationship: methodc_of SO1:0000976 ! Petiole length
@@ -8329,7 +8325,7 @@ name: Petiole thickness
 namespace: CherimoyaVariable
 alt_id: SO1:0001303
 alt_id: SO1:0001304
-def: "Measure of petiole thickness at the thickest point expressed in mm.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Measure of petiole thickness at the thickest point expressed in mm.\n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -8344,7 +8340,7 @@ name: Petiole: thickness
 namespace: CherimoyaVariable
 alt_id: SO1:0001300
 alt_id: SO1:0001301
-def: "Measure of petiole thickness at the thickest point scored as: 3: thin(e.g. Libby, Villapark), 5: medium (e.g. Big Sister), 7: thick (e.g. Bays, Salmon)." []
+def: "Measure of petiole thickness at the thickest point scored as: 3: thin(e.g. Libby, Villapark), 5: medium (e.g. Big Sister), 7: thick (e.g. Bays, Salmon)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000087 ! 3pt
@@ -8386,7 +8382,7 @@ name: Primary leaf blade veins number
 namespace: CherimoyaVariable
 alt_id: SO1:0001308
 alt_id: SO1:0001309
-def: "Count of primary leaf blade veins number. \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Count of primary leaf blade veins number. \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000387 ! number
@@ -8410,7 +8406,7 @@ name: Rootstock diameter
 namespace: CherimoyaVariable
 alt_id: SO1:0001313
 alt_id: SO1:0001314
-def: "Measurement of rootstock diameter at the widest point between ground level and rootstock-scion junction,  expressed in mm." []
+def: "Measurement of rootstock diameter at the widest point between ground level and rootstock-scion junction,  expressed in mm." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000084 ! mm
@@ -8434,7 +8430,7 @@ name: rotten peduncle (PPD)
 namespace: CherimoyaVariable
 alt_id: SO1:0001318
 alt_id: SO1:0001319
-def: "Visual observation of rotten peduncle scored as: 0: No and 1: Yes." []
+def: "Visual observation of rotten peduncle scored as: 0: No and 1: Yes." [IHSM:custom]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000066 ! 2pt
@@ -8458,7 +8454,7 @@ name: Sepal pubescence
 namespace: CherimoyaVariable
 alt_id: SO1:0001321
 alt_id: SO1:0001324
-def: "Average of sepal pubescence from 10 flowers collected from live trees at bloom period. Scored as: 0: absent and 1: present." []
+def: "Average of sepal pubescence from 10 flowers collected from live trees at bloom period. Scored as: 0: absent and 1: present." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000980 ! Sepal pubescence
@@ -8482,7 +8478,7 @@ name: Shoot color
 namespace: CherimoyaVariable
 alt_id: SO1:0001328
 alt_id: SO1:0001329
-def: "Visual observation of shoot color scored as: 1: greyish green (e.g. Big Sister, Chaffey ), 2: grey (e.g. Bay Ott, Honey Hart), 3: brown (e.g. African Pride, Fino de Jete)." []
+def: "Visual observation of shoot color scored as: 1: greyish green (e.g. Big Sister, Chaffey ), 2: grey (e.g. Bay Ott, Honey Hart), 3: brown (e.g. African Pride, Fino de Jete)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0001000 ! Shoot color
@@ -8514,7 +8510,7 @@ name: Shoot length of internode
 namespace: CherimoyaVariable
 alt_id: SO1:0001333
 alt_id: SO1:0001334
-def: "Measurement of length of the internode scored as: 3: short (e.g. Big Sister, Villapark), 5: medium (e.g. Bay Ott, Honey Hart), 7: long(e.g. Mariella, Pierce, White)." []
+def: "Measurement of length of the internode scored as: 3: short (e.g. Big Sister, Villapark), 5: medium (e.g. Bay Ott, Honey Hart), 7: long(e.g. Mariella, Pierce, White)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000173 ! 3pt
@@ -8538,7 +8534,7 @@ name: Shoot pubescence
 namespace: CherimoyaVariable
 alt_id: SO1:0001338
 alt_id: SO1:0001339
-def: "Visual observation of shoot pubescence scored as: 1: absent (e.g. African Pride, Gefner), 9: present (e.g. Bay Ott,  Big Sister)." []
+def: "Visual observation of shoot pubescence scored as: 1: absent (e.g. African Pride, Gefner), 9: present (e.g. Bay Ott,  Big Sister)." [UPOV:TG/208/1]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000156 ! 2pt
@@ -8562,7 +8558,7 @@ name: Stigma reddish colour
 namespace: CherimoyaVariable
 alt_id: SO1:0001343
 alt_id: SO1:0001344
-def: "Visual rating of stigma reddish colour in the female phase scored as: 0: no and 1: yes." []
+def: "Visual rating of stigma reddish colour in the female phase scored as: 0: no and 1: yes." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000066 ! 2pt
@@ -8586,7 +8582,7 @@ name: Stigmatic cone weight
 namespace: CherimoyaVariable
 alt_id: SO1:0001348
 alt_id: SO1:0001349
-def: "Measure of stigmatic cone weight it should be taken in the female phase, with no sepal no petals, but with stamens. Average 10 flower.\nIt is measure in gram (g)." []
+def: "Measure of stigmatic cone weight it should be taken in the female phase, with no sepal no petals, but with stamens. Average 10 flower.\nIt is measure in gram (g)." [ISBN:978-92-9043-779-6]
 synonym: "<new term 1>" EXACT []
 synonym: "<new term 2>" EXACT []
 relationship: variablec_of SO1:0000982 ! Stigmatic cone weight
@@ -8618,7 +8614,7 @@ name: Tree age
 namespace: CherimoyaVariable
 alt_id: SO1:0001353
 alt_id: SO1:0001354
-def: "Counting of tree age expressed in year (y)." []
+def: "Counting of tree age expressed in year (y)." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000125 ! y
@@ -8642,7 +8638,7 @@ name: Tree height
 namespace: CherimoyaVariable
 alt_id: SO1:0001358
 alt_id: SO1:0001359
-def: "Measure of tree height from ground level to tree top. expressed in centimeters (cm)." []
+def: "Measure of tree height from ground level to tree top. expressed in centimeters (cm)." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000985 ! Tree height
@@ -8666,7 +8662,7 @@ name: Trunk colour
 namespace: CherimoyaVariable
 alt_id: SO1:0001363
 alt_id: SO1:0001364
-def: "Visual  rating of trunk colour.\n\nIf possible,use the colour codes from the Royal Horticultural Society. If these are not available , use the following colour codes: 1: Light colour, 2: Grey, 3: Dark grey, 99: Other." []
+def: "Visual  rating of trunk colour.\n\nIf possible,use the colour codes from the Royal Horticultural Society. If these are not available , use the following colour codes: 1: Light colour, 2: Grey, 3: Dark grey, 99: Other." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000986 ! Trunk colour
@@ -8698,7 +8694,7 @@ name: Trunk ramification
 namespace: CherimoyaVariable
 alt_id: SO1:0001368
 alt_id: SO1:0001369
-def: "Visual observation of trunk ramification. Scored as: 1: One branch, 2: two branch and 3: three or more branches. \n\nObservated two-year old sapling prior to pruning. Ramification can start from ground level up to a maximum of 50 cm." []
+def: "Visual observation of trunk ramification. Scored as: 1: One branch, 2: two branch and 3: three or more branches. \n\nObservated two-year old sapling prior to pruning. Ramification can start from ground level up to a maximum of 50 cm." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000987 ! Trunk ramification
@@ -8730,7 +8726,7 @@ name: Young branches colour
 namespace: CherimoyaVariable
 alt_id: SO1:0001373
 alt_id: SO1:0001374
-def: "Visual scoring of colour of young branches.\n\nIf possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: Light green, 2: Green, 3: Dark green and 99: Other." []
+def: "Visual scoring of colour of young branches.\n\nIf possible, use colour codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: Light green, 2: Green, 3: Dark green and 99: Other." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000988 ! Young branches colour
@@ -8765,7 +8761,7 @@ name: Young branches pubescence
 namespace: CherimoyaVariable
 alt_id: SO1:0001378
 alt_id: SO1:0001379
-def: "Visual observation of pubescence of young branches, scored as: 0: Absent and 1: Present." []
+def: "Visual observation of pubescence of young branches, scored as: 0: Absent and 1: Present." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000989 ! Young branches pubescence
@@ -8789,7 +8785,7 @@ name: Young leaves colour
 namespace: CherimoyaVariable
 alt_id: SO1:0001383
 alt_id: SO1:0001384
-def: "Visual scoring of colour of young leaves.\n\nIf possible, use color codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: light green, 2: green, 3: dark green and 99: other.  \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." []
+def: "Visual scoring of colour of young leaves.\n\nIf possible, use color codes from the Royal Horticultural Society. If these are not available, use the following colour codes: 1: light green, 2: green, 3: dark green and 99: other.  \n\nRecord average of 10 fully expanded and healthy leaves, collected half-way along the shoot from 5 trees." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
 relationship: variablec_of SO1:0000990 ! Young leaves colour
@@ -9920,10 +9916,9 @@ name: Flower peduncle length
 namespace: CherimoyaVariable
 alt_id: SO1:0001512
 alt_id: SO1:0001513
-def: "Visual rating of flower peduncle length using a scale of: mm.\n\nAverage of 10 flower." []
+def: "Visual rating of flower peduncle length using a scale of: mm.\n\nAverage of 10 flower." [ISBN:978-92-9043-779-6]
 synonym: "<new term 2>" EXACT []
 synonym: "<new term>" EXACT []
-relationship: variablec_of SO1:0000084 ! mm
 relationship: variablec_of SO1:0000970 ! Peduncle length
 relationship: variablec_of SO1:0001509 ! Measurement: flower peduncle length_method.
 created_by: aliciata
