@@ -7,7 +7,7 @@ Files in this repository:
 
 * avocado-custom-ontology
 
-* avocado-ontology
+* avocado-ontology.obo
 
 This ontology have been developed grouping traits commonly used as descriptors for characterization mainly established by Biodiversity International and the International Union for Protection of New Varieties of Plants (UPOV) but also newly developed descriptors for avocado. 
 
@@ -20,7 +20,7 @@ Note that this file is subject to frequent changes.
 
 * cherimoya-custom-ontology
 
-* cherimoya-ontology
+* cherimoya-ontology.obo
 
 This ontology have been developed grouping traits commonly used as descriptors for characterization mainly established by Biodiversity International and the International Union for Protection of New Varieties of Plants (UPOV) but also newly developed descriptors for cherimoya.
 
