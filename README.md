@@ -1,4 +1,5 @@
-# Ontologies
+=head1Ontologies
+
 This is the repository for sub-tropical fruit trees extended trait and breeding ontologies. 
 
 Files in this repository: 
