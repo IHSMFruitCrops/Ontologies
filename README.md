@@ -31,3 +31,5 @@ Note that this file is subject to frequent changes
 
 
 ## Publications
+
+Draft was published in PAG XXV. https://doi.org/10.6084/m9.figshare.4625995
