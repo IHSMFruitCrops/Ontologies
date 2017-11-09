@@ -28,3 +28,4 @@ This ontology have been developed grouping traits commonly used as descriptors f
 Note that this file is subject to frequent changes
 
 * cherimoya-upov-ontology
+
